@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning Caledon | Rural Estate CFP® | ProsperBridge',
-  description: 'Expert divorce financial planning for Caledon families. Navigate rural property divisions, aggregate industry incomes, and Bolton\'s growing households.',
+  description: "Expert divorce financial planning for Caledon families. Navigate rural property divisions, aggregate industry incomes, and Bolton's growing households.",
   keywords: 'divorce financial planning Caledon, rural property division, Bolton divorce advisor',
 };
 
@@ -31,7 +31,7 @@ const caledonData = {
     'Palgrave',
     'Mono Mills'
   ],
-  description: 'Caledon\'s mix of rural estates, aggregate industry workers, and Bolton\'s suburban families creates diverse divorce scenarios from acreage divisions to trucking business separations.'
+  description: "Caledon's mix of rural estates, aggregate industry workers, and Bolton's suburban families creates diverse divorce scenarios from acreage divisions to trucking business separations."
 };
 
 const divorceServiceData = {
@@ -40,7 +40,7 @@ const divorceServiceData = {
   icon: '💔',
   primaryColor: 'from-purple-600',
   secondaryColor: 'to-pink-600',
-  description: 'Navigate divorce with expertise in rural properties and aggregate industry incomes.',
+  description: "Navigate divorce with expertise in rural properties and aggregate industry incomes.",
   benefits: [
     'Rural estate valuations',
     'Acreage property division',

@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Severance Package Planning Oakville | C-Suite Executive Support | ProsperBridge',
-  description: 'Expert severance planning for Oakville executives and senior professionals. Navigate corporate exits, golden parachutes, and executive transitions.',
+  description: "Expert severance planning for Oakville executives and senior professionals. Navigate corporate exits, golden parachutes, and executive transitions.",
   keywords: 'executive severance Oakville, C-suite transition planning, golden parachute Halton',
 };
 
@@ -31,7 +31,7 @@ const oakvilleData = {
     'College Park',
     'Joshua Creek'
   ],
-  description: 'Oakville\'s C-suite executives and senior professionals often receive substantial severance packages with complex terms including equity compensation, deferred bonuses, and extensive benefit continuations.'
+  description: "Oakville's C-suite executives and senior professionals often receive substantial severance packages with complex terms including equity compensation, deferred bonuses, and extensive benefit continuations."
 };
 
 const severanceServiceData = {
@@ -40,7 +40,7 @@ const severanceServiceData = {
   icon: '💼',
   primaryColor: 'from-orange-600',
   secondaryColor: 'to-red-600',
-  description: 'Elite severance planning for Oakville\'s C-suite executives and senior leaders.',
+  description: "Elite severance planning for Oakville's C-suite executives and senior leaders.",
   benefits: [
     'C-suite severance expertise',
     'Golden parachute optimization',

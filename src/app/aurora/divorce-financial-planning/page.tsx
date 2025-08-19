@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning Aurora | Affluent Family CFP® | ProsperBridge',
-  description: 'Expert divorce financial planning for Aurora\'s affluent families. Navigate high-asset divorces, executive compensation, and luxury property division.',
+  description: "Expert divorce financial planning for Aurora's affluent families. Navigate high-asset divorces, executive compensation, and luxury property division.",
   keywords: 'divorce financial planning Aurora, high net worth divorce York, CFP® Aurora Ontario',
 };
 
@@ -16,7 +16,7 @@ const auroraData = {
     'Aurora Town Park',
     'Hillary House',
     'Aurora Cultural Centre',
-    'St. Andrew\'s College',
+    "St. Andrew's College",
     'Aurora Family Leisure Complex'
   ],
   neighborhoods: [
@@ -31,7 +31,7 @@ const auroraData = {
     'Town Park',
     'Wellington Village'
   ],
-  description: 'Aurora\'s affluent families face complex high-asset divorces involving executive compensation packages, private school considerations, and luxury estate divisions requiring sophisticated strategies.'
+  description: "Aurora's affluent families face complex high-asset divorces involving executive compensation packages, private school considerations, and luxury estate divisions requiring sophisticated strategies."
 };
 
 const divorceServiceData = {
@@ -40,7 +40,7 @@ const divorceServiceData = {
   icon: '💔',
   primaryColor: 'from-purple-600',
   secondaryColor: 'to-pink-600',
-  description: 'Navigate high-asset divorce with expertise in executive compensation and estates.',
+  description: "Navigate high-asset divorce with expertise in executive compensation and estates.",
   benefits: [
     'Executive compensation division',
     'Stock option strategies',

@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Inheritance Tax Planning Milton | Young Family Estate Planning | ProsperBridge',
-  description: 'Expert estate planning for Milton\'s growing families. Protect your children\'s future with guardian planning, RESPs, and life insurance strategies.',
+  description: "Expert estate planning for Milton's growing families. Protect your children's future with guardian planning, RESPs, and life insurance strategies.",
   keywords: 'inheritance tax planning Milton, young family estate planning, guardian planning Halton',
 };
 
@@ -31,7 +31,7 @@ const miltonData = {
     'Boyne Survey',
     'Ford'
   ],
-  description: 'Milton\'s young families require forward-thinking estate planning focused on guardian appointments, education funding, and protecting growing assets for their children\'s future.'
+  description: "Milton's young families require forward-thinking estate planning focused on guardian appointments, education funding, and protecting growing assets for their children's future."
 };
 
 const inheritanceServiceData = {
@@ -40,10 +40,10 @@ const inheritanceServiceData = {
   icon: '🏛️',
   primaryColor: 'from-green-600',
   secondaryColor: 'to-teal-600',
-  description: 'Forward-thinking estate planning for Milton\'s young and growing families.',
+  description: "Forward-thinking estate planning for Milton's young and growing families.",
   benefits: [
     'Guardian appointment planning',
-    'Children\'s trust structures',
+    "Children's trust structures",
     'RESP maximization strategies',
     'Life insurance planning',
     'Disability insurance coordination',

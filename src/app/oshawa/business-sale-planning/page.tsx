@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Business Sale Planning Oshawa | Automotive Supplier M&A | ProsperBridge',
-  description: 'Strategic business sale planning for Oshawa automotive suppliers and trades. Expert M&A advisory for parts manufacturers and industrial services.',
+  description: "Strategic business sale planning for Oshawa automotive suppliers and trades. Expert M&A advisory for parts manufacturers and industrial services.",
   keywords: 'business sale Oshawa, automotive supplier M&A, industrial business sale Durham',
 };
 
@@ -31,7 +31,7 @@ const oshawaData = {
     'Taunton Business Area',
     'Wilson Road Industrial'
   ],
-  description: 'Oshawa\'s automotive supply chain and industrial services sector creates unique M&A opportunities for parts manufacturers, tool & die shops, and specialized trades seeking strategic exits.'
+  description: "Oshawa's automotive supply chain and industrial services sector creates unique M&A opportunities for parts manufacturers, tool & die shops, and specialized trades seeking strategic exits."
 };
 
 const businessServiceData = {
@@ -40,7 +40,7 @@ const businessServiceData = {
   icon: '🏢',
   primaryColor: 'from-blue-600',
   secondaryColor: 'to-indigo-600',
-  description: 'Expert M&A guidance for automotive suppliers and industrial businesses.',
+  description: "Expert M&A guidance for automotive suppliers and industrial businesses.",
   benefits: [
     'Auto parts manufacturer sales',
     'Tool & die shop valuations',

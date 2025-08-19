@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Business Sale Planning Hamilton | Manufacturing M&A | ProsperBridge',
-  description: 'Strategic business sale planning for Hamilton manufacturers and industrial companies. Expert guidance for steel industry suppliers and healthcare businesses.',
+  description: "Strategic business sale planning for Hamilton manufacturers and industrial companies. Expert guidance for steel industry suppliers and healthcare businesses.",
   keywords: 'business sale planning Hamilton, selling manufacturing business Hamilton, M&A advisor',
 };
 
@@ -31,7 +31,7 @@ const hamiltonData = {
     'Mount Hope Industrial',
     'Flamborough Business Centre'
   ],
-  description: 'Hamilton\'s manufacturing and steel industry heritage creates unique business sale opportunities, from industrial suppliers to healthcare service companies supporting the region\'s major institutions.'
+  description: "Hamilton's manufacturing and steel industry heritage creates unique business sale opportunities, from industrial suppliers to healthcare service companies supporting the region's major institutions."
 };
 
 const businessServiceData = {
@@ -40,7 +40,7 @@ const businessServiceData = {
   icon: '🏢',
   primaryColor: 'from-blue-600',
   secondaryColor: 'to-indigo-600',
-  description: 'Expert M&A guidance for Hamilton\'s manufacturing and industrial businesses.',
+  description: "Expert M&A guidance for Hamilton's manufacturing and industrial businesses.",
   benefits: [
     'Manufacturing business valuations',
     'Steel industry supplier sales',

@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Business Sale Planning Burlington | Retirement Business Exit | ProsperBridge',
-  description: 'Strategic exit planning for Burlington business owners approaching retirement. Expert M&A advisory for established local businesses and professional practices.',
+  description: "Strategic exit planning for Burlington business owners approaching retirement. Expert M&A advisory for established local businesses and professional practices.",
   keywords: 'business sale planning Burlington, retirement business exit, small business M&A Halton',
 };
 
@@ -27,11 +27,11 @@ const burlingtonData = {
     'Harvester Business Park',
     'New Street Commercial',
     'Guelph Line Business',
-    'Walker\'s Line Commerce',
+    "Walker's Line Commerce",
     'Fairview Street Business',
     'Brant Street Downtown'
   ],
-  description: 'Burlington\'s established business owners approaching retirement create consistent M&A opportunities, from family-run retail to professional services seeking succession solutions.'
+  description: "Burlington's established business owners approaching retirement create consistent M&A opportunities, from family-run retail to professional services seeking succession solutions."
 };
 
 const businessServiceData = {
@@ -40,7 +40,7 @@ const businessServiceData = {
   icon: '🏢',
   primaryColor: 'from-blue-600',
   secondaryColor: 'to-indigo-600',
-  description: 'Expert M&A guidance for Burlington\'s retiring business owners and established firms.',
+  description: "Expert M&A guidance for Burlington's retiring business owners and established firms.",
   benefits: [
     'Retirement exit planning',
     'Small business valuations',

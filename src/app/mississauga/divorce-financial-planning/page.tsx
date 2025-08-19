@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning Mississauga | CFP® Advisors | ProsperBridge',
-  description: 'Expert divorce financial planning in Mississauga. Navigate asset division and support with certified professionals. Serving Square One, Port Credit, Meadowvale, and all Mississauga.',
+  description: "Expert divorce financial planning in Mississauga. Navigate asset division and support with certified professionals. Serving Square One, Port Credit, Meadowvale, and all Mississauga.",
   keywords: 'divorce financial planning Mississauga, CFP® Mississauga, divorce financial advisor Mississauga',
 };
 
@@ -31,7 +31,7 @@ const mississaugaData = {
     'Mineola',
     'Sheridan'
   ],
-  description: 'As Canada\'s 6th largest city and home to our headquarters, Mississauga families receive personalized divorce financial planning with deep local expertise.'
+  description: "As Canada's 6th largest city and home to our headquarters, Mississauga families receive personalized divorce financial planning with deep local expertise."
 };
 
 const divorceServiceData = {
@@ -40,7 +40,7 @@ const divorceServiceData = {
   icon: '⚖️',
   primaryColor: 'from-purple-600',
   secondaryColor: 'to-pink-600',
-  description: 'Navigate divorce with expert financial guidance tailored to Mississauga residents.',
+  description: "Navigate divorce with expert financial guidance tailored to Mississauga residents.",
   benefits: [
     'Certified Divorce Financial Analyst (CFP®) expertise',
     'Fair and equitable asset division strategies',

@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Business Sale Planning Aurora | Executive Business M&A | ProsperBridge',
-  description: 'Strategic business sale planning for Aurora companies. Expert M&A advisory for professional services, luxury retail, and family enterprises.',
+  description: "Strategic business sale planning for Aurora companies. Expert M&A advisory for professional services, luxury retail, and family enterprises.",
   keywords: 'business sale Aurora, M&A advisory York Region, luxury business sale Aurora',
 };
 
@@ -27,11 +27,11 @@ const auroraData = {
     'Bayview Commerce',
     'Leslie Street Business',
     'Vandorf Business Area',
-    'St. John\'s Sideroad Commerce',
+    "St. John's Sideroad Commerce",
     'Henderson Drive Business',
     'Mary Street Industrial'
   ],
-  description: 'Aurora\'s upscale businesses from professional services to luxury retail create premium M&A opportunities for owners seeking strategic exits at maximum valuations.'
+  description: "Aurora's upscale businesses from professional services to luxury retail create premium M&A opportunities for owners seeking strategic exits at maximum valuations."
 };
 
 const businessServiceData = {
@@ -40,7 +40,7 @@ const businessServiceData = {
   icon: '🏢',
   primaryColor: 'from-blue-600',
   secondaryColor: 'to-indigo-600',
-  description: 'Expert M&A guidance for Aurora\'s premium businesses and professional firms.',
+  description: "Expert M&A guidance for Aurora's premium businesses and professional firms.",
   benefits: [
     'Professional service valuations',
     'Luxury retail transitions',

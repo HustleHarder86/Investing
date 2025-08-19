@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Business Sale Planning Brampton | M&A Advisors | ProsperBridge',
-  description: 'Strategic business sale planning for Brampton entrepreneurs. Maximize value for trucking, logistics, and manufacturing businesses. Expert M&A advisory.',
+  description: "Strategic business sale planning for Brampton entrepreneurs. Maximize value for trucking, logistics, and manufacturing businesses. Expert M&A advisory.",
   keywords: 'business sale planning Brampton, selling business Brampton, M&A advisor Peel',
 };
 
@@ -31,7 +31,7 @@ const bramptonData = {
     'Dixie Road Business Park',
     'Heritage Heights'
   ],
-  description: 'Brampton\'s thriving logistics, trucking, and manufacturing sectors create unique opportunities for business sales, with many family-owned enterprises seeking succession planning.'
+  description: "Brampton's thriving logistics, trucking, and manufacturing sectors create unique opportunities for business sales, with many family-owned enterprises seeking succession planning."
 };
 
 const businessServiceData = {
@@ -40,7 +40,7 @@ const businessServiceData = {
   icon: '🏢',
   primaryColor: 'from-blue-600',
   secondaryColor: 'to-indigo-600',
-  description: 'Expert guidance for Brampton\'s trucking, logistics, and manufacturing business sales.',
+  description: "Expert guidance for Brampton's trucking, logistics, and manufacturing business sales.",
   benefits: [
     'Trucking company valuations',
     'Logistics business expertise',

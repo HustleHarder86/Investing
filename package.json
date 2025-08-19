@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "blog:publish": "node scripts/publish-blog.js",
+    "blog:validate": "node scripts/validate-posts.js",
+    "blog:calendar": "echo 'View calendar at http://localhost:3000/blog/calendar'"
   },
   "dependencies": {
     "lucide-react": "^0.540.0",

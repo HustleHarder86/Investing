@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Business Sale Planning Newmarket | Main Street M&A | ProsperBridge',
-  description: 'Strategic business sale planning for Newmarket Main Street shops and professional practices. Expert M&A advisory for heritage businesses and healthcare practices.',
+  description: "Strategic business sale planning for Newmarket Main Street shops and professional practices. Expert M&A advisory for heritage businesses and healthcare practices.",
   keywords: 'business sale Newmarket, Main Street business M&A, healthcare practice sale York',
 };
 
@@ -31,7 +31,7 @@ const newmarketData = {
     'Bayview Business District',
     'Bristol Road Commerce'
   ],
-  description: 'Newmarket\'s historic Main Street businesses and modern professional services create unique M&A opportunities from heritage retail shops to medical practices near Southlake hospital.'
+  description: "Newmarket's historic Main Street businesses and modern professional services create unique M&A opportunities from heritage retail shops to medical practices near Southlake hospital."
 };
 
 const businessServiceData = {
@@ -40,7 +40,7 @@ const businessServiceData = {
   icon: '🏢',
   primaryColor: 'from-blue-600',
   secondaryColor: 'to-indigo-600',
-  description: 'Expert M&A guidance for Main Street businesses and healthcare practices.',
+  description: "Expert M&A guidance for Main Street businesses and healthcare practices.",
   benefits: [
     'Main Street shop valuations',
     'Heritage business sales',

@@ -32,12 +32,12 @@ export const metadata: Metadata = {
     url: 'https://prosperbridge.ca',
     siteName: 'ProsperBridge Financial Advisory',
     title: 'ProsperBridge Financial Advisory | Expert Financial Planning in the GTA',
-    description: 'Specialized financial planning for divorce, inheritance, business sales, and job loss across the Greater Toronto Area.',
+    description: "Specialized financial planning for divorce, inheritance, business sales, and job loss across the Greater Toronto Area.",
   },
   twitter: {
     card: 'summary_large_image',
     title: 'ProsperBridge Financial Advisory | Expert Financial Planning in the GTA',
-    description: 'Specialized financial planning for divorce, inheritance, business sales, and job loss across the Greater Toronto Area.',
+    description: "Specialized financial planning for divorce, inheritance, business sales, and job loss across the Greater Toronto Area.",
   },
   verification: {
     google: 'google-site-verification-token-here',

@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Inheritance Tax Planning Oshawa | Automotive Estate Planning | ProsperBridge',
-  description: 'Expert estate planning for Oshawa automotive families. Protect GM pensions, union benefits, and skilled trades wealth for next generation.',
+  description: "Expert estate planning for Oshawa automotive families. Protect GM pensions, union benefits, and skilled trades wealth for next generation.",
   keywords: 'inheritance planning Oshawa, GM pension estate, automotive worker succession Durham',
 };
 
@@ -24,14 +24,14 @@ const oshawaData = {
     'North Oshawa',
     'Kedron',
     'Windfields',
-    'O\'Neill',
+    "O'Neill",
     'Vanier',
     'Lakeview',
     'McLaughlin',
     'Samac',
     'Northglen'
   ],
-  description: 'Oshawa\'s automotive legacy has created substantial estates through GM pensions, union benefits, and skilled trades success, requiring specialized planning for complex benefit transfers.'
+  description: "Oshawa's automotive legacy has created substantial estates through GM pensions, union benefits, and skilled trades success, requiring specialized planning for complex benefit transfers."
 };
 
 const inheritanceServiceData = {
@@ -40,7 +40,7 @@ const inheritanceServiceData = {
   icon: '🏛️',
   primaryColor: 'from-green-600',
   secondaryColor: 'to-teal-600',
-  description: 'Sophisticated estate planning for automotive industry families and retirees.',
+  description: "Sophisticated estate planning for automotive industry families and retirees.",
   benefits: [
     'GM pension succession',
     'Unifor survivor benefits',

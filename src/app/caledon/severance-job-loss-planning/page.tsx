@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Severance Package Planning Caledon | Aggregate Worker Support | ProsperBridge',
-  description: 'Expert severance planning for Caledon aggregate workers and trucking professionals. Navigate industry downturns and maximize separation packages.',
+  description: "Expert severance planning for Caledon aggregate workers and trucking professionals. Navigate industry downturns and maximize separation packages.",
   keywords: 'severance Caledon, aggregate worker layoffs, trucking job loss Bolton',
 };
 
@@ -31,7 +31,7 @@ const caledonData = {
     'Palgrave',
     'Mono Mills'
   ],
-  description: 'Caledon\'s aggregate industry and trucking sector face cyclical employment patterns and seasonal layoffs requiring specialized severance planning for equipment operators and drivers.'
+  description: "Caledon's aggregate industry and trucking sector face cyclical employment patterns and seasonal layoffs requiring specialized severance planning for equipment operators and drivers."
 };
 
 const severanceServiceData = {
@@ -40,7 +40,7 @@ const severanceServiceData = {
   icon: '💼',
   primaryColor: 'from-orange-600',
   secondaryColor: 'to-red-600',
-  description: 'Specialized severance support for aggregate workers and trucking professionals.',
+  description: "Specialized severance support for aggregate workers and trucking professionals.",
   benefits: [
     'Aggregate worker packages',
     'Trucking severance planning',

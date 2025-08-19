@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Inheritance Tax Planning Brampton | Estate Planning | ProsperBridge',
-  description: 'Expert inheritance and estate planning for Brampton families. Minimize taxes, protect multi-generational wealth. Serving Peel Region\'s diverse communities.',
+  description: "Expert inheritance and estate planning for Brampton families. Minimize taxes, protect multi-generational wealth. Serving Peel Region's diverse communities.",
   keywords: 'inheritance tax planning Brampton, estate planning Brampton, probate Peel Region',
 };
 
@@ -24,14 +24,14 @@ const bramptonData = {
     'Heart Lake',
     'Springdale',
     'Mount Pleasant',
-    'Fletcher\'s Creek',
+    "Fletcher's Creek",
     'Credit Valley',
     'Castlemore',
     'Sandalwood',
     'Downtown Brampton',
     'Bram West'
   ],
-  description: 'Brampton\'s multi-cultural families often have complex international estate planning needs, requiring expertise in cross-border inheritance and multi-generational wealth transfer strategies.'
+  description: "Brampton's multi-cultural families often have complex international estate planning needs, requiring expertise in cross-border inheritance and multi-generational wealth transfer strategies."
 };
 
 const inheritanceServiceData = {
@@ -40,7 +40,7 @@ const inheritanceServiceData = {
   icon: '🏛️',
   primaryColor: 'from-green-600',
   secondaryColor: 'to-teal-600',
-  description: 'Strategic estate planning for Brampton\'s diverse multi-generational families.',
+  description: "Strategic estate planning for Brampton's diverse multi-generational families.",
   benefits: [
     'Cross-border estate planning',
     'Multi-generational wealth transfer',

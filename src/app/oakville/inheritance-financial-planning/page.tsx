@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Inheritance Tax Planning Oakville | Ultra Wealthy Estate Planning | ProsperBridge',
-  description: 'Expert estate planning for Oakville\'s wealthiest families. Minimize taxes on multi-million dollar estates, private companies, and waterfront properties.',
+  description: "Expert estate planning for Oakville's wealthiest families. Minimize taxes on multi-million dollar estates, private companies, and waterfront properties.",
   keywords: 'inheritance tax planning Oakville, ultra high net worth estate, wealth preservation Halton',
 };
 
@@ -31,7 +31,7 @@ const oakvilleData = {
     'College Park',
     'Joshua Creek'
   ],
-  description: 'Oakville\'s ultra-wealthy families require sophisticated estate planning for waterfront properties, private company holdings, and multi-generational wealth preservation strategies exceeding typical estate thresholds.'
+  description: "Oakville's ultra-wealthy families require sophisticated estate planning for waterfront properties, private company holdings, and multi-generational wealth preservation strategies exceeding typical estate thresholds."
 };
 
 const inheritanceServiceData = {
@@ -40,7 +40,7 @@ const inheritanceServiceData = {
   icon: '🏛️',
   primaryColor: 'from-green-600',
   secondaryColor: 'to-teal-600',
-  description: 'Elite estate planning for Oakville\'s wealthiest families and waterfront estates.',
+  description: "Elite estate planning for Oakville's wealthiest families and waterfront estates.",
   benefits: [
     'Ultra-high net worth strategies',
     'Waterfront property planning',

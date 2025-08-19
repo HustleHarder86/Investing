@@ -218,7 +218,7 @@ export default function BlogPostTemplate({
             <div>
               <h3 className="text-2xl font-bold mb-4">ProsperBridge</h3>
               <p className="text-gray-400">
-                Expert financial planning for life&apos;s major transitions.
+                Expert financial planning for life's major transitions.
               </p>
             </div>
             <div>

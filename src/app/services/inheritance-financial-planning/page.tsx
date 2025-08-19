@@ -4,11 +4,11 @@ import ContactForm from '@/components/forms/ContactForm';
 
 export const metadata: Metadata = {
   title: 'Inheritance Tax Planning Ontario 2025 | Save Thousands | ProsperBridge',
-  description: 'Expert inheritance financial planning in Ontario. Minimize estate taxes, optimize probate fees, and maximize what your beneficiaries receive. Free consultation available.',
+  description: "Expert inheritance financial planning in Ontario. Minimize estate taxes, optimize probate fees, and maximize what your beneficiaries receive. Free consultation available.",
   keywords: 'inheritance tax planning Ontario, estate planning, probate fees, tax optimization, inheritance tax, estate tax, will planning, trust structures',
   openGraph: {
     title: 'Inheritance Tax Planning Ontario 2025 | ProsperBridge',
-    description: 'Minimize inheritance taxes and maximize what your beneficiaries receive with expert estate planning strategies.',
+    description: "Minimize inheritance taxes and maximize what your beneficiaries receive with expert estate planning strategies.",
     type: 'website',
   }
 };
@@ -120,32 +120,32 @@ export default function InheritanceFinancialPlanningPage() {
               {
                 icon: '🏛️',
                 title: 'Estate Tax Optimization',
-                description: 'Strategic planning to minimize provincial and federal estate taxes using 2025 tax law updates and exemptions.'
+                description: "Strategic planning to minimize provincial and federal estate taxes using 2025 tax law updates and exemptions."
               },
               {
                 icon: '📋',
                 title: 'Probate Fee Reduction',
-                description: 'Implement structures to reduce or eliminate probate fees, saving thousands in unnecessary costs.'
+                description: "Implement structures to reduce or eliminate probate fees, saving thousands in unnecessary costs."
               },
               {
                 icon: '🔒',
                 title: 'Trust Structures',
-                description: 'Establish family trusts and other vehicles to protect assets and provide tax-efficient wealth transfer.'
+                description: "Establish family trusts and other vehicles to protect assets and provide tax-efficient wealth transfer."
               },
               {
                 icon: '🏠',
                 title: 'Principal Residence Planning',
-                description: 'Maximize the principal residence exemption and plan for multiple property ownership scenarios.'
+                description: "Maximize the principal residence exemption and plan for multiple property ownership scenarios."
               },
               {
                 icon: '💼',
                 title: 'Business Succession',
-                description: 'Plan for the tax-efficient transfer of family businesses and professional practices.'
+                description: "Plan for the tax-efficient transfer of family businesses and professional practices."
               },
               {
                 icon: '⚖️',
                 title: 'Will & Power of Attorney',
-                description: 'Coordinate with legal professionals to ensure your estate planning documents align with tax strategies.'
+                description: "Coordinate with legal professionals to ensure your estate planning documents align with tax strategies."
               }
             ].map((service, index) => (
               <div key={index} className="bg-slate-50 rounded-2xl p-8 hover:shadow-lg transition-all duration-300">
@@ -234,11 +234,11 @@ export default function InheritanceFinancialPlanningPage() {
             {[
               {
                 question: "How much inheritance tax will I pay in Ontario in 2025?",
-                answer: "Ontario doesn&apos;t have a specific inheritance tax, but there are deemed disposition rules that trigger capital gains taxes on death. We help minimize these taxes through strategic planning including principal residence exemptions, charitable giving, and trust structures."
+                answer: "Ontario doesn't have a specific inheritance tax, but there are deemed disposition rules that trigger capital gains taxes on death. We help minimize these taxes through strategic planning including principal residence exemptions, charitable giving, and trust structures."
               },
               {
                 question: "What are probate fees in Ontario and how can I reduce them?",
-                answer: "Ontario probate fees are $15 per $1,000 of estate value (1.5%). For a $1 million estate, that&apos;s $15,000. We use strategies like joint ownership, multiple wills, and trusts to significantly reduce or eliminate these fees."
+                answer: "Ontario probate fees are $15 per $1,000 of estate value (1.5%). For a $1 million estate, that's $15,000. We use strategies like joint ownership, multiple wills, and trusts to significantly reduce or eliminate these fees."
               },
               {
                 question: "Should I set up a family trust for inheritance planning?",

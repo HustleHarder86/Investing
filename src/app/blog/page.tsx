@@ -4,7 +4,7 @@ import { Calendar, Clock, User, TrendingUp, BookOpen, ArrowRight } from 'lucide-
 
 export const metadata: Metadata = {
   title: 'Financial Planning Blog | Expert Insights for GTA Families | ProsperBridge',
-  description: 'Expert financial planning insights for divorce, inheritance, business sales, and severance. Stay updated with 2025 tax changes and GTA market trends.',
+  description: "Expert financial planning insights for divorce, inheritance, business sales, and severance. Stay updated with 2025 tax changes and GTA market trends.",
   keywords: 'financial planning blog Toronto, divorce finance articles, inheritance tax updates Ontario',
 };
 
@@ -284,7 +284,7 @@ export default function BlogPage() {
             <div>
               <h3 className="text-2xl font-bold mb-4">ProsperBridge</h3>
               <p className="text-gray-400">
-                Expert financial planning for life&apos;s major transitions.
+                Expert financial planning for life's major transitions.
               </p>
             </div>
             <div>

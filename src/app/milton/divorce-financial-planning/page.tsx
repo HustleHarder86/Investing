@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning Milton | Young Family Specialist | ProsperBridge',
-  description: 'Expert divorce financial planning for Milton\'s young families. Specialized in child support, daycare costs, and growing family asset division.',
+  description: "Expert divorce financial planning for Milton's young families. Specialized in child support, daycare costs, and growing family asset division.",
   keywords: 'divorce financial planning Milton, young family divorce, child support Milton Halton',
 };
 
@@ -31,7 +31,7 @@ const miltonData = {
     'Boyne Survey',
     'Ford'
   ],
-  description: 'As Canada\'s fastest-growing municipality with young families, Milton divorces often involve recent home purchases, young children, and dual-income professionals requiring careful financial planning.'
+  description: "As Canada's fastest-growing municipality with young families, Milton divorces often involve recent home purchases, young children, and dual-income professionals requiring careful financial planning."
 };
 
 const divorceServiceData = {
@@ -40,7 +40,7 @@ const divorceServiceData = {
   icon: '💔',
   primaryColor: 'from-purple-600',
   secondaryColor: 'to-pink-600',
-  description: 'Navigate divorce with expertise in young family dynamics and growing assets.',
+  description: "Navigate divorce with expertise in young family dynamics and growing assets.",
   benefits: [
     'Young family specialization',
     'Child support calculations',

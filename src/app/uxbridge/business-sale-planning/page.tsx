@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Business Sale Planning Uxbridge | Equestrian Business M&A | ProsperBridge',
-  description: 'Strategic business sale planning for Uxbridge equestrian operations and Main Street businesses. Expert M&A for horse farms and trail town enterprises.',
+  description: "Strategic business sale planning for Uxbridge equestrian operations and Main Street businesses. Expert M&A for horse farms and trail town enterprises.",
   keywords: 'business sale Uxbridge, equestrian business M&A, trail town business sale',
 };
 
@@ -31,7 +31,7 @@ const uxbridgeData = {
     'Heritage Business Core',
     'Rural Commercial'
   ],
-  description: 'Uxbridge\'s unique blend of equestrian businesses, trail tourism, and historic Main Street shops creates specialized M&A opportunities requiring expertise in rural and recreational enterprises.'
+  description: "Uxbridge's unique blend of equestrian businesses, trail tourism, and historic Main Street shops creates specialized M&A opportunities requiring expertise in rural and recreational enterprises."
 };
 
 const businessServiceData = {
@@ -40,7 +40,7 @@ const businessServiceData = {
   icon: '🏢',
   primaryColor: 'from-blue-600',
   secondaryColor: 'to-indigo-600',
-  description: 'Expert M&A for equestrian operations and trail town businesses.',
+  description: "Expert M&A for equestrian operations and trail town businesses.",
   benefits: [
     'Equestrian business sales',
     'Horse training facilities',

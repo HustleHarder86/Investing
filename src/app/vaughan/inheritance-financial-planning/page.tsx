@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Inheritance Tax Planning Vaughan | Estate Planning York | ProsperBridge',
-  description: 'Expert estate planning for Vaughan families. Protect family businesses, real estate portfolios, and multi-generational wealth. Italian succession expertise.',
+  description: "Expert estate planning for Vaughan families. Protect family businesses, real estate portfolios, and multi-generational wealth. Italian succession expertise.",
   keywords: 'inheritance tax planning Vaughan, estate planning Vaughan, Italian succession planning',
 };
 
@@ -31,7 +31,7 @@ const vaughanData = {
     'Elder Mills',
     'Block 27'
   ],
-  description: 'Vaughan\'s affluent families often have complex estates including construction businesses, multiple properties, and Italian property requiring sophisticated cross-border planning.'
+  description: "Vaughan's affluent families often have complex estates including construction businesses, multiple properties, and Italian property requiring sophisticated cross-border planning."
 };
 
 const inheritanceServiceData = {
@@ -40,7 +40,7 @@ const inheritanceServiceData = {
   icon: '🏛️',
   primaryColor: 'from-green-600',
   secondaryColor: 'to-teal-600',
-  description: 'Strategic estate planning for Vaughan\'s business families and property owners.',
+  description: "Strategic estate planning for Vaughan's business families and property owners.",
   benefits: [
     'Construction business succession',
     'Italian property coordination',

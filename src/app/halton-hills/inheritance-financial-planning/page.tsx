@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Inheritance Tax Planning Halton Hills | Estate Planning Georgetown | ProsperBridge',
-  description: 'Expert estate planning for Halton Hills families. Protect Georgetown properties, Acton businesses, and manufacturing wealth for next generation.',
+  description: "Expert estate planning for Halton Hills families. Protect Georgetown properties, Acton businesses, and manufacturing wealth for next generation.",
   keywords: 'inheritance planning Halton Hills, estate planning Georgetown, Acton wealth transfer',
 };
 
@@ -31,7 +31,7 @@ const haltonHillsData = {
     'Silver Creek',
     'Bannockburn'
   ],
-  description: 'Halton Hills families have built wealth through Georgetown real estate appreciation and Acton\'s manufacturing success, requiring strategic estate planning for property and business transfers.'
+  description: "Halton Hills families have built wealth through Georgetown real estate appreciation and Acton's manufacturing success, requiring strategic estate planning for property and business transfers."
 };
 
 const inheritanceServiceData = {
@@ -40,7 +40,7 @@ const inheritanceServiceData = {
   icon: '🏛️',
   primaryColor: 'from-green-600',
   secondaryColor: 'to-teal-600',
-  description: 'Strategic estate planning for Georgetown properties and Acton businesses.',
+  description: "Strategic estate planning for Georgetown properties and Acton businesses.",
   benefits: [
     'Georgetown property transfers',
     'Acton business succession',

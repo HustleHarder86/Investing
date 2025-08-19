@@ -4,14 +4,14 @@ import { MapPin, Users, Building2, TrendingUp } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Our Locations | Greater Toronto Area Financial Planning | ProsperBridge',
-  description: 'ProsperBridge serves all Greater Toronto Area communities with expert financial planning for divorce, inheritance, business sales, and severance.',
+  description: "ProsperBridge serves all Greater Toronto Area communities with expert financial planning for divorce, inheritance, business sales, and severance.",
   keywords: 'GTA financial planning locations, Toronto area financial advisors, Ontario CFP® locations',
 };
 
 const locations = [
   {
     region: 'Core Urban Centres',
-    description: 'Major metropolitan areas with diverse populations and complex financial needs',
+    description: "Major metropolitan areas with diverse populations and complex financial needs",
     cities: [
       { name: 'Toronto', slug: 'toronto', population: '2.8M', specialty: 'Corporate executives & urban professionals' },
       { name: 'Mississauga', slug: 'mississauga', population: '761K', specialty: 'Airport workers & corporate headquarters' },
@@ -22,7 +22,7 @@ const locations = [
   },
   {
     region: 'York Region',
-    description: 'Affluent communities with high net worth families and businesses',
+    description: "Affluent communities with high net worth families and businesses",
     cities: [
       { name: 'Vaughan', slug: 'vaughan', population: '323K', specialty: 'Construction industry & trades' },
       { name: 'Richmond Hill', slug: 'richmond-hill', population: '202K', specialty: 'Professional services & healthcare' },
@@ -34,7 +34,7 @@ const locations = [
   },
   {
     region: 'Halton Region',
-    description: 'Waterfront luxury and rapidly growing family communities',
+    description: "Waterfront luxury and rapidly growing family communities",
     cities: [
       { name: 'Oakville', slug: 'oakville', population: '213K', specialty: 'Ultra-wealthy waterfront estates' },
       { name: 'Burlington', slug: 'burlington', population: '186K', specialty: 'Established wealth & retirees' },
@@ -44,7 +44,7 @@ const locations = [
   },
   {
     region: 'Durham Region',
-    description: 'Nuclear industry hub and eastern GTA growth corridor',
+    description: "Nuclear industry hub and eastern GTA growth corridor",
     cities: [
       { name: 'Oshawa', slug: 'oshawa', population: '175K', specialty: 'Automotive workers & GM pensions' },
       { name: 'Whitby', slug: 'whitby', population: '138K', specialty: 'Growing families & professionals' },
@@ -55,7 +55,7 @@ const locations = [
   },
   {
     region: 'Peel Region - North',
-    description: 'Rural estates and aggregate industry',
+    description: "Rural estates and aggregate industry",
     cities: [
       { name: 'Caledon', slug: 'caledon', population: '76K', specialty: 'Aggregate industry & rural properties' },
     ]
@@ -103,7 +103,7 @@ export default function LocationsPage() {
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             With deep local expertise across 21 communities, ProsperBridge delivers specialized financial planning 
-            tailored to your city&apos;s unique industries, demographics, and opportunities.
+            tailored to your city's unique industries, demographics, and opportunities.
           </p>
           
           {/* Quick Stats */}
@@ -246,7 +246,7 @@ export default function LocationsPage() {
             <div>
               <h3 className="text-2xl font-bold mb-4">ProsperBridge</h3>
               <p className="text-gray-400">
-                Greater Toronto&apos;s trusted financial planning partner for life&apos;s major transitions.
+                Greater Toronto's trusted financial planning partner for life's major transitions.
               </p>
             </div>
             <div>

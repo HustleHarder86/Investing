@@ -78,7 +78,7 @@ export default function ChatWidget() {
             <div className="flex-1">
               <h4 className="font-semibold text-slate-900 text-sm">AI Assistant Available</h4>
               <p className="text-slate-600 text-xs mt-1">
-                I&apos;m here to help with your financial planning questions. Click to chat!
+                I'm here to help with your financial planning questions. Click to chat!
               </p>
             </div>
             <button

@@ -3,11 +3,11 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Severance Package Planning Toronto | Job Loss Financial Advisor | ProsperBridge',
-  description: 'Expert severance and job transition planning for Toronto professionals. Maximize packages, optimize taxes, manage tech layoffs. Financial planning for career transitions.',
+  description: "Expert severance and job transition planning for Toronto professionals. Maximize packages, optimize taxes, manage tech layoffs. Financial planning for career transitions.",
   keywords: 'severance package Toronto, job loss financial planning Toronto, tech layoffs Toronto, career transition Toronto, severance negotiation Toronto',
   openGraph: {
     title: 'Severance & Job Loss Planning Toronto | ProsperBridge',
-    description: 'Navigate job loss with expert financial planning in Toronto. Maximize your severance package.',
+    description: "Navigate job loss with expert financial planning in Toronto. Maximize your severance package.",
     type: 'website',
   }
 };
@@ -36,7 +36,7 @@ const torontoData = {
     'Riverside',
     'Junction Triangle'
   ],
-  description: 'Toronto&apos;s dynamic job market, especially in tech and finance sectors, requires specialized severance planning strategies for professionals navigating career transitions.'
+  description: "Toronto's dynamic job market, especially in tech and finance sectors, requires specialized severance planning strategies for professionals navigating career transitions."
 };
 
 const severanceServiceData = {
@@ -45,7 +45,7 @@ const severanceServiceData = {
   icon: '💼',
   primaryColor: 'from-orange-600',
   secondaryColor: 'to-red-600',
-  description: 'Strategic financial planning for job transitions and severance optimization.',
+  description: "Strategic financial planning for job transitions and severance optimization.",
   benefits: [
     'Severance package evaluation and negotiation',
     'Tax-efficient lump sum vs. continuance planning',

@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning Halton Hills | Georgetown CFP® | ProsperBridge',
-  description: 'Expert divorce financial planning for Halton Hills families. Navigate Georgetown property divisions and Acton\'s working family separations.',
+  description: "Expert divorce financial planning for Halton Hills families. Navigate Georgetown property divisions and Acton's working family separations.",
   keywords: 'divorce financial planning Halton Hills, Georgetown divorce advisor, Acton separation planning',
 };
 
@@ -31,7 +31,7 @@ const haltonHillsData = {
     'Silver Creek',
     'Bannockburn'
   ],
-  description: 'Halton Hills\' mix of Georgetown professionals and Acton\'s manufacturing families creates diverse divorce scenarios from GO Train commuters to skilled trades workers.'
+  description: "Halton Hills' mix of Georgetown professionals and Acton's manufacturing families creates diverse divorce scenarios from GO Train commuters to skilled trades workers."
 };
 
 const divorceServiceData = {
@@ -40,7 +40,7 @@ const divorceServiceData = {
   icon: '💔',
   primaryColor: 'from-purple-600',
   secondaryColor: 'to-pink-600',
-  description: 'Navigate divorce with expertise in suburban properties and manufacturing incomes.',
+  description: "Navigate divorce with expertise in suburban properties and manufacturing incomes.",
   benefits: [
     'Georgetown property division',
     'Acton home valuations',

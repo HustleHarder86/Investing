@@ -4,11 +4,11 @@ import ContactForm from '@/components/forms/ContactForm';
 
 export const metadata: Metadata = {
   title: 'Business Sale Planning GTA 2025 | Maximize Your Exit | ProsperBridge',
-  description: 'Strategic business sale planning for GTA entrepreneurs. Maximize your sale price, minimize taxes with capital gains exemption, and optimize your exit strategy. Expert advisors.',
+  description: "Strategic business sale planning for GTA entrepreneurs. Maximize your sale price, minimize taxes with capital gains exemption, and optimize your exit strategy. Expert advisors.",
   keywords: 'business sale planning, capital gains exemption, business exit strategy, selling business Ontario, lifetime capital gains exemption, business valuation, tax optimization',
   openGraph: {
     title: 'Business Sale Planning GTA 2025 | ProsperBridge',
-    description: 'Maximize your business sale value and minimize taxes with expert exit planning strategies.',
+    description: "Maximize your business sale value and minimize taxes with expert exit planning strategies.",
     type: 'website',
   }
 };
@@ -119,32 +119,32 @@ export default function BusinessSalePlanningPage() {
               {
                 icon: '💰',
                 title: 'Business Valuation',
-                description: 'Professional valuation services to establish fair market value and identify value enhancement opportunities before sale.'
+                description: "Professional valuation services to establish fair market value and identify value enhancement opportunities before sale."
               },
               {
                 icon: '📊',
                 title: 'Tax Optimization',
-                description: 'Strategic planning to access the full $1,016,836 lifetime capital gains exemption and minimize tax liability.'
+                description: "Strategic planning to access the full $1,016,836 lifetime capital gains exemption and minimize tax liability."
               },
               {
                 icon: '🤝',
                 title: 'Deal Structuring',
-                description: 'Optimize the sale structure including share vs. asset sales, earnouts, and vendor take-back financing.'
+                description: "Optimize the sale structure including share vs. asset sales, earnouts, and vendor take-back financing."
               },
               {
                 icon: '📈',
                 title: 'Pre-Sale Planning',
-                description: 'Enhance business value through operational improvements and financial optimization before going to market.'
+                description: "Enhance business value through operational improvements and financial optimization before going to market."
               },
               {
                 icon: '⚖️',
                 title: 'Succession Planning',
-                description: 'Family business transitions, management buyouts, and employee share ownership plans (ESOP).'
+                description: "Family business transitions, management buyouts, and employee share ownership plans (ESOP)."
               },
               {
                 icon: '🏆',
                 title: 'Post-Sale Wealth',
-                description: 'Investment strategies and tax planning for your post-sale wealth to ensure long-term financial security.'
+                description: "Investment strategies and tax planning for your post-sale wealth to ensure long-term financial security."
               }
             ].map((service, index) => (
               <div key={index} className="bg-slate-50 rounded-2xl p-8 hover:shadow-lg transition-all duration-300">
@@ -228,7 +228,7 @@ export default function BusinessSalePlanningPage() {
               Industry Expertise
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Specialized knowledge across GTA&apos;s key business sectors
+              Specialized knowledge across GTA's key business sectors
             </p>
           </div>
 
@@ -269,7 +269,7 @@ export default function BusinessSalePlanningPage() {
             {[
               {
                 question: "When is the best time to sell my business in 2025?",
-                answer: "The optimal timing depends on multiple factors including your industry&apos;s market conditions, your business performance, and tax considerations. With 2025&apos;s capital gains changes, planning 6-12 months ahead is crucial to maximize value and minimize taxes."
+                answer: "The optimal timing depends on multiple factors including your industry's market conditions, your business performance, and tax considerations. With 2025's capital gains changes, planning 6-12 months ahead is crucial to maximize value and minimize taxes."
               },
               {
                 question: "How can I maximize my business sale price?",

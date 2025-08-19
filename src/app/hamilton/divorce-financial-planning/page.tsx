@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning Hamilton | CFP® Advisor | ProsperBridge',
-  description: 'Expert divorce financial planning in Hamilton. Specialized support for steel workers, healthcare professionals, and manufacturing families. CFP® certified.',
+  description: "Expert divorce financial planning in Hamilton. Specialized support for steel workers, healthcare professionals, and manufacturing families. CFP® certified.",
   keywords: 'divorce financial planning Hamilton, CFP® Hamilton, separation advisor Golden Horseshoe',
 };
 
@@ -31,7 +31,7 @@ const hamiltonData = {
     'Glanbrook',
     'Binbrook'
   ],
-  description: 'Hamilton\'s industrial heritage and healthcare sector create unique divorce financial challenges, from steel worker pensions to medical professional practices requiring specialized division strategies.'
+  description: "Hamilton's industrial heritage and healthcare sector create unique divorce financial challenges, from steel worker pensions to medical professional practices requiring specialized division strategies."
 };
 
 const divorceServiceData = {
@@ -40,7 +40,7 @@ const divorceServiceData = {
   icon: '💔',
   primaryColor: 'from-purple-600',
   secondaryColor: 'to-pink-600',
-  description: 'Navigate divorce with expertise in Hamilton\'s industrial and healthcare sectors.',
+  description: "Navigate divorce with expertise in Hamilton's industrial and healthcare sectors.",
   benefits: [
     'Steel worker pension division',
     'Healthcare professional practices',

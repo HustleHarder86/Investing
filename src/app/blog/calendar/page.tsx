@@ -6,7 +6,7 @@ import scheduleData from '@/../../../../content/blog-schedule.json';
 
 export const metadata: Metadata = {
   title: 'Blog Content Calendar | ProsperBridge',
-  description: 'Upcoming blog posts and content schedule for ProsperBridge financial planning blog.',
+  description: "Upcoming blog posts and content schedule for ProsperBridge financial planning blog.",
   robots: 'noindex, nofollow' // Don't index the calendar page
 };
 

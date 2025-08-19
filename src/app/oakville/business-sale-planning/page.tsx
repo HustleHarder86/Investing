@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Business Sale Planning Oakville | Private Company M&A | ProsperBridge',
-  description: 'Strategic exit planning for Oakville private companies and family offices. Expert M&A advisory for luxury brands, private equity, and established enterprises.',
+  description: "Strategic exit planning for Oakville private companies and family offices. Expert M&A advisory for luxury brands, private equity, and established enterprises.",
   keywords: 'business sale planning Oakville, private company M&A, family business succession Halton',
 };
 
@@ -31,7 +31,7 @@ const oakvilleData = {
     'Dorval Business District',
     'Heritage Business Park'
   ],
-  description: 'Oakville\'s concentration of corporate headquarters and wealthy family businesses creates premium M&A opportunities, from luxury service companies to established manufacturing enterprises.'
+  description: "Oakville's concentration of corporate headquarters and wealthy family businesses creates premium M&A opportunities, from luxury service companies to established manufacturing enterprises."
 };
 
 const businessServiceData = {
@@ -40,7 +40,7 @@ const businessServiceData = {
   icon: '🏢',
   primaryColor: 'from-blue-600',
   secondaryColor: 'to-indigo-600',
-  description: 'Elite M&A advisory for Oakville\'s private companies and family enterprises.',
+  description: "Elite M&A advisory for Oakville's private companies and family enterprises.",
   benefits: [
     'Private company valuations',
     'Family office transitions',

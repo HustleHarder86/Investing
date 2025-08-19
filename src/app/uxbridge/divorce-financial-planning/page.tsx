@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning Uxbridge | Rural Durham CFP® | ProsperBridge',
-  description: 'Expert divorce financial planning for Uxbridge families. Navigate rural property divisions, equestrian assets, and trail town household separations.',
+  description: "Expert divorce financial planning for Uxbridge families. Navigate rural property divisions, equestrian assets, and trail town household separations.",
   keywords: 'divorce financial planning Uxbridge, rural divorce Durham, equestrian property division',
 };
 
@@ -31,7 +31,7 @@ const uxbridgeData = {
     'Glen Major',
     'Coppins Corners'
   ],
-  description: 'Uxbridge\'s "Trail Capital of Canada" status and equestrian culture create unique divorce scenarios involving rural estates, horse farms, and heritage properties requiring specialized expertise.'
+  description: "Uxbridge's 'Trail Capital of Canada' status and equestrian culture create unique divorce scenarios involving rural estates, horse farms, and heritage properties requiring specialized expertise."
 };
 
 const divorceServiceData = {
@@ -40,7 +40,7 @@ const divorceServiceData = {
   icon: '💔',
   primaryColor: 'from-purple-600',
   secondaryColor: 'to-pink-600',
-  description: 'Navigate divorce with expertise in rural properties and equestrian assets.',
+  description: "Navigate divorce with expertise in rural properties and equestrian assets.",
   benefits: [
     'Rural estate divisions',
     'Horse farm valuations',

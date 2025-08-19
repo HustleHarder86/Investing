@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Severance Package Planning Whitby | Professional Job Loss Support | ProsperBridge',
-  description: 'Expert severance planning for Whitby professionals. Navigate corporate downsizing, maximize packages, and plan career transitions in Durham Region.',
+  description: "Expert severance planning for Whitby professionals. Navigate corporate downsizing, maximize packages, and plan career transitions in Durham Region.",
   keywords: 'severance planning Whitby, job loss support Durham, career transition Whitby',
 };
 
@@ -31,7 +31,7 @@ const whitbyData = {
     'West Lynde',
     'Ashburn'
   ],
-  description: 'Whitby\'s professional workforce and Toronto commuters face corporate restructuring and downsizing scenarios requiring expert severance negotiation and strategic career transition planning.'
+  description: "Whitby's professional workforce and Toronto commuters face corporate restructuring and downsizing scenarios requiring expert severance negotiation and strategic career transition planning."
 };
 
 const severanceServiceData = {
@@ -40,7 +40,7 @@ const severanceServiceData = {
   icon: '💼',
   primaryColor: 'from-orange-600',
   secondaryColor: 'to-red-600',
-  description: 'Professional severance support for Whitby\'s workforce and Toronto commuters.',
+  description: "Professional severance support for Whitby's workforce and Toronto commuters.",
   benefits: [
     'Corporate severance negotiation',
     'Package enhancement strategies',

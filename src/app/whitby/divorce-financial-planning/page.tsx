@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning Whitby | Durham Professional CFP® | ProsperBridge',
-  description: 'Expert divorce financial planning for Whitby professionals and growing families. Navigate complex property division and dual-income household separations.',
+  description: "Expert divorce financial planning for Whitby professionals and growing families. Navigate complex property division and dual-income household separations.",
   keywords: 'divorce financial planning Whitby, CFP® Durham Region, separation advisor Whitby',
 };
 
@@ -31,7 +31,7 @@ const whitbyData = {
     'West Lynde',
     'Ashburn'
   ],
-  description: 'Whitby\'s rapid growth and young professional families create complex divorce scenarios involving new mortgages, daycare arrangements, and competing career demands requiring sophisticated financial planning.'
+  description: "Whitby's rapid growth and young professional families create complex divorce scenarios involving new mortgages, daycare arrangements, and competing career demands requiring sophisticated financial planning."
 };
 
 const divorceServiceData = {
@@ -40,7 +40,7 @@ const divorceServiceData = {
   icon: '💔',
   primaryColor: 'from-purple-600',
   secondaryColor: 'to-pink-600',
-  description: 'Navigate divorce with expertise in suburban family dynamics and professional careers.',
+  description: "Navigate divorce with expertise in suburban family dynamics and professional careers.",
   benefits: [
     'New construction home division',
     'Daycare cost allocation',

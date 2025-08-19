@@ -3,7 +3,7 @@ import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
   title: 'Post-Pandemic Divorce Trends: Financial Planning Guide 2025 | ProsperBridge',
-  description: 'How remote work, housing market changes, and economic uncertainty are reshaping divorce settlements in the GTA. Expert guidance for 2025.',
+  description: "How remote work, housing market changes, and economic uncertainty are reshaping divorce settlements in the GTA. Expert guidance for 2025.",
   keywords: 'divorce financial planning Toronto 2025, COVID divorce trends, remote work divorce settlements, GTA divorce rates',
 };
 
@@ -38,8 +38,8 @@ const BlogContent = () => (
     
     <p className="mb-6">
       Statistics Canada data reveals that divorce applications in Ontario surged 25% between 2020 and 2024, 
-      with the GTA experiencing even higher rates. But it&apos;s not just the volume that&apos;s changed—it&apos;s 
-      the nature of these divorces that&apos;s revolutionizing financial planning approaches.
+      with the GTA experiencing even higher rates. But it's not just the volume that's changed—it's 
+      the nature of these divorces that's revolutionizing financial planning approaches.
     </p>
 
     <div className="bg-blue-50 border-l-4 border-blue-600 p-6 mb-8">
@@ -99,13 +99,13 @@ const BlogContent = () => (
 
     <ul className="list-disc list-inside space-y-2 text-gray-700 mb-8">
       <li>Week-on/week-off schedules becoming standard for remote workers</li>
-      <li>&quot;Nesting&quot; arrangements where children stay put while parents rotate</li>
+      <li>"Nesting" arrangements where children stay put while parents rotate</li>
       <li>Extended summer custody for the remote-working parent</li>
       <li>International co-parenting with digital nomad parents</li>
     </ul>
 
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
-      The Real Estate Revolution&apos;s Impact on Divorce
+      The Real Estate Revolution's Impact on Divorce
     </h2>
 
     <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">
@@ -120,8 +120,8 @@ const BlogContent = () => (
     <div className="bg-green-50 border-l-4 border-green-600 p-6 mb-8">
       <h3 className="font-bold text-gray-900 mb-3">🏠 Real Estate Reality Check</h3>
       <p className="text-gray-700 mb-3">
-        A couple who bought in Toronto&apos;s Leslieville for $800,000 in 2019 now owns a $1.4 million asset. 
-        But here&apos;s the catch:
+        A couple who bought in Toronto's Leslieville for $800,000 in 2019 now owns a $1.4 million asset. 
+        But here's the catch:
       </p>
       <ul className="space-y-2 text-gray-700">
         <li>• Neither spouse qualifies alone for a $1.1M mortgage</li>
@@ -163,7 +163,7 @@ const BlogContent = () => (
     </h2>
 
     <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">
-      Inflation&apos;s Hidden Impact on Support Payments
+      Inflation's Hidden Impact on Support Payments
     </h3>
     
     <p className="mb-6">
@@ -242,7 +242,7 @@ const BlogContent = () => (
     </h2>
 
     <p className="mb-6">
-      The pandemic&apos;s mental health crisis directly impacts divorce financial planning. Anxiety and 
+      The pandemic's mental health crisis directly impacts divorce financial planning. Anxiety and 
       depression, at record levels, affect financial decision-making capacity. Modern divorce planning 
       now incorporates:
     </p>
@@ -255,7 +255,7 @@ const BlogContent = () => (
     </ul>
 
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
-      Technology&apos;s Role in Modern Divorce
+      Technology's Role in Modern Divorce
     </h2>
 
     <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">
@@ -377,7 +377,7 @@ const BlogContent = () => (
     <div className="bg-green-50 border-l-4 border-green-600 p-6 mb-8">
       <h3 className="font-bold text-gray-900 mb-3">🌟 Remember</h3>
       <p className="text-gray-700">
-        While the pandemic changed how we divorce, it didn&apos;t change the fundamental goal: creating 
+        While the pandemic changed how we divorce, it didn't change the fundamental goal: creating 
         two financially viable households from one. With proper planning, both parties can emerge from 
         divorce financially secure, even in these uncertain times.
       </p>

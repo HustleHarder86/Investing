@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Severance Package Planning Oshawa | Auto Worker Support | ProsperBridge',
-  description: 'Expert severance planning for Oshawa automotive workers. Navigate GM restructuring, supplier layoffs, and maximize union-negotiated packages.',
+  description: "Expert severance planning for Oshawa automotive workers. Navigate GM restructuring, supplier layoffs, and maximize union-negotiated packages.",
   keywords: 'severance Oshawa GM, automotive layoffs Durham, Unifor severance packages',
 };
 
@@ -24,14 +24,14 @@ const oshawaData = {
     'North Oshawa',
     'Kedron',
     'Windfields',
-    'O\'Neill',
+    "O'Neill",
     'Vanier',
     'Lakeview',
     'McLaughlin',
     'Samac',
     'Northglen'
   ],
-  description: 'Oshawa\'s automotive sector transformation creates complex severance scenarios for thousands of workers, from GM employees to parts suppliers, requiring expert navigation of union agreements.'
+  description: "Oshawa's automotive sector transformation creates complex severance scenarios for thousands of workers, from GM employees to parts suppliers, requiring expert navigation of union agreements."
 };
 
 const severanceServiceData = {
@@ -40,7 +40,7 @@ const severanceServiceData = {
   icon: '💼',
   primaryColor: 'from-orange-600',
   secondaryColor: 'to-red-600',
-  description: 'Specialized severance support for automotive industry transitions.',
+  description: "Specialized severance support for automotive industry transitions.",
   benefits: [
     'GM severance maximization',
     'Unifor package negotiation',

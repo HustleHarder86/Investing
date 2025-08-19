@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Business Sale Planning Milton | Growing Business M&A | ProsperBridge',
-  description: 'Strategic exit planning for Milton\'s growing businesses and startups. Expert M&A advisory for service companies and new ventures in Canada\'s fastest-growing town.',
+  description: "Strategic exit planning for Milton's growing businesses and startups. Expert M&A advisory for service companies and new ventures in Canada's fastest-growing town.",
   keywords: 'business sale planning Milton, startup exit strategy, growing business M&A Halton',
 };
 
@@ -31,7 +31,7 @@ const miltonData = {
     'Louis St. Laurent Business',
     'Regional Road 25 Corridor'
   ],
-  description: 'Milton\'s rapid growth attracts entrepreneurs and new businesses, creating opportunities for startup exits and growing company acquisitions in Canada\'s fastest-growing municipality.'
+  description: "Milton's rapid growth attracts entrepreneurs and new businesses, creating opportunities for startup exits and growing company acquisitions in Canada's fastest-growing municipality."
 };
 
 const businessServiceData = {
@@ -40,7 +40,7 @@ const businessServiceData = {
   icon: '🏢',
   primaryColor: 'from-blue-600',
   secondaryColor: 'to-indigo-600',
-  description: 'Expert M&A guidance for Milton\'s startups and rapidly growing businesses.',
+  description: "Expert M&A guidance for Milton's startups and rapidly growing businesses.",
   benefits: [
     'Startup exit strategies',
     'Growth company valuations',

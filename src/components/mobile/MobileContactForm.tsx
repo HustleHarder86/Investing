@@ -125,7 +125,7 @@ export default function MobileContactForm({ service, city }: MobileContactFormPr
           Thank You!
         </h3>
         <p className="text-green-700 mb-4">
-          We&apos;ll get back to you within 24 hours to schedule your free consultation.
+          We'll get back to you within 24 hours to schedule your free consultation.
         </p>
         <a 
           href="tel:+16475550123" 

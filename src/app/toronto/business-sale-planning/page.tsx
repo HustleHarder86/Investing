@@ -3,11 +3,11 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Business Sale Planning Toronto | M&A Financial Advisors | ProsperBridge',
-  description: 'Strategic business sale planning for Toronto entrepreneurs. Maximize value, minimize taxes with capital gains exemption. Expert M&A advisory in the GTA.',
+  description: "Strategic business sale planning for Toronto entrepreneurs. Maximize value, minimize taxes with capital gains exemption. Expert M&A advisory in the GTA.",
   keywords: 'business sale planning Toronto, selling business Toronto, capital gains exemption Toronto, M&A advisor Toronto, business valuation Toronto',
   openGraph: {
     title: 'Business Sale Planning Toronto | ProsperBridge',
-    description: 'Maximize your business sale value in Toronto. Tax optimization and exit strategy experts.',
+    description: "Maximize your business sale value in Toronto. Tax optimization and exit strategy experts.",
     type: 'website',
   }
 };
@@ -36,7 +36,7 @@ const torontoData = {
     'The Junction',
     'Leslieville'
   ],
-  description: 'As Canada&apos;s business capital, Toronto offers unique opportunities and challenges for business sales, with active M&A markets and sophisticated buyers.'
+  description: "As Canada's business capital, Toronto offers unique opportunities and challenges for business sales, with active M&A markets and sophisticated buyers."
 };
 
 const businessServiceData = {
@@ -45,7 +45,7 @@ const businessServiceData = {
   icon: '🏢',
   primaryColor: 'from-blue-600',
   secondaryColor: 'to-indigo-600',
-  description: 'Strategic planning to maximize your business value and minimize taxes on sale.',
+  description: "Strategic planning to maximize your business value and minimize taxes on sale.",
   benefits: [
     'Business valuation and value enhancement',
     'Lifetime capital gains exemption optimization ($1,016,836)',

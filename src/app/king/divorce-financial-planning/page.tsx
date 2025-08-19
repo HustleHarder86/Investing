@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning King Township | Ultra High Net Worth CFP® | ProsperBridge',
-  description: 'Expert divorce financial planning for King Township\'s ultra-wealthy. Navigate estate divisions, equestrian properties, and multi-million dollar settlements.',
+  description: "Expert divorce financial planning for King Township's ultra-wealthy. Navigate estate divisions, equestrian properties, and multi-million dollar settlements.",
   keywords: 'divorce King Township, ultra high net worth divorce, equestrian property division',
 };
 
@@ -31,7 +31,7 @@ const kingData = {
     'Snowball',
     'Strange'
   ],
-  description: 'King Township\'s ultra-wealthy residents with estates, equestrian facilities, and significant business holdings face Canada\'s most complex divorce scenarios requiring elite financial expertise.'
+  description: "King Township's ultra-wealthy residents with estates, equestrian facilities, and significant business holdings face Canada's most complex divorce scenarios requiring elite financial expertise."
 };
 
 const divorceServiceData = {
@@ -40,7 +40,7 @@ const divorceServiceData = {
   icon: '💔',
   primaryColor: 'from-purple-600',
   secondaryColor: 'to-pink-600',
-  description: 'Navigate ultra high net worth divorce with expertise in estates and equestrian assets.',
+  description: "Navigate ultra high net worth divorce with expertise in estates and equestrian assets.",
   benefits: [
     'Multi-million estate divisions',
     'Equestrian facility valuations',

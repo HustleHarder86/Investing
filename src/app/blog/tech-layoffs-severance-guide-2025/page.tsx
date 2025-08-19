@@ -3,7 +3,7 @@ import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
   title: 'Tech Layoffs 2025: Complete Severance Package Guide | ProsperBridge',
-  description: 'Essential strategies for tech professionals navigating job loss. Maximize severance, optimize taxes, and plan your career transition in the GTA tech sector.',
+  description: "Essential strategies for tech professionals navigating job loss. Maximize severance, optimize taxes, and plan your career transition in the GTA tech sector.",
   keywords: 'tech layoffs Toronto 2025, severance package negotiation, tech sector job loss, software developer severance',
 };
 
@@ -25,10 +25,10 @@ const relatedPosts = [
 const BlogContent = () => (
   <>
     <p className="lead text-xl text-gray-700 mb-8">
-      The tech industry&apos;s boom-and-bust cycle hit a dramatic inflection point in 2025. After the 
+      The tech industry's boom-and-bust cycle hit a dramatic inflection point in 2025. After the 
       massive hiring sprees of 2020-2022, Greater Toronto Area tech companies have announced over 
       15,000 layoffs since January 2024. From Shopify to smaller startups, no company seems immune. 
-      If you&apos;re facing a tech sector layoff, understanding your severance rights and optimizing your 
+      If you're facing a tech sector layoff, understanding your severance rights and optimizing your 
       financial transition strategy has never been more critical.
     </p>
 
@@ -49,7 +49,7 @@ const BlogContent = () => (
     </div>
 
     <p className="mb-6">
-      The silver lining? Ontario&apos;s employment laws and the tech industry&apos;s compensation structures 
+      The silver lining? Ontario's employment laws and the tech industry's compensation structures 
       create opportunities for substantial severance packages—if you know how to navigate them.
     </p>
 
@@ -62,7 +62,7 @@ const BlogContent = () => (
     </h3>
     
     <p className="mb-4">
-      Many tech workers don&apos;t realize they have three potential sources of severance compensation:
+      Many tech workers don't realize they have three potential sources of severance compensation:
     </p>
 
     <ol className="space-y-4 text-gray-700 mb-8">
@@ -99,12 +99,12 @@ const BlogContent = () => (
     </h3>
     
     <p className="mb-4">
-      Tech severance isn&apos;t just about base salary. Your package should include:
+      Tech severance isn't just about base salary. Your package should include:
     </p>
 
     <ul className="list-disc list-inside space-y-2 text-gray-700 mb-8">
       <li><strong>Base salary continuation:</strong> The foundation of your package</li>
-      <li><strong>Bonus proration:</strong> Don&apos;t leave earned bonuses on the table</li>
+      <li><strong>Bonus proration:</strong> Don't leave earned bonuses on the table</li>
       <li><strong>RSU/Stock option treatment:</strong> Acceleration or extended exercise windows</li>
       <li><strong>Benefits continuation:</strong> Critical for families and pre-existing conditions</li>
       <li><strong>RRSP matching:</strong> Often overlooked but valuable</li>
@@ -122,7 +122,7 @@ const BlogContent = () => (
     
     <p className="mb-6">
       Research shows that 67% of tech workers who negotiate their severance receive 50-100% more than 
-      the initial offer. Yet only 38% attempt negotiation. Don&apos;t be part of the silent majority.
+      the initial offer. Yet only 38% attempt negotiation. Don't be part of the silent majority.
     </p>
 
     <div className="bg-yellow-50 border-l-4 border-yellow-600 p-6 mb-8">
@@ -131,7 +131,7 @@ const BlogContent = () => (
         You typically have 5-10 business days to review and sign a severance agreement. Use this time wisely:
       </p>
       <ul className="space-y-2 text-gray-700">
-        <li><strong>Day 1-2:</strong> Don&apos;t sign anything. Process the shock.</li>
+        <li><strong>Day 1-2:</strong> Don't sign anything. Process the shock.</li>
         <li><strong>Day 3-4:</strong> Consult an employment lawyer (most offer free consultations)</li>
         <li><strong>Day 5-7:</strong> Negotiate through your lawyer or directly</li>
         <li><strong>Day 8-10:</strong> Finalize improved package</li>
@@ -152,7 +152,7 @@ const BlogContent = () => (
         you valuable even in exit. Negotiate consulting arrangements.
       </li>
       <li>
-        <strong>2. Non-Compete Concerns:</strong> If they want you to sign a non-compete, that&apos;s worth 
+        <strong>2. Non-Compete Concerns:</strong> If they want you to sign a non-compete, that's worth 
         additional compensation.
       </li>
       <li>
@@ -174,7 +174,7 @@ const BlogContent = () => (
     </h2>
 
     <p className="mb-6">
-      For many tech workers, equity compensation represents 20-50% of total compensation. Don&apos;t let 
+      For many tech workers, equity compensation represents 20-50% of total compensation. Don't let 
       it evaporate with your layoff.
     </p>
 
@@ -272,7 +272,7 @@ const BlogContent = () => (
     </h2>
 
     <p className="mb-6">
-      Many tech workers overlook EI, assuming high earners don&apos;t qualify. Wrong. Here&apos;s what you 
+      Many tech workers overlook EI, assuming high earners don't qualify. Wrong. Here's what you 
       need to know:
     </p>
 
@@ -283,7 +283,7 @@ const BlogContent = () => (
         <li>• Duration: 14-45 weeks depending on region and unemployment rate</li>
         <li>• Toronto tech workers typically qualify for 23-27 weeks</li>
         <li>• Can earn up to $50 or 25% of benefits without reduction</li>
-        <li>• Training programs don&apos;t affect eligibility</li>
+        <li>• Training programs don't affect eligibility</li>
       </ul>
     </div>
 
@@ -297,9 +297,9 @@ const BlogContent = () => (
 
     <ul className="list-disc list-inside space-y-2 text-gray-700 mb-8">
       <li>Salary continuation delays EI start but maintains benefits</li>
-      <li>Lump sum retiring allowance doesn&apos;t affect EI eligibility</li>
+      <li>Lump sum retiring allowance doesn't affect EI eligibility</li>
       <li>Vacation payout is considered earnings, delays EI</li>
-      <li>Benefits continuation doesn&apos;t impact EI</li>
+      <li>Benefits continuation doesn't impact EI</li>
     </ul>
 
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
@@ -390,7 +390,7 @@ const BlogContent = () => (
         <li>• Severance offer matches only ESA minimums</li>
         <li>• Broad non-compete or non-solicitation clauses</li>
         <li>• Pressure to sign immediately</li>
-        <li>• &quot;Cause&quot; termination threats</li>
+        <li>• "Cause" termination threats</li>
         <li>• Discrimination or harassment preceding layoff</li>
         <li>• Pregnant or on leave when laid off</li>
         <li>• Over 50 years old in youth-focused company</li>
@@ -406,7 +406,7 @@ const BlogContent = () => (
       <ol className="space-y-3 text-gray-700">
         <li className="flex">
           <span className="font-bold mr-2">Week 1:</span>
-          <span>Don&apos;t sign anything. Consult employment lawyer. Start severance negotiation.</span>
+          <span>Don't sign anything. Consult employment lawyer. Start severance negotiation.</span>
         </li>
         <li className="flex">
           <span className="font-bold mr-2">Week 2:</span>
@@ -428,7 +428,7 @@ const BlogContent = () => (
     </h2>
 
     <p className="mb-6">
-      Tech layoffs in 2025 are undeniably challenging, but they&apos;re not career-ending. With proper 
+      Tech layoffs in 2025 are undeniably challenging, but they're not career-ending. With proper 
       severance negotiation, tax planning, and transition strategies, many tech workers emerge stronger 
       and better compensated than before.
     </p>
@@ -443,7 +443,7 @@ const BlogContent = () => (
     <div className="bg-green-50 border-l-4 border-green-600 p-6 mb-8">
       <h3 className="font-bold text-gray-900 mb-3">💪 Remember</h3>
       <p className="text-gray-700">
-        You&apos;re not just another casualty of tech downsizing. You&apos;re a skilled professional with 
+        You're not just another casualty of tech downsizing. You're a skilled professional with 
         valuable experience, legal rights, and numerous options. Use this guide to ensure your 
         severance package reflects your true worth and sets you up for success in your next chapter.
       </p>

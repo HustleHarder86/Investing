@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Business Sale Planning Pickering | Nuclear Contractor M&A | ProsperBridge',
-  description: 'Strategic business sale planning for Pickering nuclear contractors and marine businesses. Expert M&A advisory for OPG suppliers and waterfront enterprises.',
+  description: "Strategic business sale planning for Pickering nuclear contractors and marine businesses. Expert M&A advisory for OPG suppliers and waterfront enterprises.",
   keywords: 'business sale Pickering, nuclear contractor M&A, marine business sale Durham',
 };
 
@@ -31,7 +31,7 @@ const pickeringData = {
     'Squires Beach Commercial',
     'Nautical Village Business'
   ],
-  description: 'Pickering businesses benefit from nuclear industry contracts and waterfront tourism, creating unique M&A opportunities for specialized service providers and marine-related enterprises.'
+  description: "Pickering businesses benefit from nuclear industry contracts and waterfront tourism, creating unique M&A opportunities for specialized service providers and marine-related enterprises."
 };
 
 const businessServiceData = {
@@ -40,7 +40,7 @@ const businessServiceData = {
   icon: '🏢',
   primaryColor: 'from-blue-600',
   secondaryColor: 'to-indigo-600',
-  description: 'Expert M&A guidance for nuclear contractors and waterfront businesses.',
+  description: "Expert M&A guidance for nuclear contractors and waterfront businesses.",
   benefits: [
     'Nuclear contractor valuations',
     'OPG supplier transitions',

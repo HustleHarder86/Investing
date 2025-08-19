@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Inheritance Tax Planning Whitby | Estate Planning Durham | ProsperBridge',
-  description: 'Expert estate planning for Whitby families. Protect growing wealth, family homes, and professional assets while minimizing tax on intergenerational transfers.',
+  description: "Expert estate planning for Whitby families. Protect growing wealth, family homes, and professional assets while minimizing tax on intergenerational transfers.",
   keywords: 'inheritance planning Whitby, estate tax Durham, wealth transfer Whitby',
 };
 
@@ -31,7 +31,7 @@ const whitbyData = {
     'West Lynde',
     'Ashburn'
   ],
-  description: 'Whitby\'s established families and growing professional population are building significant estates through real estate appreciation and career success, requiring strategic planning for tax-efficient wealth transfers.'
+  description: "Whitby's established families and growing professional population are building significant estates through real estate appreciation and career success, requiring strategic planning for tax-efficient wealth transfers."
 };
 
 const inheritanceServiceData = {
@@ -40,7 +40,7 @@ const inheritanceServiceData = {
   icon: '🏛️',
   primaryColor: 'from-green-600',
   secondaryColor: 'to-teal-600',
-  description: 'Strategic estate planning for Whitby\'s growing families and established wealth.',
+  description: "Strategic estate planning for Whitby's growing families and established wealth.",
   benefits: [
     'Family home preservation',
     'Cottage succession planning',

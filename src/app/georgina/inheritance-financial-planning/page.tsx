@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Inheritance Tax Planning Georgina | Lake Simcoe Estate Planning | ProsperBridge',
-  description: 'Expert estate planning for Georgina families. Protect waterfront cottages, Lake Simcoe properties, and retirement wealth for next generation.',
+  description: "Expert estate planning for Georgina families. Protect waterfront cottages, Lake Simcoe properties, and retirement wealth for next generation.",
   keywords: 'inheritance planning Georgina, cottage succession Lake Simcoe, estate planning Keswick',
 };
 
@@ -22,7 +22,7 @@ const georginaData = {
   neighborhoods: [
     'Keswick',
     'Sutton',
-    'Jackson\'s Point',
+    "Jackson's Point",
     'Pefferlaw',
     'Willow Beach',
     'Virginia',
@@ -31,7 +31,7 @@ const georginaData = {
     'Egypt',
     'Baldwin'
   ],
-  description: 'Georgina families often own valuable Lake Simcoe waterfront properties and cottages passed down through generations, requiring careful planning to preserve family legacy and minimize taxes.'
+  description: "Georgina families often own valuable Lake Simcoe waterfront properties and cottages passed down through generations, requiring careful planning to preserve family legacy and minimize taxes."
 };
 
 const inheritanceServiceData = {
@@ -40,7 +40,7 @@ const inheritanceServiceData = {
   icon: '🏛️',
   primaryColor: 'from-green-600',
   secondaryColor: 'to-teal-600',
-  description: 'Strategic estate planning for waterfront properties and cottage country wealth.',
+  description: "Strategic estate planning for waterfront properties and cottage country wealth.",
   benefits: [
     'Cottage succession planning',
     'Waterfront property transfers',

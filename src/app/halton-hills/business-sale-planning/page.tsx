@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Business Sale Planning Halton Hills | Manufacturing M&A Georgetown | ProsperBridge',
-  description: 'Strategic business sale planning for Halton Hills manufacturers and Main Street businesses. Expert M&A for Georgetown shops and Acton industries.',
+  description: "Strategic business sale planning for Halton Hills manufacturers and Main Street businesses. Expert M&A for Georgetown shops and Acton industries.",
   keywords: 'business sale Halton Hills, manufacturing M&A Georgetown, Acton business sale',
 };
 
@@ -31,7 +31,7 @@ const haltonHillsData = {
     'Steeles Avenue Business',
     'Rural Commercial Areas'
   ],
-  description: 'Halton Hills\' manufacturing heritage and Georgetown\'s Main Street businesses create M&A opportunities from industrial operations to boutique retail requiring specialized valuation.'
+  description: "Halton Hills' manufacturing heritage and Georgetown's Main Street businesses create M&A opportunities from industrial operations to boutique retail requiring specialized valuation."
 };
 
 const businessServiceData = {
@@ -40,7 +40,7 @@ const businessServiceData = {
   icon: '🏢',
   primaryColor: 'from-blue-600',
   secondaryColor: 'to-indigo-600',
-  description: 'Expert M&A for manufacturing companies and Main Street businesses.',
+  description: "Expert M&A for manufacturing companies and Main Street businesses.",
   benefits: [
     'Manufacturing company sales',
     'Industrial operation transfers',

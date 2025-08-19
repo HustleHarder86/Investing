@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Inheritance Tax Planning Ajax | Nuclear Industry Estates | ProsperBridge',
-  description: 'Expert estate planning for Ajax nuclear industry families. Navigate OPG pensions, specialized benefits, and high-value estates in Durham Region.',
+  description: "Expert estate planning for Ajax nuclear industry families. Navigate OPG pensions, specialized benefits, and high-value estates in Durham Region.",
   keywords: 'inheritance tax planning Ajax, estate planning nuclear workers, OPG pension succession',
 };
 
@@ -31,7 +31,7 @@ const ajaxData = {
     'Nottingham',
     'Carruthers Creek'
   ],
-  description: 'Ajax\'s nuclear industry workforce has accumulated significant wealth through OPG pensions and benefits, creating complex estate planning needs for specialized retirement packages and beneficiary designations.'
+  description: "Ajax's nuclear industry workforce has accumulated significant wealth through OPG pensions and benefits, creating complex estate planning needs for specialized retirement packages and beneficiary designations."
 };
 
 const inheritanceServiceData = {
@@ -40,7 +40,7 @@ const inheritanceServiceData = {
   icon: '🏛️',
   primaryColor: 'from-green-600',
   secondaryColor: 'to-teal-600',
-  description: 'Specialized estate planning for nuclear industry families and Durham professionals.',
+  description: "Specialized estate planning for nuclear industry families and Durham professionals.",
   benefits: [
     'OPG pension maximization',
     'Nuclear worker benefits transfer',

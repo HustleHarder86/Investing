@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Severance Package Planning Ajax | Nuclear Worker Support | ProsperBridge',
-  description: 'Expert severance planning for Ajax nuclear industry workers and Durham professionals. Navigate OPG restructuring and maximize separation packages.',
+  description: "Expert severance planning for Ajax nuclear industry workers and Durham professionals. Navigate OPG restructuring and maximize separation packages.",
   keywords: 'severance planning Ajax, nuclear worker layoffs, OPG severance packages Durham',
 };
 
@@ -31,7 +31,7 @@ const ajaxData = {
     'Nottingham',
     'Carruthers Creek'
   ],
-  description: 'Ajax\'s nuclear industry workforce faces unique severance situations including plant refurbishments, contractor transitions, and specialized skill redeployments requiring expert navigation of union agreements and benefits.'
+  description: "Ajax's nuclear industry workforce faces unique severance situations including plant refurbishments, contractor transitions, and specialized skill redeployments requiring expert navigation of union agreements and benefits."
 };
 
 const severanceServiceData = {
@@ -40,7 +40,7 @@ const severanceServiceData = {
   icon: '💼',
   primaryColor: 'from-orange-600',
   secondaryColor: 'to-red-600',
-  description: 'Specialized support for nuclear industry workers and Durham professionals.',
+  description: "Specialized support for nuclear industry workers and Durham professionals.",
   benefits: [
     'OPG severance optimization',
     'Nuclear contractor packages',

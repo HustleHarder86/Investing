@@ -51,7 +51,7 @@ export default function Home() {
                   <div className="p-6">
                     <div className="mb-4">
                       <h3 className="text-lg font-display font-semibold text-slate-900 mb-2">Our Specialized Services</h3>
-                      <p className="text-sm text-slate-600">Expert guidance for life&apos;s major financial transitions</p>
+                      <p className="text-sm text-slate-600">Expert guidance for life's major financial transitions</p>
                     </div>
                     <div className="grid grid-cols-1 gap-3">
                       {services.map((service) => (
@@ -166,7 +166,7 @@ export default function Home() {
               </h1>
               
               <p className="text-xl lg:text-2xl text-slate-600 leading-relaxed max-w-xl font-light">
-                Expert guidance through life&apos;s major transitions with personalized strategies that protect and grow your wealth.
+                Expert guidance through life's major transitions with personalized strategies that protect and grow your wealth.
               </p>
             </div>
             
@@ -367,7 +367,7 @@ export default function Home() {
                 What Our Clients Say
               </h3>
               <p className="text-slate-600">
-                Real experiences from families we&apos;ve helped navigate major financial transitions
+                Real experiences from families we've helped navigate major financial transitions
               </p>
             </div>
 
@@ -482,7 +482,7 @@ export default function Home() {
             </div>
             <h2 className="text-4xl md:text-5xl font-display font-bold text-slate-900 mb-8 leading-tight">
               Expert Financial Planning for{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-blue-600 block">Life&apos;s Major Transitions</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-blue-600 block">Life's Major Transitions</span>
             </h2>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
               Unlike general financial advisors, we focus exclusively on the four critical life events that require specialized knowledge, experience, and compassionate guidance. Each service includes a comprehensive consultation and personalized strategy.
@@ -922,7 +922,7 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-white/80 mb-6 max-w-md leading-relaxed">
-                  CFP®-certified financial advisor specializing in life&apos;s major transitions. Serving the Greater Toronto Area with compassionate, expert guidance since 2018.
+                  CFP®-certified financial advisor specializing in life's major transitions. Serving the Greater Toronto Area with compassionate, expert guidance since 2018.
                 </p>
                 
                 {/* Contact Info */}

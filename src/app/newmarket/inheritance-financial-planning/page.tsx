@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Inheritance Tax Planning Newmarket | Estate Planning York | ProsperBridge',
-  description: 'Expert estate planning for Newmarket\'s established families. Protect heritage properties, healthcare professional practices, and multi-generational wealth.',
+  description: "Expert estate planning for Newmarket's established families. Protect heritage properties, healthcare professional practices, and multi-generational wealth.",
   keywords: 'inheritance planning Newmarket, estate tax York Region, wealth preservation Newmarket',
 };
 
@@ -31,7 +31,7 @@ const newmarketData = {
     'Armitage',
     'Madsen'
   ],
-  description: 'Newmarket\'s established families often own heritage properties, healthcare practices, and Main Street businesses requiring sophisticated estate planning to preserve wealth and family legacy.'
+  description: "Newmarket's established families often own heritage properties, healthcare practices, and Main Street businesses requiring sophisticated estate planning to preserve wealth and family legacy."
 };
 
 const inheritanceServiceData = {
@@ -40,7 +40,7 @@ const inheritanceServiceData = {
   icon: '🏛️',
   primaryColor: 'from-green-600',
   secondaryColor: 'to-teal-600',
-  description: 'Sophisticated estate planning for Newmarket\'s established and professional families.',
+  description: "Sophisticated estate planning for Newmarket's established and professional families.",
   benefits: [
     'Heritage property preservation',
     'Healthcare practice succession',

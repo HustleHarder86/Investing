@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Inheritance Tax Planning Burlington | Retirement Estate Planning | ProsperBridge',
-  description: 'Expert estate planning for Burlington retirees and seniors. Minimize taxes on retirement accounts, waterfront properties, and family cottages.',
+  description: "Expert estate planning for Burlington retirees and seniors. Minimize taxes on retirement accounts, waterfront properties, and family cottages.",
   keywords: 'inheritance tax planning Burlington, retirement estate planning, waterfront property estate Halton',
 };
 
@@ -31,7 +31,7 @@ const burlingtonData = {
     'Brant Hills',
     'Orchard'
   ],
-  description: 'Burlington\'s aging population with significant retirement savings and waterfront properties requires careful estate planning to preserve wealth for the next generation while minimizing tax exposure.'
+  description: "Burlington's aging population with significant retirement savings and waterfront properties requires careful estate planning to preserve wealth for the next generation while minimizing tax exposure."
 };
 
 const inheritanceServiceData = {
@@ -40,7 +40,7 @@ const inheritanceServiceData = {
   icon: '🏛️',
   primaryColor: 'from-green-600',
   secondaryColor: 'to-teal-600',
-  description: 'Strategic estate planning for Burlington\'s retirees and waterfront property owners.',
+  description: "Strategic estate planning for Burlington's retirees and waterfront property owners.",
   benefits: [
     'Retirement account transfers',
     'RRIF estate planning',

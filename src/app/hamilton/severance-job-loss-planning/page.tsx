@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Severance Package Planning Hamilton | Steel Worker Support | ProsperBridge',
-  description: 'Expert severance planning for Hamilton steel workers and manufacturing employees. Maximize packages, navigate union agreements, and plan transitions.',
+  description: "Expert severance planning for Hamilton steel workers and manufacturing employees. Maximize packages, navigate union agreements, and plan transitions.",
   keywords: 'severance package Hamilton, steel worker layoffs Hamilton, job loss planning',
 };
 
@@ -31,7 +31,7 @@ const hamiltonData = {
     'Red Hill Valley',
     'Bayfront'
   ],
-  description: 'Hamilton\'s steel industry restructuring and manufacturing transitions require specialized severance planning, particularly for unionized workers with complex benefit packages and pension considerations.'
+  description: "Hamilton's steel industry restructuring and manufacturing transitions require specialized severance planning, particularly for unionized workers with complex benefit packages and pension considerations."
 };
 
 const severanceServiceData = {
@@ -40,7 +40,7 @@ const severanceServiceData = {
   icon: '💼',
   primaryColor: 'from-orange-600',
   secondaryColor: 'to-red-600',
-  description: 'Specialized support for Hamilton\'s steel workers and manufacturing workforce.',
+  description: "Specialized support for Hamilton's steel workers and manufacturing workforce.",
   benefits: [
     'Steel worker severance expertise',
     'USW union package navigation',

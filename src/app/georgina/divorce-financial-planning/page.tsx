@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning Georgina | Lake Simcoe CFP® | ProsperBridge',
-  description: 'Expert divorce financial planning for Georgina families. Navigate waterfront property divisions, cottage separations, and Keswick household splits.',
+  description: "Expert divorce financial planning for Georgina families. Navigate waterfront property divisions, cottage separations, and Keswick household splits.",
   keywords: 'divorce financial planning Georgina, Lake Simcoe divorce, Keswick separation advisor',
 };
 
@@ -16,13 +16,13 @@ const georginaData = {
     'Lake Simcoe Waterfront',
     'Sibbald Point Provincial Park',
     'Georgina Ice Palace',
-    'Jackson\'s Point Harbour',
+    "Jackson's Point Harbour",
     'The ROC Recreation Centre'
   ],
   neighborhoods: [
     'Keswick',
     'Sutton',
-    'Jackson\'s Point',
+    "Jackson's Point",
     'Pefferlaw',
     'Willow Beach',
     'Virginia',
@@ -31,7 +31,7 @@ const georginaData = {
     'Egypt',
     'Baldwin'
   ],
-  description: 'Georgina\'s Lake Simcoe waterfront properties and cottage country lifestyle create unique divorce scenarios involving seasonal properties, marina assets, and recreational property divisions.'
+  description: "Georgina's Lake Simcoe waterfront properties and cottage country lifestyle create unique divorce scenarios involving seasonal properties, marina assets, and recreational property divisions."
 };
 
 const divorceServiceData = {
@@ -40,7 +40,7 @@ const divorceServiceData = {
   icon: '💔',
   primaryColor: 'from-purple-600',
   secondaryColor: 'to-pink-600',
-  description: 'Navigate divorce with expertise in waterfront properties and cottage assets.',
+  description: "Navigate divorce with expertise in waterfront properties and cottage assets.",
   benefits: [
     'Waterfront property valuations',
     'Cottage asset division',

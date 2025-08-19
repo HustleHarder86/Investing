@@ -4,11 +4,11 @@ import ContactForm from '@/components/forms/ContactForm';
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning Ontario 2025 | CFP® Certified | ProsperBridge',
-  description: 'Expert divorce financial planning in Ontario. CFP® certified advisor for asset division, spousal support, and pension splitting. Protect your financial future.',
+  description: "Expert divorce financial planning in Ontario. CFP® certified advisor for asset division, spousal support, and pension splitting. Protect your financial future.",
   keywords: 'divorce financial planning Ontario, CFP® Toronto, asset division, spousal support, pension splitting, separation financial advisor',
   openGraph: {
     title: 'Divorce Financial Planning Ontario 2025 | ProsperBridge',
-    description: 'Navigate divorce with expert financial guidance. Protect assets, optimize settlements, secure your future.',
+    description: "Navigate divorce with expert financial guidance. Protect assets, optimize settlements, secure your future.",
     type: 'website',
   }
 };
@@ -494,7 +494,7 @@ export default function DivorceFinancialPlanningPage() {
                 </div>
               </div>
               <p className="text-slate-400 mb-4 max-w-md">
-                Expert financial planning for life&apos;s major transitions. Serving families across the Greater Toronto Area since 2010.
+                Expert financial planning for life's major transitions. Serving families across the Greater Toronto Area since 2010.
               </p>
               <div className="flex space-x-4">
                 <a href="tel:+16475550123" className="text-teal-400 hover:text-teal-300">

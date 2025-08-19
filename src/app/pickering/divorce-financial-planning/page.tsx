@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning Pickering | Nuclear Worker CFP® | ProsperBridge',
-  description: 'Expert divorce financial planning for Pickering Nuclear Station families. Specialized support for OPG employees navigating pension division and benefit allocation.',
+  description: "Expert divorce financial planning for Pickering Nuclear Station families. Specialized support for OPG employees navigating pension division and benefit allocation.",
   keywords: 'divorce financial planning Pickering, nuclear worker divorce, OPG pension division Durham',
 };
 
@@ -16,7 +16,7 @@ const pickeringData = {
     'Pickering Nuclear Generating Station',
     'Pickering Town Centre',
     'Nautical Village Marina',
-    'Frenchman\'s Bay',
+    "Frenchman's Bay",
     'Pickering Museum Village'
   ],
   neighborhoods: [
@@ -31,7 +31,7 @@ const pickeringData = {
     'Brock Ridge',
     'Amberlea'
   ],
-  description: 'Pickering\'s nuclear workforce faces complex divorce scenarios involving substantial OPG pensions, shift premiums, overtime calculations, and specialized benefits requiring expert financial navigation.'
+  description: "Pickering's nuclear workforce faces complex divorce scenarios involving substantial OPG pensions, shift premiums, overtime calculations, and specialized benefits requiring expert financial navigation."
 };
 
 const divorceServiceData = {
@@ -40,7 +40,7 @@ const divorceServiceData = {
   icon: '💔',
   primaryColor: 'from-purple-600',
   secondaryColor: 'to-pink-600',
-  description: 'Navigate divorce with deep expertise in nuclear industry compensation structures.',
+  description: "Navigate divorce with deep expertise in nuclear industry compensation structures.",
   benefits: [
     'OPG pension division expertise',
     'Nuclear premium calculations',

@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning Newmarket | York Region CFP® | ProsperBridge',
-  description: 'Expert divorce financial planning for Newmarket families. Navigate complex property division in historic Main Street and modern subdivisions.',
+  description: "Expert divorce financial planning for Newmarket families. Navigate complex property division in historic Main Street and modern subdivisions.",
   keywords: 'divorce financial planning Newmarket, CFP® York Region, separation advisor Newmarket',
 };
 
@@ -31,7 +31,7 @@ const newmarketData = {
     'Armitage',
     'Madsen'
   ],
-  description: 'Newmarket\'s blend of historic charm and modern growth creates diverse divorce scenarios from heritage property divisions to new subdivision mortgages, requiring tailored financial strategies.'
+  description: "Newmarket's blend of historic charm and modern growth creates diverse divorce scenarios from heritage property divisions to new subdivision mortgages, requiring tailored financial strategies."
 };
 
 const divorceServiceData = {
@@ -40,7 +40,7 @@ const divorceServiceData = {
   icon: '💔',
   primaryColor: 'from-purple-600',
   secondaryColor: 'to-pink-600',
-  description: 'Navigate divorce with expertise in York Region property and family dynamics.',
+  description: "Navigate divorce with expertise in York Region property and family dynamics.",
   benefits: [
     'Heritage property valuations',
     'Main Street business division',

@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Business Sale Planning King Township | Equestrian Business M&A | ProsperBridge',
-  description: 'Strategic business sale planning for King Township equestrian operations and luxury businesses. Expert M&A for farms, stables, and high-end enterprises.',
+  description: "Strategic business sale planning for King Township equestrian operations and luxury businesses. Expert M&A for farms, stables, and high-end enterprises.",
   keywords: 'business sale King Township, equestrian business M&A, farm sale York Region',
 };
 
@@ -31,7 +31,7 @@ const kingData = {
     'Equestrian Business District',
     'Rural Commercial Areas'
   ],
-  description: 'King Township\'s unique businesses from world-class equestrian facilities to agricultural operations and luxury services create specialized M&A opportunities requiring expert valuation.'
+  description: "King Township's unique businesses from world-class equestrian facilities to agricultural operations and luxury services create specialized M&A opportunities requiring expert valuation."
 };
 
 const businessServiceData = {
@@ -40,7 +40,7 @@ const businessServiceData = {
   icon: '🏢',
   primaryColor: 'from-blue-600',
   secondaryColor: 'to-indigo-600',
-  description: 'Expert M&A for equestrian operations and luxury King Township businesses.',
+  description: "Expert M&A for equestrian operations and luxury King Township businesses.",
   benefits: [
     'Equestrian facility sales',
     'Horse breeding operations',

@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Severance Package Planning Mississauga | Job Loss Advisor | ProsperBridge',
-  description: 'Expert severance and job transition planning for Mississauga professionals. Maximize packages, optimize taxes. Local expertise from our Mississauga office.',
+  description: "Expert severance and job transition planning for Mississauga professionals. Maximize packages, optimize taxes. Local expertise from our Mississauga office.",
   keywords: 'severance package Mississauga, job loss financial planning Mississauga, career transition Mississauga',
 };
 
@@ -31,7 +31,7 @@ const mississaugaData = {
     'Clarkson',
     'Lakeview'
   ],
-  description: 'With major corporate headquarters and a diverse economy, Mississauga professionals need specialized severance planning strategies.'
+  description: "With major corporate headquarters and a diverse economy, Mississauga professionals need specialized severance planning strategies."
 };
 
 const severanceServiceData = {
@@ -40,7 +40,7 @@ const severanceServiceData = {
   icon: '💼',
   primaryColor: 'from-orange-600',
   secondaryColor: 'to-red-600',
-  description: 'Navigate career transitions with local Mississauga financial expertise.',
+  description: "Navigate career transitions with local Mississauga financial expertise.",
   benefits: [
     'Severance package evaluation',
     'Tax-efficient structuring',

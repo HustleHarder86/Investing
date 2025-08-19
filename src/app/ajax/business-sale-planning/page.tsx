@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Business Sale Planning Ajax | Durham Region M&A Advisors | ProsperBridge',
-  description: 'Strategic business sale planning for Ajax contractors and service businesses. Expert M&A advisory for nuclear industry suppliers and Durham enterprises.',
+  description: "Strategic business sale planning for Ajax contractors and service businesses. Expert M&A advisory for nuclear industry suppliers and Durham enterprises.",
   keywords: 'business sale planning Ajax, Durham business brokers, contractor M&A Ajax',
 };
 
@@ -31,7 +31,7 @@ const ajaxData = {
     'Monarch Business Area',
     'Hunt Street Commerce'
   ],
-  description: 'Ajax businesses, from nuclear industry suppliers to local contractors, benefit from Durham\'s growth and proximity to Pickering Nuclear, creating valuable M&A opportunities for strategic exits.'
+  description: "Ajax businesses, from nuclear industry suppliers to local contractors, benefit from Durham's growth and proximity to Pickering Nuclear, creating valuable M&A opportunities for strategic exits."
 };
 
 const businessServiceData = {
@@ -40,7 +40,7 @@ const businessServiceData = {
   icon: '🏢',
   primaryColor: 'from-blue-600',
   secondaryColor: 'to-indigo-600',
-  description: 'Expert M&A guidance for Ajax contractors and nuclear industry suppliers.',
+  description: "Expert M&A guidance for Ajax contractors and nuclear industry suppliers.",
   benefits: [
     'Nuclear supplier valuations',
     'OPG contractor sales',

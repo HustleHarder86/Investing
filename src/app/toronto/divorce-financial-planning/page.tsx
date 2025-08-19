@@ -3,11 +3,11 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning Toronto | CFP® Certified Advisors | ProsperBridge',
-  description: 'Expert divorce financial planning in Toronto. Navigate asset division, spousal support, and tax implications with certified professionals. Serving downtown Toronto, North York, Etobicoke, and Scarborough.',
+  description: "Expert divorce financial planning in Toronto. Navigate asset division, spousal support, and tax implications with certified professionals. Serving downtown Toronto, North York, Etobicoke, and Scarborough.",
   keywords: 'divorce financial planning Toronto, CFP® Toronto, divorce financial advisor Toronto, asset division Toronto, spousal support Toronto',
   openGraph: {
     title: 'Divorce Financial Planning Toronto | ProsperBridge',
-    description: 'Expert divorce financial planning services for Toronto residents. Free consultation available.',
+    description: "Expert divorce financial planning services for Toronto residents. Free consultation available.",
     type: 'website',
   }
 };
@@ -36,7 +36,7 @@ const torontoData = {
     'The Beaches',
     'High Park'
   ],
-  description: 'As Canada&apos;s largest city and financial capital, Toronto presents unique challenges for divorce financial planning with some of the highest property values and complex asset structures in the country.'
+  description: "As Canada's largest city and financial capital, Toronto presents unique challenges for divorce financial planning with some of the highest property values and complex asset structures in the country."
 };
 
 const divorceServiceData = {
@@ -45,7 +45,7 @@ const divorceServiceData = {
   icon: '⚖️',
   primaryColor: 'from-purple-600',
   secondaryColor: 'to-pink-600',
-  description: 'Navigate the financial complexities of divorce with expert guidance on asset division, support calculations, and tax optimization.',
+  description: "Navigate the financial complexities of divorce with expert guidance on asset division, support calculations, and tax optimization.",
   benefits: [
     'Certified Divorce Financial Analyst (CFP®) expertise',
     'Fair and equitable asset division strategies',

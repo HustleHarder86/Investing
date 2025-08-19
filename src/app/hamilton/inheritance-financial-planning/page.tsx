@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Inheritance Tax Planning Hamilton | Estate Planning | ProsperBridge',
-  description: 'Expert inheritance and estate planning for Hamilton families. Protect industrial pensions, real estate portfolios, and multi-generational wealth.',
+  description: "Expert inheritance and estate planning for Hamilton families. Protect industrial pensions, real estate portfolios, and multi-generational wealth.",
   keywords: 'inheritance tax planning Hamilton, estate planning Hamilton, probate Golden Horseshoe',
 };
 
@@ -14,7 +14,7 @@ const hamiltonData = {
   region: 'Golden Horseshoe',
   landmarks: [
     'Hamilton Courthouse',
-    'St. Joseph\'s Healthcare',
+    "St. Joseph's Healthcare",
     'Hamilton Health Sciences',
     'Royal Botanical Gardens',
     'Canadian Warplane Heritage Museum'
@@ -31,7 +31,7 @@ const hamiltonData = {
     'Glanbrook',
     'Binbrook'
   ],
-  description: 'Hamilton\'s aging industrial workforce and valuable real estate market create complex estate planning needs, from preserving steel worker pensions to managing substantial property portfolios.'
+  description: "Hamilton's aging industrial workforce and valuable real estate market create complex estate planning needs, from preserving steel worker pensions to managing substantial property portfolios."
 };
 
 const inheritanceServiceData = {
@@ -40,7 +40,7 @@ const inheritanceServiceData = {
   icon: '🏛️',
   primaryColor: 'from-green-600',
   secondaryColor: 'to-teal-600',
-  description: 'Strategic estate planning for Hamilton\'s industrial families and property owners.',
+  description: "Strategic estate planning for Hamilton's industrial families and property owners.",
   benefits: [
     'Steel worker pension preservation',
     'Industrial benefit transfers',

@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning Oakville | Ultra High Net Worth CFP® | ProsperBridge',
-  description: 'Expert divorce financial planning for Oakville\'s ultra-wealthy families. Specialized in executive compensation, private equity, and waterfront estates.',
+  description: "Expert divorce financial planning for Oakville's ultra-wealthy families. Specialized in executive compensation, private equity, and waterfront estates.",
   keywords: 'divorce financial planning Oakville, high net worth divorce Halton, luxury estate division',
 };
 
@@ -31,7 +31,7 @@ const oakvilleData = {
     'College Park',
     'Joshua Creek'
   ],
-  description: 'Oakville\'s ultra-high net worth families and C-suite executives face complex divorces involving waterfront estates, private company holdings, and sophisticated compensation packages requiring elite financial expertise.'
+  description: "Oakville's ultra-high net worth families and C-suite executives face complex divorces involving waterfront estates, private company holdings, and sophisticated compensation packages requiring elite financial expertise."
 };
 
 const divorceServiceData = {
@@ -40,7 +40,7 @@ const divorceServiceData = {
   icon: '💔',
   primaryColor: 'from-purple-600',
   secondaryColor: 'to-pink-600',
-  description: 'Navigate ultra-high net worth divorce with expertise in executive assets and luxury estates.',
+  description: "Navigate ultra-high net worth divorce with expertise in executive assets and luxury estates.",
   benefits: [
     'Waterfront estate valuations',
     'Executive compensation analysis',

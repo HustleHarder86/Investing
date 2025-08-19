@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Severance Package Planning Richmond Hill | Executive Support | ProsperBridge',
-  description: 'Expert severance planning for Richmond Hill professionals and executives. Navigate corporate restructuring and maximize packages from professional services.',
+  description: "Expert severance planning for Richmond Hill professionals and executives. Navigate corporate restructuring and maximize packages from professional services.",
   keywords: 'executive severance Richmond Hill, professional job loss planning, severance negotiation York',
 };
 
@@ -31,7 +31,7 @@ const richmondHillData = {
     'South Richvale',
     'Rouge Woods'
   ],
-  description: 'Richmond Hill\'s professional workforce often faces executive-level severances and corporate restructuring situations requiring sophisticated negotiation and financial planning strategies.'
+  description: "Richmond Hill's professional workforce often faces executive-level severances and corporate restructuring situations requiring sophisticated negotiation and financial planning strategies."
 };
 
 const severanceServiceData = {
@@ -40,7 +40,7 @@ const severanceServiceData = {
   icon: '💼',
   primaryColor: 'from-orange-600',
   secondaryColor: 'to-red-600',
-  description: 'Navigate executive transitions with sophisticated severance planning expertise.',
+  description: "Navigate executive transitions with sophisticated severance planning expertise.",
   benefits: [
     'Executive severance negotiation',
     'Golden parachute optimization',

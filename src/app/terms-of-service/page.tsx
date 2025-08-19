@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Terms of Service | ProsperBridge Financial Advisory',
-  description: 'Terms of service for ProsperBridge Financial Advisory. Our agreement for providing financial planning services.',
+  description: "Terms of service for ProsperBridge Financial Advisory. Our agreement for providing financial planning services.",
 };
 
 export default function TermsOfServicePage() {

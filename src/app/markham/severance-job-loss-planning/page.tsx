@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Severance Package Planning Markham | Tech Layoff Support | ProsperBridge',
-  description: 'Expert severance planning for Markham tech professionals. Navigate layoffs from IBM, AMD, and startups. Maximize packages and stock option considerations.',
+  description: "Expert severance planning for Markham tech professionals. Navigate layoffs from IBM, AMD, and startups. Maximize packages and stock option considerations.",
   keywords: 'tech severance Markham, tech layoff financial planning, IBM AMD severance York',
 };
 
@@ -31,7 +31,7 @@ const markhamData = {
     'Markham Centre',
     '404 Employment Corridor'
   ],
-  description: 'With major tech employers and numerous startups, Markham professionals face unique severance situations involving stock options, RSUs, and complex compensation packages requiring specialized planning.'
+  description: "With major tech employers and numerous startups, Markham professionals face unique severance situations involving stock options, RSUs, and complex compensation packages requiring specialized planning."
 };
 
 const severanceServiceData = {
@@ -40,7 +40,7 @@ const severanceServiceData = {
   icon: '💼',
   primaryColor: 'from-orange-600',
   secondaryColor: 'to-red-600',
-  description: 'Navigate tech sector transitions with specialized expertise for Markham professionals.',
+  description: "Navigate tech sector transitions with specialized expertise for Markham professionals.",
   benefits: [
     'Tech severance optimization',
     'Stock option acceleration',

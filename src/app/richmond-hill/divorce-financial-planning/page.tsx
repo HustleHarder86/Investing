@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning Richmond Hill | High Net Worth CFP® | ProsperBridge',
-  description: 'Expert divorce financial planning for Richmond Hill\'s affluent families. Specialized in complex assets, professional practices, and high-value estates.',
+  description: "Expert divorce financial planning for Richmond Hill's affluent families. Specialized in complex assets, professional practices, and high-value estates.",
   keywords: 'divorce financial planning Richmond Hill, high net worth divorce York Region, CFP® Richmond Hill',
 };
 
@@ -31,7 +31,7 @@ const richmondHillData = {
     'South Richvale',
     'Rouge Woods'
   ],
-  description: 'Richmond Hill\'s affluent professionals and established families often face complex divorces involving professional practices, investment portfolios, and luxury real estate requiring sophisticated financial analysis.'
+  description: "Richmond Hill's affluent professionals and established families often face complex divorces involving professional practices, investment portfolios, and luxury real estate requiring sophisticated financial analysis."
 };
 
 const divorceServiceData = {
@@ -40,7 +40,7 @@ const divorceServiceData = {
   icon: '💔',
   primaryColor: 'from-purple-600',
   secondaryColor: 'to-pink-600',
-  description: 'Navigate high net worth divorce with expertise in professional practices and complex assets.',
+  description: "Navigate high net worth divorce with expertise in professional practices and complex assets.",
   benefits: [
     'Professional practice valuation',
     'Medical/dental practice division',

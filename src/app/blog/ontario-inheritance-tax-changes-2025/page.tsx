@@ -3,7 +3,7 @@ import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
   title: '2025 Ontario Inheritance Tax Changes: Complete Guide | ProsperBridge',
-  description: 'Major updates to capital gains inclusion rates and estate planning strategies for 2025. Learn how to save thousands on inheritance taxes in Ontario.',
+  description: "Major updates to capital gains inclusion rates and estate planning strategies for 2025. Learn how to save thousands on inheritance taxes in Ontario.",
   keywords: 'Ontario inheritance tax 2025, capital gains inclusion rate, estate planning Ontario, probate fees 2025',
 };
 
@@ -37,7 +37,7 @@ const BlogContent = () => (
     
     <p className="mb-6">
       The most impactful change affects high-value estates, particularly those with significant capital 
-      property such as secondary homes, investment portfolios, and business assets. Here&apos;s what&apos;s changing:
+      property such as secondary homes, investment portfolios, and business assets. Here's what's changing:
     </p>
 
     <div className="bg-blue-50 border-l-4 border-blue-600 p-6 mb-8">
@@ -81,7 +81,7 @@ const BlogContent = () => (
     </h3>
     
     <p className="mb-4">
-      Non-registered investment accounts face similar challenges. Toronto professionals who&apos;ve built 
+      Non-registered investment accounts face similar challenges. Toronto professionals who've built 
       substantial portfolios outside their RRSPs and TFSAs need to consider the tax implications for 
       their beneficiaries.
     </p>
@@ -106,7 +106,7 @@ const BlogContent = () => (
     </h3>
     
     <p className="mb-4">
-      While federal tax changes grab headlines, Ontario&apos;s probate fees remain a significant cost. 
+      While federal tax changes grab headlines, Ontario's probate fees remain a significant cost. 
       Currently set at 1.5% on estates over $50,000, these fees can add thousands to the cost of 
       settling an estate.
     </p>
@@ -130,7 +130,7 @@ const BlogContent = () => (
     
     <p className="mb-6">
       GTA business owners should consider an estate freeze before the new rules fully impact their 
-      succession planning. This strategy locks in today&apos;s values and shifts future growth to the 
+      succession planning. This strategy locks in today's values and shifts future growth to the 
       next generation.
     </p>
 
@@ -252,7 +252,7 @@ const BlogContent = () => (
 
     <ol className="space-y-4 text-gray-700 mb-8">
       <li>
-        <strong>1. Focusing solely on tax minimization:</strong> While taxes matter, don&apos;t let the 
+        <strong>1. Focusing solely on tax minimization:</strong> While taxes matter, don't let the 
         tax tail wag the dog. Family harmony and clear succession planning often matter more than 
         saving the last tax dollar.
       </li>
@@ -272,7 +272,7 @@ const BlogContent = () => (
     </ol>
 
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
-      Conclusion: Protecting Your Family&apos;s Legacy
+      Conclusion: Protecting Your Family's Legacy
     </h2>
 
     <p className="mb-6">
@@ -290,8 +290,8 @@ const BlogContent = () => (
     <div className="bg-blue-50 border-l-4 border-blue-600 p-6 mb-8">
       <h3 className="font-bold text-gray-900 mb-3">💬 Ready to Protect Your Estate?</h3>
       <p className="text-gray-700 mb-4">
-        Don&apos;t wait until it&apos;s too late. The new tax rules make early planning essential for 
-        preserving your family&apos;s wealth. Our Certified Financial Planners specialize in navigating 
+        Don't wait until it's too late. The new tax rules make early planning essential for 
+        preserving your family's wealth. Our Certified Financial Planners specialize in navigating 
         these complex changes for Ontario families.
       </p>
       <p className="text-gray-700">

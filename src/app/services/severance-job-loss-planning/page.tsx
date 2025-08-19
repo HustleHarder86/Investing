@@ -4,11 +4,11 @@ import ContactForm from '@/components/forms/ContactForm';
 
 export const metadata: Metadata = {
   title: 'Severance Financial Planning Toronto 2025 | Maximize Your Package | ProsperBridge',
-  description: 'Expert severance and job transition financial planning in the GTA. Maximize your severance package, optimize taxes, manage benefits continuation, and plan your career pivot.',
+  description: "Expert severance and job transition financial planning in the GTA. Maximize your severance package, optimize taxes, manage benefits continuation, and plan your career pivot.",
   keywords: 'severance package planning, job loss financial planning, career transition, EI optimization, RRSP strategies, severance negotiation, Toronto layoffs 2025',
   openGraph: {
     title: 'Severance & Job Transition Planning Toronto 2025 | ProsperBridge',
-    description: 'Secure your financial future during career transitions with expert severance optimization and planning.',
+    description: "Secure your financial future during career transitions with expert severance optimization and planning.",
     type: 'website',
   }
 };
@@ -119,32 +119,32 @@ export default function SeveranceJobLossPlanningPage() {
               {
                 icon: '💰',
                 title: 'Severance Optimization',
-                description: 'Maximize your package through negotiation strategies and tax-efficient structuring to get the best possible outcome.'
+                description: "Maximize your package through negotiation strategies and tax-efficient structuring to get the best possible outcome."
               },
               {
                 icon: '📊',
                 title: 'Tax Planning',
-                description: 'Minimize tax impact using RRSP contributions, income splitting, and retirement allowance transfers.'
+                description: "Minimize tax impact using RRSP contributions, income splitting, and retirement allowance transfers."
               },
               {
                 icon: '🏥',
                 title: 'Benefits Continuation',
-                description: 'Navigate health, dental, and insurance coverage options during transition including private plans.'
+                description: "Navigate health, dental, and insurance coverage options during transition including private plans."
               },
               {
                 icon: '📈',
                 title: 'Investment Strategy',
-                description: 'Create a sustainable investment plan for your severance funds to generate income during job search.'
+                description: "Create a sustainable investment plan for your severance funds to generate income during job search."
               },
               {
                 icon: '🎯',
                 title: 'EI Optimization',
-                description: 'Maximize Employment Insurance benefits while coordinating with severance payments and other income.'
+                description: "Maximize Employment Insurance benefits while coordinating with severance payments and other income."
               },
               {
                 icon: '🚀',
                 title: 'Career Pivot Planning',
-                description: 'Financial strategies for career changes, retraining, consulting, or starting your own business.'
+                description: "Financial strategies for career changes, retraining, consulting, or starting your own business."
               }
             ].map((service, index) => (
               <div key={index} className="bg-slate-50 rounded-2xl p-8 hover:shadow-lg transition-all duration-300">
@@ -166,7 +166,7 @@ export default function SeveranceJobLossPlanningPage() {
                 <span className="text-slate-700">2025 Employment Landscape</span>
               </div>
               <h2 className="text-4xl font-display font-bold text-slate-900 mb-6">
-                Navigating Job Loss in 2025&apos;s Economy
+                Navigating Job Loss in 2025's Economy
               </h2>
               <p className="text-xl text-slate-600">
                 Strategic planning for tech layoffs and economic uncertainty
@@ -246,7 +246,7 @@ export default function SeveranceJobLossPlanningPage() {
             {[
               {
                 question: "How much severance should I expect in Ontario?",
-                answer: "Ontario&apos;s Employment Standards Act provides minimums, but common law often entitles you to more. Factors include length of service, age, position, and re-employment prospects. Most employees receive 2-24 months depending on circumstances."
+                answer: "Ontario's Employment Standards Act provides minimums, but common law often entitles you to more. Factors include length of service, age, position, and re-employment prospects. Most employees receive 2-24 months depending on circumstances."
               },
               {
                 question: "Should I take a lump sum or salary continuance?",
@@ -283,7 +283,7 @@ export default function SeveranceJobLossPlanningPage() {
                 Get Your Free Severance Package Review
               </h2>
               <p className="text-xl text-slate-600 mb-8">
-                Don&apos;t sign anything until you understand your options. Our experts review your package, identify opportunities, and create a strategic plan for your transition.
+                Don't sign anything until you understand your options. Our experts review your package, identify opportunities, and create a strategic plan for your transition.
               </p>
               
               <div className="space-y-4 mb-8">

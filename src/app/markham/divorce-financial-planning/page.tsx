@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning Markham | Tech Professional CFP® | ProsperBridge',
-  description: 'Expert divorce financial planning for Markham tech professionals and entrepreneurs. Specialized in stock options, RSUs, and startup equity division.',
+  description: "Expert divorce financial planning for Markham tech professionals and entrepreneurs. Specialized in stock options, RSUs, and startup equity division.",
   keywords: 'divorce financial planning Markham, tech divorce advisor, CFP® Markham York Region',
 };
 
@@ -31,7 +31,7 @@ const markhamData = {
     'Thornhill',
     'Wismer Commons'
   ],
-  description: 'As Canada\'s high-tech capital with affluent professionals and entrepreneurs, Markham divorces often involve complex tech equity, stock options, and international assets requiring sophisticated financial planning.'
+  description: "As Canada's high-tech capital with affluent professionals and entrepreneurs, Markham divorces often involve complex tech equity, stock options, and international assets requiring sophisticated financial planning."
 };
 
 const divorceServiceData = {
@@ -40,7 +40,7 @@ const divorceServiceData = {
   icon: '💔',
   primaryColor: 'from-purple-600',
   secondaryColor: 'to-pink-600',
-  description: 'Navigate high-net-worth divorce with tech equity and international asset expertise.',
+  description: "Navigate high-net-worth divorce with tech equity and international asset expertise.",
   benefits: [
     'Tech stock option division',
     'RSU and equity planning',

@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Severance Package Planning Pickering | OPG Worker Support | ProsperBridge',
-  description: 'Expert severance planning for Pickering Nuclear Station workers. Navigate refurbishment layoffs, contractor transitions, and maximize OPG separation packages.',
+  description: "Expert severance planning for Pickering Nuclear Station workers. Navigate refurbishment layoffs, contractor transitions, and maximize OPG separation packages.",
   keywords: 'severance Pickering Nuclear, OPG layoffs, nuclear worker severance Durham',
 };
 
@@ -31,7 +31,7 @@ const pickeringData = {
     'Brock Ridge',
     'Amberlea'
   ],
-  description: 'Pickering Nuclear Station\'s ongoing refurbishment and eventual decommissioning creates unique severance scenarios for thousands of workers requiring specialized transition planning and benefit optimization.'
+  description: "Pickering Nuclear Station's ongoing refurbishment and eventual decommissioning creates unique severance scenarios for thousands of workers requiring specialized transition planning and benefit optimization."
 };
 
 const severanceServiceData = {
@@ -40,7 +40,7 @@ const severanceServiceData = {
   icon: '💼',
   primaryColor: 'from-orange-600',
   secondaryColor: 'to-red-600',
-  description: 'Specialized severance support for nuclear industry transitions and refurbishments.',
+  description: "Specialized severance support for nuclear industry transitions and refurbishments.",
   benefits: [
     'Nuclear refurbishment packages',
     'OPG severance maximization',

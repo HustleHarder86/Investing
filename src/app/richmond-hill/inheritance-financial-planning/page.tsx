@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Inheritance Tax Planning Richmond Hill | Wealth Preservation | ProsperBridge',
-  description: 'Expert estate planning for Richmond Hill\'s wealthy families. Minimize taxes on professional practices, investment portfolios, and luxury properties.',
+  description: "Expert estate planning for Richmond Hill's wealthy families. Minimize taxes on professional practices, investment portfolios, and luxury properties.",
   keywords: 'inheritance tax planning Richmond Hill, estate planning affluent families, wealth preservation York',
 };
 
@@ -31,7 +31,7 @@ const richmondHillData = {
     'South Richvale',
     'Rouge Woods'
   ],
-  description: 'Richmond Hill\'s wealthy families often have sophisticated estates including professional practices, multiple properties, and significant investment portfolios requiring advanced tax planning strategies.'
+  description: "Richmond Hill's wealthy families often have sophisticated estates including professional practices, multiple properties, and significant investment portfolios requiring advanced tax planning strategies."
 };
 
 const inheritanceServiceData = {
@@ -40,7 +40,7 @@ const inheritanceServiceData = {
   icon: '🏛️',
   primaryColor: 'from-green-600',
   secondaryColor: 'to-teal-600',
-  description: 'Sophisticated estate planning for Richmond Hill\'s affluent families and professionals.',
+  description: "Sophisticated estate planning for Richmond Hill's affluent families and professionals.",
   benefits: [
     'Professional practice succession',
     'Medical/dental practice transfers',

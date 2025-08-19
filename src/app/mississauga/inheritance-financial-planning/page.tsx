@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Inheritance Tax Planning Mississauga | Estate Planning | ProsperBridge',
-  description: 'Expert inheritance and estate planning in Mississauga. Minimize taxes, reduce probate fees. Serving all Mississauga neighborhoods from our local office.',
+  description: "Expert inheritance and estate planning in Mississauga. Minimize taxes, reduce probate fees. Serving all Mississauga neighborhoods from our local office.",
   keywords: 'inheritance tax planning Mississauga, estate planning Mississauga, probate fees Mississauga',
 };
 
@@ -31,7 +31,7 @@ const mississaugaData = {
     'Cooksville',
     'Churchill Meadows'
   ],
-  description: 'Mississauga&apos;s diverse and affluent communities require sophisticated estate planning to protect multi-generational wealth.'
+  description: "Mississauga's diverse and affluent communities require sophisticated estate planning to protect multi-generational wealth."
 };
 
 const inheritanceServiceData = {
@@ -40,7 +40,7 @@ const inheritanceServiceData = {
   icon: '🏛️',
   primaryColor: 'from-green-600',
   secondaryColor: 'to-teal-600',
-  description: 'Strategic estate planning for Mississauga families to preserve wealth.',
+  description: "Strategic estate planning for Mississauga families to preserve wealth.",
   benefits: [
     'Estate tax minimization strategies',
     'Probate fee reduction planning',

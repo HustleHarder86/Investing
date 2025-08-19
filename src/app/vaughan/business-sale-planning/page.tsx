@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Business Sale Planning Vaughan | Construction M&A Experts | ProsperBridge',
-  description: 'Strategic business sale planning for Vaughan construction companies and family businesses. Expert M&A advisory for contractors, developers, and trades.',
+  description: "Strategic business sale planning for Vaughan construction companies and family businesses. Expert M&A advisory for contractors, developers, and trades.",
   keywords: 'business sale planning Vaughan, construction company sale, contractor M&A York Region',
 };
 
@@ -31,7 +31,7 @@ const vaughanData = {
     'Bowes Business Area',
     'Concord Business District'
   ],
-  description: 'Vaughan\'s thriving construction industry and family-owned businesses create unique M&A opportunities, from general contractors to specialized trades seeking succession or strategic exits.'
+  description: "Vaughan's thriving construction industry and family-owned businesses create unique M&A opportunities, from general contractors to specialized trades seeking succession or strategic exits."
 };
 
 const businessServiceData = {
@@ -40,7 +40,7 @@ const businessServiceData = {
   icon: '🏢',
   primaryColor: 'from-blue-600',
   secondaryColor: 'to-indigo-600',
-  description: 'Expert M&A guidance for Vaughan\'s construction companies and family enterprises.',
+  description: "Expert M&A guidance for Vaughan's construction companies and family enterprises.",
   benefits: [
     'Construction company valuations',
     'General contractor sales',

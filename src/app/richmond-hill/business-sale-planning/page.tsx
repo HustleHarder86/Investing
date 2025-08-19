@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Business Sale Planning Richmond Hill | Professional Practice Sales | ProsperBridge',
-  description: 'Strategic sale planning for Richmond Hill professional practices and businesses. Expert M&A for medical, dental, and professional service firms.',
+  description: "Strategic sale planning for Richmond Hill professional practices and businesses. Expert M&A for medical, dental, and professional service firms.",
   keywords: 'professional practice sale Richmond Hill, medical practice M&A, business sale planning York',
 };
 
@@ -31,7 +31,7 @@ const richmondHillData = {
     'Yonge Corridor',
     'Highway 7 Business District'
   ],
-  description: 'Richmond Hill\'s concentration of medical professionals and service businesses creates unique M&A opportunities, from dental practices to specialized healthcare clinics seeking strategic buyers.'
+  description: "Richmond Hill's concentration of medical professionals and service businesses creates unique M&A opportunities, from dental practices to specialized healthcare clinics seeking strategic buyers."
 };
 
 const businessServiceData = {
@@ -40,7 +40,7 @@ const businessServiceData = {
   icon: '🏢',
   primaryColor: 'from-blue-600',
   secondaryColor: 'to-indigo-600',
-  description: 'Expert M&A guidance for Richmond Hill\'s professional practices and service businesses.',
+  description: "Expert M&A guidance for Richmond Hill's professional practices and service businesses.",
   benefits: [
     'Medical practice valuations',
     'Dental practice sales',

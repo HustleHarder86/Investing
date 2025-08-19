@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Severance Package Planning Burlington | Pre-Retirement Transitions | ProsperBridge',
-  description: 'Expert severance planning for Burlington professionals and pre-retirees. Navigate early retirement packages and career transitions in Halton Region.',
+  description: "Expert severance planning for Burlington professionals and pre-retirees. Navigate early retirement packages and career transitions in Halton Region.",
   keywords: 'severance package Burlington, early retirement planning, job loss pre-retirement Halton',
 };
 
@@ -31,7 +31,7 @@ const burlingtonData = {
     'Brant Hills',
     'Orchard'
   ],
-  description: 'Burlington\'s mature workforce often faces early retirement packages and pre-retirement severances, requiring careful planning to bridge the gap to full retirement benefits.'
+  description: "Burlington's mature workforce often faces early retirement packages and pre-retirement severances, requiring careful planning to bridge the gap to full retirement benefits."
 };
 
 const severanceServiceData = {
@@ -40,7 +40,7 @@ const severanceServiceData = {
   icon: '💼',
   primaryColor: 'from-orange-600',
   secondaryColor: 'to-red-600',
-  description: 'Navigate pre-retirement transitions with specialized severance planning expertise.',
+  description: "Navigate pre-retirement transitions with specialized severance planning expertise.",
   benefits: [
     'Early retirement packages',
     'Bridge to retirement planning',

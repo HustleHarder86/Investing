@@ -3,11 +3,11 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Inheritance Tax Planning Toronto | Estate Planning Experts | ProsperBridge',
-  description: 'Expert inheritance and estate planning in Toronto. Minimize taxes, reduce probate fees, maximize beneficiary inheritance. Serving all Toronto neighborhoods.',
+  description: "Expert inheritance and estate planning in Toronto. Minimize taxes, reduce probate fees, maximize beneficiary inheritance. Serving all Toronto neighborhoods.",
   keywords: 'inheritance tax planning Toronto, estate planning Toronto, probate fees Toronto, will planning Toronto, trust planning Toronto',
   openGraph: {
     title: 'Inheritance Financial Planning Toronto | ProsperBridge',
-    description: 'Minimize estate taxes and maximize inheritance for Toronto families. Free consultation.',
+    description: "Minimize estate taxes and maximize inheritance for Toronto families. Free consultation.",
     type: 'website',
   }
 };
@@ -36,7 +36,7 @@ const torontoData = {
     'Yorkville',
     'Casa Loma'
   ],
-  description: 'Toronto&apos;s high property values and diverse population require sophisticated estate planning strategies to protect wealth across generations.'
+  description: "Toronto's high property values and diverse population require sophisticated estate planning strategies to protect wealth across generations."
 };
 
 const inheritanceServiceData = {
@@ -45,7 +45,7 @@ const inheritanceServiceData = {
   icon: '🏛️',
   primaryColor: 'from-green-600',
   secondaryColor: 'to-teal-600',
-  description: 'Strategic estate planning to minimize taxes and maximize what your beneficiaries receive.',
+  description: "Strategic estate planning to minimize taxes and maximize what your beneficiaries receive.",
   benefits: [
     'Estate tax minimization strategies',
     'Probate fee reduction planning',

@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Severance Package Planning Vaughan | Construction Worker Support | ProsperBridge',
-  description: 'Expert severance planning for Vaughan construction workers and trades. Navigate layoffs, maximize packages, and plan career transitions in York Region.',
+  description: "Expert severance planning for Vaughan construction workers and trades. Navigate layoffs, maximize packages, and plan career transitions in York Region.",
   keywords: 'severance package Vaughan, construction layoffs, job loss planning York Region',
 };
 
@@ -31,7 +31,7 @@ const vaughanData = {
     'Elder Mills',
     'Block 27'
   ],
-  description: 'Vaughan\'s construction industry cycles and seasonal employment patterns create unique severance situations, particularly for trades workers and contractors facing project completions or economic downturns.'
+  description: "Vaughan's construction industry cycles and seasonal employment patterns create unique severance situations, particularly for trades workers and contractors facing project completions or economic downturns."
 };
 
 const severanceServiceData = {
@@ -40,7 +40,7 @@ const severanceServiceData = {
   icon: '💼',
   primaryColor: 'from-orange-600',
   secondaryColor: 'to-red-600',
-  description: 'Specialized support for Vaughan\'s construction workers and skilled trades.',
+  description: "Specialized support for Vaughan's construction workers and skilled trades.",
   benefits: [
     'Construction severance expertise',
     'Seasonal layoff planning',

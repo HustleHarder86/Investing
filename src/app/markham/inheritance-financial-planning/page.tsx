@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Inheritance Tax Planning Markham | High Net Worth Estate | ProsperBridge',
-  description: 'Expert estate planning for Markham\'s affluent families. Minimize taxes on tech wealth, real estate portfolios, and international assets. York Region expertise.',
+  description: "Expert estate planning for Markham's affluent families. Minimize taxes on tech wealth, real estate portfolios, and international assets. York Region expertise.",
   keywords: 'inheritance tax planning Markham, estate planning Markham tech, high net worth York Region',
 };
 
@@ -31,7 +31,7 @@ const markhamData = {
     'Thornhill',
     'Wismer Commons'
   ],
-  description: 'Markham\'s tech wealth and substantial real estate holdings create complex estate planning needs, particularly for multi-generational Chinese-Canadian families with international assets.'
+  description: "Markham's tech wealth and substantial real estate holdings create complex estate planning needs, particularly for multi-generational Chinese-Canadian families with international assets."
 };
 
 const inheritanceServiceData = {
@@ -40,7 +40,7 @@ const inheritanceServiceData = {
   icon: '🏛️',
   primaryColor: 'from-green-600',
   secondaryColor: 'to-teal-600',
-  description: 'Sophisticated estate planning for Markham\'s tech executives and entrepreneurs.',
+  description: "Sophisticated estate planning for Markham's tech executives and entrepreneurs.",
   benefits: [
     'Tech equity estate planning',
     'Stock option transfers',

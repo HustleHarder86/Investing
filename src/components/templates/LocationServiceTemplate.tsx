@@ -183,7 +183,7 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
               Our {service.name} Process in {city.name}
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              A proven approach tailored to {city.name} residents&apos; unique needs
+              A proven approach tailored to {city.name} residents' unique needs
             </p>
           </div>
 
@@ -234,7 +234,7 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
             </div>
             <blockquote className="text-2xl text-slate-700 text-center mb-8 italic">
               &ldquo;ProsperBridge helped me navigate my {service.name.toLowerCase()} with expertise and compassion. 
-              Their knowledge of {city.name}&apos;s specific regulations was invaluable.&rdquo;
+              Their knowledge of {city.name}'s specific regulations was invaluable.&rdquo;
             </blockquote>
             <div className="text-center">
               <div className="font-semibold text-slate-900">M. Thompson</div>
@@ -253,8 +253,8 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
                 Get Started with {service.name} in {city.name}
               </h2>
               <p className="text-xl text-slate-600 mb-8">
-                Schedule your free consultation today. We&apos;re here to help {city.name} residents achieve 
-                financial peace of mind during life&apos;s transitions.
+                Schedule your free consultation today. We're here to help {city.name} residents achieve 
+                financial peace of mind during life's transitions.
               </p>
               
               <div className="bg-slate-50 rounded-2xl p-6 mb-8">

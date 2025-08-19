@@ -64,7 +64,7 @@ export default function ServiceCard({ service, city }: ServiceCardProps) {
         
         {/* Enhanced benefits section */}
         <div className="mb-8">
-          <h4 className="text-lg font-display font-semibold text-navy-900 mb-4">What You&apos;ll Get:</h4>
+          <h4 className="text-lg font-display font-semibold text-navy-900 mb-4">What You'll Get:</h4>
           <div className="space-y-3">
             {service.benefits.slice(0, 3).map((benefit, index) => (
               <div key={index} className="flex items-start group/benefit">

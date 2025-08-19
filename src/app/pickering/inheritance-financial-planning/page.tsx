@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Inheritance Tax Planning Pickering | OPG Estate Planning | ProsperBridge',
-  description: 'Expert estate planning for Pickering nuclear families. Maximize OPG pensions, navigate survivor benefits, and protect high-value estates in Durham Region.',
+  description: "Expert estate planning for Pickering nuclear families. Maximize OPG pensions, navigate survivor benefits, and protect high-value estates in Durham Region.",
   keywords: 'inheritance planning Pickering, OPG estate planning, nuclear worker succession Durham',
 };
 
@@ -14,7 +14,7 @@ const pickeringData = {
   region: 'Durham Region',
   landmarks: [
     'Pickering Nuclear Station',
-    'Frenchman\'s Bay Harbour',
+    "Frenchman's Bay Harbour",
     'Petticoat Creek Conservation',
     'Pickering Recreation Complex',
     'Esplanade Park'
@@ -31,7 +31,7 @@ const pickeringData = {
     'Brock Ridge',
     'Amberlea'
   ],
-  description: 'Pickering\'s nuclear workforce has built substantial estates through decades of OPG employment, creating complex succession needs for specialized pensions, survivor benefits, and waterfront properties.'
+  description: "Pickering's nuclear workforce has built substantial estates through decades of OPG employment, creating complex succession needs for specialized pensions, survivor benefits, and waterfront properties."
 };
 
 const inheritanceServiceData = {
@@ -40,7 +40,7 @@ const inheritanceServiceData = {
   icon: '🏛️',
   primaryColor: 'from-green-600',
   secondaryColor: 'to-teal-600',
-  description: 'Sophisticated estate planning for nuclear industry families and retirees.',
+  description: "Sophisticated estate planning for nuclear industry families and retirees.",
   benefits: [
     'OPG pension succession',
     'Nuclear survivor benefits',

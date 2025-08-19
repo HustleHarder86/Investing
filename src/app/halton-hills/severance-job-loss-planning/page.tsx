@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Severance Package Planning Halton Hills | Manufacturing Worker Support | ProsperBridge',
-  description: 'Expert severance planning for Halton Hills manufacturing workers. Navigate factory closures and maximize packages in Georgetown and Acton.',
+  description: "Expert severance planning for Halton Hills manufacturing workers. Navigate factory closures and maximize packages in Georgetown and Acton.",
   keywords: 'severance Halton Hills, manufacturing layoffs Georgetown, job loss Acton',
 };
 
@@ -31,7 +31,7 @@ const haltonHillsData = {
     'Silver Creek',
     'Bannockburn'
   ],
-  description: 'Halton Hills\' manufacturing sector faces ongoing restructuring with factory closures and modernization affecting workers in Georgetown and Acton requiring severance support.'
+  description: "Halton Hills' manufacturing sector faces ongoing restructuring with factory closures and modernization affecting workers in Georgetown and Acton requiring severance support."
 };
 
 const severanceServiceData = {
@@ -40,7 +40,7 @@ const severanceServiceData = {
   icon: '💼',
   primaryColor: 'from-orange-600',
   secondaryColor: 'to-red-600',
-  description: 'Specialized severance support for manufacturing workers and local professionals.',
+  description: "Specialized severance support for manufacturing workers and local professionals.",
   benefits: [
     'Manufacturing severance packages',
     'Factory closure support',

@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Severance Package Planning Brampton | Job Loss Support | ProsperBridge',
-  description: 'Expert severance and job transition planning for Brampton workers. Maximize packages from logistics, manufacturing, and retail sectors. Local Peel Region expertise.',
+  description: "Expert severance and job transition planning for Brampton workers. Maximize packages from logistics, manufacturing, and retail sectors. Local Peel Region expertise.",
   keywords: 'severance package Brampton, job loss financial planning Brampton, career transition Peel',
 };
 
@@ -31,7 +31,7 @@ const bramptonData = {
     'Torbram Industrial',
     'Chrysler Drive Business Park'
   ],
-  description: 'With major distribution centers and manufacturing facilities, Brampton workers face unique severance situations requiring specialized planning for warehouse, logistics, and industrial transitions.'
+  description: "With major distribution centers and manufacturing facilities, Brampton workers face unique severance situations requiring specialized planning for warehouse, logistics, and industrial transitions."
 };
 
 const severanceServiceData = {
@@ -40,7 +40,7 @@ const severanceServiceData = {
   icon: '💼',
   primaryColor: 'from-orange-600',
   secondaryColor: 'to-red-600',
-  description: 'Navigate job transitions with specialized support for Brampton\'s industrial workforce.',
+  description: "Navigate job transitions with specialized support for Brampton's industrial workforce.",
   benefits: [
     'Warehouse worker severance planning',
     'Manufacturing sector expertise',

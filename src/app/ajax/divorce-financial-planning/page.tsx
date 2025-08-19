@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning Ajax | Durham Region CFP® | ProsperBridge',
-  description: 'Expert divorce financial planning for Ajax families. Specialized support for nuclear industry professionals and Durham Region commuters.',
+  description: "Expert divorce financial planning for Ajax families. Specialized support for nuclear industry professionals and Durham Region commuters.",
   keywords: 'divorce financial planning Ajax, CFP® Durham Region, separation advisor Ajax',
 };
 
@@ -17,7 +17,7 @@ const ajaxData = {
     'Pickering Nuclear Generating Station',
     'Ajax Downs',
     'Greenwood Conservation Area',
-    'Veterans\' Point Gardens'
+    "Veterans' Point Gardens"
   ],
   neighborhoods: [
     'Downtown Ajax',
@@ -31,7 +31,7 @@ const ajaxData = {
     'Nottingham',
     'Carruthers Creek'
   ],
-  description: 'Ajax\'s nuclear industry professionals and Toronto commuters face unique divorce challenges involving specialized pensions, shift work considerations, and dual-income household divisions.'
+  description: "Ajax's nuclear industry professionals and Toronto commuters face unique divorce challenges involving specialized pensions, shift work considerations, and dual-income household divisions."
 };
 
 const divorceServiceData = {
@@ -40,7 +40,7 @@ const divorceServiceData = {
   icon: '💔',
   primaryColor: 'from-purple-600',
   secondaryColor: 'to-pink-600',
-  description: 'Navigate divorce with expertise in nuclear industry benefits and commuter lifestyles.',
+  description: "Navigate divorce with expertise in nuclear industry benefits and commuter lifestyles.",
   benefits: [
     'Nuclear industry pension division',
     'OPG benefit considerations',

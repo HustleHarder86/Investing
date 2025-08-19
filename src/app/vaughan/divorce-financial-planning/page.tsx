@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning Vaughan | Italian Community Expert | ProsperBridge',
-  description: 'Expert divorce financial planning in Vaughan. Specialized support for business owners and construction industry families. CFP® certified.',
+  description: "Expert divorce financial planning in Vaughan. Specialized support for business owners and construction industry families. CFP® certified.",
   keywords: 'divorce financial planning Vaughan, CFP® Vaughan, separation advisor York Region',
 };
 
@@ -14,7 +14,7 @@ const vaughanData = {
   region: 'York Region',
   landmarks: [
     'Vaughan Mills',
-    'Canada\'s Wonderland',
+    "Canada's Wonderland",
     'Vaughan City Hall',
     'Kortright Centre',
     'McMichael Canadian Art Collection'
@@ -31,7 +31,7 @@ const vaughanData = {
     'Elder Mills',
     'Block 27'
   ],
-  description: 'Vaughan\'s strong Italian-Canadian community and construction industry create unique divorce situations involving family businesses, real estate holdings, and complex asset structures.'
+  description: "Vaughan's strong Italian-Canadian community and construction industry create unique divorce situations involving family businesses, real estate holdings, and complex asset structures."
 };
 
 const divorceServiceData = {
@@ -40,7 +40,7 @@ const divorceServiceData = {
   icon: '💔',
   primaryColor: 'from-purple-600',
   secondaryColor: 'to-pink-600',
-  description: 'Navigate divorce with expertise in family businesses and construction industry assets.',
+  description: "Navigate divorce with expertise in family businesses and construction industry assets.",
   benefits: [
     'Construction business division',
     'Family business valuation',

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | ProsperBridge Financial Advisory',
-  description: 'Privacy policy for ProsperBridge Financial Advisory. Learn how we collect, use, and protect your personal information.',
+  description: "Privacy policy for ProsperBridge Financial Advisory. Learn how we collect, use, and protect your personal information.",
 };
 
 export default function PrivacyPolicyPage() {

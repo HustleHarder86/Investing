@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Business Sale Planning Caledon | Aggregate & Trucking M&A | ProsperBridge',
-  description: 'Strategic business sale planning for Caledon aggregate operations and trucking companies. Expert M&A for quarries, logistics, and rural businesses.',
+  description: "Strategic business sale planning for Caledon aggregate operations and trucking companies. Expert M&A for quarries, logistics, and rural businesses.",
   keywords: 'business sale Caledon, aggregate business M&A, trucking company sale Bolton',
 };
 
@@ -31,7 +31,7 @@ const caledonData = {
     'Rural Commercial Zones',
     'Aggregate Operations Areas'
   ],
-  description: 'Caledon\'s aggregate industry, trucking companies, and Bolton\'s growing businesses create unique M&A opportunities in resource extraction, logistics, and rural services.'
+  description: "Caledon's aggregate industry, trucking companies, and Bolton's growing businesses create unique M&A opportunities in resource extraction, logistics, and rural services."
 };
 
 const businessServiceData = {
@@ -40,7 +40,7 @@ const businessServiceData = {
   icon: '🏢',
   primaryColor: 'from-blue-600',
   secondaryColor: 'to-indigo-600',
-  description: 'Expert M&A for aggregate operations, trucking companies, and rural businesses.',
+  description: "Expert M&A for aggregate operations, trucking companies, and rural businesses.",
   benefits: [
     'Aggregate quarry sales',
     'Trucking company valuations',

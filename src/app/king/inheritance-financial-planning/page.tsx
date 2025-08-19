@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Inheritance Tax Planning King Township | Ultra Wealthy Estate Planning | ProsperBridge',
-  description: 'Expert estate planning for King Township\'s ultra-wealthy families. Protect estates, equestrian operations, and family dynasties.',
+  description: "Expert estate planning for King Township's ultra-wealthy families. Protect estates, equestrian operations, and family dynasties.",
   keywords: 'estate planning King Township, ultra wealthy inheritance, equestrian estate planning',
 };
 
@@ -31,7 +31,7 @@ const kingData = {
     'Snowball',
     'Strange'
   ],
-  description: 'King Township\'s ultra-wealthy families own vast estates, equestrian facilities, and agricultural operations requiring sophisticated succession planning to preserve dynastic wealth.'
+  description: "King Township's ultra-wealthy families own vast estates, equestrian facilities, and agricultural operations requiring sophisticated succession planning to preserve dynastic wealth."
 };
 
 const inheritanceServiceData = {
@@ -40,7 +40,7 @@ const inheritanceServiceData = {
   icon: '🏛️',
   primaryColor: 'from-green-600',
   secondaryColor: 'to-teal-600',
-  description: 'Dynasty planning for King Township\'s wealthiest families and estates.',
+  description: "Dynasty planning for King Township's wealthiest families and estates.",
   benefits: [
     'Dynasty trust planning',
     'Equestrian operation succession',

@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Severance Package Planning Aurora | Executive Severance Support | ProsperBridge',
-  description: 'Expert severance planning for Aurora executives and professionals. Navigate corporate restructuring and maximize high-value separation packages.',
+  description: "Expert severance planning for Aurora executives and professionals. Navigate corporate restructuring and maximize high-value separation packages.",
   keywords: 'executive severance Aurora, job loss planning York Region, golden parachute Aurora',
 };
 
@@ -31,7 +31,7 @@ const auroraData = {
     'Town Park',
     'Wellington Village'
   ],
-  description: 'Aurora\'s executive workforce faces high-stakes severance scenarios involving substantial packages, equity compensation, and non-compete agreements requiring sophisticated negotiation strategies.'
+  description: "Aurora's executive workforce faces high-stakes severance scenarios involving substantial packages, equity compensation, and non-compete agreements requiring sophisticated negotiation strategies."
 };
 
 const severanceServiceData = {
@@ -40,7 +40,7 @@ const severanceServiceData = {
   icon: '💼',
   primaryColor: 'from-orange-600',
   secondaryColor: 'to-red-600',
-  description: 'Executive-level severance support for Aurora\'s senior professionals.',
+  description: "Executive-level severance support for Aurora's senior professionals.",
   benefits: [
     'Executive package negotiation',
     'Golden parachute optimization',

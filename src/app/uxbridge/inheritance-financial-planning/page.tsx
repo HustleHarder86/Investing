@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Inheritance Tax Planning Uxbridge | Rural Estate Planning Durham | ProsperBridge',
-  description: 'Expert estate planning for Uxbridge families. Protect horse farms, rural estates, and heritage properties for next generation.',
+  description: "Expert estate planning for Uxbridge families. Protect horse farms, rural estates, and heritage properties for next generation.",
   keywords: 'inheritance planning Uxbridge, rural estate Durham, horse farm succession',
 };
 
@@ -31,7 +31,7 @@ const uxbridgeData = {
     'Glen Major',
     'Coppins Corners'
   ],
-  description: 'Uxbridge families often own significant rural acreage, equestrian facilities, and heritage properties requiring sophisticated estate planning to preserve agricultural use and family legacy.'
+  description: "Uxbridge families often own significant rural acreage, equestrian facilities, and heritage properties requiring sophisticated estate planning to preserve agricultural use and family legacy."
 };
 
 const inheritanceServiceData = {
@@ -40,7 +40,7 @@ const inheritanceServiceData = {
   icon: '🏛️',
   primaryColor: 'from-green-600',
   secondaryColor: 'to-teal-600',
-  description: 'Strategic estate planning for rural properties and equestrian operations.',
+  description: "Strategic estate planning for rural properties and equestrian operations.",
   benefits: [
     'Horse farm succession',
     'Rural estate preservation',

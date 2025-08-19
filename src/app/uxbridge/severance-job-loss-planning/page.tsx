@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Severance Package Planning Uxbridge | Rural Worker Support | ProsperBridge',
-  description: 'Expert severance planning for Uxbridge agricultural and equestrian workers. Navigate seasonal employment and maximize rural industry packages.',
+  description: "Expert severance planning for Uxbridge agricultural and equestrian workers. Navigate seasonal employment and maximize rural industry packages.",
   keywords: 'severance Uxbridge, agricultural worker layoffs, equestrian job loss Durham',
 };
 
@@ -31,7 +31,7 @@ const uxbridgeData = {
     'Glen Major',
     'Coppins Corners'
   ],
-  description: 'Uxbridge\'s agricultural and equestrian sectors face seasonal employment patterns with farm workers, stable hands, and trail operators requiring specialized severance support.'
+  description: "Uxbridge's agricultural and equestrian sectors face seasonal employment patterns with farm workers, stable hands, and trail operators requiring specialized severance support."
 };
 
 const severanceServiceData = {
@@ -40,7 +40,7 @@ const severanceServiceData = {
   icon: '💼',
   primaryColor: 'from-orange-600',
   secondaryColor: 'to-red-600',
-  description: 'Specialized severance support for agricultural and equestrian workers.',
+  description: "Specialized severance support for agricultural and equestrian workers.",
   benefits: [
     'Agricultural worker packages',
     'Equestrian staff severance',

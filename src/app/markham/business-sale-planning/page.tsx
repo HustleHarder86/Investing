@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Business Sale Planning Markham | Tech Startup Exit Strategy | ProsperBridge',
-  description: 'Strategic exit planning for Markham tech companies and startups. Expert M&A advisory for software, SaaS, and technology businesses in York Region.',
+  description: "Strategic exit planning for Markham tech companies and startups. Expert M&A advisory for software, SaaS, and technology businesses in York Region.",
   keywords: 'tech startup sale Markham, business exit planning Markham, M&A advisor tech York',
 };
 
@@ -31,7 +31,7 @@ const markhamData = {
     'Kennedy Commerce Park',
     'McCowan Business District'
   ],
-  description: 'As Canada\'s high-tech capital, Markham offers unique opportunities for tech company exits, from software startups to established IT services firms seeking strategic buyers or private equity.'
+  description: "As Canada's high-tech capital, Markham offers unique opportunities for tech company exits, from software startups to established IT services firms seeking strategic buyers or private equity."
 };
 
 const businessServiceData = {
@@ -40,7 +40,7 @@ const businessServiceData = {
   icon: '🏢',
   primaryColor: 'from-blue-600',
   secondaryColor: 'to-indigo-600',
-  description: 'Expert M&A guidance for Markham\'s technology companies and startups.',
+  description: "Expert M&A guidance for Markham's technology companies and startups.",
   benefits: [
     'SaaS company valuations',
     'Software business exits',

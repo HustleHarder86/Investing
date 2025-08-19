@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Business Sale Planning Whitby | Durham Business M&A | ProsperBridge',
-  description: 'Strategic business sale planning for Whitby companies. Expert M&A advisory for professional services, retail businesses, and growing Durham enterprises.',
+  description: "Strategic business sale planning for Whitby companies. Expert M&A advisory for professional services, retail businesses, and growing Durham enterprises.",
   keywords: 'business sale Whitby, M&A advisory Durham, company valuation Whitby',
 };
 
@@ -31,7 +31,7 @@ const whitbyData = {
     'Burns Street Industrial',
     'South Blair Employment'
   ],
-  description: 'Whitby\'s diverse business landscape from historic downtown shops to modern professional services creates varied M&A opportunities for owners seeking strategic exits or succession planning.'
+  description: "Whitby's diverse business landscape from historic downtown shops to modern professional services creates varied M&A opportunities for owners seeking strategic exits or succession planning."
 };
 
 const businessServiceData = {
@@ -40,7 +40,7 @@ const businessServiceData = {
   icon: '🏢',
   primaryColor: 'from-blue-600',
   secondaryColor: 'to-indigo-600',
-  description: 'Expert M&A guidance for Whitby\'s diverse business community.',
+  description: "Expert M&A guidance for Whitby's diverse business community.",
   benefits: [
     'Professional service firms',
     'Healthcare practice sales',

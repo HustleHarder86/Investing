@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Inheritance Tax Planning Aurora | High Net Worth Estate Planning | ProsperBridge',
-  description: 'Expert estate planning for Aurora\'s wealthy families. Minimize taxes on luxury estates, investment portfolios, and family businesses.',
+  description: "Expert estate planning for Aurora's wealthy families. Minimize taxes on luxury estates, investment portfolios, and family businesses.",
   keywords: 'inheritance planning Aurora, high net worth estate planning, wealth preservation Aurora',
 };
 
@@ -14,7 +14,7 @@ const auroraData = {
   region: 'York Region',
   landmarks: [
     'Aurora Arboretum',
-    'Sheppard\'s Bush Conservation',
+    "Sheppard's Bush Conservation",
     'Aurora Community Arboretum',
     'McKenzie Marsh',
     'Beacon Hall Golf & Country Club'
@@ -31,7 +31,7 @@ const auroraData = {
     'Town Park',
     'Wellington Village'
   ],
-  description: 'Aurora\'s wealthy residents have accumulated significant estates through business ownership, executive careers, and real estate, requiring sophisticated tax minimization and succession strategies.'
+  description: "Aurora's wealthy residents have accumulated significant estates through business ownership, executive careers, and real estate, requiring sophisticated tax minimization and succession strategies."
 };
 
 const inheritanceServiceData = {
@@ -40,7 +40,7 @@ const inheritanceServiceData = {
   icon: '🏛️',
   primaryColor: 'from-green-600',
   secondaryColor: 'to-teal-600',
-  description: 'Sophisticated estate planning for Aurora\'s high net worth families.',
+  description: "Sophisticated estate planning for Aurora's high net worth families.",
   benefits: [
     'Multi-million estate strategies',
     'Private company succession',

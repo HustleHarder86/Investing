@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning Burlington | Retirement & Estate Division | ProsperBridge',
-  description: 'Expert divorce financial planning for Burlington retirees and established families. Specialized in pension division, waterfront properties, and retirement assets.',
+  description: "Expert divorce financial planning for Burlington retirees and established families. Specialized in pension division, waterfront properties, and retirement assets.",
   keywords: 'divorce financial planning Burlington, retirement divorce Halton, pension division Burlington',
 };
 
@@ -31,7 +31,7 @@ const burlingtonData = {
     'Brant Hills',
     'Orchard'
   ],
-  description: 'Burlington\'s mature population and waterfront properties create unique divorce challenges, particularly for retirees dividing pensions, retirement savings, and valuable lakefront estates.'
+  description: "Burlington's mature population and waterfront properties create unique divorce challenges, particularly for retirees dividing pensions, retirement savings, and valuable lakefront estates."
 };
 
 const divorceServiceData = {
@@ -40,7 +40,7 @@ const divorceServiceData = {
   icon: '💔',
   primaryColor: 'from-purple-600',
   secondaryColor: 'to-pink-600',
-  description: 'Navigate grey divorce with expertise in retirement assets and waterfront properties.',
+  description: "Navigate grey divorce with expertise in retirement assets and waterfront properties.",
   benefits: [
     'Grey divorce specialization',
     'Pension division strategies',

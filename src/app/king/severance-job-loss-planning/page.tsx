@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Severance Package Planning King Township | Estate Worker Support | ProsperBridge',
-  description: 'Expert severance planning for King Township estate workers and luxury service professionals. Navigate unique employment transitions in ultra-wealthy households.',
+  description: "Expert severance planning for King Township estate workers and luxury service professionals. Navigate unique employment transitions in ultra-wealthy households.",
   keywords: 'severance King Township, estate worker packages, luxury service job loss',
 };
 
@@ -31,7 +31,7 @@ const kingData = {
     'Snowball',
     'Strange'
   ],
-  description: 'King Township\'s unique employment landscape includes estate management, equestrian operations, and luxury services, creating specialized severance situations for household and agricultural workers.'
+  description: "King Township's unique employment landscape includes estate management, equestrian operations, and luxury services, creating specialized severance situations for household and agricultural workers."
 };
 
 const severanceServiceData = {
@@ -40,7 +40,7 @@ const severanceServiceData = {
   icon: '💼',
   primaryColor: 'from-orange-600',
   secondaryColor: 'to-red-600',
-  description: 'Specialized severance support for estate workers and luxury service professionals.',
+  description: "Specialized severance support for estate workers and luxury service professionals.",
   benefits: [
     'Estate worker severance',
     'Household staff packages',

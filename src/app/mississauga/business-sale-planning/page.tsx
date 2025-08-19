@@ -3,7 +3,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Business Sale Planning Mississauga | M&A Advisors | ProsperBridge',
-  description: 'Strategic business sale planning for Mississauga entrepreneurs. Maximize value, minimize taxes. Expert M&A advisory from our Mississauga headquarters.',
+  description: "Strategic business sale planning for Mississauga entrepreneurs. Maximize value, minimize taxes. Expert M&A advisory from our Mississauga headquarters.",
   keywords: 'business sale planning Mississauga, selling business Mississauga, M&A advisor Mississauga',
 };
 
@@ -31,7 +31,7 @@ const mississaugaData = {
     'Sheridan Park',
     'Churchill Business Community'
   ],
-  description: 'Home to over 60,000 businesses and Fortune 500 headquarters, Mississauga offers unique opportunities for business sales and acquisitions.'
+  description: "Home to over 60,000 businesses and Fortune 500 headquarters, Mississauga offers unique opportunities for business sales and acquisitions."
 };
 
 const businessServiceData = {
@@ -40,7 +40,7 @@ const businessServiceData = {
   icon: '🏢',
   primaryColor: 'from-blue-600',
   secondaryColor: 'to-indigo-600',
-  description: 'Maximize your business value with local Mississauga expertise.',
+  description: "Maximize your business value with local Mississauga expertise.",
   benefits: [
     'Business valuation and enhancement',
     'Capital gains exemption optimization ($1,016,836)',
