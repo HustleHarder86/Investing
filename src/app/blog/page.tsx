@@ -11,11 +11,23 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'rrsp-vs-tfsa-during-divorce',
+    title: 'RRSP vs TFSA During Divorce: Which Assets Are Really Yours?',
+    excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
+    author: 'Michael Chen',
+    authorTitle: 'CFP®, Divorce Specialist',
+    date: '2025-08-19',
+    readTime: '10 min',
+    category: 'Divorce Planning',
+    categorySlug: 'divorce-planning',
+    featured: false
+  },
+  {
     slug: 'ontario-inheritance-tax-changes-2025',
     title: '2025 Ontario Inheritance Tax Changes: What You Need to Know',
     excerpt: 'Major updates to capital gains inclusion rates and estate planning strategies that could save your family thousands in taxes.',
     author: 'Sarah Mitchell',
-    authorTitle: 'CDFA®, Estate Planning Specialist',
+    authorTitle: 'CFP®, Estate Planning Specialist',
     date: '2025-08-19',
     readTime: '8 min',
     category: 'Inheritance Planning',
@@ -28,7 +40,7 @@ const blogPosts = [
     title: 'Post-Pandemic Divorce Trends: Financial Planning in the New Normal',
     excerpt: 'How remote work, housing market changes, and economic uncertainty are reshaping divorce settlements in the Greater Toronto Area.',
     author: 'Michael Chen',
-    authorTitle: 'CDFA®, Divorce Specialist',
+    authorTitle: 'CFP®, Divorce Specialist',
     date: '2025-08-15',
     readTime: '10 min',
     category: 'Divorce Planning',

@@ -3,9 +3,9 @@ import Link from 'next/link';
 import ContactForm from '@/components/forms/ContactForm';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Ontario 2025 | CDFA Certified | ProsperBridge',
-  description: 'Expert divorce financial planning in Ontario. CDFA certified advisor for asset division, spousal support, and pension splitting. Protect your financial future.',
-  keywords: 'divorce financial planning Ontario, CDFA Toronto, asset division, spousal support, pension splitting, separation financial advisor',
+  title: 'Divorce Financial Planning Ontario 2025 | CFP® Certified | ProsperBridge',
+  description: 'Expert divorce financial planning in Ontario. CFP® certified advisor for asset division, spousal support, and pension splitting. Protect your financial future.',
+  keywords: 'divorce financial planning Ontario, CFP® Toronto, asset division, spousal support, pension splitting, separation financial advisor',
   openGraph: {
     title: 'Divorce Financial Planning Ontario 2025 | ProsperBridge',
     description: 'Navigate divorce with expert financial guidance. Protect assets, optimize settlements, secure your future.',
@@ -61,7 +61,7 @@ export default function DivorceFinancialPlanningPage() {
             </h1>
 
             <p className="text-xl text-slate-600 mb-8 leading-relaxed max-w-3xl">
-              Navigate the financial complexities of divorce with CDFA certified guidance. Protect your assets, optimize your settlement, and secure your financial future with specialized planning across the GTA.
+              Navigate the financial complexities of divorce with CFP® certified guidance. Protect your assets, optimize your settlement, and secure your financial future with specialized planning across the GTA.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -84,7 +84,7 @@ export default function DivorceFinancialPlanningPage() {
                 <svg className="w-5 h-5 text-purple-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                CDFA Certified Expert
+                CFP® Certified Expert
               </div>
               <div className="flex items-center">
                 <svg className="w-5 h-5 text-purple-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
@@ -359,10 +359,10 @@ export default function DivorceFinancialPlanningPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-slate-50 rounded-xl p-6">
               <h3 className="text-lg font-semibold text-slate-900 mb-3">
-                What is a CDFA and why do I need one?
+                What is a CFP® and why do I need one?
               </h3>
               <p className="text-slate-600">
-                A Certified Divorce Financial Analyst (CDFA) specializes in the financial aspects of divorce. We understand the complex intersection of family law and financial planning, ensuring informed decisions about your financial future.
+                A Certified Financial Planner (CFP®) specializes in the financial aspects of divorce. We understand the complex intersection of family law and financial planning, ensuring informed decisions about your financial future.
               </p>
             </div>
 
@@ -407,7 +407,7 @@ export default function DivorceFinancialPlanningPage() {
                 When should I hire a divorce financial planner?
               </h3>
               <p className="text-slate-600">
-                The earlier the better. Ideally, engage a CDFA before making major decisions or signing agreements. Professional guidance helps avoid costly mistakes and ensures informed decisions about your future.
+                The earlier the better. Ideally, engage a CFP® before making major decisions or signing agreements. Professional guidance helps avoid costly mistakes and ensures informed decisions about your future.
               </p>
             </div>
           </div>

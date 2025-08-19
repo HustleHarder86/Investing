@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Oakville | Ultra High Net Worth CDFA | ProsperBridge',
+  title: 'Divorce Financial Planning Oakville | Ultra High Net Worth CFP® | ProsperBridge',
   description: 'Expert divorce financial planning for Oakville\'s ultra-wealthy families. Specialized in executive compensation, private equity, and waterfront estates.',
   keywords: 'divorce financial planning Oakville, high net worth divorce Halton, luxury estate division',
 };

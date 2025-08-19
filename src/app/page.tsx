@@ -90,6 +90,9 @@ export default function Home() {
               <Link href="/locations" className="px-5 py-3 rounded-xl text-slate-700 hover:text-slate-900 hover:bg-slate-100 transition-all duration-200 font-medium">
                 Locations  
               </Link>
+              <Link href="/blog" className="px-5 py-3 rounded-xl text-slate-700 hover:text-slate-900 hover:bg-slate-100 transition-all duration-200 font-medium">
+                Blog
+              </Link>
               <Link href="/about" className="px-5 py-3 rounded-xl text-slate-700 hover:text-slate-900 hover:bg-slate-100 transition-all duration-200 font-medium">
                 About
               </Link>
@@ -150,7 +153,7 @@ export default function Home() {
             {/* Modern Badge */}
             <div className="inline-flex items-center px-6 py-3 bg-white/90 backdrop-blur-xl rounded-full border border-slate-200/50 shadow-lg">
               <div className="w-2 h-2 bg-teal-500 rounded-full mr-3 animate-pulse"></div>
-              <span className="text-slate-700 font-medium text-sm tracking-wide">CDFA Certified • Serving GTA Since 2018</span>
+              <span className="text-slate-700 font-medium text-sm tracking-wide">CFP® Certified • Serving GTA Since 2018</span>
             </div>
             
             {/* Ultra-Modern Headline */}
@@ -214,7 +217,7 @@ export default function Home() {
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                 </div>
-                <span className="text-sm font-medium text-slate-700">CDFA Certified</span>
+                <span className="text-sm font-medium text-slate-700">CFP® Certified</span>
               </div>
               
               <div className="flex items-center space-x-3 bg-white/50 backdrop-blur-xl rounded-full px-4 py-2 border border-slate-200/50">
@@ -322,7 +325,7 @@ export default function Home() {
                   <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
                 </svg>
               </div>
-              <h3 className="font-display font-bold text-slate-900 mb-1">CDFA Certified</h3>
+              <h3 className="font-display font-bold text-slate-900 mb-1">CFP® Certified</h3>
               <p className="text-sm text-slate-600">Divorce Financial Analyst</p>
             </div>
 
@@ -387,7 +390,7 @@ export default function Home() {
                   ))}
                 </div>
                 <p className="text-slate-700 leading-relaxed">
-                  &ldquo;Professional, compassionate guidance during the most difficult time in my life. The CDFA certification made all the difference.&rdquo;
+                  &ldquo;Professional, compassionate guidance during the most difficult time in my life. The CFP® certification made all the difference.&rdquo;
                 </p>
               </div>
 
@@ -524,6 +527,185 @@ export default function Home() {
                 </Link>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Expert Insights Blog Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center px-6 py-3 bg-slate-50 border border-slate-200/50 rounded-full text-sm font-medium mb-8">
+              <div className="w-2 h-2 bg-blue-500 rounded-full mr-3 animate-pulse"></div>
+              <span className="text-slate-700">Expert Insights</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-display font-bold text-slate-900 mb-8 leading-tight">
+              Stay Informed with Our{' '}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 block">Financial Planning Blog</span>
+            </h2>
+            <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
+              Get practical advice, market insights, and actionable strategies for navigating life's major financial transitions. Our blog covers divorce planning, inheritance strategies, business sales, and career transitions with real GTA examples.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <div className="group bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 border border-blue-200/50 hover:shadow-lg transition-all duration-300">
+              <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-bold text-slate-900 mb-2">Divorce Planning</h3>
+              <p className="text-slate-600 text-sm mb-3">Expert guidance on asset division, support calculations, and post-divorce financial recovery strategies.</p>
+              <div className="text-xs text-blue-600 font-medium">Updated 3x weekly</div>
+            </div>
+            
+            <div className="group bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 border border-green-200/50 hover:shadow-lg transition-all duration-300">
+              <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-bold text-slate-900 mb-2">Business & Severance</h3>
+              <p className="text-slate-600 text-sm mb-3">Tax-efficient business exit strategies and maximizing severance packages during career transitions.</p>
+              <div className="text-xs text-green-600 font-medium">Current market insights</div>
+            </div>
+            
+            <div className="group bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200/50 hover:shadow-lg transition-all duration-300">
+              <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-bold text-slate-900 mb-2">Inheritance Planning</h3>
+              <p className="text-slate-600 text-sm mb-3">Estate strategies, tax minimization, and wealth transfer planning for Ontario families.</p>
+              <div className="text-xs text-purple-600 font-medium">Latest tax changes</div>
+            </div>
+          </div>
+          
+          <div className="text-center">
+            <Link
+              href="/blog"
+              className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-2xl font-semibold shadow-xl hover:shadow-2xl transition-all duration-300"
+            >
+              Read Our Latest Insights
+              <svg className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* GTA Locations Section */}
+      <section className="py-20 bg-gradient-to-b from-slate-50 to-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center px-6 py-3 bg-white/80 backdrop-blur-xl border border-slate-200/50 rounded-full text-sm font-medium mb-8 shadow-lg">
+              <div className="w-2 h-2 bg-teal-500 rounded-full mr-3 animate-pulse"></div>
+              <span className="text-slate-700">Serving the Greater Toronto Area</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-display font-bold text-slate-900 mb-8 leading-tight">
+              Local Expertise Across{' '}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-blue-600 block">21 GTA Municipalities</span>
+            </h2>
+            <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
+              Whether you're in downtown Toronto, suburban Mississauga, or anywhere across the GTA, we provide personalized financial planning services with deep local market knowledge and community connections.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
+            <div>
+              <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-8 shadow-lg border border-slate-200/50">
+                <h3 className="text-2xl font-display font-bold text-slate-900 mb-6">Popular Service Areas</h3>
+                <div className="grid grid-cols-2 gap-4">
+                  {tier1Cities.slice(0, 6).map((city) => (
+                    <Link 
+                      key={city.slug}
+                      href={`/${city.slug}/divorce-financial-planning`}
+                      className="group flex items-center p-3 bg-slate-50 hover:bg-teal-50 rounded-xl transition-all duration-200 border border-transparent hover:border-teal-200"
+                    >
+                      <div className="w-8 h-8 bg-gradient-to-r from-teal-500 to-blue-500 rounded-lg flex items-center justify-center mr-3 group-hover:scale-110 transition-transform duration-200">
+                        <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+                        </svg>
+                      </div>
+                      <div>
+                        <div className="font-semibold text-slate-900 group-hover:text-teal-700 transition-colors">{city.name}</div>
+                        <div className="text-xs text-slate-500">{city.population} residents</div>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+                <div className="mt-6 pt-6 border-t border-slate-200">
+                  <Link 
+                    href="/locations"
+                    className="text-teal-600 hover:text-teal-700 font-medium flex items-center group"
+                  >
+                    View all 21 municipalities
+                    <svg className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                    </svg>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            
+            <div className="space-y-6">
+              <div className="bg-gradient-to-br from-teal-50 to-blue-50 rounded-2xl p-6 border border-teal-200/50">
+                <div className="flex items-center mb-4">
+                  <div className="w-10 h-10 bg-gradient-to-r from-teal-500 to-blue-500 rounded-xl flex items-center justify-center mr-4">
+                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-slate-900">Local Market Knowledge</h4>
+                  </div>
+                </div>
+                <p className="text-slate-600">Deep understanding of GTA real estate markets, local tax implications, and regional economic factors that impact your financial planning.</p>
+              </div>
+              
+              <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200/50">
+                <div className="flex items-center mb-4">
+                  <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mr-4">
+                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-slate-900">Community Connections</h4>
+                  </div>
+                </div>
+                <p className="text-slate-600">Established relationships with local lawyers, accountants, and other professionals to support your comprehensive financial planning needs.</p>
+              </div>
+              
+              <div className="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl p-6 border border-emerald-200/50">
+                <div className="flex items-center mb-4">
+                  <div className="w-10 h-10 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-xl flex items-center justify-center mr-4">
+                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-slate-900">Flexible Meeting Options</h4>
+                  </div>
+                </div>
+                <p className="text-slate-600">In-person meetings, virtual consultations, or phone calls - we adapt to your preference and location across the entire GTA.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div className="text-center">
+            <Link
+              href="/locations"
+              className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-teal-600 to-blue-600 text-white rounded-2xl font-semibold shadow-xl hover:shadow-2xl transition-all duration-300"
+            >
+              Explore All GTA Locations
+              <svg className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
+              </svg>
+            </Link>
           </div>
         </div>
       </section>
@@ -740,7 +922,7 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-white/80 mb-6 max-w-md leading-relaxed">
-                  CDFA-certified financial advisor specializing in life&apos;s major transitions. Serving the Greater Toronto Area with compassionate, expert guidance since 2018.
+                  CFP®-certified financial advisor specializing in life&apos;s major transitions. Serving the Greater Toronto Area with compassionate, expert guidance since 2018.
                 </p>
                 
                 {/* Contact Info */}
@@ -859,7 +1041,7 @@ export default function Home() {
                       <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-white/80 text-sm font-medium">CDFA Certified</span>
+                  <span className="text-white/80 text-sm font-medium">CFP® Certified</span>
                 </div>
                 
                 <div className="flex items-center space-x-2">

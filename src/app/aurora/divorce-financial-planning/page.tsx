@@ -2,9 +2,9 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Aurora | Affluent Family CDFA | ProsperBridge',
+  title: 'Divorce Financial Planning Aurora | Affluent Family CFP® | ProsperBridge',
   description: 'Expert divorce financial planning for Aurora\'s affluent families. Navigate high-asset divorces, executive compensation, and luxury property division.',
-  keywords: 'divorce financial planning Aurora, high net worth divorce York, CDFA Aurora Ontario',
+  keywords: 'divorce financial planning Aurora, high net worth divorce York, CFP® Aurora Ontario',
 };
 
 const auroraData = {

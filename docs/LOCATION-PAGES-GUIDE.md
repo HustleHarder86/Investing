@@ -95,7 +95,7 @@ export default function [CityName][ServiceName]Page() {
 - **Icon**: 💔
 - **Colors**: from-purple-600 to-pink-600
 - **Focus**: Local property markets, industry-specific income, family demographics
-- **Keywords**: CDFA, separation advisor, divorce financial planning
+- **Keywords**: CFP®, separation advisor, divorce financial planning
 
 ### 2. Inheritance Financial Planning
 - **Icon**: 🏛️

@@ -2,9 +2,9 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Ajax | Durham Region CDFA | ProsperBridge',
+  title: 'Divorce Financial Planning Ajax | Durham Region CFP® | ProsperBridge',
   description: 'Expert divorce financial planning for Ajax families. Specialized support for nuclear industry professionals and Durham Region commuters.',
-  keywords: 'divorce financial planning Ajax, CDFA Durham Region, separation advisor Ajax',
+  keywords: 'divorce financial planning Ajax, CFP® Durham Region, separation advisor Ajax',
 };
 
 const ajaxData = {

@@ -5,7 +5,7 @@ import { MapPin, Users, Building2, TrendingUp } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Our Locations | Greater Toronto Area Financial Planning | ProsperBridge',
   description: 'ProsperBridge serves all Greater Toronto Area communities with expert financial planning for divorce, inheritance, business sales, and severance.',
-  keywords: 'GTA financial planning locations, Toronto area financial advisors, Ontario CDFA locations',
+  keywords: 'GTA financial planning locations, Toronto area financial advisors, Ontario CFP® locations',
 };
 
 const locations = [

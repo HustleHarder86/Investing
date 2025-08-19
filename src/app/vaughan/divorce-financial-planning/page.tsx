@@ -3,8 +3,8 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning Vaughan | Italian Community Expert | ProsperBridge',
-  description: 'Expert divorce financial planning in Vaughan. Specialized support for business owners and construction industry families. CDFA certified.',
-  keywords: 'divorce financial planning Vaughan, CDFA Vaughan, separation advisor York Region',
+  description: 'Expert divorce financial planning in Vaughan. Specialized support for business owners and construction industry families. CFP® certified.',
+  keywords: 'divorce financial planning Vaughan, CFP® Vaughan, separation advisor York Region',
 };
 
 const vaughanData = {

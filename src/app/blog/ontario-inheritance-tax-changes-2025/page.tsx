@@ -307,7 +307,7 @@ export default function OntarioInheritanceTaxChanges2025Page() {
       title="2025 Ontario Inheritance Tax Changes: What You Need to Know"
       subtitle="Major updates to capital gains inclusion rates could cost your family thousands - here's how to protect your estate"
       author="Sarah Mitchell"
-      authorTitle="CDFA®, Estate Planning Specialist"
+      authorTitle="CFP®, Estate Planning Specialist"
       date="2025-08-19"
       readTime="8 min"
       category="Inheritance Planning"

@@ -147,7 +147,7 @@ export default function BlogPostTemplate({
                 <h3 className="font-bold text-gray-900">{author}</h3>
                 <p className="text-gray-600 text-sm mb-2">{authorTitle}</p>
                 <p className="text-gray-600 text-sm">
-                  Certified Divorce Financial Analyst (CDFA®) with over 15 years of experience helping 
+                  Certified Financial Planner (CFP®) with over 15 years of experience helping 
                   Greater Toronto Area families navigate complex financial transitions.
                 </p>
               </div>

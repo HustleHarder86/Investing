@@ -443,7 +443,7 @@ export default function LiveTrustElements() {
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {[
-                { name: 'CDFA Certified', icon: '🎓', desc: 'Certified Divorce Financial Analyst' },
+                { name: 'CFP® Certified', icon: '🎓', desc: 'Certified Divorce Financial Analyst' },
                 { name: 'Fully Insured', icon: '🛡️', desc: 'Comprehensive liability coverage' },
                 { name: 'BBB A+ Rating', icon: '⭐', desc: 'Better Business Bureau accredited' },
                 { name: '15+ Years', icon: '📈', desc: 'Combined team experience' }

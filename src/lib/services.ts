@@ -24,7 +24,7 @@ export const services: Service[] = [
       "divorce financial planner",
       "divorce investment advisor", 
       "separation financial planning",
-      "CDFA advisor",
+      "CFP® advisor",
       "divorce pension division",
       "spousal support financial planning"
     ],
@@ -34,7 +34,7 @@ export const services: Service[] = [
       "Pension splitting strategies",
       "Tax-efficient settlements",
       "Future financial security",
-      "CDFA certified guidance"
+      "CFP® certified guidance"
     ],
     color: {
       primary: "bg-blue-600",

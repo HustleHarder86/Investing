@@ -391,7 +391,7 @@ export default function DivorceFinancialPlanningAfterCovidPage() {
       title="Post-Pandemic Divorce Trends: Financial Planning in the New Normal"
       subtitle="How remote work, housing market changes, and economic uncertainty are reshaping divorce settlements in the Greater Toronto Area"
       author="Michael Chen"
-      authorTitle="CDFA®, Divorce Specialist"
+      authorTitle="CFP®, Divorce Specialist"
       date="2025-08-15"
       readTime="10 min"
       category="Divorce Planning"

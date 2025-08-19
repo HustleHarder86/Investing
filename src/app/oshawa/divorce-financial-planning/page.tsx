@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Oshawa | Automotive Worker CDFA | ProsperBridge',
+  title: 'Divorce Financial Planning Oshawa | Automotive Worker CFP® | ProsperBridge',
   description: 'Expert divorce financial planning for Oshawa automotive families. Navigate GM pensions, union benefits, and skilled trades income division.',
   keywords: 'divorce financial planning Oshawa, automotive worker divorce, GM pension division Durham',
 };

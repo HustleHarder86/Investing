@@ -63,7 +63,7 @@ All main service pages created with SEO-optimized content:
 ### Content Enhancements
 - [ ] Add blog section structure
 - [ ] Create initial blog posts (3-5)
-- [ ] Add author bios with CDFA credentials
+- [ ] Add author bios with CFP® credentials
 - [ ] Add "Last Updated" dates to all pages
 - [ ] Create downloadable resources/guides
 

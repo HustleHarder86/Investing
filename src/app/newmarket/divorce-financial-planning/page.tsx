@@ -2,9 +2,9 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Newmarket | York Region CDFA | ProsperBridge',
+  title: 'Divorce Financial Planning Newmarket | York Region CFP® | ProsperBridge',
   description: 'Expert divorce financial planning for Newmarket families. Navigate complex property division in historic Main Street and modern subdivisions.',
-  keywords: 'divorce financial planning Newmarket, CDFA York Region, separation advisor Newmarket',
+  keywords: 'divorce financial planning Newmarket, CFP® York Region, separation advisor Newmarket',
 };
 
 const newmarketData = {

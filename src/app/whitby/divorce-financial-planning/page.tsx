@@ -2,9 +2,9 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Whitby | Durham Professional CDFA | ProsperBridge',
+  title: 'Divorce Financial Planning Whitby | Durham Professional CFP® | ProsperBridge',
   description: 'Expert divorce financial planning for Whitby professionals and growing families. Navigate complex property division and dual-income household separations.',
-  keywords: 'divorce financial planning Whitby, CDFA Durham Region, separation advisor Whitby',
+  keywords: 'divorce financial planning Whitby, CFP® Durham Region, separation advisor Whitby',
 };
 
 const whitbyData = {
