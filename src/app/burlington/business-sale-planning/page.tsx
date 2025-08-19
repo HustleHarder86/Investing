@@ -27,7 +27,7 @@ const burlingtonData = {
     'Harvester Business Park',
     'New Street Commercial',
     'Guelph Line Business',
-    'Walker\\'s Line Commerce',
+    'Walker\'s Line Commerce',
     'Fairview Street Business',
     'Brant Street Downtown'
   ],
