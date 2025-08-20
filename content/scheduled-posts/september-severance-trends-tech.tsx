@@ -56,6 +56,22 @@ const BlogContent = () => (
       publicity, while startups are getting creative with non-cash benefits.
     </p>
 
+    <p className="mb-6">
+      The data tells a compelling story: after months of harsh cuts with minimal packages, the pendulum 
+      is swinging back. Companies realize that today's laid-off employee could be tomorrow's boomerang 
+      hire or, worse, tomorrow's competitor. A senior engineer at a Toronto fintech recently leveraged 
+      competing severance offers to increase her package from 12 weeks to 24 weeks plus accelerated 
+      vesting—a strategy becoming increasingly common as companies compete even in layoff terms.
+    </p>
+
+    <p className="mb-6">
+      Geographic variations within the GTA are striking. Downtown Toronto tech companies average 5.1 weeks 
+      per year of service, while Mississauga and Markham firms average 3.8 weeks. This 35% differential 
+      reflects both cost-of-living considerations and talent competition intensity. Waterloo-based companies 
+      with Toronto offices often match Silicon Valley standards, offering packages that would seem generous 
+      even in pre-pandemic times.
+    </p>
+
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
       Company-Specific Severance Trends
     </h2>
@@ -257,6 +273,101 @@ const BlogContent = () => (
     </div>
 
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
+      The Hidden Costs: What Companies Don't Tell You
+    </h2>
+    
+    <p className="mb-6">
+      Beyond the headline severance numbers lie hidden costs that can significantly impact your financial 
+      recovery. Understanding these allows for more informed negotiation and better financial planning 
+      during your transition period.
+    </p>
+
+    <div className="bg-purple-50 border-l-4 border-purple-600 p-6 mb-8">
+      <h3 className="font-bold text-gray-900 mb-3">💸 Hidden Financial Impacts</h3>
+      <ul className="space-y-2 text-gray-700">
+        <li>• Loss of RSU refresh cycles (often worth $50-200K annually)</li>
+        <li>• Forfeited bonuses and performance awards</li>
+        <li>• Health spending account forfeitures</li>
+        <li>• Professional development budget losses</li>
+        <li>• Retirement matching contribution gaps</li>
+        <li>• Stock option repricing opportunities missed</li>
+      </ul>
+    </div>
+
+    <p className="mb-6">
+      A Principal Engineer at a Toronto unicorn discovered the true cost of her layoff extended far beyond 
+      lost salary. Her annual RSU refresh of $180,000, scheduled for October, vanished. The company's 
+      matching RRSP contributions of $15,000 annually stopped immediately. Her $5,000 professional development 
+      budget for AWS certifications evaporated. When tallied, these "soft" losses exceeded her base salary, 
+      highlighting why aggressive severance negotiation is essential.
+    </p>
+
+    <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
+      Tax Optimization Strategies for Tech Severance
+    </h2>
+    
+    <p className="mb-6">
+      September severance recipients face unique tax planning opportunities. With three months remaining 
+      in 2025, strategic decisions now can save tens of thousands in taxes.
+    </p>
+
+    <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">
+      Severance Payment Timing
+    </h3>
+    
+    <p className="mb-6">
+      Negotiating payment timing can dramatically reduce tax burden. If you've already earned $150,000 
+      in 2025, receiving a $100,000 severance pushes you into higher brackets. Consider structuring as:
+    </p>
+
+    <ul className="list-disc list-inside space-y-2 text-gray-700 mb-8">
+      <li>Lump sum in January 2026 (new tax year, lower bracket)</li>
+      <li>Salary continuation through Q1 2026</li>
+      <li>Split payments: 50% in 2025, 50% in 2026</li>
+      <li>Deferred compensation agreements for amounts over $100K</li>
+    </ul>
+
+    <h3 className="text-xl font-semibold text-gray-900 mt-8 mb-3">
+      RRSP Strategies
+    </h3>
+    
+    <p className="mb-6">
+      Severance packages may qualify for direct transfer to RRSPs as "retiring allowances," potentially 
+      sheltering significant amounts from immediate taxation. The formula: $2,000 per year of service before 
+      1996, plus $1,500 per year before 1989 without pension coverage. While most tech workers won't benefit 
+      from pre-1996 service, understanding these rules helps in negotiation.
+    </p>
+
+    <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
+      Mental Health and Family Impact
+    </h2>
+    
+    <p className="mb-6">
+      The psychological toll of tech layoffs extends beyond financial stress. September layoffs carry 
+      particular weight as families adjust to back-to-school routines and approach the holiday season. 
+      Understanding and addressing these impacts is crucial for successful transitions.
+    </p>
+
+    <p className="mb-6">
+      Tech workers report unique mental health challenges: imposter syndrome despite strong skills, identity 
+      crisis after losing prestigious company affiliations, and anxiety about rapid industry changes. A 
+      laid-off Machine Learning Engineer described feeling "technically obsolete overnight" despite having 
+      cutting-edge skills just months prior. This psychological burden often impairs negotiation effectiveness 
+      and job search performance.
+    </p>
+
+    <div className="bg-teal-50 border-l-4 border-teal-600 p-6 mb-8">
+      <h3 className="font-bold text-gray-900 mb-3">🧠 Mental Health Resources</h3>
+      <ul className="space-y-2 text-gray-700">
+        <li>• Maintain EAP access during severance period</li>
+        <li>• Negotiate continued therapy coverage</li>
+        <li>• Join tech-specific support groups (Tech Workers Unite TO)</li>
+        <li>• Access free counseling through Ontario programs</li>
+        <li>• Consider career coaching as therapeutic investment</li>
+      </ul>
+    </div>
+
+    <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
       Looking Ahead: Q4 2025 Predictions
     </h2>
     
@@ -270,6 +381,14 @@ const BlogContent = () => (
       <li><strong>December:</strong> Minimal activity, deferred to January 2026</li>
       <li><strong>Overall Q4:</strong> 8,000-10,000 additional tech layoffs expected in GTA</li>
     </ul>
+
+    <p className="mb-6">
+      The Q4 outlook suggests a bifurcated market: companies either cutting deep before year-end or 
+      postponing until 2026. Those acting in October-November will likely offer enhanced packages to 
+      avoid holiday publicity backlash. January 2026 may see a surge as companies reset with new budgets 
+      and strategies. Tech workers should prepare for both scenarios: immediate termination with good 
+      packages or anxious waiting until the new year.
+    </p>
 
     <div className="bg-green-50 border-l-4 border-green-600 p-6 mb-8">
       <h3 className="font-bold text-gray-900 mb-3">✅ Key Takeaways for September 2025</h3>
@@ -301,19 +420,19 @@ const BlogContent = () => (
   </>
 );
 
-export default function BlogPostPage() {
+export default function BlogPost() {
   return (
     <BlogPostTemplate
-      title="September 2025 Tech Severance Trends: What GTA Workers Need to Know"
+      title="September 2025 Tech Severance Trends"
       subtitle="Latest insights on severance packages, negotiation strategies, and industry patterns"
       author="David Kumar"
-      authorTitle="Severance Planning Specialist"
-      date="2025-08-27"
-      readTime="10 min"
+      date="2025-09-03"
+      readTime="12 min"
       category="Severance Planning"
       categorySlug="severance-planning"
-      content={<BlogContent />}
       relatedPosts={relatedPosts}
-    />
+    >
+      <BlogContent />
+    </BlogPostTemplate>
   );
 }
