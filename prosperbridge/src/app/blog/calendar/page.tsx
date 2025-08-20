@@ -26,6 +26,7 @@ const CategoryBadge = ({ category }: { category: string }) => {
 const StatusBadge = ({ status }: { status: string }) => {
   const colors = {
     'pending': 'bg-yellow-100 text-yellow-800',
+    'completed': 'bg-blue-100 text-blue-800',
     'published': 'bg-green-100 text-green-800',
     'draft': 'bg-gray-100 text-gray-800'
   };
@@ -55,6 +56,7 @@ export default function BlogCalendarPage() {
   // Get stats
   const totalPosts = scheduleData.schedule.length;
   const publishedPosts = scheduleData.schedule.filter(p => p.status === 'published').length;
+  const completedPosts = scheduleData.schedule.filter(p => p.status === 'completed').length;
   const pendingPosts = scheduleData.schedule.filter(p => p.status === 'pending').length;
   
   // Get next post to publish
@@ -93,7 +95,7 @@ export default function BlogCalendarPage() {
           </p>
           
           {/* Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-4 mb-6">
             <div className="bg-gray-50 p-4 rounded-lg">
               <p className="text-sm text-gray-600">Total Posts</p>
               <p className="text-2xl font-bold text-gray-900">{totalPosts}</p>
@@ -102,13 +104,17 @@ export default function BlogCalendarPage() {
               <p className="text-sm text-green-600">Published</p>
               <p className="text-2xl font-bold text-green-900">{publishedPosts}</p>
             </div>
+            <div className="bg-blue-50 p-4 rounded-lg">
+              <p className="text-sm text-blue-600">Completed</p>
+              <p className="text-2xl font-bold text-blue-900">{completedPosts}</p>
+            </div>
             <div className="bg-yellow-50 p-4 rounded-lg">
               <p className="text-sm text-yellow-600">Pending</p>
               <p className="text-2xl font-bold text-yellow-900">{pendingPosts}</p>
             </div>
-            <div className="bg-blue-50 p-4 rounded-lg">
-              <p className="text-sm text-blue-600">Next Post</p>
-              <p className="text-lg font-bold text-blue-900">
+            <div className="bg-indigo-50 p-4 rounded-lg">
+              <p className="text-sm text-indigo-600">Next Post</p>
+              <p className="text-lg font-bold text-indigo-900">
                 {nextPost ? new Date(nextPost.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : 'None'}
               </p>
             </div>
