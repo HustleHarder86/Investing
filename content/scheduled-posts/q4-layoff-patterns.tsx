@@ -68,11 +68,42 @@ const BlogContent = () => (
       Expect 15-20% cuts in legacy tech teams, particularly in financial technology and e-commerce platforms.
     </p>
 
+    <p className="mb-6">
+      The AI revolution isn't just changing products—it's reshaping entire workforces. A Toronto fintech 
+      recently replaced a 12-person QA team with automated testing frameworks, while simultaneously hiring 
+      three AI specialists at premium salaries. This pattern repeats across the industry: traditional roles 
+      disappear while new specializations emerge. Full-stack developers who haven't adapted to AI-assisted 
+      coding face particular vulnerability, while prompt engineers and AI safety specialists command 
+      unprecedented premiums.
+    </p>
+
+    <p className="mb-6">
+      Cloud infrastructure teams face unexpected pressures as companies optimize spending. The "growth at 
+      all costs" era that justified bloated AWS bills has ended. One Waterloo SaaS company cut cloud costs 
+      by 60% through optimization, eliminating five DevOps positions in the process. The survivors: those 
+      who demonstrated cost optimization skills rather than just scaling expertise.
+    </p>
+
     <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Financial Services: Restructuring Acceleration</h3>
     <p className="mb-6">
       Major banks are executing digital transformation plans, eliminating branch positions and middle 
       management. Investment banking and capital markets face headcount reductions of 10-15% as deal 
       flow remains below 2021 peaks. Compliance and risk management remain protected.
+    </p>
+
+    <p className="mb-6">
+      The transformation goes deeper than headlines suggest. Traditional relationship managers at Big Six 
+      banks face existential threats as AI-powered advisors handle routine client interactions. A senior 
+      banker revealed their institution plans to cut 30% of client-facing roles by 2026, replacing them 
+      with "hybrid" models where one human oversees multiple AI-assisted relationships. The survivors will 
+      be those managing ultra-high-net-worth clients requiring complex, personalized service.
+    </p>
+
+    <p className="mb-6">
+      Trading floors tell a similar story. Algorithmic trading has already decimated traditional trader 
+      ranks, but now AI targets research analysts and even portfolio managers. Quantitative skills no 
+      longer guarantee safety—machines perform quantitative analysis faster and more accurately. The new 
+      moat: relationship capital, regulatory expertise, and complex judgment calls machines can't yet make.
     </p>
 
     <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Retail and Consumer: Holiday Season Paradox</h3>
@@ -82,11 +113,44 @@ const BlogContent = () => (
       holiday season conclusions.
     </p>
 
+    <p className="mb-6">
+      The retail apocalypse has evolved into retail transformation. Successful retailers aren't just 
+      moving online—they're fundamentally reimagining operations. A major Canadian retailer recently 
+      eliminated its entire merchandising planning department, replacing spreadsheet-wielding analysts 
+      with AI-driven demand forecasting. The human touch remains crucial for brand strategy and creative 
+      direction, but operational roles face extinction.
+    </p>
+
     <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Manufacturing: Automation Impact</h3>
     <p className="mb-6">
       Ontario manufacturers face pressure from automation and nearshoring. Production line supervisors 
       and quality control positions increasingly replaced by AI systems. Administrative and middle 
       management roles most vulnerable.
+    </p>
+
+    <p className="mb-6">
+      The fourth industrial revolution has arrived in Ontario's manufacturing heartland. Computer vision 
+      systems now perform quality control better than human inspectors, while predictive maintenance 
+      algorithms replace experienced floor supervisors. A Hamilton steel processor eliminated 40% of 
+      production management roles after implementing an integrated manufacturing execution system. The 
+      remaining managers focus on exception handling and continuous improvement rather than routine oversight.
+    </p>
+
+    <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Professional Services: The Disruption Arrives</h3>
+    <p className="mb-6">
+      Law firms, accounting practices, and consulting companies long considered themselves immune to 
+      mass layoffs. That immunity has expired. AI tools now draft contracts, prepare tax returns, and 
+      generate consulting reports. Junior associates and analysts—the traditional pyramidbase—face 
+      unprecedented redundancy. Partners scramble to reimagine business models built on leverage ratios 
+      that no longer make sense.
+    </p>
+
+    <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Healthcare: Administrative Overhead Cuts</h3>
+    <p className="mb-6">
+      While clinical roles remain protected, healthcare administration faces severe cuts. Hospital systems 
+      across the GTA are consolidating back-office functions, eliminating duplicate positions across 
+      merged entities. Medical billing, scheduling, and records management increasingly automated. Even 
+      prestigious Toronto hospitals are quietly reducing non-clinical headcount by 15-20%.
     </p>
 
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
@@ -119,6 +183,23 @@ const BlogContent = () => (
     <p className="mb-6">
       While layoffs can affect anyone, certain demographics face disproportionate risk in Q4 2025. 
       Understanding vulnerability helps target preparation efforts.
+    </p>
+
+    <p className="mb-6">
+      Age discrimination, though illegal, manifests subtly in layoff selections. Employees over 50 with 
+      high salaries face particular vulnerability, especially if their skills haven't evolved with technology. 
+      Companies rationalize these cuts as "restructuring for digital transformation," but the pattern is 
+      clear: expensive, senior employees without unique expertise are primary targets. One Bay Street firm 
+      eliminated an entire layer of vice presidents averaging 52 years old and $250,000 salaries, replacing 
+      them with younger directors at 60% of the cost.
+    </p>
+
+    <p className="mb-6">
+      Conversely, recent graduates face their own challenges. The class of 2024-2025 entered a job market 
+      drastically different from what they expected. Entry-level roles that historically provided training 
+      and development have evaporated. Companies prefer hiring experienced professionals at modest premiums 
+      rather than investing in developing fresh talent. The cruel irony: those who need experience most 
+      can't get hired without it.
     </p>
 
     <div className="bg-amber-50 border-l-4 border-amber-600 p-6 mb-8">
@@ -205,6 +286,33 @@ const BlogContent = () => (
       <li>• Keep personal items minimal at office</li>
     </ul>
 
+    <p className="mb-6">
+      The most effective protection isn't defensive—it's offensive. Become the person solving tomorrow's 
+      problems, not managing yesterday's processes. A marketing director at a Toronto agency recognized 
+      AI's threat to traditional creative roles and proactively became her firm's AI integration champion. 
+      When layoffs came, she was promoted to Chief Innovation Officer while peers were terminated.
+    </p>
+
+    <p className="mb-6">
+      Revenue generation and client relationships remain the ultimate protection. Employees who directly 
+      contribute to top-line growth or maintain critical client relationships possess leverage others lack. 
+      Document your revenue impact meticulously: deals closed, clients retained, upsells generated. One 
+      sales operations manager survived three rounds of cuts by demonstrating that his process improvements 
+      increased sales team productivity by 30%, generating $2 million in additional revenue.
+    </p>
+
+    <div className="bg-teal-50 border-l-4 border-teal-600 p-6 mb-8">
+      <h3 className="font-bold text-gray-900 mb-3">🛡️ Advanced Protection Strategies</h3>
+      <ul className="space-y-2 text-gray-700">
+        <li>• Create intellectual property that becomes essential to operations</li>
+        <li>• Build external visibility through thought leadership</li>
+        <li>• Develop skills that complement rather than compete with AI</li>
+        <li>• Maintain relationships with former colleagues who've moved to other companies</li>
+        <li>• Position yourself at intersection of multiple critical functions</li>
+        <li>• Become the institutional knowledge keeper for complex processes</li>
+      </ul>
+    </div>
+
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
       Financial Preparation: Your Q4 Safety Net
     </h2>
@@ -236,6 +344,28 @@ const BlogContent = () => (
       While traumatic, Q4 layoffs can offer unexpected advantages. Year-end timing may provide tax 
       benefits, January job market is often strong, and severance packages can fund career transitions 
       or education.
+    </p>
+
+    <p className="mb-6">
+      Tax timing can transform a negative into a positive. Receiving severance in Q4 2025 allows strategic 
+      tax planning for 2026. You might maximize RRSP contributions, trigger capital losses to offset 
+      severance income, or time the receipt of payments across tax years. One executive negotiated to 
+      receive her $200,000 severance across 2025 and 2026, saving $18,000 in taxes while maintaining 
+      benefit coverage through the transition.
+    </p>
+
+    <p className="mb-6">
+      Q4 layoffs often include enhanced packages as companies rush to clean up balance sheets. Budget 
+      allocations expire December 31, creating "use it or lose it" dynamics that benefit terminated 
+      employees. HR departments, exhausted from year-long restructuring, may offer generous terms to 
+      avoid prolonged negotiations during the holiday season.
+    </p>
+
+    <p className="mb-6">
+      The psychological reset of January cannot be understated. While December terminations feel like 
+      endings, January represents beginnings. Hiring managers return from holidays with new budgets and 
+      fresh mandates. Your availability aligns perfectly with their new year planning. The narrative shifts 
+      from "laid off before the holidays" to "available for exciting opportunities in the new year."
     </p>
 
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
@@ -277,6 +407,67 @@ const BlogContent = () => (
       stability, and access mental health resources through EAP programs while still employed.
     </p>
 
+    <p className="mb-6">
+      The psychological toll of anticipating layoffs often exceeds the impact of actual termination. 
+      "Survivor syndrome" affects those who keep their jobs, while anxiety paralyzes those awaiting 
+      their fate. A Toronto tech worker described checking Slack every morning with dread, wondering 
+      if his access would be revoked—a modern version of workplace PTSD that mental health professionals 
+      increasingly recognize.
+    </p>
+
+    <p className="mb-6">
+      Children absorb parental stress even when parents attempt to shield them. Behavioral changes, 
+      academic struggles, and sleep disruptions often manifest. Child psychologists recommend age-appropriate 
+      honesty: young children need reassurance about basic security (home, food, safety), while teenagers 
+      can handle more nuanced discussions about economic realities and family financial planning.
+    </p>
+
+    <p className="mb-6">
+      Proactive mental health intervention proves invaluable. Many employees wait until after termination 
+      to seek help, missing employer-covered therapy sessions. If your company offers Employee Assistance 
+      Programs (EAP), maximize usage now. Book therapy sessions, attend stress management workshops, and 
+      access career counseling while it's free. These resources typically extend 30-90 days post-termination, 
+      but establishing relationships with counselors before crisis hits improves outcomes.
+    </p>
+
+    <div className="bg-pink-50 border-l-4 border-pink-600 p-6 mb-8">
+      <h3 className="font-bold text-gray-900 mb-3">💜 Family Preparation Strategies</h3>
+      <ul className="space-y-2 text-gray-700">
+        <li>• Have honest but age-appropriate conversations with children</li>
+        <li>• Maintain routines to provide stability during uncertainty</li>
+        <li>• Involve spouse in financial planning before crisis hits</li>
+        <li>• Access family counseling through EAP while available</li>
+        <li>• Build support network among other families facing similar challenges</li>
+        <li>• Prepare contingency plans together as a family unit</li>
+      </ul>
+    </div>
+
+    <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
+      The Severance Negotiation Game in Q4
+    </h2>
+    
+    <p className="mb-6">
+      Q4 severance negotiations differ from other quarters. Companies balance year-end financial pressures 
+      with litigation risks and reputation concerns. Understanding these dynamics improves your negotiating 
+      position significantly.
+    </p>
+
+    <p className="mb-6">
+      The "Christmas optics" factor cannot be ignored. Companies desperately want to avoid negative publicity 
+      about holiday layoffs. Local media loves "Grinch corporation ruins Christmas" stories. This reputational 
+      risk creates leverage: companies may offer enhanced packages to include confidentiality agreements 
+      and positive departure messaging. One financial services firm added three months to severance packages 
+      for employees who agreed to LinkedIn posts about "pursuing new opportunities" rather than mentioning 
+      layoffs.
+    </p>
+
+    <p className="mb-6">
+      Year-end budget dynamics create unique opportunities. Departments with unused severance budgets may 
+      offer more generous packages to fully utilize allocations. Conversely, departments that've exceeded 
+      budgets might push terminations to January. Understanding your department's financial position—often 
+      discoverable through careful observation of spending patterns—helps time negotiations optimally.
+    </p>
+
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
       Looking Ahead: Q1 2026 Recovery
     </h2>
@@ -284,6 +475,20 @@ const BlogContent = () => (
     <p className="mb-6">
       Historical patterns show strong hiring in January-February as companies deploy new budgets. Those 
       laid off in Q4 often find better positions in Q1. Maintain optimism while preparing pragmatically.
+    </p>
+
+    <p className="mb-6">
+      The Q1 2026 job market promises interesting dynamics. Companies that over-cut in Q4 often scramble 
+      to rehire in Q1 when they realize they've eliminated critical capabilities. These "boomerang" 
+      opportunities let you return at higher salaries with better titles. A product manager laid off from 
+      a Toronto startup in December 2024 returned in March 2025 as VP of Product at 40% higher compensation.
+    </p>
+
+    <p className="mb-6">
+      New fiscal year budgets unlock previously frozen positions. Projects delayed in 2025 receive funding, 
+      creating urgent hiring needs. Companies that maintained hiring freezes throughout 2025 face talent 
+      crises by Q1 2026, forcing aggressive recruitment. Position yourself as the solution to their 
+      urgent needs rather than someone seeking rescue from unemployment.
     </p>
 
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">

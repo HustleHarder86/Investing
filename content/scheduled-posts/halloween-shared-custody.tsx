@@ -44,6 +44,21 @@ const BlogContent = () => (
       school parties happen during the day, and friend groups complicate logistics.
     </p>
 
+    <p className="mb-6">
+      The emotional weight of Halloween for children cannot be overstated. For many kids, it rivals 
+      Christmas in excitement and anticipation. They've been planning costumes since August, comparing 
+      notes with friends at school, and mapping out their trick-or-treating routes. When divorced parents 
+      fail to coordinate, children bear the emotional burden of disappointing one parent or missing out 
+      on traditions they cherish.
+    </p>
+
+    <p className="mb-6">
+      Consider the complexity: Halloween 2025 falls on a Friday, which might typically be Dad's night in 
+      a standard alternating weekend schedule. But if Mom's neighborhood has the better trick-or-treating 
+      route, or if the children's friends are gathering in her area, rigid adherence to the schedule 
+      creates unnecessary conflict and disappointment.
+    </p>
+
     <div className="bg-orange-50 border-l-4 border-orange-600 p-6 mb-8">
       <h3 className="font-bold text-gray-900 mb-3">🎃 Unique Halloween Factors</h3>
       <ul className="space-y-2 text-gray-700">
@@ -67,6 +82,14 @@ const BlogContent = () => (
       attend school events regardless of the year.
     </p>
 
+    <p className="mb-6">
+      The alternating year approach works best when both parents live in comparable neighborhoods with 
+      similar trick-or-treating opportunities. However, challenges arise when one parent moves to a condo 
+      building or rural area where traditional trick-or-treating isn't feasible. In these cases, the 
+      parent without the suitable neighborhood might negotiate for alternative Halloween activities like 
+      hosting a party or taking children to community events.
+    </p>
+
     <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Split the Evening</h3>
     <p className="mb-6">
       Divide Halloween evening, with one parent handling early trick-or-treating (5-7 PM) and the other 
@@ -74,10 +97,35 @@ const BlogContent = () => (
       proximity.
     </p>
 
+    <p className="mb-6">
+      The split evening approach requires exceptional logistics. Transportation between neighborhoods, 
+      costume transfers, and candy bag management all need consideration. Some families use a "home base" 
+      approach where children return to one parent's house mid-evening for a costume change or dinner 
+      break, creating a natural transition point. This works particularly well when parents live within 
+      15 minutes of each other.
+    </p>
+
     <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Joint Participation</h3>
     <p className="mb-6">
       Some amicable co-parents trick-or-treat together, putting aside differences for the evening. While 
       ideal for children, this requires exceptional maturity and may confuse boundaries.
+    </p>
+
+    <p className="mb-6">
+      Joint participation can work beautifully when parents maintain friendly relationships and clear 
+      boundaries. However, it's crucial to establish ground rules: no discussing custody disputes, no 
+      introducing new partners without prior agreement, and maintaining focus on the children's experience. 
+      Some families designate one parent as the "lead" for the evening while the other follows along, 
+      preventing confusion about decision-making.
+    </p>
+
+    <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Geographic Divisions</h3>
+    <p className="mb-6">
+      When parents live in different municipalities, they might each celebrate Halloween in their own 
+      neighborhoods on different nights. Many GTA communities host trick-or-treating on different dates, 
+      allowing children to participate in multiple celebrations. Mississauga might celebrate on October 31, 
+      while some Oakville neighborhoods organize events on October 30, creating natural opportunities for 
+      both parents to participate.
     </p>
 
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
@@ -112,6 +160,22 @@ const BlogContent = () => (
       unhealthy competition.
     </p>
 
+    <p className="mb-6">
+      The financial pressure intensifies when parents feel guilty about the divorce's impact on their 
+      children. One Thornhill mother admitted spending $400 on elaborate costumes for her two children, 
+      trying to "make up for" the family changes. Meanwhile, her ex-husband felt obligated to match her 
+      spending, creating an escalating cycle that strained both budgets and confused the children about 
+      normal Halloween expectations.
+    </p>
+
+    <p className="mb-6">
+      Smart co-parents establish Halloween budgets in their separation agreements or parenting plans. 
+      This prevents the "Halloween arms race" and ensures neither parent feels financially disadvantaged. 
+      Consider including provisions for costume costs (split 50/50 or alternating years), candy purchases 
+      for distribution, and party expenses. Clear agreements prevent resentment and maintain focus on 
+      creating joy rather than competition.
+    </p>
+
     <div className="bg-green-50 border-l-4 border-green-600 p-6 mb-8">
       <h3 className="font-bold text-gray-900 mb-3">💰 Typical Halloween Budget</h3>
       <ul className="space-y-2 text-gray-700">
@@ -132,12 +196,34 @@ const BlogContent = () => (
       on logistics, not emotions. Keep children out of planning disputes.
     </p>
 
+    <p className="mb-6">
+      Effective co-parenting communication requires removing emotion from logistics. Use business-like 
+      language, avoid blame or criticism, and focus exclusively on the children's needs. Many successful 
+      co-parents use dedicated apps like OurFamilyWizard or Talking Parents to maintain records and reduce 
+      conflict. These platforms timestamp communications and can be reviewed by courts if disputes arise.
+    </p>
+
     <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Sample Halloween Planning Email</h3>
     <p className="mb-6 italic bg-gray-50 p-4 rounded">
       "Hi [Ex-spouse], Halloween falls on Thursday, October 31st this year, which is typically your night. 
       I'd like to propose that you handle trick-or-treating from 5:30-7:30 PM in your neighborhood, and 
       I'll pick up Emma at 8 PM as usual. Emma wants to be Elsa—would you like to purchase the costume, 
       or should I? Please let me know by September 20th so we can coordinate. Thanks."
+    </p>
+
+    <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">When Communication Breaks Down</h3>
+    <p className="mb-6">
+      If direct communication proves impossible, consider using a parenting coordinator or mediator for 
+      Halloween planning. The cost of a two-hour mediation session (typically $300-500) pales compared to 
+      the emotional damage of Halloween conflicts. Some families establish "Halloween protocols" during 
+      divorce mediation, creating standing rules that eliminate annual negotiations.
+    </p>
+
+    <p className="mb-6">
+      Document all Halloween agreements in writing, even seemingly minor details. "Dad will provide the 
+      costume" seems clear until Dad interprets this as a $20 dollar store outfit while Mom expected 
+      the $80 Disney Store version. Specificity prevents conflicts: "Dad will purchase an Elsa costume 
+      from Disney Store or comparable quality, budget not to exceed $100, by October 15."
     </p>
 
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
@@ -159,6 +245,32 @@ const BlogContent = () => (
       helps, children can adapt to different rules. Focus on safety and basic agreements rather than 
       micromanaging the other parent's choices.
     </p>
+
+    <p className="mb-6">
+      The candy question exemplifies broader co-parenting challenges. Mom might limit candy to three pieces 
+      daily, while Dad lets kids eat freely Halloween night then confiscates the rest. Neither approach is 
+      inherently wrong, but children need help understanding why rules differ. Frame it positively: "Mom 
+      and Dad have different ways of celebrating, and that means you get different kinds of fun at each house."
+    </p>
+
+    <p className="mb-6">
+      Health-conscious parents particularly struggle when ex-spouses allow unlimited candy consumption. 
+      Rather than fighting this battle, focus on what you can control. Teach children about moderation and 
+      healthy choices without criticizing the other parent. "At our house, we save candy for special treats" 
+      works better than "Dad shouldn't let you eat so much junk."
+    </p>
+
+    <div className="bg-yellow-50 border-l-4 border-yellow-600 p-6 mb-8">
+      <h3 className="font-bold text-gray-900 mb-3">🍬 Candy Management Strategies</h3>
+      <ul className="space-y-2 text-gray-700">
+        <li>• Let each house have its own candy rules</li>
+        <li>• Don't interrogate children about other parent's policies</li>
+        <li>• Focus on teaching moderation, not control</li>
+        <li>• Consider "candy buy-back" programs (trade for privileges)</li>
+        <li>• Respect dietary restrictions consistently</li>
+        <li>• Address allergies with both parents clearly</li>
+      </ul>
+    </div>
 
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
       School Events and Daytime Activities
@@ -189,6 +301,22 @@ const BlogContent = () => (
       the other on costume creation. Different doesn't mean worse—children benefit from diverse experiences.
     </p>
 
+    <p className="mb-6">
+      New traditions help children adjust to post-divorce life while creating positive associations with 
+      each parent's home. A Richmond Hill father started "Haunted Pizza Night" the weekend before Halloween, 
+      where kids design scary pizzas with olive spiders and pepper jack-o'-lanterns. His ex-wife created 
+      "Costume Fashion Show Friday," where children model their costumes for grandparents via video call. 
+      Both traditions became cherished memories that transcended the divorce.
+    </p>
+
+    <p className="mb-6">
+      Consider traditions that don't compete with the actual Halloween night. This reduces conflict over 
+      the "main event" while giving each parent special moments. Pre-Halloween activities like visiting 
+      pumpkin patches, corn mazes, or haunted houses create memories without custody complications. Post-Halloween 
+      traditions like "candy sorting Sunday" or "November 1st costume donation" extend the celebration 
+      beyond the contested evening.
+    </p>
+
     <div className="bg-amber-50 border-l-4 border-amber-600 p-6 mb-8">
       <h3 className="font-bold text-gray-900 mb-3">🎃 New Tradition Ideas</h3>
       <ul className="space-y-2 text-gray-700">
@@ -211,6 +339,28 @@ const BlogContent = () => (
       the fun they'll have in each home.
     </p>
 
+    <p className="mb-6">
+      Children's Halloween emotions often mirror deeper feelings about the divorce. Eight-year-old Sophie 
+      told her counselor, "Halloween used to be when our whole family was happy together. Now it reminds me 
+      we're broken." These moments require delicate handling. Validate feelings without feeding negativity: 
+      "I understand you miss how things used to be. It's okay to feel sad. Let's also think about the fun 
+      new things we can do this year."
+    </p>
+
+    <p className="mb-6">
+      Watch for signs of loyalty conflicts around Halloween. Children might refuse to wear a costume one 
+      parent bought, claim they "hate Halloween now," or develop mysterious stomachaches October 31st. These 
+      behaviors often mask anxiety about disappointing one parent or navigating between homes. Professional 
+      counseling can help children process these complex emotions.
+    </p>
+
+    <p className="mb-6">
+      Some children attempt to reunite parents through Halloween manipulation: "Mom said she'd come 
+      trick-or-treating if you invite her" or "Dad bought the same costume so we could all match." Address 
+      these situations gently but clearly. Explain that while both parents love them, the family celebrates 
+      differently now. Consistency in this message helps children accept the new reality.
+    </p>
+
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
       Legal Considerations
     </h2>
@@ -221,6 +371,29 @@ const BlogContent = () => (
       for children.
     </p>
 
+    <p className="mb-6">
+      Ontario courts increasingly recognize Halloween as a significant holiday deserving specific custody 
+      provisions. Recent cases have established precedents for Halloween arrangements, particularly when 
+      one parent deliberately schedules activities to interfere with the other's Halloween time. Courts 
+      consider the child's historical Halloween patterns, neighborhood friendships, and each parent's 
+      ability to facilitate trick-or-treating.
+    </p>
+
+    <p className="mb-6">
+      Standard Halloween clauses in separation agreements might specify: "Halloween (October 31st) shall 
+      be celebrated with [Parent A] in odd-numbered years and [Parent B] in even-numbered years, from 
+      4:00 PM to 8:30 PM, regardless of the regular parenting schedule. The parent not having Halloween 
+      shall be entitled to telephone or video contact at 8:00 PM to see costumes and share in the 
+      children's excitement."
+    </p>
+
+    <p className="mb-6">
+      More detailed agreements address costume purchases, school party attendance, and transition logistics. 
+      Some specify that both parents may attend school parades regardless of custody, while trick-or-treating 
+      remains with the designated parent. These details prevent future conflicts and provide children with 
+      predictability.
+    </p>
+
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
       The Long-Term Perspective
     </h2>
@@ -229,6 +402,67 @@ const BlogContent = () => (
       Children won't remember whether they trick-or-treated in Mom's or Dad's neighborhood. They'll 
       remember whether their parents made Halloween special despite the divorce. Focus on creating joy, 
       not winning Halloween.
+    </p>
+
+    <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
+      The Social Media Minefield
+    </h2>
+    
+    <p className="mb-6">
+      Halloween photos on social media create unexpected conflicts between divorced parents. One parent 
+      posts adorable costume photos, the other feels excluded or upset about not being credited. Establish 
+      photo-sharing protocols: both parents can post pictures from their Halloween time, avoid negative 
+      comments on each other's posts, and consider creating shared albums for extended family.
+    </p>
+
+    <p className="mb-6">
+      The "Instagram parent" phenomenon intensifies around Halloween. Some parents stage elaborate photo 
+      shoots that prioritize social media over actual trick-or-treating. Children report feeling pressured 
+      to perform for cameras rather than enjoy Halloween. Keep perspective: your child's joy matters more 
+      than Facebook likes.
+    </p>
+
+    <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
+      Blended Family Dynamics
+    </h2>
+    
+    <p className="mb-6">
+      Halloween becomes more complex with step-siblings and half-siblings. Coordinating costumes for 
+      family themes, managing different trick-or-treating groups, and ensuring all children feel included 
+      requires extra planning. Some blended families find success with "sub-themes"—all kids dress as 
+      superheroes but choose their own characters, maintaining unity without forcing conformity.
+    </p>
+
+    <p className="mb-6">
+      Step-parents face particular challenges during Halloween. They want to participate without overstepping, 
+      support their partner without undermining the other biological parent, and bond with stepchildren 
+      while respecting boundaries. The key is following the biological parent's lead and focusing on 
+      creating positive experiences rather than replacing traditions.
+    </p>
+
+    <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
+      Age-Specific Considerations
+    </h2>
+    
+    <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Toddlers and Preschoolers (2-5 years)</h3>
+    <p className="mb-6">
+      Young children need consistency and shorter trick-or-treating sessions. Consider having both parents 
+      participate in different aspects—one handles the neighborhood walk, the other hosts getting ready and 
+      pictures. Attention spans are limited, so quality matters more than quantity of houses visited.
+    </p>
+
+    <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">School-Age Children (6-11 years)</h3>
+    <p className="mb-6">
+      This age group feels peer pressure most acutely. They want to trick-or-treat with friends, compare 
+      candy hauls, and participate in school events. Coordinate with other divorced parents in your friend 
+      group—children often feel less isolated when friends share similar situations.
+    </p>
+
+    <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Tweens and Teens (12+ years)</h3>
+    <p className="mb-6">
+      Older children might prefer Halloween parties to trick-or-treating. Navigate party permissions carefully—both 
+      parents need to agree on safety rules, curfews, and supervision standards. Some teens use Halloween 
+      as an excuse to avoid custody transitions. Address this manipulation while respecting growing autonomy.
     </p>
 
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">

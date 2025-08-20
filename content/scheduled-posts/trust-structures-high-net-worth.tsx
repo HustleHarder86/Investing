@@ -67,6 +67,22 @@ const BlogContent = () => (
       that achieves these goals while maintaining flexibility for changing circumstances.
     </p>
 
+    <p className="mb-6">
+      The architecture begins with understanding beneficiary classes. Primary beneficiaries might include 
+      spouse and children, while secondary beneficiaries could encompass grandchildren, future spouses, 
+      and even charities. A Yorkville family with $30 million in assets recently structured their trust 
+      with "catastrophe beneficiaries"—remote relatives who would inherit only if all direct descendants 
+      perished, ensuring wealth remained in the bloodline under any circumstance.
+    </p>
+
+    <p className="mb-6">
+      Distribution powers require careful calibration. Absolute discretion provides maximum flexibility 
+      but may concern beneficiaries about trustee bias. Guided discretion with distribution standards 
+      (health, education, maintenance, support) provides structure while maintaining adaptability. One 
+      innovative approach involves "incentive provisions" where distributions tie to beneficiary 
+      achievements: university graduation, career milestones, or community service.
+    </p>
+
     <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Trust Design Considerations</h3>
     
     <div className="bg-amber-50 border-l-4 border-amber-600 p-6 mb-8">
@@ -105,6 +121,23 @@ const BlogContent = () => (
       Canadian trusts face deemed disposition of capital property every 21 years, potentially triggering 
       massive tax bills. High net worth families must plan for these events through strategic distributions, 
       trust-to-trust transfers, or corporate reorganizations.
+    </p>
+
+    <p className="mb-6">
+      The mathematics of the 21-year rule can be devastating. A family trust holding $20 million in 
+      appreciated real estate could face a $5 million tax bill on its 21st anniversary. Smart families 
+      begin planning at year 15, modeling various scenarios and implementing gradual strategies rather 
+      than facing crisis decisions. A Vaughan real estate family recently navigated their 21-year deadline 
+      by distributing properties to beneficiaries over three years, spreading the tax burden and utilizing 
+      each beneficiary's lower marginal rates.
+    </p>
+
+    <p className="mb-6">
+      Creative solutions emerge from careful planning. Some families use the approaching 21-year deadline 
+      to transition from accumulation to distribution phases, aligning tax planning with family maturity. 
+      Others implement "trust shuffles" where beneficiaries receive and immediately resettle assets into 
+      new trusts, though CRA scrutinizes these transactions carefully. The key lies in genuine economic 
+      substance rather than pure tax motivation.
     </p>
 
     <div className="bg-green-50 border-l-4 border-green-600 p-6 mb-8">
@@ -150,6 +183,35 @@ const BlogContent = () => (
       trusts and corporate holdings. The structure will preserve the family's $100 million wealth for at 
       least four generations while minimizing tax leakage at each generational transfer.
     </p>
+
+    <p className="mb-6">
+      The philosophy behind dynasty trusts extends beyond tax minimization. These structures aim to 
+      prevent the "shirtsleeves to shirtsleeves in three generations" phenomenon that plagues wealthy 
+      families. By providing for needs rather than wants, funding education rather than lifestyle, and 
+      requiring beneficiaries to contribute to access funds, dynasty trusts cultivate responsibility 
+      alongside privilege.
+    </p>
+
+    <p className="mb-6">
+      Consider the "family bank" concept increasingly popular among ultra-high net worth families. The 
+      trust operates like an internal financial institution, providing loans for business ventures, 
+      mortgages for homes, and education funding—all at favorable rates but with real accountability. 
+      Beneficiaries learn financial responsibility while keeping wealth within the family ecosystem. 
+      A Forest Hill family's trust has operated this way for 20 years, funding 12 successful businesses 
+      and 8 home purchases while teaching financial literacy across two generations.
+    </p>
+
+    <div className="bg-emerald-50 border-l-4 border-emerald-600 p-6 mb-8">
+      <h3 className="font-bold text-gray-900 mb-3">🏛️ Dynasty Trust Features</h3>
+      <ul className="space-y-2 text-gray-700">
+        <li>• Generation-skipping provisions to minimize tax at each level</li>
+        <li>• Educational funding prioritized over lifestyle support</li>
+        <li>• Entrepreneurship incentives through matched funding</li>
+        <li>• Philanthropy requirements to instill values</li>
+        <li>• Family governance structures for collective decisions</li>
+        <li>• Professional management to ensure continuity</li>
+      </ul>
+    </div>
 
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
       Trustee Selection: The Critical Decision
@@ -209,6 +271,32 @@ const BlogContent = () => (
       from creditors and ensure proceeds are used as intended.
     </p>
 
+    <p className="mb-6">
+      The mathematics of insurance trusts can be compelling. A 55-year-old executive recently placed 
+      $20 million of permanent life insurance into an irrevocable trust. The annual premium of $400,000 
+      seems substantial, but consider the alternative: her estate would face $8 million in taxes on her 
+      $35 million estate. The insurance provides tax-free proceeds to cover this liability, preserving 
+      the underlying assets for her children. Moreover, the trust structure ensures proceeds can't be 
+      claimed by potential creditors or divorcing spouses.
+    </p>
+
+    <p className="mb-6">
+      Joint last-to-die policies within trusts offer particular advantages for married couples. Since 
+      proceeds aren't needed until the second death (when estate taxes come due), premiums are significantly 
+      lower than individual policies. A Richmond Hill couple with a $25 million estate pays $150,000 
+      annually for $10 million in coverage—effectively converting taxable assets into tax-free wealth 
+      at a fraction of the tax cost.
+    </p>
+
+    <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Cascading Insurance Strategies</h3>
+    <p className="mb-6">
+      Sophisticated families use cascading insurance strategies where trusts own policies on multiple 
+      generations. Parents' policies fund estate taxes, children's policies preserve wealth for grandchildren, 
+      creating a perpetual funding mechanism that compounds tax-free across generations. One prominent 
+      Toronto family has $100 million in insurance across three generations, ensuring wealth preservation 
+      regardless of tax law changes or family circumstances.
+    </p>
+
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
       International Trust Considerations
     </h2>
@@ -218,6 +306,35 @@ const BlogContent = () => (
       Foreign trusts offer potential benefits but face complex reporting requirements and attribution rules. 
       The CRA aggressively audits offshore structures, making compliance critical.
     </p>
+
+    <p className="mb-6">
+      The landscape of international trust planning has transformed dramatically. Gone are the days of 
+      simple offshore trusts providing tax benefits. Today's cross-border structures must navigate FATCA, 
+      CRS, and aggressive tax authority information sharing. A family with ties to the U.S., UK, and 
+      Canada recently spent $200,000 in professional fees designing a compliant structure that works 
+      across all three jurisdictions—complexity that would have been unimaginable a decade ago.
+    </p>
+
+    <p className="mb-6">
+      Immigration trusts deserve special attention. Families moving to Canada can establish offshore 
+      trusts before becoming resident, potentially sheltering foreign assets from Canadian tax for five 
+      years. However, the rules are intricate: settlors must never have been Canadian resident, trusts 
+      must be properly established abroad, and beneficiaries must understand distribution timing. A tech 
+      entrepreneur moving from Silicon Valley to Toronto recently established a Bermuda trust holding 
+      $50 million in U.S. assets, providing five years to restructure his affairs tax-efficiently.
+    </p>
+
+    <div className="bg-red-50 border-l-4 border-red-600 p-6 mb-8">
+      <h3 className="font-bold text-gray-900 mb-3">⚠️ International Trust Pitfalls</h3>
+      <ul className="space-y-2 text-gray-700">
+        <li>• Deemed resident trust rules catching foreign structures</li>
+        <li>• Form T1135 reporting requirements with severe penalties</li>
+        <li>• Transfer pricing issues with foreign trust transactions</li>
+        <li>• Treaty shopping limitations and anti-avoidance rules</li>
+        <li>• Exit tax implications when moving trust residence</li>
+        <li>• Beneficiary attribution for Canadian residents</li>
+      </ul>
+    </div>
 
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
       Trust Taxation: Navigating Complex Rules
@@ -250,6 +367,40 @@ const BlogContent = () => (
       across generations.
     </p>
 
+    <p className="mb-6">
+      The most successful wealthy families treat governance as seriously as their business operations. 
+      They hold regular family meetings, create written constitutions, and establish clear decision-making 
+      processes. A manufacturing family in Oakville holds quarterly "family board meetings" where trust 
+      beneficiaries present business plans, discuss distributions, and vote on major decisions. This 
+      structure has prevented the conflicts that destroyed similar fortunes in their industry.
+    </p>
+
+    <p className="mb-6">
+      Education programs prove crucial for beneficiary development. Rather than simply receiving distributions, 
+      beneficiaries learn about investments, taxation, philanthropy, and stewardship. Some families require 
+      beneficiaries to complete financial literacy courses before accessing trust funds. Others mandate 
+      internships in family businesses or charitable work. A Rosedale family sends beneficiaries to annual 
+      "wealth camps" starting at age 16, combining outdoor activities with intensive financial education.
+    </p>
+
+    <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">The Family Mission Statement</h3>
+    <p className="mb-6">
+      Articulating shared values through a family mission statement guides trust administration across 
+      generations. These documents, while not legally binding, provide moral authority for trustee decisions. 
+      They address fundamental questions: What is wealth for? How should it be used? What values must 
+      beneficiaries uphold? One family's mission statement requires 10% of distributions support charitable 
+      causes, ensuring philanthropic values persist across generations.
+    </p>
+
+    <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Succession Planning for Trustees</h3>
+    <p className="mb-6">
+      Trustee succession often receives insufficient attention. The original trustees—typically parents 
+      or trusted advisors—won't serve forever. Succession plans must address both capability and trust. 
+      Some families use "trustee training periods" where successors observe before taking control. Others 
+      establish trustee committees with rotating membership, ensuring continuity while bringing fresh 
+      perspectives.
+    </p>
+
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
       Trust Disputes: Prevention and Resolution
     </h2>
@@ -260,6 +411,60 @@ const BlogContent = () => (
       relationships better than litigation.
     </p>
 
+    <p className="mb-6">
+      The anatomy of trust disputes follows predictable patterns. Unequal distributions breed resentment. 
+      Vague language creates interpretation conflicts. Trustee decisions appear arbitrary without explanation. 
+      A recent Ontario Superior Court case saw siblings spend $2 million litigating a $5 million trust—everyone 
+      lost except the lawyers. Prevention through careful drafting and governance costs fraction of litigation 
+      while preserving relationships.
+    </p>
+
+    <p className="mb-6">
+      Mandatory mediation clauses in trust deeds provide structured dispute resolution without court 
+      intervention. Some trusts go further, establishing "trust protectors"—independent parties with 
+      power to resolve disputes, remove trustees, or modify trust terms. A Toronto trust recently avoided 
+      litigation when its protector mediated between beneficiaries disagreeing on property sales, reaching 
+      resolution in three meetings versus years of court battles.
+    </p>
+
+    <div className="bg-yellow-50 border-l-4 border-yellow-600 p-6 mb-8">
+      <h3 className="font-bold text-gray-900 mb-3">⚖️ Dispute Prevention Strategies</h3>
+      <ul className="space-y-2 text-gray-700">
+        <li>• Crystal-clear distribution standards and criteria</li>
+        <li>• Regular beneficiary meetings and updates</li>
+        <li>• Transparent trustee decision documentation</li>
+        <li>• Independent trust protectors for oversight</li>
+        <li>• Mandatory mediation before litigation</li>
+        <li>• Regular trust reviews and modernization</li>
+      </ul>
+    </div>
+
+    <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
+      Special Purpose Trusts: Tailored Solutions
+    </h2>
+    
+    <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Henson Trusts for Disabled Beneficiaries</h3>
+    <p className="mb-6">
+      Families with disabled beneficiaries face unique challenges: providing support without disqualifying 
+      government benefits. Henson trusts, with absolute discretion provisions, allow trustees to supplement 
+      rather than replace government support. A Markham family established a $3 million Henson trust for 
+      their autistic son, providing enhanced quality of life while preserving ODSP eligibility.
+    </p>
+
+    <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Qualified Disability Trusts</h3>
+    <p className="mb-6">
+      These specialized trusts access graduated tax rates rather than top marginal rates on retained 
+      income, saving thousands annually. Combined with disability tax credits and preferred beneficiary 
+      elections, they create powerful planning opportunities for families with disabled members.
+    </p>
+
+    <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Pet Trusts</h3>
+    <p className="mb-6">
+      High net worth individuals increasingly establish trusts for beloved pets. While seemingly eccentric, 
+      these structures ensure proper care when owners pass. A Toronto philanthropist recently established 
+      a $500,000 trust for her three dogs, with detailed care instructions and caregiver compensation.
+    </p>
+
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
       Regulatory Changes and Future Planning
     </h2>
@@ -268,6 +473,20 @@ const BlogContent = () => (
       Potential 2026 tax changes could affect trust planning significantly. Proposed measures include 
       limiting income splitting, increasing trust tax rates, and restricting planning techniques. 
       Acting before changes provides certainty and potential grandfathering.
+    </p>
+
+    <p className="mb-6">
+      The federal government's focus on "tax fairness" specifically targets trust strategies used by 
+      high net worth families. Proposed changes include expanding kiddie tax rules, eliminating graduated 
+      rates for most trusts, and requiring annual distribution of income. While not yet law, prudent 
+      families are accelerating trust establishment to potentially grandfather existing structures.
+    </p>
+
+    <p className="mb-6">
+      Provincial changes add complexity. Ontario's consideration of wealth taxes could fundamentally 
+      alter trust economics. British Columbia's beneficial ownership registry may eliminate privacy 
+      benefits. Quebec's aggressive trust audit program signals enhanced enforcement nationally. These 
+      converging pressures make immediate action advisable for families considering trust structures.
     </p>
 
     <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
