@@ -16,6 +16,18 @@ const blogPosts = [
     excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
     author: 'Michael Chen',
     authorTitle: 'CFP®, Divorce Specialist',
+    date: '2025-08-20',
+    readTime: '10 min',
+    category: 'Divorce Planning',
+    categorySlug: 'divorce-planning',
+    featured: false
+  },
+  {
+    slug: 'rrsp-vs-tfsa-during-divorce',
+    title: 'RRSP vs TFSA During Divorce: Which Assets Are Really Yours?',
+    excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
+    author: 'Michael Chen',
+    authorTitle: 'CFP®, Divorce Specialist',
     date: '2025-08-19',
     readTime: '10 min',
     category: 'Divorce Planning',
