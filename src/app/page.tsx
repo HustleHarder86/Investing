@@ -10,6 +10,7 @@ import ChatWidget from '@/components/ai/ChatWidget';
 import MobileEnhancements from '@/components/mobile/MobileEnhancements';
 import MobileContactForm from '@/components/mobile/MobileContactForm';
 import LiveTrustElements from '@/components/trust/LiveTrustElements';
+import GTAMap from '@/components/ui/GTAMap';
 
 export default function Home() {
   const tier1Cities = getCitiesByTier(1);
@@ -60,7 +61,29 @@ export default function Home() {
                           href={`/services/${service.slug}`}
                           className="flex items-center p-3 rounded-xl hover:bg-slate-50 transition-all duration-200 group/item"
                         >
-                          <div className="text-2xl mr-3">{service.icon}</div>
+                          <div className="w-8 h-8 bg-gradient-to-r from-teal-500/20 to-blue-500/20 rounded-lg flex items-center justify-center mr-3">
+                            {service.icon === 'divorce' && (
+                              <svg className="w-5 h-5 text-teal-600" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" />
+                              </svg>
+                            )}
+                            {service.icon === 'inheritance' && (
+                              <svg className="w-5 h-5 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M3.05 13h1.9V7H3.05c-.504 0-1.05.5-1.05 1v4c0 .5.546 1 1.05 1zm14 0h1.9c.504 0 1.05-.5 1.05-1V8c0-.5-.546-1-1.05-1h-1.9v6zM10 7c-2.761 0-5 2.239-5 5v6h10v-6c0-2.761-2.239-5-5-5z" />
+                              </svg>
+                            )}
+                            {service.icon === 'business' && (
+                              <svg className="w-5 h-5 text-emerald-600" fill="currentColor" viewBox="0 0 20 20">
+                                <path fillRule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clipRule="evenodd" />
+                                <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z" />
+                              </svg>
+                            )}
+                            {service.icon === 'severance' && (
+                              <svg className="w-5 h-5 text-amber-600" fill="currentColor" viewBox="0 0 20 20">
+                                <path fillRule="evenodd" d="M10 2a1 1 0 00-1 1v1a1 1 0 002 0V3a1 1 0 00-1-1zM4 4h3a3 3 0 006 0h3a2 2 0 012 2v9a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2zm2.5 7a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm2.45 4a2.5 2.5 0 10-4.9 0h4.9zM12 9a1 1 0 100 2h3a1 1 0 100-2h-3zm-1 4a1 1 0 011-1h2a1 1 0 110 2h-2a1 1 0 01-1-1z" clipRule="evenodd" />
+                              </svg>
+                            )}
+                          </div>
                           <div className="flex-1">
                             <div className="font-medium text-slate-900 group-hover/item:text-teal-600 transition-colors">
                               {service.shortName}
@@ -263,7 +286,32 @@ export default function Home() {
                   <div className="grid grid-cols-2 gap-3">
                     {services.slice(0, 4).map((service) => (
                       <div key={service.slug} className="bg-white rounded-xl p-4 shadow-sm border border-slate-100 hover:shadow-md transition-all duration-300 group">
-                        <div className="text-2xl mb-2 group-hover:scale-110 transition-transform duration-300">{service.icon}</div>
+                        <div className="w-8 h-8 mb-2 group-hover:scale-110 transition-transform duration-300">
+                          {service.slug === 'divorce-financial-planning' && (
+                            <svg className="w-8 h-8 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                              <path d="M16 2H8C4.691 2 2 4.691 2 8v13a1 1 0 001 1h13c3.309 0 6-2.691 6-6V8c0-3.309-2.691-6-6-6zm4 14c0 2.206-1.794 4-4 4H4V8c0-2.206 1.794-4 4-4h8c2.206 0 4 1.794 4 4v8z"/>
+                              <path d="M11 6h2v8h-2zm0 10h2v2h-2z"/>
+                            </svg>
+                          )}
+                          {service.slug === 'inheritance-financial-planning' && (
+                            <svg className="w-8 h-8 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
+                              <path d="M5 5v14a1 1 0 001 1h3v-2H7V6h2V4H6a1 1 0 00-1 1zm14.242-.97l-8-2A1 1 0 0011 2H9a1 1 0 00-1 1v9c0 .266.105.52.293.707S8.734 13 9 13h2c.266 0 .52-.105.707-.293S12 12.266 12 12V4.92l7.242 1.82a1 1 0 00.758-.029c.271-.113.469-.346.531-.629l.963-4.807 1.958.392-.963 4.807c-.072.36-.399.652-.759.677z"/>
+                              <path d="M14 20h-4v-2h4c1.103 0 2-.897 2-2v-4h2v4c0 2.206-1.794 4-4 4z"/>
+                            </svg>
+                          )}
+                          {service.slug === 'business-sale-planning' && (
+                            <svg className="w-8 h-8 text-emerald-600" fill="currentColor" viewBox="0 0 24 24">
+                              <path d="M20 6h-3V4c0-1.103-.897-2-2-2H9c-1.103 0-2 .897-2 2v2H4c-1.103 0-2 .897-2 2v11c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V8c0-1.103-.897-2-2-2zM9 4h6v2H9V4zm11 15H4V8h16v11z"/>
+                              <path d="M11 17.414l-3.707-3.707 1.414-1.414L11 14.586l4.293-4.293 1.414 1.414z"/>
+                            </svg>
+                          )}
+                          {service.slug === 'severance-job-loss-planning' && (
+                            <svg className="w-8 h-8 text-amber-600" fill="currentColor" viewBox="0 0 24 24">
+                              <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"/>
+                              <path d="M14.829 14.828a4.055 4.055 0 01-1.272.858 4.002 4.002 0 01-4.875-1.45l-1.658 1.119a6.063 6.063 0 001.621 1.62 5.963 5.963 0 002.148.903 6.042 6.042 0 002.415 0 5.972 5.972 0 002.148-.903 6.053 6.053 0 001.621-1.62 5.975 5.975 0 00.903-2.148l-1.95-.423a3.903 3.903 0 01-.577 1.296 4.029 4.029 0 01-.474.348z"/>
+                            </svg>
+                          )}
+                        </div>
                         <div className="text-slate-800 text-sm font-medium">{service.shortName}</div>
                       </div>
                     ))}
@@ -374,8 +422,13 @@ export default function Home() {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-8 border border-slate-200/50 shadow-lg hover:shadow-xl transition-all duration-300">
                 <div className="flex items-center mb-6">
-                  <div className="w-12 h-12 bg-gradient-to-r from-teal-500 to-blue-500 rounded-full flex items-center justify-center text-white font-bold mr-4 shadow-lg">
-                    SM
+                  <div className="w-12 h-12 rounded-full mr-4 shadow-lg overflow-hidden">
+                    {/* Professional woman headshot from Unsplash */}
+                    <img 
+                      src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=faces" 
+                      alt="Sarah M."
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <div>
                     <div className="font-semibold text-slate-900">Sarah M.</div>
@@ -396,8 +449,13 @@ export default function Home() {
 
               <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-8 border border-slate-200/50 shadow-lg hover:shadow-xl transition-all duration-300">
                 <div className="flex items-center mb-6">
-                  <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold mr-4 shadow-lg">
-                    JK
+                  <div className="w-12 h-12 rounded-full mr-4 shadow-lg overflow-hidden">
+                    {/* Professional man headshot from Unsplash */}
+                    <img 
+                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=faces" 
+                      alt="James K."
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <div>
                     <div className="font-semibold text-slate-900">James K.</div>
@@ -418,8 +476,13 @@ export default function Home() {
 
               <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-8 border border-slate-200/50 shadow-lg hover:shadow-xl transition-all duration-300">
                 <div className="flex items-center mb-6">
-                  <div className="w-12 h-12 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full flex items-center justify-center text-white font-bold mr-4 shadow-lg">
-                    LR
+                  <div className="w-12 h-12 rounded-full mr-4 shadow-lg overflow-hidden">
+                    {/* Professional woman headshot from Unsplash */}
+                    <img 
+                      src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&h=150&fit=crop&crop=faces" 
+                      alt="Lisa R."
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <div>
                     <div className="font-semibold text-slate-900">Lisa R.</div>
@@ -614,89 +677,56 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
-            <div>
-              <div className="bg-white/80 backdrop-blur-xl rounded-2xl p-8 shadow-lg border border-slate-200/50">
-                <h3 className="text-2xl font-display font-bold text-slate-900 mb-6">Popular Service Areas</h3>
-                <div className="grid grid-cols-2 gap-4">
-                  {tier1Cities.slice(0, 6).map((city) => (
-                    <Link 
-                      key={city.slug}
-                      href={`/${city.slug}/divorce-financial-planning`}
-                      className="group flex items-center p-3 bg-slate-50 hover:bg-teal-50 rounded-xl transition-all duration-200 border border-transparent hover:border-teal-200"
-                    >
-                      <div className="w-8 h-8 bg-gradient-to-r from-teal-500 to-blue-500 rounded-lg flex items-center justify-center mr-3 group-hover:scale-110 transition-transform duration-200">
-                        <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
-                        </svg>
-                      </div>
-                      <div>
-                        <div className="font-semibold text-slate-900 group-hover:text-teal-700 transition-colors">{city.name}</div>
-                        <div className="text-xs text-slate-500">{city.population} residents</div>
-                      </div>
-                    </Link>
-                  ))}
+          {/* Interactive Map */}
+          <div className="mb-16">
+            <GTAMap />
+          </div>
+          
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div className="bg-gradient-to-br from-teal-50 to-blue-50 rounded-2xl p-6 border border-teal-200/50">
+              <div className="flex items-center mb-4">
+                <div className="w-10 h-10 bg-gradient-to-r from-teal-500 to-blue-500 rounded-xl flex items-center justify-center mr-4">
+                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" clipRule="evenodd" />
+                  </svg>
                 </div>
-                <div className="mt-6 pt-6 border-t border-slate-200">
-                  <Link 
-                    href="/locations"
-                    className="text-teal-600 hover:text-teal-700 font-medium flex items-center group"
-                  >
-                    View all 21 municipalities
-                    <svg className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                    </svg>
-                  </Link>
+                <div>
+                  <h4 className="font-bold text-slate-900">Local Market Knowledge</h4>
                 </div>
               </div>
+              <p className="text-slate-600">Deep understanding of GTA real estate markets, local tax implications, and regional economic factors that impact your financial planning.</p>
             </div>
             
-            <div className="space-y-6">
-              <div className="bg-gradient-to-br from-teal-50 to-blue-50 rounded-2xl p-6 border border-teal-200/50">
-                <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 bg-gradient-to-r from-teal-500 to-blue-500 rounded-xl flex items-center justify-center mr-4">
-                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-slate-900">Local Market Knowledge</h4>
-                  </div>
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200/50">
+              <div className="flex items-center mb-4">
+                <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mr-4">
+                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z" />
+                  </svg>
                 </div>
-                <p className="text-slate-600">Deep understanding of GTA real estate markets, local tax implications, and regional economic factors that impact your financial planning.</p>
-              </div>
-              
-              <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200/50">
-                <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mr-4">
-                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-slate-900">Community Connections</h4>
-                  </div>
+                <div>
+                  <h4 className="font-bold text-slate-900">Community Connections</h4>
                 </div>
-                <p className="text-slate-600">Established relationships with local lawyers, accountants, and other professionals to support your comprehensive financial planning needs.</p>
               </div>
-              
-              <div className="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl p-6 border border-emerald-200/50">
-                <div className="flex items-center mb-4">
-                  <div className="w-10 h-10 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-xl flex items-center justify-center mr-4">
-                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-slate-900">Flexible Meeting Options</h4>
-                  </div>
+              <p className="text-slate-600">Established relationships with local lawyers, accountants, and other professionals to support your comprehensive financial planning needs.</p>
+            </div>
+            
+            <div className="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl p-6 border border-emerald-200/50">
+              <div className="flex items-center mb-4">
+                <div className="w-10 h-10 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-xl flex items-center justify-center mr-4">
+                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clipRule="evenodd" />
+                  </svg>
                 </div>
-                <p className="text-slate-600">In-person meetings, virtual consultations, or phone calls - we adapt to your preference and location across the entire GTA.</p>
+                <div>
+                  <h4 className="font-bold text-slate-900">Flexible Meeting Options</h4>
+                </div>
               </div>
+              <p className="text-slate-600">In-person meetings, virtual consultations, or phone calls - we adapt to your preference and location across the entire GTA.</p>
             </div>
           </div>
           
-          <div className="text-center">
+          <div className="text-center mt-12">
             <Link
               href="/locations"
               className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-teal-600 to-blue-600 text-white rounded-2xl font-semibold shadow-xl hover:shadow-2xl transition-all duration-300"
@@ -726,7 +756,10 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="group bg-white/80 backdrop-blur-xl rounded-2xl p-8 border border-slate-200/50 shadow-lg hover:shadow-xl transition-all duration-300 text-center">
               <div className="w-16 h-16 bg-gradient-to-r from-teal-500 to-blue-500 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
-                <span className="text-2xl">🎯</span>
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M10 2a8 8 0 100 16 8 8 0 000-16zM6.39 6.39a5.93 5.93 0 117.24 7.24l-1.39-1.39A3.95 3.95 0 0014 9a4 4 0 00-4-4 3.95 3.95 0 00-3.24 1.76L6.39 6.39z"/>
+                  <circle cx="10" cy="10" r="2" fill="currentColor"/>
+                </svg>
               </div>
               <h3 className="text-xl font-display font-bold text-slate-900 mb-4">Specialized Expertise</h3>
               <p className="text-slate-600 leading-relaxed">
@@ -736,7 +769,9 @@ export default function Home() {
             
             <div className="group bg-white/80 backdrop-blur-xl rounded-2xl p-8 border border-slate-200/50 shadow-lg hover:shadow-xl transition-all duration-300 text-center">
               <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
-                <span className="text-2xl">🌍</span>
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z" clipRule="evenodd"/>
+                </svg>
               </div>
               <h3 className="text-xl font-display font-bold text-slate-900 mb-4">GTA Coverage</h3>
               <p className="text-slate-600 leading-relaxed">
@@ -746,7 +781,9 @@ export default function Home() {
             
             <div className="group bg-white/80 backdrop-blur-xl rounded-2xl p-8 border border-slate-200/50 shadow-lg hover:shadow-xl transition-all duration-300 text-center">
               <div className="w-16 h-16 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
-                <span className="text-2xl">🔒</span>
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd"/>
+                </svg>
               </div>
               <h3 className="text-xl font-display font-bold text-slate-900 mb-4">Confidential & Compassionate</h3>
               <p className="text-slate-600 leading-relaxed">
@@ -960,7 +997,29 @@ export default function Home() {
                   {services.map(service => (
                     <li key={service.slug}>
                       <Link href={`/services/${service.slug}`} className="text-white/80 hover:text-teal-300 transition-colors flex items-center">
-                        <span className="text-lg mr-2">{service.icon}</span>
+                        <div className="w-5 h-5 mr-2">
+                          {service.slug === 'divorce-financial-planning' && (
+                            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" />
+                            </svg>
+                          )}
+                          {service.slug === 'inheritance-financial-planning' && (
+                            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M3.05 13h1.9V7H3.05c-.504 0-1.05.5-1.05 1v4c0 .5.546 1 1.05 1zm14 0h1.9c.504 0 1.05-.5 1.05-1V8c0-.5-.546-1-1.05-1h-1.9v6zM10 7c-2.761 0-5 2.239-5 5v6h10v-6c0-2.761-2.239-5-5-5z" />
+                            </svg>
+                          )}
+                          {service.slug === 'business-sale-planning' && (
+                            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                              <path fillRule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clipRule="evenodd" />
+                              <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z" />
+                            </svg>
+                          )}
+                          {service.slug === 'severance-job-loss-planning' && (
+                            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                              <path fillRule="evenodd" d="M10 2a1 1 0 00-1 1v1a1 1 0 002 0V3a1 1 0 00-1-1zM4 4h3a3 3 0 006 0h3a2 2 0 012 2v9a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2zm2.5 7a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm2.45 4a2.5 2.5 0 10-4.9 0h4.9zM12 9a1 1 0 100 2h3a1 1 0 100-2h-3zm-1 4a1 1 0 011-1h2a1 1 0 110 2h-2a1 1 0 01-1-1z" clipRule="evenodd" />
+                            </svg>
+                          )}
+                        </div>
                         {service.shortName}
                       </Link>
                     </li>

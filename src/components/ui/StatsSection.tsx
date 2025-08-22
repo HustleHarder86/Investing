@@ -16,28 +16,28 @@ const stats: StatData[] = [
     suffix: '%',
     label: 'Client Satisfaction',
     description: 'Clients achieve their financial goals',
-    icon: '⭐'
+    icon: 'satisfaction'
   },
   {
     value: 2.4,
     suffix: 'M',
     label: 'Assets Protected',
     description: 'In client wealth managed',
-    icon: '🛡️'
+    icon: 'shield'
   },
   {
     value: 15,
     suffix: '+',
     label: 'Years Experience',
     description: 'Combined team expertise',
-    icon: '📈'
+    icon: 'chart'
   },
   {
     value: 500,
     suffix: '+',
     label: 'Families Helped',
     description: 'Successful transitions guided',
-    icon: '👨‍👩‍👧‍👦'
+    icon: 'family'
   }
 ];
 
@@ -131,7 +131,7 @@ function ProgressRing({ percentage, size, strokeWidth, isVisible }: ProgressRing
   }, [percentage, isVisible]);
 
   return (
-    <div className="relative">
+    <div className="relative inline-block">
       <svg width={size} height={size} className="transform -rotate-90">
         {/* Background ring */}
         <circle
@@ -158,12 +158,12 @@ function ProgressRing({ percentage, size, strokeWidth, isVisible }: ProgressRing
         <defs>
           <linearGradient id="progressGradient" x1="0%" y1="0%" x2="100%" y2="100%">
             <stop offset="0%" stopColor="#14b8a6" />
-            <stop offset="100%" stopColor="#1e293b" />
+            <stop offset="100%" stopColor="#2563eb" />
           </linearGradient>
         </defs>
       </svg>
       <div className="absolute inset-0 flex items-center justify-center">
-        <span className="text-2xl font-bold text-navy-800">
+        <span className="text-3xl font-display font-bold text-slate-900">
           {Math.round(progress)}%
         </span>
       </div>
@@ -227,8 +227,27 @@ export default function StatsSection() {
               <div className="absolute inset-0 bg-gradient-to-r from-teal-50/50 to-blue-50/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               
               {/* Icon with floating animation */}
-              <div className="text-6xl mb-6 float-slow group-hover:scale-110 transition-transform duration-500">
-                {stat.icon}
+              <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-r from-teal-500/10 to-blue-500/10 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-all duration-500">
+                {stat.icon === 'satisfaction' && (
+                  <svg className="w-10 h-10 text-teal-600" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                )}
+                {stat.icon === 'shield' && (
+                  <svg className="w-10 h-10 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                )}
+                {stat.icon === 'chart' && (
+                  <svg className="w-10 h-10 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z" />
+                  </svg>
+                )}
+                {stat.icon === 'family' && (
+                  <svg className="w-10 h-10 text-emerald-600" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z" />
+                  </svg>
+                )}
               </div>
               
               {/* Animated counter */}
@@ -266,9 +285,9 @@ export default function StatsSection() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {/* Service success rates */}
-            <div className="text-center">
+            <div className="flex flex-col items-center">
               <ProgressRing 
                 percentage={96} 
                 size={180} 
@@ -276,10 +295,10 @@ export default function StatsSection() {
                 isVisible={isVisible}
               />
               <h4 className="text-xl font-bold text-slate-900 mt-6 mb-2">Divorce Planning</h4>
-              <p className="text-slate-600">Successful settlements achieved</p>
+              <p className="text-slate-600 text-center">Successful settlements achieved</p>
             </div>
             
-            <div className="text-center">
+            <div className="flex flex-col items-center">
               <ProgressRing 
                 percentage={94} 
                 size={180} 
@@ -287,10 +306,10 @@ export default function StatsSection() {
                 isVisible={isVisible}
               />
               <h4 className="text-xl font-bold text-slate-900 mt-6 mb-2">Inheritance Planning</h4>
-              <p className="text-slate-600">Tax optimization success rate</p>
+              <p className="text-slate-600 text-center">Tax optimization success rate</p>
             </div>
             
-            <div className="text-center">
+            <div className="flex flex-col items-center">
               <ProgressRing 
                 percentage={92} 
                 size={180} 
@@ -298,7 +317,7 @@ export default function StatsSection() {
                 isVisible={isVisible}
               />
               <h4 className="text-xl font-bold text-slate-900 mt-6 mb-2">Business Sale</h4>
-              <p className="text-slate-600">Optimal deal structuring</p>
+              <p className="text-slate-600 text-center">Optimal deal structuring</p>
             </div>
           </div>
         </div>

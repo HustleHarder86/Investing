@@ -163,8 +163,11 @@ function DivorceCalculator({ onClose }: CalculatorProps) {
             </div>
             
             <div className="mt-4 p-3 bg-teal-50 rounded-lg">
-              <p className="text-sm text-teal-800">
-                💡 These are estimates only. Professional consultation required for accurate planning.
+              <p className="text-sm text-teal-800 flex items-start">
+                <svg className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M11 3a1 1 0 10-2 0v1a1 1 0 102 0V3zM15.657 5.757a1 1 0 00-1.414-1.414l-.707.707a1 1 0 001.414 1.414l.707-.707zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zM5.05 6.464A1 1 0 106.464 5.05l-.707-.707a1 1 0 00-1.414 1.414l.707.707zM5 10a1 1 0 01-1 1H3a1 1 0 110-2h1a1 1 0 011 1zM8 16v-1h4v1a2 2 0 11-4 0zM12 14c.015-.34.208-.646.477-.859a4 4 0 10-4.954 0c.27.213.462.519.476.859h4.002z" clipRule="evenodd"/>
+                </svg>
+                These are estimates only. Professional consultation required for accurate planning.
               </p>
             </div>
           </div>
@@ -301,8 +304,12 @@ function InheritanceCalculator({ onClose }: CalculatorProps) {
             </div>
             
             <div className="mt-4 p-3 bg-green-50 rounded-lg">
-              <p className="text-sm text-green-800">
-                💰 Professional planning could save ${results.savings.toLocaleString()} in taxes
+              <p className="text-sm text-green-800 flex items-start">
+                <svg className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z"/>
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z" clipRule="evenodd"/>
+                </svg>
+                Professional planning could save ${results.savings.toLocaleString()} in taxes
               </p>
             </div>
           </div>
@@ -326,28 +333,28 @@ export default function SmartCalculators() {
       id: 'divorce',
       title: 'Divorce Planning',
       description: 'Estimate settlement amounts and planning costs',
-      icon: '⚖️',
+      icon: 'divorce',
       color: 'from-purple-500 to-pink-500'
     },
     {
       id: 'inheritance',
       title: 'Inheritance Planning',
       description: 'Calculate tax implications and savings',
-      icon: '🏛️',
+      icon: 'inheritance',
       color: 'from-green-500 to-teal-500'
     },
     {
       id: 'business',
       title: 'Business Sale',
       description: 'Optimize your business exit strategy',
-      icon: '🏢',
+      icon: 'business',
       color: 'from-blue-500 to-indigo-500'
     },
     {
       id: 'severance',
       title: 'Job Transition',
       description: 'Plan your financial transition',
-      icon: '💼',
+      icon: 'severance',
       color: 'from-orange-500 to-red-500'
     }
   ];
@@ -391,8 +398,27 @@ export default function SmartCalculators() {
               
               <div className="relative p-6 text-center">
                 {/* Icon */}
-                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
-                  {calc.icon}
+                <div className="w-12 h-12 mx-auto mb-4 bg-gradient-to-r from-teal-500/10 to-blue-500/10 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                  {calc.icon === 'divorce' && (
+                    <svg className="w-7 h-7 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                  )}
+                  {calc.icon === 'inheritance' && (
+                    <svg className="w-7 h-7 text-green-600" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9h-4v4h-2v-4H9V9h4V5h2v4h4v2z"/>
+                    </svg>
+                  )}
+                  {calc.icon === 'business' && (
+                    <svg className="w-7 h-7 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"/>
+                    </svg>
+                  )}
+                  {calc.icon === 'severance' && (
+                    <svg className="w-7 h-7 text-orange-600" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M20 6h-3V4c0-1.11-.89-2-2-2H9c-1.11 0-2 .89-2 2v2H4c-1.11 0-2 .89-2 2v11c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zM9 4h6v2H9V4zm11 15H4V8h16v11zM12 17c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"/>
+                    </svg>
+                  )}
                 </div>
                 
                 {/* Title */}

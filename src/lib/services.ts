@@ -19,7 +19,7 @@ export const services: Service[] = [
     slug: "divorce-financial-planning",
     shortName: "Divorce Planning",
     description: "Navigate the financial complexities of divorce with expert guidance on asset division, support obligations, and future security.",
-    icon: "⚖️",
+    icon: "divorce",
     primaryKeywords: [
       "divorce financial planner",
       "divorce investment advisor", 
@@ -47,7 +47,7 @@ export const services: Service[] = [
     slug: "inheritance-financial-planning", 
     shortName: "Inheritance Planning",
     description: "Turn your inheritance into long-term wealth with strategic planning for taxes, investments, and estate protection.",
-    icon: "🏛️",
+    icon: "inheritance",
     primaryKeywords: [
       "inheritance financial planner",
       "estate inheritance advisor",
@@ -75,7 +75,7 @@ export const services: Service[] = [
     slug: "business-sale-planning",
     shortName: "Business Sale Planning", 
     description: "Maximize the value of your business sale with strategic tax planning, succession strategies, and retirement preparation.",
-    icon: "🏢",
+    icon: "business",
     primaryKeywords: [
       "business sale financial planning",
       "business exit planning advisor",
@@ -103,7 +103,7 @@ export const services: Service[] = [
     slug: "severance-job-loss-planning",
     shortName: "Severance Planning",
     description: "Navigate job loss with confidence through expert guidance on severance packages, benefits transitions, and career planning.",
-    icon: "🔄",
+    icon: "severance",
     primaryKeywords: [
       "severance package financial advisor",
       "job loss financial planning",
