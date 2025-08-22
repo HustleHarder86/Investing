@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'selling-gta-business-before-year-end',
+    title: 'Selling Your GTA Business Before Year-End: Tax Strategies',
+    excerpt: 'Expert insights on business sale to help you navigate your financial transition.',
+    author: 'Jennifer Park',
+    authorTitle: 'CPA, Tax Planning Expert',
+    date: '2025-08-22',
+    readTime: '12 min',
+    category: 'Business Sale',
+    categorySlug: 'business-sale',
+    featured: false
+  },
+  {
     slug: 'rrsp-vs-tfsa-during-divorce',
     title: 'RRSP vs TFSA During Divorce: Which Assets Are Really Yours?',
     excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
