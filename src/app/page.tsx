@@ -10,7 +10,6 @@ import SmartCalculators from '@/components/calculators/SmartCalculators';
 import ChatWidget from '@/components/ai/ChatWidget';
 import MobileEnhancements from '@/components/mobile/MobileEnhancements';
 import MobileContactForm from '@/components/mobile/MobileContactForm';
-import LiveTrustElements from '@/components/trust/LiveTrustElements';
 import GTAMap from '@/components/ui/GTAMap';
 
 export default function Home() {
@@ -245,7 +244,6 @@ export default function Home() {
                   <div className="bg-gradient-to-br from-slate-50 to-white rounded-2xl p-6 shadow-lg border border-slate-100">
                     <div className="flex items-center justify-between mb-6">
                       <div className="text-slate-900 font-semibold text-lg">Client Portfolio</div>
-                      <div className="px-3 py-1 bg-teal-100 text-teal-700 text-xs font-medium rounded-full">Live</div>
                     </div>
                     <div className="space-y-4">
                       <div className="flex justify-between items-center">
@@ -459,8 +457,6 @@ export default function Home() {
       {/* Mobile-First Enhancements */}
       <MobileEnhancements />
 
-      {/* Live Trust Elements */}
-      <LiveTrustElements />
 
       {/* Modern Services Section */}
       <section className="py-24 bg-gradient-to-b from-white to-slate-50 relative overflow-hidden">
