@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { services } from '@/lib/services';
 import { getCitiesByTier } from '@/lib/cities';
 import ServiceCard from '@/components/ui/ServiceCard';
+import ServiceIcon from '@/components/ui/ServiceIcon';
 import CityGrid from '@/components/ui/CityGrid';
 import ContactForm from '@/components/forms/ContactForm';
 import StatsSection from '@/components/ui/StatsSection';
@@ -62,27 +63,16 @@ export default function Home() {
                           className="flex items-center p-3 rounded-xl hover:bg-slate-50 transition-all duration-200 group/item"
                         >
                           <div className="w-8 h-8 bg-gradient-to-r from-teal-500/20 to-blue-500/20 rounded-lg flex items-center justify-center mr-3">
-                            {service.icon === 'divorce' && (
-                              <svg className="w-5 h-5 text-teal-600" fill="currentColor" viewBox="0 0 20 20">
-                                <path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" />
-                              </svg>
-                            )}
-                            {service.icon === 'inheritance' && (
-                              <svg className="w-5 h-5 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
-                                <path d="M3.05 13h1.9V7H3.05c-.504 0-1.05.5-1.05 1v4c0 .5.546 1 1.05 1zm14 0h1.9c.504 0 1.05-.5 1.05-1V8c0-.5-.546-1-1.05-1h-1.9v6zM10 7c-2.761 0-5 2.239-5 5v6h10v-6c0-2.761-2.239-5-5-5z" />
-                              </svg>
-                            )}
-                            {service.icon === 'business' && (
-                              <svg className="w-5 h-5 text-emerald-600" fill="currentColor" viewBox="0 0 20 20">
-                                <path fillRule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clipRule="evenodd" />
-                                <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z" />
-                              </svg>
-                            )}
-                            {service.icon === 'severance' && (
-                              <svg className="w-5 h-5 text-amber-600" fill="currentColor" viewBox="0 0 20 20">
-                                <path fillRule="evenodd" d="M10 2a1 1 0 00-1 1v1a1 1 0 002 0V3a1 1 0 00-1-1zM4 4h3a3 3 0 006 0h3a2 2 0 012 2v9a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2zm2.5 7a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm2.45 4a2.5 2.5 0 10-4.9 0h4.9zM12 9a1 1 0 100 2h3a1 1 0 100-2h-3zm-1 4a1 1 0 011-1h2a1 1 0 110 2h-2a1 1 0 01-1-1z" clipRule="evenodd" />
-                              </svg>
-                            )}
+                            <ServiceIcon 
+                              serviceIcon={service.icon} 
+                              size="sm" 
+                              className={
+                                service.icon === 'divorce' ? 'text-teal-600' :
+                                service.icon === 'inheritance' ? 'text-purple-600' :
+                                service.icon === 'business' ? 'text-emerald-600' :
+                                'text-amber-600'
+                              } 
+                            />
                           </div>
                           <div className="flex-1">
                             <div className="font-medium text-slate-900 group-hover/item:text-teal-600 transition-colors">
@@ -232,24 +222,15 @@ export default function Home() {
               </a>
             </div>
             
-            {/* Modern Credentials */}
-            <div className="flex flex-wrap items-center gap-4 pt-6">
-              <div className="flex items-center space-x-3 bg-white/50 backdrop-blur-xl rounded-full px-4 py-2 border border-slate-200/50">
+            {/* Primary Credential */}
+            <div className="pt-6">
+              <div className="inline-flex items-center space-x-3 bg-white/50 backdrop-blur-xl rounded-full px-4 py-2 border border-slate-200/50">
                 <div className="w-6 h-6 bg-gradient-to-r from-teal-500 to-blue-500 rounded-full flex items-center justify-center">
                   <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
                 </div>
                 <span className="text-sm font-medium text-slate-700">CFP® Certified</span>
-              </div>
-              
-              <div className="flex items-center space-x-3 bg-white/50 backdrop-blur-xl rounded-full px-4 py-2 border border-slate-200/50">
-                <div className="w-6 h-6 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center">
-                  <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-                <span className="text-sm font-medium text-slate-700">Fully Insured</span>
               </div>
             </div>
           </div>
@@ -278,54 +259,6 @@ export default function Home() {
                       <div className="flex justify-between items-center">
                         <span className="text-slate-600 text-sm">Risk Level</span>
                         <span className="text-green-600 text-sm font-semibold bg-green-50 px-2 py-1 rounded">Optimized</span>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {/* Service Grid */}
-                  <div className="grid grid-cols-2 gap-3">
-                    {services.slice(0, 4).map((service) => (
-                      <div key={service.slug} className="bg-white rounded-xl p-4 shadow-sm border border-slate-100 hover:shadow-md transition-all duration-300 group">
-                        <div className="w-8 h-8 mb-2 group-hover:scale-110 transition-transform duration-300">
-                          {service.slug === 'divorce-financial-planning' && (
-                            <svg className="w-8 h-8 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
-                              <path d="M16 2H8C4.691 2 2 4.691 2 8v13a1 1 0 001 1h13c3.309 0 6-2.691 6-6V8c0-3.309-2.691-6-6-6zm4 14c0 2.206-1.794 4-4 4H4V8c0-2.206 1.794-4 4-4h8c2.206 0 4 1.794 4 4v8z"/>
-                              <path d="M11 6h2v8h-2zm0 10h2v2h-2z"/>
-                            </svg>
-                          )}
-                          {service.slug === 'inheritance-financial-planning' && (
-                            <svg className="w-8 h-8 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
-                              <path d="M5 5v14a1 1 0 001 1h3v-2H7V6h2V4H6a1 1 0 00-1 1zm14.242-.97l-8-2A1 1 0 0011 2H9a1 1 0 00-1 1v9c0 .266.105.52.293.707S8.734 13 9 13h2c.266 0 .52-.105.707-.293S12 12.266 12 12V4.92l7.242 1.82a1 1 0 00.758-.029c.271-.113.469-.346.531-.629l.963-4.807 1.958.392-.963 4.807c-.072.36-.399.652-.759.677z"/>
-                              <path d="M14 20h-4v-2h4c1.103 0 2-.897 2-2v-4h2v4c0 2.206-1.794 4-4 4z"/>
-                            </svg>
-                          )}
-                          {service.slug === 'business-sale-planning' && (
-                            <svg className="w-8 h-8 text-emerald-600" fill="currentColor" viewBox="0 0 24 24">
-                              <path d="M20 6h-3V4c0-1.103-.897-2-2-2H9c-1.103 0-2 .897-2 2v2H4c-1.103 0-2 .897-2 2v11c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V8c0-1.103-.897-2-2-2zM9 4h6v2H9V4zm11 15H4V8h16v11z"/>
-                              <path d="M11 17.414l-3.707-3.707 1.414-1.414L11 14.586l4.293-4.293 1.414 1.414z"/>
-                            </svg>
-                          )}
-                          {service.slug === 'severance-job-loss-planning' && (
-                            <svg className="w-8 h-8 text-amber-600" fill="currentColor" viewBox="0 0 24 24">
-                              <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"/>
-                              <path d="M14.829 14.828a4.055 4.055 0 01-1.272.858 4.002 4.002 0 01-4.875-1.45l-1.658 1.119a6.063 6.063 0 001.621 1.62 5.963 5.963 0 002.148.903 6.042 6.042 0 002.415 0 5.972 5.972 0 002.148-.903 6.053 6.053 0 001.621-1.62 5.975 5.975 0 00.903-2.148l-1.95-.423a3.903 3.903 0 01-.577 1.296 4.029 4.029 0 01-.474.348z"/>
-                            </svg>
-                          )}
-                        </div>
-                        <div className="text-slate-800 text-sm font-medium">{service.shortName}</div>
-                      </div>
-                    ))}
-                  </div>
-                  
-                  {/* Modern Testimonial */}
-                  <div className="bg-gradient-to-br from-teal-50 to-blue-50 rounded-2xl p-6 border border-teal-100">
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-r from-teal-500 to-blue-500 rounded-full flex items-center justify-center text-white font-bold shadow-lg">
-                        JD
-                      </div>
-                      <div className="flex-1">
-                        <div className="text-slate-700 text-sm leading-relaxed">&ldquo;Exceptional guidance through our most challenging financial transition.&rdquo;</div>
-                        <div className="text-slate-500 text-xs mt-2 font-medium">J. Davis, Toronto Client</div>
                       </div>
                     </div>
                   </div>
@@ -666,7 +599,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <div className="inline-flex items-center px-6 py-3 bg-white/80 backdrop-blur-xl border border-slate-200/50 rounded-full text-sm font-medium mb-8 shadow-lg">
               <div className="w-2 h-2 bg-teal-500 rounded-full mr-3 animate-pulse"></div>
-              <span className="text-slate-700">Serving the Greater Toronto Area</span>
+              <span className="text-slate-700">Your Local GTA Financial Advisor</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-display font-bold text-slate-900 mb-8 leading-tight">
               Local Expertise Across{' '}
@@ -775,7 +708,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-display font-bold text-slate-900 mb-4">GTA Coverage</h3>
               <p className="text-slate-600 leading-relaxed">
-                Based in Mississauga with virtual and in-person services available across all 21 Greater Toronto Area municipalities.
+                Headquartered in Mississauga with comprehensive coverage throughout the entire GTA region - from Toronto to Hamilton, and everywhere in between.
               </p>
             </div>
             
@@ -883,7 +816,7 @@ export default function Home() {
                     </div>
                     <div>
                       <div className="font-semibold text-slate-900">Service Area</div>
-                      <div className="text-slate-600">All GTA municipalities</div>
+                      <div className="text-slate-600">Complete GTA coverage</div>
                     </div>
                   </div>
                   <div className="flex items-center">
@@ -959,7 +892,7 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-white/80 mb-6 max-w-md leading-relaxed">
-                  CFP®-certified financial advisor specializing in life's major transitions. Serving the Greater Toronto Area with compassionate, expert guidance since 2018.
+                  CFP®-certified financial advisor specializing in life's major transitions. Proudly supporting GTA families with compassionate, expert guidance since 2018.
                 </p>
                 
                 {/* Contact Info */}
@@ -997,29 +930,7 @@ export default function Home() {
                   {services.map(service => (
                     <li key={service.slug}>
                       <Link href={`/services/${service.slug}`} className="text-white/80 hover:text-teal-300 transition-colors flex items-center">
-                        <div className="w-5 h-5 mr-2">
-                          {service.slug === 'divorce-financial-planning' && (
-                            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                              <path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" />
-                            </svg>
-                          )}
-                          {service.slug === 'inheritance-financial-planning' && (
-                            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                              <path d="M3.05 13h1.9V7H3.05c-.504 0-1.05.5-1.05 1v4c0 .5.546 1 1.05 1zm14 0h1.9c.504 0 1.05-.5 1.05-1V8c0-.5-.546-1-1.05-1h-1.9v6zM10 7c-2.761 0-5 2.239-5 5v6h10v-6c0-2.761-2.239-5-5-5z" />
-                            </svg>
-                          )}
-                          {service.slug === 'business-sale-planning' && (
-                            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                              <path fillRule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clipRule="evenodd" />
-                              <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z" />
-                            </svg>
-                          )}
-                          {service.slug === 'severance-job-loss-planning' && (
-                            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                              <path fillRule="evenodd" d="M10 2a1 1 0 00-1 1v1a1 1 0 002 0V3a1 1 0 00-1-1zM4 4h3a3 3 0 006 0h3a2 2 0 012 2v9a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2zm2.5 7a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm2.45 4a2.5 2.5 0 10-4.9 0h4.9zM12 9a1 1 0 100 2h3a1 1 0 100-2h-3zm-1 4a1 1 0 011-1h2a1 1 0 110 2h-2a1 1 0 01-1-1z" clipRule="evenodd" />
-                            </svg>
-                          )}
-                        </div>
+                        <ServiceIcon serviceIcon={service.icon} size="sm" className="mr-2" />
                         {service.shortName}
                       </Link>
                     </li>

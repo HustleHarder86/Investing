@@ -401,7 +401,7 @@ export default function SmartCalculators() {
                 <div className="w-12 h-12 mx-auto mb-4 bg-gradient-to-r from-teal-500/10 to-blue-500/10 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                   {calc.icon === 'divorce' && (
                     <svg className="w-7 h-7 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                      <path d="M12 2L8 6v3l4-2 4 2V6l-4-4zm8 7.5c0 .83-.67 1.5-1.5 1.5S17 10.33 17 9.5 17.67 8 18.5 8s1.5.67 1.5 1.5zM7 9.5C7 10.33 6.33 11 5.5 11S4 10.33 4 9.5 4.67 8 5.5 8 7 8.67 7 9.5zM12 11l-4 6h8l-4-6z"/>
                     </svg>
                   )}
                   {calc.icon === 'inheritance' && (
