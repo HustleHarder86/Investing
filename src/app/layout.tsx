@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import LocalSchema from "@/components/seo/LocalSchema";
+import GoogleAnalytics from "@/components/analytics/GoogleAnalytics";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -53,6 +54,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <LocalSchema isHomepage={true} />
+        <GoogleAnalytics />
       </head>
       <body className={`${inter.className} antialiased`}>
         {children}
