@@ -306,7 +306,7 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-4xl mx-auto mb-12">
             <div className="bg-white/60 backdrop-blur-xl rounded-2xl p-6 border border-slate-200/50 shadow-lg hover:shadow-xl transition-all duration-300 text-center group">
               <div className="w-12 h-12 bg-gradient-to-r from-teal-500/20 to-blue-500/20 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                 <div className="w-6 h-6 bg-gradient-to-r from-teal-600 to-blue-600 rounded"></div>
@@ -337,30 +337,6 @@ export default function Home() {
               </div>
               <h3 className="font-display font-semibold text-slate-900 mb-1">Estate Planning</h3>
               <p className="text-sm text-slate-600">Wills, trusts, tax efficiency</p>
-            </div>
-            
-            <div className="bg-white/60 backdrop-blur-xl rounded-2xl p-6 border border-slate-200/50 shadow-lg hover:shadow-xl transition-all duration-300 text-center group">
-              <div className="w-12 h-12 bg-gradient-to-r from-teal-500/20 to-blue-500/20 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                <div className="w-6 h-6 bg-gradient-to-r from-teal-600 to-blue-600 rounded"></div>
-              </div>
-              <h3 className="font-display font-semibold text-slate-900 mb-1">Education Planning</h3>
-              <p className="text-sm text-slate-600">RESP strategies</p>
-            </div>
-            
-            <div className="bg-white/60 backdrop-blur-xl rounded-2xl p-6 border border-slate-200/50 shadow-lg hover:shadow-xl transition-all duration-300 text-center group">
-              <div className="w-12 h-12 bg-gradient-to-r from-teal-500/20 to-blue-500/20 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                <div className="w-6 h-6 bg-gradient-to-r from-teal-600 to-blue-600 rounded-lg"></div>
-              </div>
-              <h3 className="font-display font-semibold text-slate-900 mb-1">Insurance Planning</h3>
-              <p className="text-sm text-slate-600">Life, disability, critical illness</p>
-            </div>
-            
-            <div className="bg-white/60 backdrop-blur-xl rounded-2xl p-6 border border-slate-200/50 shadow-lg hover:shadow-xl transition-all duration-300 text-center group">
-              <div className="w-12 h-12 bg-gradient-to-r from-teal-500/20 to-blue-500/20 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                <div className="w-6 h-6 bg-gradient-to-r from-teal-600 to-blue-600 rounded-full"></div>
-              </div>
-              <h3 className="font-display font-semibold text-slate-900 mb-1">Tax Optimization</h3>
-              <p className="text-sm text-slate-600">Income splitting, deferrals</p>
             </div>
             
             <div className="bg-white/60 backdrop-blur-xl rounded-2xl p-6 border border-slate-200/50 shadow-lg hover:shadow-xl transition-all duration-300 text-center group">
