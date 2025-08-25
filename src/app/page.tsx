@@ -1018,14 +1018,14 @@ export default function Home() {
 
       {/* Modern Back to Top Button - Hidden on mobile to not interfere with CTA bar */}
       <div className="fixed bottom-6 right-6 z-50 hidden lg:block">
-        <button 
-          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="group bg-white/80 backdrop-blur-xl border border-slate-200/50 text-slate-700 p-4 rounded-full shadow-2xl hover:shadow-xl transition-all duration-200"
+        <a 
+          href="#"
+          className="group bg-white/80 backdrop-blur-xl border border-slate-200/50 text-slate-700 p-4 rounded-full shadow-2xl hover:shadow-xl transition-all duration-200 block"
         >
           <svg className="w-6 h-6 group-hover:-translate-y-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
           </svg>
-        </button>
+        </a>
       </div>
     </div>
   );
