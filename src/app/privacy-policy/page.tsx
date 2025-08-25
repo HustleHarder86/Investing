@@ -118,7 +118,7 @@ export default function PrivacyPolicyPage() {
             <div className="bg-slate-50 rounded-xl p-6">
               <p className="text-slate-700 font-semibold">Life Money Financial Advisory</p>
               <p className="text-slate-600">Email: privacy@lifemoney.ca</p>
-              <p className="text-slate-600">Phone: 647-555-0123</p>
+              <p className="text-slate-600">Phone: Contact via form</p>
               <p className="text-slate-600">Address: Mississauga, Ontario, Canada</p>
             </div>
           </section>

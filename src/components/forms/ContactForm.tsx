@@ -69,7 +69,7 @@ export default function ContactForm({ service, city }: ContactFormProps) {
         </h3>
         <p className="text-green-700">
           We'll get back to you within 24 hours to schedule your free consultation.
-          For urgent matters, please call us directly at <a href="tel:+16475550123" className="underline">647-555-0123</a>.
+          For urgent matters, please call us directly at <a href="#consultation" className="underline">Contact via form</a>.
         </p>
       </div>
     );

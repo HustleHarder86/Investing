@@ -92,13 +92,13 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
                 href="#consultation" 
                 className={`bg-gradient-to-r ${service.primaryColor} ${service.secondaryColor} text-white px-8 py-4 rounded-xl font-semibold hover:shadow-lg transition-all duration-200 text-center`}
               >
-                Free Consultation in {city.name}
+                Free Consultation - No Cost in {city.name}
               </Link>
               <Link 
-                href="tel:+16475550123" 
+                href="#consultation" 
                 className="border-2 border-slate-600 text-slate-600 px-8 py-4 rounded-xl font-semibold hover:bg-slate-600 hover:text-white transition-colors duration-200 text-center"
               >
-                Call: 647-555-0123
+                Get Started Today
               </Link>
             </div>
 
@@ -270,19 +270,13 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
               </div>
 
               <div className="flex items-center space-x-4">
-                <a href="tel:+16475550123" className="flex items-center text-slate-700 hover:text-slate-900">
-                  <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-                  </svg>
-                  647-555-0123
-                </a>
-                <a href="mailto:info@lifemoney.ca" className="flex items-center text-slate-700 hover:text-slate-900">
+                <span className="flex items-center text-slate-700">
                   <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                   </svg>
-                  info@lifemoney.ca
-                </a>
+                  Contact via form below
+                </span>
               </div>
             </div>
 
@@ -320,8 +314,6 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
               "addressRegion": "ON",
               "addressCountry": "CA"
             },
-            "telephone": "+1-647-555-0123",
-            "email": "info@lifemoney.ca"
           })
         }}
       />

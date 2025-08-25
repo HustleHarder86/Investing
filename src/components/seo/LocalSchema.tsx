@@ -29,8 +29,6 @@ export default function LocalSchema({ city, service, isHomepage = false }: Local
       "latitude": 43.5890,
       "longitude": -79.6441
     },
-    "telephone": "+1-647-555-0123",
-    "email": "info@lifemoney.ca",
     "openingHours": [
       "Mo-Fr 09:00-17:00"
     ],

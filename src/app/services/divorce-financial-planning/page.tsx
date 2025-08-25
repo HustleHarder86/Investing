@@ -69,13 +69,13 @@ export default function DivorceFinancialPlanningPage() {
                 href="#consultation" 
                 className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-xl font-semibold hover:shadow-lg transition-all duration-200 text-center"
               >
-                Free Divorce Consultation
+                Free Consultation - No Cost
               </Link>
               <Link 
-                href="tel:+16475550123" 
+                href="#consultation" 
                 className="border-2 border-purple-600 text-purple-600 px-8 py-4 rounded-xl font-semibold hover:bg-purple-600 hover:text-white transition-colors duration-200 text-center"
               >
-                Urgent: 647-555-0123
+                Urgent: Contact via form
               </Link>
             </div>
 
@@ -428,13 +428,13 @@ export default function DivorceFinancialPlanningPage() {
               href="#consultation" 
               className="bg-white text-purple-600 px-8 py-4 rounded-xl font-semibold hover:bg-purple-50 transition-colors duration-200"
             >
-              Book Free Consultation
+              Book Free Consultation - No Cost
             </Link>
             <Link 
-              href="tel:+16475550123" 
+              href="#consultation" 
               className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-purple-600 transition-colors duration-200"
             >
-              Call Now: 647-555-0123
+              Call Now: Contact via form
             </Link>
           </div>
         </div>
@@ -444,7 +444,7 @@ export default function DivorceFinancialPlanningPage() {
       <section id="consultation" className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="text-3xl font-display font-bold text-slate-900 mb-8 text-center">
-            Request Your Free Divorce Financial Consultation
+            Request Your Free Consultation - No Cost
           </h2>
           <div className="bg-slate-50 rounded-2xl p-8">
             <ContactForm service="divorce-financial-planning" />
@@ -497,11 +497,11 @@ export default function DivorceFinancialPlanningPage() {
                 Expert financial planning for life's major transitions. Serving families across the Greater Toronto Area since 2010.
               </p>
               <div className="flex space-x-4">
-                <a href="tel:+16475550123" className="text-teal-400 hover:text-teal-300">
-                  647-555-0123
+                <a href="#consultation" className="text-teal-400 hover:text-teal-300">
+                  Contact via form
                 </a>
-                <a href="mailto:info@lifemoney.ca" className="text-teal-400 hover:text-teal-300">
-                  info@lifemoney.ca
+                <a href="#consultation" className="text-teal-400 hover:text-teal-300">
+                  Contact via form
                 </a>
               </div>
             </div>

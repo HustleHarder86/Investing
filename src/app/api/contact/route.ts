@@ -1,4 +1,18 @@
 import { NextRequest, NextResponse } from 'next/server';
+import twilio from 'twilio';
+
+const AIRTABLE_BASE_ID = 'app0xbxQfZtCRb61r';
+const AIRTABLE_TABLE_ID = 'tblPgT5GaiO1ZAiyo';
+const AIRTABLE_API_KEY = process.env.AIRTABLE_API_KEY;
+
+const TWILIO_ACCOUNT_SID = process.env.TWILIO_ACCOUNT_SID;
+const TWILIO_AUTH_TOKEN = process.env.TWILIO_AUTH_TOKEN;
+const TWILIO_PHONE_NUMBER = process.env.TWILIO_PHONE_NUMBER;
+const NOTIFICATION_PHONE_NUMBER = process.env.NOTIFICATION_PHONE_NUMBER;
+
+const twilioClient = TWILIO_ACCOUNT_SID && TWILIO_AUTH_TOKEN 
+  ? twilio(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN) 
+  : null;
 
 // Basic rate limiting in memory (in production, use Redis)
 const submissions = new Map<string, number[]>();
@@ -23,6 +37,68 @@ function isRateLimited(ip: string): boolean {
   submissions.set(ip, recentSubmissions);
 
   return recentSubmissions.length >= maxSubmissions;
+}
+
+async function saveToAirtable(data: any, sourceUrl: string, ip: string) {
+  if (!AIRTABLE_API_KEY) {
+    console.warn('Airtable API key not configured, skipping Airtable save');
+    return;
+  }
+
+  try {
+    const response = await fetch(`https://api.airtable.com/v0/${AIRTABLE_BASE_ID}/${AIRTABLE_TABLE_ID}`, {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${AIRTABLE_API_KEY}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        fields: {
+          'Name': data.name,
+          'Email': data.email,
+          'Phone': data.phone,
+          'Service Interested': data.service || 'Not specified',
+          'City/Location': data.city || 'Not specified',
+          'Message': data.message || '',
+          'Lead Status': 'New',
+          'Source Page': sourceUrl,
+          'Date Submitted': new Date().toISOString(),
+          'Notes': `Urgency: ${data.urgency || 'Not specified'} | IP: ${ip}`
+        }
+      })
+    });
+
+    if (!response.ok) {
+      const errorText = await response.text();
+      console.error('Airtable API error:', response.status, errorText);
+    } else {
+      const result = await response.json();
+      console.log('✅ Lead saved to Airtable:', result.id);
+    }
+  } catch (error) {
+    console.error('Error saving to Airtable:', error);
+  }
+}
+
+async function sendSMSNotification(data: any, sourceUrl: string) {
+  if (!twilioClient || !TWILIO_PHONE_NUMBER || !NOTIFICATION_PHONE_NUMBER) {
+    console.warn('Twilio not configured, skipping SMS notification');
+    return;
+  }
+
+  try {
+    const message = `New lead alert! ${data.name} interested in ${data.service || 'service inquiry'} in ${data.city || 'unspecified location'}.`;
+
+    await twilioClient.messages.create({
+      body: message,
+      from: TWILIO_PHONE_NUMBER,
+      to: NOTIFICATION_PHONE_NUMBER
+    });
+
+    console.log('✅ SMS notification sent');
+  } catch (error) {
+    console.error('Error sending SMS:', error);
+  }
 }
 
 export async function POST(request: NextRequest) {
@@ -61,7 +137,16 @@ export async function POST(request: NextRequest) {
     }
     submissions.get(ip)!.push(now);
     
-    // Log the submission (in production, you'd save to a database or send email)
+    // Get source URL from referer header or request
+    const sourceUrl = request.headers.get('referer') || 'Direct';
+    
+    // Save to Airtable and send SMS notification
+    await Promise.all([
+      saveToAirtable(body, sourceUrl, ip),
+      sendSMSNotification(body, sourceUrl)
+    ]);
+    
+    // Log the submission
     console.log('✅ Contact form submission:', {
       name: body.name,
       email: body.email,
@@ -71,16 +156,9 @@ export async function POST(request: NextRequest) {
       urgency: body.urgency,
       message: body.message,
       timestamp: new Date().toISOString(),
-      ip: ip
+      ip: ip,
+      sourceUrl: sourceUrl
     });
-
-    // Here you would typically:
-    // 1. Save to database (Firebase Firestore)
-    // 2. Send notification email
-    // 3. Add to CRM system
-    // 4. Send confirmation email to client
-
-    // For now, we'll just return success
     return NextResponse.json({ 
       success: true, 
       message: 'Thank you for your inquiry. We\'ll be in touch within 24 hours.' 

@@ -319,65 +319,37 @@ function PullToRefresh({ onRefresh, children }: PullToRefreshProps) {
 }
 
 export default function MobileEnhancements() {
-  const services = [
-    {
-      title: 'Divorce Planning',
-      description: 'Navigate financial complexities during divorce with expert guidance on asset division and tax implications.',
-      icon: '⚖️',
-      color: 'from-purple-600 to-pink-600'
-    },
-    {
-      title: 'Inheritance Planning',
-      description: 'Maximize what your beneficiaries receive through strategic tax planning and estate optimization.',
-      icon: '🏛️',
-      color: 'from-green-600 to-teal-600'
-    },
-    {
-      title: 'Business Sale Planning',
-      description: 'Optimize your business exit strategy with comprehensive financial planning and tax strategies.',
-      icon: '🏢',
-      color: 'from-blue-600 to-indigo-600'
-    },
-    {
-      title: 'Job Transition',
-      description: 'Secure your financial future during career changes with severance optimization and planning.',
-      icon: '💼',
-      color: 'from-orange-600 to-red-600'
-    }
-  ];
-
-  const handleRefresh = async () => {
-    // Simulate refresh action
-    await new Promise(resolve => setTimeout(resolve, 2000));
-  };
-
   return (
     <div className="lg:hidden"> {/* Only show on mobile */}
-      <PullToRefresh onRefresh={handleRefresh}>
-        <section className="py-16 px-4">
-          <div className="max-w-sm mx-auto">
-            <div className="text-center mb-8">
-              <h2 className="text-3xl font-display font-bold text-slate-900 mb-4">
-                Swipe to Explore
-              </h2>
-              <p className="text-slate-600">
-                Touch-friendly navigation designed for mobile
-              </p>
+      {/* Simple Mobile CTA Bar - Fixed at bottom */}
+      <div className="fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-xl border-t border-slate-200/50 shadow-2xl">
+        <div className="px-6 py-4">
+          <div className="flex items-center justify-between">
+            <div>
+              <div className="text-sm font-semibold text-slate-900">Ready to get started?</div>
+              <div className="text-xs text-slate-600">Always free • No cost • No obligation</div>
             </div>
-            
-            <MobileServicesCarousel services={services} />
-            
-            <div className="mt-8 text-center">
-              <div className="inline-flex items-center space-x-2 text-sm text-slate-500">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z" />
-                </svg>
-                <span>Swipe left/right to navigate</span>
-              </div>
-            </div>
+            <a
+              href="#consultation"
+              className="bg-gradient-to-r from-teal-600 to-blue-600 text-white px-6 py-3 rounded-xl font-semibold text-sm hover:shadow-lg transition-all duration-200 flex items-center space-x-2"
+            >
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+              </svg>
+              <span>Get Started</span>
+            </a>
           </div>
-        </section>
-      </PullToRefresh>
+        </div>
+      </div>
+      
+      {/* Add bottom padding to main content to account for fixed CTA bar */}
+      <style jsx global>{`
+        @media (max-width: 1023px) {
+          body {
+            padding-bottom: 80px;
+          }
+        }
+      `}</style>
     </div>
   );
 }

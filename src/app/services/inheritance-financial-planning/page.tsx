@@ -72,10 +72,10 @@ export default function InheritanceFinancialPlanningPage() {
                 Free Estate Assessment
               </Link>
               <Link 
-                href="tel:+16475550123" 
+                href="#consultation" 
                 className="border-2 border-green-600 text-green-600 px-8 py-4 rounded-xl font-semibold hover:bg-green-600 hover:text-white transition-colors duration-200 text-center"
               >
-                Call: 647-555-0123
+                Call: Contact via form
               </Link>
             </div>
 
@@ -84,7 +84,7 @@ export default function InheritanceFinancialPlanningPage() {
                 <svg className="w-5 h-5 text-green-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Free Initial Consultation
+                Free Consultation - No Cost
               </div>
               <div className="flex items-center">
                 <svg className="w-5 h-5 text-green-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
@@ -371,11 +371,11 @@ export default function InheritanceFinancialPlanningPage() {
                 Expert inheritance and estate planning services helping GTA families minimize taxes and maximize their legacy.
               </p>
               <div className="flex space-x-4">
-                <a href="tel:+16475550123" className="text-slate-300 hover:text-white transition-colors">
-                  📞 647-555-0123
+                <a href="#consultation" className="text-slate-300 hover:text-white transition-colors">
+                  📞 Contact via form
                 </a>
-                <a href="mailto:info@lifemoney.ca" className="text-slate-300 hover:text-white transition-colors">
-                  ✉️ info@lifemoney.ca
+                <a href="#consultation" className="text-slate-300 hover:text-white transition-colors">
+                  ✉️ Contact via form
                 </a>
               </div>
             </div>

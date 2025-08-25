@@ -45,10 +45,10 @@ export default function BlogPostTemplate({
               <Link href="/locations" className="text-gray-700 hover:text-blue-600 transition-colors">Locations</Link>
               <Link href="/blog" className="text-blue-600 font-semibold">Blog</Link>
               <a 
-                href="tel:1-647-555-0123" 
+                href="tel:1-Contact via form" 
                 className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300"
               >
-                1-647-555-0123
+                1-Contact via form
               </a>
             </div>
           </div>
@@ -196,10 +196,10 @@ export default function BlogPostTemplate({
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="tel:1-647-555-0123" 
+              href="tel:1-Contact via form" 
               className="bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold hover:shadow-xl transition-all duration-300"
             >
-              Call 1-647-555-0123
+              Call 1-Contact via form
             </a>
             <Link 
               href="/services/divorce-financial-planning" 
@@ -242,8 +242,8 @@ export default function BlogPostTemplate({
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <ul className="space-y-2 text-gray-400">
-                <li>1-647-555-0123</li>
-                <li>info@lifemoney.ca</li>
+                <li>1-Contact via form</li>
+                <li>Contact via form</li>
                 <li>Mon-Fri 9AM-6PM EST</li>
                 <li>Sat 10AM-4PM EST</li>
               </ul>

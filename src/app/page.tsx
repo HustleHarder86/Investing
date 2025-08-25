@@ -7,9 +7,7 @@ import CityGrid from '@/components/ui/CityGrid';
 import ContactForm from '@/components/forms/ContactForm';
 import StatsSection from '@/components/ui/StatsSection';
 import SmartCalculators from '@/components/calculators/SmartCalculators';
-import ChatWidget from '@/components/ai/ChatWidget';
 import MobileEnhancements from '@/components/mobile/MobileEnhancements';
-import MobileContactForm from '@/components/mobile/MobileContactForm';
 import GTAMap from '@/components/ui/GTAMap';
 
 export default function Home() {
@@ -118,20 +116,11 @@ export default function Home() {
             
             {/* Right Side Actions */}
             <div className="flex items-center space-x-4">
-              <a 
-                href="tel:+16475550123" 
-                className="hidden sm:flex items-center px-4 py-2 text-slate-700 font-semibold hover:bg-slate-100 rounded-xl transition-all duration-200 hover-scale"
-              >
-                <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-                </svg>
-                <span className="text-sm">647-555-0123</span>
-              </a>
               <Link 
-                href="/contact" 
+                href="#consultation" 
                 className="bg-gradient-to-r from-teal-600 to-blue-600 text-white px-6 py-3 rounded-xl font-semibold text-sm hover:shadow-lg transition-all duration-200"
               >
-                Free Consultation
+                Free Consultation - No Cost
               </Link>
               
               {/* Mobile Menu Button */}
@@ -213,15 +202,15 @@ export default function Home() {
                 </svg>
               </Link>
               
-              <a 
-                href="tel:+16475550123"
+              <Link 
+                href="#consultation"
                 className="group relative px-8 py-4 bg-white/80 backdrop-blur-xl text-slate-900 rounded-2xl font-semibold text-lg border border-slate-200 shadow-lg hover:shadow-xl flex items-center justify-center transition-all duration-300 hover:scale-105"
               >
                 <svg className="w-5 h-5 mr-3 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                 </svg>
-                <span className="relative z-10">647-555-0123</span>
-              </a>
+                <span className="relative z-10">Start Conversation</span>
+              </Link>
             </div>
             
             {/* Primary Credential */}
@@ -596,7 +585,7 @@ export default function Home() {
                   href="/contact"
                   className="group inline-flex items-center px-8 py-4 bg-white/80 text-slate-700 border border-slate-200 rounded-2xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
                 >
-                  Book Free Consultation
+                  Book Free Consultation - No Cost
                   <svg className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
                   </svg>
@@ -673,85 +662,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* GTA Locations Section */}
-      <section className="py-20 bg-gradient-to-b from-slate-50 to-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center px-6 py-3 bg-white/80 backdrop-blur-xl border border-slate-200/50 rounded-full text-sm font-medium mb-8 shadow-lg">
-              <div className="w-2 h-2 bg-teal-500 rounded-full mr-3 animate-pulse"></div>
-              <span className="text-slate-700">Your Local GTA Financial Advisor</span>
-            </div>
-            <h2 className="text-4xl md:text-5xl font-display font-bold text-slate-900 mb-8 leading-tight">
-              Local Expertise Across{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-blue-600 block">21 GTA Municipalities</span>
-            </h2>
-            <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
-              Whether you're in downtown Toronto, suburban Mississauga, or anywhere across the GTA, we provide personalized financial planning services with deep local market knowledge and community connections.
-            </p>
-          </div>
-          
-          {/* Interactive Map */}
-          <div className="mb-16">
-            <GTAMap />
-          </div>
-          
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <div className="bg-gradient-to-br from-teal-50 to-blue-50 rounded-2xl p-6 border border-teal-200/50">
-              <div className="flex items-center mb-4">
-                <div className="w-10 h-10 bg-gradient-to-r from-teal-500 to-blue-500 rounded-xl flex items-center justify-center mr-4">
-                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" clipRule="evenodd" />
-                  </svg>
-                </div>
-                <div>
-                  <h4 className="font-bold text-slate-900">Local Market Knowledge</h4>
-                </div>
-              </div>
-              <p className="text-slate-600">Deep understanding of GTA real estate markets, local tax implications, and regional economic factors that impact your financial planning.</p>
-            </div>
-            
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 border border-purple-200/50">
-              <div className="flex items-center mb-4">
-                <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mr-4">
-                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z" />
-                  </svg>
-                </div>
-                <div>
-                  <h4 className="font-bold text-slate-900">Community Connections</h4>
-                </div>
-              </div>
-              <p className="text-slate-600">Established relationships with local lawyers, accountants, and other professionals to support your comprehensive financial planning needs.</p>
-            </div>
-            
-            <div className="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl p-6 border border-emerald-200/50">
-              <div className="flex items-center mb-4">
-                <div className="w-10 h-10 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-xl flex items-center justify-center mr-4">
-                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clipRule="evenodd" />
-                  </svg>
-                </div>
-                <div>
-                  <h4 className="font-bold text-slate-900">Flexible Meeting Options</h4>
-                </div>
-              </div>
-              <p className="text-slate-600">In-person meetings, virtual consultations, or phone calls - we adapt to your preference and location across the entire GTA.</p>
-            </div>
-          </div>
-          
-          <div className="text-center mt-12">
-            <Link
-              href="/locations"
-              className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-teal-600 to-blue-600 text-white rounded-2xl font-semibold shadow-xl hover:shadow-2xl transition-all duration-300"
-            >
-              Explore All GTA Locations
-              <svg className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
-              </svg>
-            </Link>
-          </div>
-        </div>
-      </section>
 
       {/* Modern Why Choose Us Section */}
       <section className="py-20 bg-gradient-to-b from-slate-50 to-white">
@@ -800,7 +710,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-display font-bold text-slate-900 mb-4">Confidential & Compassionate</h3>
               <p className="text-slate-600 leading-relaxed">
-                We understand these are sensitive times. All consultations are completely confidential with a judgment-free approach.
+                We understand these are sensitive times. All consultations are completely confidential, absolutely free of charge, with a judgment-free approach.
               </p>
             </div>
           </div>
@@ -822,13 +732,19 @@ export default function Home() {
               Ready to Take Control of Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-blue-600">Financial Future</span>?
             </h2>
             <p className="text-xl text-slate-600">
-              Get expert guidance tailored to your specific situation. Free consultation, no obligation.
+              Get expert guidance tailored to your specific situation. Always free consultation with no cost, no obligation, and no pressure.
             </p>
           </div>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <ContactForm />
             <div className="bg-white/80 backdrop-blur-xl rounded-2xl border border-slate-200/50 shadow-lg p-8">
+              <div className="inline-flex items-center px-4 py-2 bg-green-100 border border-green-300 rounded-full text-sm font-semibold text-green-700 mb-4">
+                <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                100% FREE - No Cost Ever
+              </div>
               <h3 className="text-2xl font-display font-bold text-slate-900 mb-6">
                 What to Expect in Your Consultation
               </h3>
@@ -979,20 +895,11 @@ export default function Home() {
                 <div className="space-y-3">
                   <div className="flex items-center">
                     <svg className="w-5 h-5 text-teal-400 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                      <path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                     </svg>
-                    <a href="tel:+16475550123" className="text-white hover:text-teal-300 transition-colors font-medium">
-                      (647) 555-0123
-                    </a>
-                  </div>
-                  <div className="flex items-center">
-                    <svg className="w-5 h-5 text-teal-400 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                      <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                    </svg>
-                    <a href="mailto:info@lifemoney.ca" className="text-white hover:text-teal-300 transition-colors font-medium">
-                      info@lifemoney.ca
-                    </a>
+                    <span className="text-white font-medium">
+                      Contact via form only
+                    </span>
                   </div>
                   <div className="flex items-center">
                     <svg className="w-5 h-5 text-teal-400 mr-3" fill="currentColor" viewBox="0 0 20 20">
@@ -1108,16 +1015,14 @@ export default function Home() {
         </div>
       </footer>
 
-      {/* Mobile Contact Form */}
-      <MobileContactForm />
 
-      {/* AI Chat Widget */}
-      <ChatWidget />
-
-      {/* Modern Back to Top Button */}
-      <div className="fixed bottom-6 left-6 z-50">
-        <button className="group glass-light text-navy-700 p-4 rounded-full shadow-2xl magnetic-hover border border-white/20" suppressHydrationWarning>
-          <svg className="w-6 h-6 group-hover:-translate-y-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      {/* Modern Back to Top Button - Hidden on mobile to not interfere with CTA bar */}
+      <div className="fixed bottom-6 right-6 z-50 hidden lg:block">
+        <button 
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          className="group bg-white/80 backdrop-blur-xl border border-slate-200/50 text-slate-700 p-4 rounded-full shadow-2xl hover:shadow-xl transition-all duration-200"
+        >
+          <svg className="w-6 h-6 group-hover:-translate-y-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
           </svg>
         </button>

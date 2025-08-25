@@ -345,7 +345,7 @@ export default function BlogPage() {
               <h4 className="font-semibold mb-4">Contact</h4>
               <ul className="space-y-2 text-gray-400">
                 <li>1-800-PROSPER</li>
-                <li>info@lifemoney.ca</li>
+                <li>Contact via form</li>
                 <li>Mon-Fri 9AM-6PM EST</li>
                 <li>Sat 10AM-4PM EST</li>
               </ul>

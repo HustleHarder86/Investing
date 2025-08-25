@@ -71,10 +71,10 @@ export default function SeveranceJobLossPlanningPage() {
                 Free Severance Review
               </Link>
               <Link 
-                href="tel:+16475550123" 
+                href="#consultation" 
                 className="border-2 border-orange-600 text-orange-600 px-8 py-4 rounded-xl font-semibold hover:bg-orange-600 hover:text-white transition-colors duration-200 text-center"
               >
-                Urgent Help: 647-555-0123
+                Urgent Help: Contact via form
               </Link>
             </div>
 
@@ -95,7 +95,7 @@ export default function SeveranceJobLossPlanningPage() {
                 <svg className="w-5 h-5 text-orange-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Free Consultation
+                Free Consultation - No Cost
               </div>
             </div>
           </div>

@@ -71,10 +71,10 @@ export default function BusinessSalePlanningPage() {
                 Free Business Valuation
               </Link>
               <Link 
-                href="tel:+16475550123" 
+                href="#consultation" 
                 className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-blue-600 hover:text-white transition-colors duration-200 text-center"
               >
-                Call: 647-555-0123
+                Call: Contact via form
               </Link>
             </div>
 
@@ -447,11 +447,11 @@ export default function BusinessSalePlanningPage() {
                 Strategic business sale planning helping GTA entrepreneurs maximize value and minimize taxes on exit.
               </p>
               <div className="flex space-x-4">
-                <a href="tel:+16475550123" className="text-slate-300 hover:text-white transition-colors">
-                  📞 647-555-0123
+                <a href="#consultation" className="text-slate-300 hover:text-white transition-colors">
+                  📞 Contact via form
                 </a>
-                <a href="mailto:info@lifemoney.ca" className="text-slate-300 hover:text-white transition-colors">
-                  ✉️ info@lifemoney.ca
+                <a href="#consultation" className="text-slate-300 hover:text-white transition-colors">
+                  ✉️ Contact via form
                 </a>
               </div>
             </div>

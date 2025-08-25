@@ -43,7 +43,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900">Phone</h3>
                     <p className="text-gray-600">
-                      <a href="tel:+16475550123" className="hover:text-blue-600 transition-colors">
+                      <a href="#consultation" className="hover:text-blue-600 transition-colors">
                         (647) 555-0123
                       </a>
                     </p>
@@ -54,11 +54,9 @@ export default function ContactPage() {
                 <div className="flex items-start space-x-3">
                   <Mail className="w-5 h-5 text-blue-600 mt-1" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Email</h3>
+                    <h3 className="font-semibold text-gray-900">Contact</h3>
                     <p className="text-gray-600">
-                      <a href="mailto:info@lifemoney.ca" className="hover:text-blue-600 transition-colors">
-                        info@lifemoney.ca
-                      </a>
+                      Use the form below to reach us
                     </p>
                     <p className="text-sm text-gray-500">We respond within 4 hours</p>
                   </div>
