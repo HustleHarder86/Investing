@@ -203,6 +203,63 @@ export default function ContactPage() {
           </div>
         </div>
 
+        {/* Comprehensive Services */}
+        <div className="bg-blue-50 rounded-lg p-8 mb-12">
+          <h2 className="text-2xl font-bold text-gray-900 text-center mb-6">
+            Beyond Our Specializations
+          </h2>
+          <p className="text-center text-gray-700 mb-8 max-w-3xl mx-auto">
+            While we specialize in the four major life transitions above, we're comprehensive financial planners 
+            who handle any situation involving money. Here are some other common situations we help with:
+          </p>
+          
+          <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <div className="bg-white rounded-lg p-4 text-center">
+              <h4 className="font-semibold text-blue-700 mb-2">Retirement Planning</h4>
+              <p className="text-sm text-gray-600">RRSP/TFSA optimization, pension planning</p>
+            </div>
+            
+            <div className="bg-white rounded-lg p-4 text-center">
+              <h4 className="font-semibold text-blue-700 mb-2">Investment Management</h4>
+              <p className="text-sm text-gray-600">Portfolio construction, risk management</p>
+            </div>
+            
+            <div className="bg-white rounded-lg p-4 text-center">
+              <h4 className="font-semibold text-blue-700 mb-2">Tax Planning</h4>
+              <p className="text-sm text-gray-600">Income splitting, tax minimization</p>
+            </div>
+            
+            <div className="bg-white rounded-lg p-4 text-center">
+              <h4 className="font-semibold text-blue-700 mb-2">Sudden Wealth</h4>
+              <p className="text-sm text-gray-600">Lottery winnings, stock options, windfalls</p>
+            </div>
+            
+            <div className="bg-white rounded-lg p-4 text-center">
+              <h4 className="font-semibold text-blue-700 mb-2">Education Planning</h4>
+              <p className="text-sm text-gray-600">RESP strategies, funding options</p>
+            </div>
+            
+            <div className="bg-white rounded-lg p-4 text-center">
+              <h4 className="font-semibold text-blue-700 mb-2">Insurance Planning</h4>
+              <p className="text-sm text-gray-600">Life, disability, critical illness</p>
+            </div>
+            
+            <div className="bg-white rounded-lg p-4 text-center">
+              <h4 className="font-semibold text-blue-700 mb-2">Career Changes</h4>
+              <p className="text-sm text-gray-600">Financial transition planning</p>
+            </div>
+            
+            <div className="bg-white rounded-lg p-4 text-center">
+              <h4 className="font-semibold text-blue-700 mb-2">Any Money Matter</h4>
+              <p className="text-sm text-gray-600">If it involves finances, we can help</p>
+            </div>
+          </div>
+          
+          <p className="text-center text-blue-700 mt-6 font-medium">
+            Not sure if we can help? Contact us anyway - we'll point you in the right direction.
+          </p>
+        </div>
+
         {/* Frequently Asked Questions */}
         <div className="bg-gray-100 rounded-lg p-8">
           <h2 className="text-2xl font-bold text-gray-900 text-center mb-8">

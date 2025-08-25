@@ -150,11 +150,23 @@ export default function ContactForm({ service, city }: ContactFormProps) {
             suppressHydrationWarning
           >
             <option value="">Select a service</option>
-            <option value="divorce-financial-planning">Divorce Financial Planning</option>
-            <option value="inheritance-financial-planning">Inheritance Planning</option>
-            <option value="business-sale-planning">Business Sale Planning</option>
-            <option value="severance-job-loss-planning">Severance & Job Loss</option>
-            <option value="general-consultation">General Consultation</option>
+            <optgroup label="Our Specializations">
+              <option value="divorce-financial-planning">Divorce Financial Planning</option>
+              <option value="inheritance-financial-planning">Inheritance Planning</option>
+              <option value="business-sale-planning">Business Sale Planning</option>
+              <option value="severance-job-loss-planning">Severance & Job Loss</option>
+            </optgroup>
+            <optgroup label="Other Financial Planning">
+              <option value="retirement-planning">Retirement Planning</option>
+              <option value="investment-management">Investment Management</option>
+              <option value="tax-planning">Tax Planning & Optimization</option>
+              <option value="estate-planning">Estate Planning</option>
+              <option value="insurance-planning">Insurance Planning</option>
+              <option value="sudden-wealth">Sudden Wealth Management</option>
+              <option value="education-planning">Education Planning</option>
+              <option value="general-consultation">General Financial Consultation</option>
+              <option value="other">Other Financial Situation</option>
+            </optgroup>
           </select>
         </div>
 

@@ -150,29 +150,77 @@ export default function AboutPage() {
             </div>
 
             <div className="bg-blue-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3 text-blue-900">Our Specialized Approach</h3>
+              <h3 className="text-xl font-semibold mb-3 text-blue-900">Our Comprehensive Approach</h3>
               <p className="text-blue-800 mb-4">
-                Unlike traditional financial advisors who focus solely on investments, Life Money 
-                specializes in the four most significant financial transitions people face:
+                As comprehensive financial planners, we handle any situation involving money. 
+                While we specialize in the four most significant financial transitions people face, 
+                our expertise extends to all areas of financial planning:
               </p>
-              <div className="grid sm:grid-cols-2 gap-3">
-                <div className="flex items-center text-blue-700">
-                  <CheckCircle className="w-5 h-5 text-blue-600 mr-2" />
-                  Divorce Financial Planning
-                </div>
-                <div className="flex items-center text-blue-700">
-                  <CheckCircle className="w-5 h-5 text-blue-600 mr-2" />
-                  Inheritance Financial Planning
-                </div>
-                <div className="flex items-center text-blue-700">
-                  <CheckCircle className="w-5 h-5 text-blue-600 mr-2" />
-                  Business Sale Planning
-                </div>
-                <div className="flex items-center text-blue-700">
-                  <CheckCircle className="w-5 h-5 text-blue-600 mr-2" />
-                  Severance & Job Loss Planning
+              
+              <div className="mb-4">
+                <h4 className="font-semibold text-blue-900 mb-2">Our Specializations:</h4>
+                <div className="grid sm:grid-cols-2 gap-2">
+                  <div className="flex items-center text-blue-700">
+                    <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
+                    Divorce Financial Planning
+                  </div>
+                  <div className="flex items-center text-blue-700">
+                    <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
+                    Inheritance Financial Planning
+                  </div>
+                  <div className="flex items-center text-blue-700">
+                    <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
+                    Business Sale Planning
+                  </div>
+                  <div className="flex items-center text-blue-700">
+                    <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
+                    Severance & Job Loss Planning
+                  </div>
                 </div>
               </div>
+
+              <div>
+                <h4 className="font-semibold text-blue-900 mb-2">We Also Handle:</h4>
+                <div className="grid sm:grid-cols-2 gap-2 text-sm">
+                  <div className="flex items-center text-blue-700">
+                    <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
+                    Retirement Planning
+                  </div>
+                  <div className="flex items-center text-blue-700">
+                    <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
+                    Investment Management
+                  </div>
+                  <div className="flex items-center text-blue-700">
+                    <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
+                    Tax Planning & Optimization
+                  </div>
+                  <div className="flex items-center text-blue-700">
+                    <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
+                    Estate Planning
+                  </div>
+                  <div className="flex items-center text-blue-700">
+                    <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
+                    Insurance Planning
+                  </div>
+                  <div className="flex items-center text-blue-700">
+                    <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
+                    Sudden Wealth Management
+                  </div>
+                  <div className="flex items-center text-blue-700">
+                    <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
+                    Education Planning
+                  </div>
+                  <div className="flex items-center text-blue-700">
+                    <CheckCircle className="w-4 h-4 text-blue-600 mr-2" />
+                    Any Money-Related Situation
+                  </div>
+                </div>
+              </div>
+
+              <p className="text-blue-700 text-sm mt-3 italic">
+                From lottery winnings to career changes, from starting a family to planning retirement - 
+                if it involves money, we can help you navigate it successfully.
+              </p>
             </div>
           </div>
         </div>

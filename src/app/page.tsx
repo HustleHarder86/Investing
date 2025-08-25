@@ -51,8 +51,8 @@ export default function Home() {
                 <div className="absolute top-full left-0 mt-2 w-96 bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl border border-slate-200/50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
                   <div className="p-6">
                     <div className="mb-4">
-                      <h3 className="text-lg font-display font-semibold text-slate-900 mb-2">Our Specialized Services</h3>
-                      <p className="text-sm text-slate-600">Expert guidance for life's major financial transitions</p>
+                      <h3 className="text-lg font-display font-semibold text-slate-900 mb-2">Our Specializations</h3>
+                      <p className="text-sm text-slate-600">Expert guidance for major transitions + comprehensive planning</p>
                     </div>
                     <div className="grid grid-cols-1 gap-3">
                       {services.map((service) => (
@@ -181,7 +181,7 @@ export default function Home() {
               </h1>
               
               <p className="text-xl lg:text-2xl text-slate-600 leading-relaxed max-w-xl font-light">
-                Expert guidance through life's major transitions with personalized strategies that protect and grow your wealth.
+                Comprehensive financial planning for any situation involving money. We specialize in major life transitions, but handle everything from retirement to sudden wealth.
               </p>
             </div>
             
@@ -473,14 +473,14 @@ export default function Home() {
           <div className="text-center mb-20">
             <div className="inline-flex items-center px-6 py-3 bg-white/80 backdrop-blur-xl border border-slate-200/50 rounded-full text-sm font-medium mb-8 shadow-lg">
               <div className="w-2 h-2 bg-teal-500 rounded-full mr-3 animate-pulse"></div>
-              <span className="text-slate-700">Four Specialized Services</span>
+              <span className="text-slate-700">Our Specializations</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-display font-bold text-slate-900 mb-8 leading-tight">
               Expert Financial Planning for{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-blue-600 block">Life's Major Transitions</span>
             </h2>
             <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
-              Unlike general financial advisors, we focus exclusively on the four critical life events that require specialized knowledge, experience, and compassionate guidance. Each service includes a comprehensive consultation and personalized strategy.
+              As comprehensive financial planners, we handle any situation involving money. However, we specialize in these four critical life events that require specialized knowledge, experience, and compassionate guidance. We also provide retirement planning, investment management, tax optimization, and more.
             </p>
           </div>
           
