@@ -405,11 +405,11 @@ export default function Home() {
             <div className="group bg-white/80 backdrop-blur-xl rounded-2xl p-6 border border-slate-200/50 shadow-lg hover:shadow-xl transition-all duration-300 text-center">
               <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+                  <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z" />
                 </svg>
               </div>
-              <h3 className="font-display font-bold text-slate-900 mb-1">CFP Member</h3>
-              <p className="text-sm text-slate-600">Certified Financial Planner</p>
+              <h3 className="font-display font-bold text-slate-900 mb-1">Expert Team</h3>
+              <p className="text-sm text-slate-600">45+ Years Combined Experience</p>
             </div>
 
             <div className="group bg-white/80 backdrop-blur-xl rounded-2xl p-6 border border-slate-200/50 shadow-lg hover:shadow-xl transition-all duration-300 text-center">
@@ -419,7 +419,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="font-display font-bold text-slate-900 mb-1">Since 2010</h3>
-              <p className="text-sm text-slate-600">45+ Years Combined Experience</p>
+              <p className="text-sm text-slate-600">15+ Years Serving GTA</p>
             </div>
           </div>
 
