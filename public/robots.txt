@@ -1,5 +1,5 @@
-# ProsperBridge Financial Advisory Robots.txt
-# https://prosperbridge.ca
+# Money in Motion Robots.txt
+# https://lifemoney.ca
 
 # Allow all search engines
 User-agent: *
@@ -32,7 +32,7 @@ User-agent: DotBot
 Disallow: /
 
 # Sitemap location
-Sitemap: https://prosperbridge.ca/sitemap.xml
+Sitemap: https://lifemoney.ca/sitemap.xml
 
 # Host directive (optional, for Yandex)
-Host: prosperbridge.ca
+Host: lifemoney.ca

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Inheritance Tax Planning Newmarket | Estate Planning York | ProsperBridge',
+  title: 'Inheritance Tax Planning Newmarket | Estate Planning York | Money in Motion',
   description: "Expert estate planning for Newmarket's established families. Protect heritage properties, healthcare professional practices, and multi-generational wealth.",
   keywords: 'inheritance planning Newmarket, estate tax York Region, wealth preservation Newmarket',
 };

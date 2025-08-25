@@ -9,12 +9,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "ProsperBridge Financial Advisory | Expert Financial Planning in the GTA",
+  title: "Money in Motion | Expert Financial Planning in the GTA",
   description: "Specialized financial planning for divorce, inheritance, business sales, and job loss across the Greater Toronto Area. Based in Mississauga, serving all GTA cities.",
   keywords: "financial planner GTA, divorce financial advisor Toronto, inheritance planning Mississauga, business sale advisor, severance package planning",
-  authors: [{ name: "ProsperBridge Financial Advisory" }],
-  creator: "ProsperBridge Financial Advisory",
-  publisher: "ProsperBridge Financial Advisory",
+  authors: [{ name: "Money in Motion" }],
+  creator: "Money in Motion",
+  publisher: "Money in Motion",
   robots: {
     index: true,
     follow: true,
@@ -29,14 +29,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_CA',
-    url: 'https://prosperbridge.ca',
-    siteName: 'ProsperBridge Financial Advisory',
-    title: 'ProsperBridge Financial Advisory | Expert Financial Planning in the GTA',
+    url: 'https://lifemoney.ca',
+    siteName: 'Money in Motion',
+    title: 'Money in Motion | Expert Financial Planning in the GTA',
     description: "Specialized financial planning for divorce, inheritance, business sales, and job loss across the Greater Toronto Area.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ProsperBridge Financial Advisory | Expert Financial Planning in the GTA',
+    title: 'Money in Motion | Expert Financial Planning in the GTA',
     description: "Specialized financial planning for divorce, inheritance, business sales, and job loss across the Greater Toronto Area.",
   },
   verification: {

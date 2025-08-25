@@ -30,7 +30,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <div>
-                  <div className="text-2xl font-display font-bold text-slate-900">ProsperBridge</div>
+                  <div className="text-2xl font-display font-bold text-slate-900">Money in Motion</div>
                   <div className="text-sm text-slate-600 -mt-1 font-medium">Financial Advisory</div>
                 </div>
               </Link>
@@ -678,7 +678,7 @@ export default function Home() {
               <span className="text-slate-700">Why Choose Us</span>
             </div>
             <h2 className="text-4xl font-display font-bold text-slate-900 mb-4">
-              Why Choose <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-blue-600">ProsperBridge</span>?
+              Why Choose <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-blue-600">Money in Motion</span>?
             </h2>
           </div>
           
@@ -883,7 +883,7 @@ export default function Home() {
                     </svg>
                   </div>
                   <div>
-                    <div className="text-2xl font-display font-bold text-white">ProsperBridge</div>
+                    <div className="text-2xl font-display font-bold text-white">Money in Motion</div>
                     <div className="text-sm text-white/70">Financial Advisory</div>
                   </div>
                 </div>
@@ -906,8 +906,8 @@ export default function Home() {
                       <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                       <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                     </svg>
-                    <a href="mailto:info@prosperbridge.ca" className="text-white hover:text-teal-300 transition-colors font-medium">
-                      info@prosperbridge.ca
+                    <a href="mailto:info@lifemoney.ca" className="text-white hover:text-teal-300 transition-colors font-medium">
+                      info@lifemoney.ca
                     </a>
                   </div>
                   <div className="flex items-center">
@@ -996,7 +996,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="text-white/60 text-sm mb-4 md:mb-0">
-                &copy; 2024 ProsperBridge Financial Advisory. All rights reserved.
+                &copy; 2024 Money in Motion. All rights reserved.
               </div>
               
               {/* Professional Badges */}

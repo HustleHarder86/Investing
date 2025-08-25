@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Sale Planning Halton Hills | Manufacturing M&A Georgetown | ProsperBridge',
+  title: 'Business Sale Planning Halton Hills | Manufacturing M&A Georgetown | Money in Motion',
   description: "Strategic business sale planning for Halton Hills manufacturers and Main Street businesses. Expert M&A for Georgetown shops and Acton industries.",
   keywords: 'business sale Halton Hills, manufacturing M&A Georgetown, Acton business sale',
 };

@@ -42,7 +42,7 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
                 </svg>
               </div>
               <div>
-                <div className="text-2xl font-display font-bold text-slate-900">ProsperBridge</div>
+                <div className="text-2xl font-display font-bold text-slate-900">Money in Motion</div>
                 <div className="text-sm text-slate-600 -mt-1 font-medium">Financial Advisory</div>
               </div>
             </Link>
@@ -130,7 +130,7 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <div>
               <h2 className="text-3xl font-display font-bold text-slate-900 mb-6">
-                Why Choose ProsperBridge for {service.name} in {city.name}?
+                Why Choose Money in Motion for {service.name} in {city.name}?
               </h2>
               <p className="text-slate-600 mb-6 leading-relaxed">
                 {city.description} With a population of {city.population}, {city.name} residents face unique 
@@ -233,7 +233,7 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
               ))}
             </div>
             <blockquote className="text-2xl text-slate-700 text-center mb-8 italic">
-              &ldquo;ProsperBridge helped me navigate my {service.name.toLowerCase()} with expertise and compassion. 
+              &ldquo;Money in Motion helped me navigate my {service.name.toLowerCase()} with expertise and compassion. 
               Their knowledge of {city.name}'s specific regulations was invaluable.&rdquo;
             </blockquote>
             <div className="text-center">
@@ -276,12 +276,12 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
                   </svg>
                   647-555-0123
                 </a>
-                <a href="mailto:info@prosperbridge.ca" className="flex items-center text-slate-700 hover:text-slate-900">
+                <a href="mailto:info@lifemoney.ca" className="flex items-center text-slate-700 hover:text-slate-900">
                   <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                   </svg>
-                  info@prosperbridge.ca
+                  info@lifemoney.ca
                 </a>
               </div>
             </div>
@@ -300,7 +300,7 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FinancialService",
-            "name": `ProsperBridge ${service.name} - ${city.name}`,
+            "name": `Money in Motion ${service.name} - ${city.name}`,
             "description": `Expert ${service.name.toLowerCase()} services in ${city.name}, Ontario`,
             "areaServed": {
               "@type": "City",
@@ -321,7 +321,7 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
               "addressCountry": "CA"
             },
             "telephone": "+1-647-555-0123",
-            "email": "info@prosperbridge.ca"
+            "email": "info@lifemoney.ca"
           })
         }}
       />
@@ -329,7 +329,7 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
       {/* Footer */}
       <footer className="bg-gradient-to-r from-slate-900 to-slate-800 text-white py-16">
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <p>&copy; 2025 ProsperBridge Financial Advisory - Serving {city.name} and the Greater Toronto Area</p>
+          <p>&copy; 2025 Money in Motion Financial Advisory - Serving {city.name} and the Greater Toronto Area</p>
         </div>
       </footer>
     </div>

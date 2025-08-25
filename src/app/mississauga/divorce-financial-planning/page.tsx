@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Mississauga | CFP® Advisors | ProsperBridge',
+  title: 'Divorce Financial Planning Mississauga | CFP® Advisors | Money in Motion',
   description: "Expert divorce financial planning in Mississauga. Navigate asset division and support with certified professionals. Serving Square One, Port Credit, Meadowvale, and all Mississauga.",
   keywords: 'divorce financial planning Mississauga, CFP® Mississauga, divorce financial advisor Mississauga',
 };

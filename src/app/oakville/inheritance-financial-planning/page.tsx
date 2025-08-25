@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Inheritance Tax Planning Oakville | Ultra Wealthy Estate Planning | ProsperBridge',
+  title: 'Inheritance Tax Planning Oakville | Ultra Wealthy Estate Planning | Money in Motion',
   description: "Expert estate planning for Oakville's wealthiest families. Minimize taxes on multi-million dollar estates, private companies, and waterfront properties.",
   keywords: 'inheritance tax planning Oakville, ultra high net worth estate, wealth preservation Halton',
 };

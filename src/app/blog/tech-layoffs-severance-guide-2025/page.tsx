@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Tech Layoffs 2025: Complete Severance Package Guide | ProsperBridge',
+  title: 'Tech Layoffs 2025: Complete Severance Package Guide | Money in Motion',
   description: "Essential strategies for tech professionals navigating job loss. Maximize severance, optimize taxes, and plan your career transition in the GTA tech sector.",
   keywords: 'tech layoffs Toronto 2025, severance package negotiation, tech sector job loss, software developer severance',
 };

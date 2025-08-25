@@ -2,11 +2,11 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Inheritance Tax Planning Toronto | Estate Planning Experts | ProsperBridge',
+  title: 'Inheritance Tax Planning Toronto | Estate Planning Experts | Money in Motion',
   description: "Expert inheritance and estate planning in Toronto. Minimize taxes, reduce probate fees, maximize beneficiary inheritance. Serving all Toronto neighborhoods.",
   keywords: 'inheritance tax planning Toronto, estate planning Toronto, probate fees Toronto, will planning Toronto, trust planning Toronto',
   openGraph: {
-    title: 'Inheritance Financial Planning Toronto | ProsperBridge',
+    title: 'Inheritance Financial Planning Toronto | Money in Motion',
     description: "Minimize estate taxes and maximize inheritance for Toronto families. Free consultation.",
     type: 'website',
   }

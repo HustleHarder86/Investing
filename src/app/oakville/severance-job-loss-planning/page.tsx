@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Severance Package Planning Oakville | C-Suite Executive Support | ProsperBridge',
+  title: 'Severance Package Planning Oakville | C-Suite Executive Support | Money in Motion',
   description: "Expert severance planning for Oakville executives and senior professionals. Navigate corporate exits, golden parachutes, and executive transitions.",
   keywords: 'executive severance Oakville, C-suite transition planning, golden parachute Halton',
 };

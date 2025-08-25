@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Inheritance Tax Planning Hamilton | Estate Planning | ProsperBridge',
+  title: 'Inheritance Tax Planning Hamilton | Estate Planning | Money in Motion',
   description: "Expert inheritance and estate planning for Hamilton families. Protect industrial pensions, real estate portfolios, and multi-generational wealth.",
   keywords: 'inheritance tax planning Hamilton, estate planning Hamilton, probate Golden Horseshoe',
 };

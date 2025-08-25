@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Calendar, Clock, User, TrendingUp, BookOpen, ArrowRight } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Financial Planning Blog | Expert Insights for GTA Families | ProsperBridge',
+  title: 'Financial Planning Blog | Expert Insights for GTA Families | Money in Motion',
   description: "Expert financial planning insights for divorce, inheritance, business sales, and severance. Stay updated with 2025 tax changes and GTA market trends.",
   keywords: 'financial planning blog Toronto, divorce finance articles, inheritance tax updates Ontario',
 };
@@ -118,7 +118,7 @@ export default function BlogPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              ProsperBridge
+              Money in Motion
             </Link>
             <div className="hidden md:flex items-center space-x-8">
               <Link href="/services/divorce-financial-planning" className="text-gray-700 hover:text-blue-600 transition-colors">Services</Link>
@@ -318,7 +318,7 @@ export default function BlogPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4">ProsperBridge</h3>
+              <h3 className="text-2xl font-bold mb-4">Money in Motion</h3>
               <p className="text-gray-400">
                 Expert financial planning for life's major transitions.
               </p>
@@ -345,14 +345,14 @@ export default function BlogPage() {
               <h4 className="font-semibold mb-4">Contact</h4>
               <ul className="space-y-2 text-gray-400">
                 <li>1-800-PROSPER</li>
-                <li>info@prosperbridge.ca</li>
+                <li>info@lifemoney.ca</li>
                 <li>Mon-Fri 9AM-6PM EST</li>
                 <li>Sat 10AM-4PM EST</li>
               </ul>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 ProsperBridge Financial Planning. All rights reserved.</p>
+            <p>&copy; 2025 Money in Motion Financial Planning. All rights reserved.</p>
           </div>
         </div>
       </footer>

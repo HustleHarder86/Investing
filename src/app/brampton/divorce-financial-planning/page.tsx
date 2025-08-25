@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Brampton | CFP® Advisor | ProsperBridge',
+  title: 'Divorce Financial Planning Brampton | CFP® Advisor | Money in Motion',
   description: "Expert divorce financial planning in Brampton. Specialized support for diverse families. CFP® certified guidance for asset division and spousal support.",
   keywords: 'divorce financial planning Brampton, CFP® Brampton, separation advisor Peel Region',
 };

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Severance Package Planning Markham | Tech Layoff Support | ProsperBridge',
+  title: 'Severance Package Planning Markham | Tech Layoff Support | Money in Motion',
   description: "Expert severance planning for Markham tech professionals. Navigate layoffs from IBM, AMD, and startups. Maximize packages and stock option considerations.",
   keywords: 'tech severance Markham, tech layoff financial planning, IBM AMD severance York',
 };

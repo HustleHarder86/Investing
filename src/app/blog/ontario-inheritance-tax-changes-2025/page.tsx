@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: '2025 Ontario Inheritance Tax Changes: Complete Guide | ProsperBridge',
+  title: '2025 Ontario Inheritance Tax Changes: Complete Guide | Money in Motion',
   description: "Major updates to capital gains inclusion rates and estate planning strategies for 2025. Learn how to save thousands on inheritance taxes in Ontario.",
   keywords: 'Ontario inheritance tax 2025, capital gains inclusion rate, estate planning Ontario, probate fees 2025',
 };

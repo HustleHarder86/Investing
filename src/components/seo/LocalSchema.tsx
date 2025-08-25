@@ -11,11 +11,11 @@ export default function LocalSchema({ city, service, isHomepage = false }: Local
   const baseSchema = {
     "@context": "https://schema.org",
     "@type": "FinancialService",
-    "name": "ProsperBridge Financial Advisory",
+    "name": "Money in Motion",
     "description": service && city 
       ? `${service.name} in ${city.name}, Ontario. Expert financial planning for major life transitions.`
       : "Financial planning for divorce, inheritance, business sales, and job loss in the Greater Toronto Area.",
-    "url": isHomepage ? "https://prosperbridge.ca" : undefined,
+    "url": isHomepage ? "https://lifemoney.ca" : undefined,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Professional Office Complex",
@@ -30,7 +30,7 @@ export default function LocalSchema({ city, service, isHomepage = false }: Local
       "longitude": -79.6441
     },
     "telephone": "+1-647-555-0123",
-    "email": "info@prosperbridge.ca",
+    "email": "info@lifemoney.ca",
     "openingHours": [
       "Mo-Fr 09:00-17:00"
     ],

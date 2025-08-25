@@ -1,0 +1,127 @@
+# Changelog
+
+All notable changes to Money in Motion Financial Advisory will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased] - Local Development
+### Added
+- Changelog and Plans tracking system for better project management
+
+### Changed
+- Complete rebranding from ProsperBridge to Money in Motion
+- Updated all domain references from prosperbridge.ca to lifemoney.ca
+- Updated all 103+ pages with new brand identity
+- Updated SEO metadata, structured data, and sitemap
+- Updated all service pages, location pages, and blog content
+
+### Working On (Local Changes)
+- *Track local modifications here before committing*
+
+### Staged Changes
+- *List staged changes before pushing to GitHub*
+
+## [1.0.0] - 2025-08-25
+### Added
+- Complete Money in Motion Financial Advisory website
+- Next.js 14 with App Router and TypeScript
+- 103 total pages including location-specific service pages
+- Automated blog publishing system with GitHub Actions
+- 21 GTA municipalities coverage across 4 financial planning specialties
+- Firebase contact form integration
+- Comprehensive SEO implementation with local targeting
+- LocationServiceTemplate for dynamic city-service pages
+- Blog automation system with scheduled publishing
+- Content calendar and validation tools
+
+### Infrastructure
+- Vercel deployment with auto-deploy from main branch
+- GitHub Actions workflow for automated blog publishing (Mon/Wed/Fri 9 AM EST)
+- TypeScript and ESLint configuration
+- Tailwind CSS styling system
+
+### SEO Features
+- XML sitemap with all 103 pages
+- Schema markup for local business and financial services
+- City-specific content with local keywords and landmarks
+- Mobile-first responsive design
+
+### Blog System
+- 15+ published blog posts
+- Content scheduling and validation system
+- Preview system for content review
+- Automated file organization and status tracking
+
+---
+
+## Local Development Status
+
+### Current Working Directory State
+- **Modified Files**: Check with `git status`
+- **Unstaged Changes**: Use `git diff` to see modifications
+- **Staged Changes**: Use `git diff --cached` to see staged modifications
+- **Local Branches**: Track feature branches and experiments
+- **Work in Progress**: Document incomplete features or debugging sessions
+
+### Development Workflow Tracking
+1. **Local Changes**: Document modifications before staging
+2. **Staged Changes**: List what's ready for commit
+3. **Committed Changes**: Track commits before pushing
+4. **Pushed Changes**: Update version history when deployed
+
+---
+
+## Version History Format
+
+### Version Numbering
+- **Major.Minor.Patch** (e.g., 1.0.0)
+- **Major**: Breaking changes or significant feature additions
+- **Minor**: New features, backward compatible
+- **Patch**: Bug fixes, small improvements
+
+### Change Categories
+- **Added**: New features
+- **Changed**: Changes in existing functionality
+- **Deprecated**: Soon-to-be removed features
+- **Removed**: Now removed features
+- **Fixed**: Bug fixes
+- **Security**: Vulnerability fixes
+- **Infrastructure**: Development/deployment changes
+- **Working On**: Local development in progress
+- **Staged**: Changes ready for commit
+
+### Rollback Information
+Each version entry includes:
+- Date of deployment
+- Key changes summary
+- Files modified (for critical changes)
+- Rollback instructions (if needed)
+- Local state backup information
+
+---
+
+## Current Environment Status
+- **Production**: https://investing-eight.vercel.app
+- **Target Domain**: prosperbridge.ca (pending setup)
+- **Last Deployment**: 2025-08-25
+- **Git Commit**: 12a41cb
+- **Local Status**: Check git status for current working directory state
+
+### Quick Commands for Status Tracking
+```bash
+# Check current status
+git status
+git diff                    # Unstaged changes
+git diff --cached          # Staged changes
+git log --oneline -10      # Recent commits
+
+# Rollback options
+git stash                  # Save local changes
+git reset --hard HEAD     # Discard all local changes
+git reset --hard <commit>  # Rollback to specific commit
+git push --force-with-lease origin main  # Force push (use carefully)
+
+# Local backup before major changes
+git stash push -m "backup before major changes"
+```

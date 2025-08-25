@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Hamilton | CFP® Advisor | ProsperBridge',
+  title: 'Divorce Financial Planning Hamilton | CFP® Advisor | Money in Motion',
   description: "Expert divorce financial planning in Hamilton. Specialized support for steel workers, healthcare professionals, and manufacturing families. CFP® certified.",
   keywords: 'divorce financial planning Hamilton, CFP® Hamilton, separation advisor Golden Horseshoe',
 };

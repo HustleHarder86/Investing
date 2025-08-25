@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Inheritance Tax Planning Halton Hills | Estate Planning Georgetown | ProsperBridge',
+  title: 'Inheritance Tax Planning Halton Hills | Estate Planning Georgetown | Money in Motion',
   description: "Expert estate planning for Halton Hills families. Protect Georgetown properties, Acton businesses, and manufacturing wealth for next generation.",
   keywords: 'inheritance planning Halton Hills, estate planning Georgetown, Acton wealth transfer',
 };

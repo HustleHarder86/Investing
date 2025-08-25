@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Inheritance Tax Planning Ajax | Nuclear Industry Estates | ProsperBridge',
+  title: 'Inheritance Tax Planning Ajax | Nuclear Industry Estates | Money in Motion',
   description: "Expert estate planning for Ajax nuclear industry families. Navigate OPG pensions, specialized benefits, and high-value estates in Durham Region.",
   keywords: 'inheritance tax planning Ajax, estate planning nuclear workers, OPG pension succession',
 };

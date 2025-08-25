@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Severance Package Planning Halton Hills | Manufacturing Worker Support | ProsperBridge',
+  title: 'Severance Package Planning Halton Hills | Manufacturing Worker Support | Money in Motion',
   description: "Expert severance planning for Halton Hills manufacturing workers. Navigate factory closures and maximize packages in Georgetown and Acton.",
   keywords: 'severance Halton Hills, manufacturing layoffs Georgetown, job loss Acton',
 };

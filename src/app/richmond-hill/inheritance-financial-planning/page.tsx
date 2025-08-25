@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Inheritance Tax Planning Richmond Hill | Wealth Preservation | ProsperBridge',
+  title: 'Inheritance Tax Planning Richmond Hill | Wealth Preservation | Money in Motion',
   description: "Expert estate planning for Richmond Hill's wealthy families. Minimize taxes on professional practices, investment portfolios, and luxury properties.",
   keywords: 'inheritance tax planning Richmond Hill, estate planning affluent families, wealth preservation York',
 };

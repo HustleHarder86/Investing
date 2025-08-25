@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Sale Planning Markham | Tech Startup Exit Strategy | ProsperBridge',
+  title: 'Business Sale Planning Markham | Tech Startup Exit Strategy | Money in Motion',
   description: "Strategic exit planning for Markham tech companies and startups. Expert M&A advisory for software, SaaS, and technology businesses in York Region.",
   keywords: 'tech startup sale Markham, business exit planning Markham, M&A advisor tech York',
 };

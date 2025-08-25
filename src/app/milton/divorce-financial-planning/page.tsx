@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Milton | Young Family Specialist | ProsperBridge',
+  title: 'Divorce Financial Planning Milton | Young Family Specialist | Money in Motion',
   description: "Expert divorce financial planning for Milton's young families. Specialized in child support, daycare costs, and growing family asset division.",
   keywords: 'divorce financial planning Milton, young family divorce, child support Milton Halton',
 };

@@ -12,7 +12,7 @@ interface BlogPreviewPageProps {
 }
 
 export const metadata: Metadata = {
-  title: 'Blog Preview | ProsperBridge',
+  title: 'Blog Preview | Money in Motion',
   description: "Preview of upcoming blog post",
   robots: 'noindex, nofollow' // Don't index preview pages
 };

@@ -2,11 +2,11 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Severance Package Planning Toronto | Job Loss Financial Advisor | ProsperBridge',
+  title: 'Severance Package Planning Toronto | Job Loss Financial Advisor | Money in Motion',
   description: "Expert severance and job transition planning for Toronto professionals. Maximize packages, optimize taxes, manage tech layoffs. Financial planning for career transitions.",
   keywords: 'severance package Toronto, job loss financial planning Toronto, tech layoffs Toronto, career transition Toronto, severance negotiation Toronto',
   openGraph: {
-    title: 'Severance & Job Loss Planning Toronto | ProsperBridge',
+    title: 'Severance & Job Loss Planning Toronto | Money in Motion',
     description: "Navigate job loss with expert financial planning in Toronto. Maximize your severance package.",
     type: 'website',
   }

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Inheritance Tax Planning Georgina | Lake Simcoe Estate Planning | ProsperBridge',
+  title: 'Inheritance Tax Planning Georgina | Lake Simcoe Estate Planning | Money in Motion',
   description: "Expert estate planning for Georgina families. Protect waterfront cottages, Lake Simcoe properties, and retirement wealth for next generation.",
   keywords: 'inheritance planning Georgina, cottage succession Lake Simcoe, estate planning Keswick',
 };

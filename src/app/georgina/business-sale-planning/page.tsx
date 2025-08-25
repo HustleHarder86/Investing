@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Sale Planning Georgina | Marina & Tourism M&A | ProsperBridge',
+  title: 'Business Sale Planning Georgina | Marina & Tourism M&A | Money in Motion',
   description: "Strategic business sale planning for Georgina marina operations and tourism businesses. Expert M&A for Lake Simcoe enterprises and local services.",
   keywords: 'business sale Georgina, marina business M&A, tourism business Lake Simcoe',
 };

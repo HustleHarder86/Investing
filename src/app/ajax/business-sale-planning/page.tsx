@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Sale Planning Ajax | Durham Region M&A Advisors | ProsperBridge',
+  title: 'Business Sale Planning Ajax | Durham Region M&A Advisors | Money in Motion',
   description: "Strategic business sale planning for Ajax contractors and service businesses. Expert M&A advisory for nuclear industry suppliers and Durham enterprises.",
   keywords: 'business sale planning Ajax, Durham business brokers, contractor M&A Ajax',
 };

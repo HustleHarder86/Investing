@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Sale Planning Caledon | Aggregate & Trucking M&A | ProsperBridge',
+  title: 'Business Sale Planning Caledon | Aggregate & Trucking M&A | Money in Motion',
   description: "Strategic business sale planning for Caledon aggregate operations and trucking companies. Expert M&A for quarries, logistics, and rural businesses.",
   keywords: 'business sale Caledon, aggregate business M&A, trucking company sale Bolton',
 };

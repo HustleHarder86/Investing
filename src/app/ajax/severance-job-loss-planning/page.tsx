@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Severance Package Planning Ajax | Nuclear Worker Support | ProsperBridge',
+  title: 'Severance Package Planning Ajax | Nuclear Worker Support | Money in Motion',
   description: "Expert severance planning for Ajax nuclear industry workers and Durham professionals. Navigate OPG restructuring and maximize separation packages.",
   keywords: 'severance planning Ajax, nuclear worker layoffs, OPG severance packages Durham',
 };

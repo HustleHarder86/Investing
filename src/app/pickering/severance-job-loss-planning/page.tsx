@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Severance Package Planning Pickering | OPG Worker Support | ProsperBridge',
+  title: 'Severance Package Planning Pickering | OPG Worker Support | Money in Motion',
   description: "Expert severance planning for Pickering Nuclear Station workers. Navigate refurbishment layoffs, contractor transitions, and maximize OPG separation packages.",
   keywords: 'severance Pickering Nuclear, OPG layoffs, nuclear worker severance Durham',
 };

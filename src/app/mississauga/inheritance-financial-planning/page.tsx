@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Inheritance Tax Planning Mississauga | Estate Planning | ProsperBridge',
+  title: 'Inheritance Tax Planning Mississauga | Estate Planning | Money in Motion',
   description: "Expert inheritance and estate planning in Mississauga. Minimize taxes, reduce probate fees. Serving all Mississauga neighborhoods from our local office.",
   keywords: 'inheritance tax planning Mississauga, estate planning Mississauga, probate fees Mississauga',
 };

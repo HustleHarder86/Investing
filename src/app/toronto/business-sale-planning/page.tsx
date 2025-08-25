@@ -2,11 +2,11 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Sale Planning Toronto | M&A Financial Advisors | ProsperBridge',
+  title: 'Business Sale Planning Toronto | M&A Financial Advisors | Money in Motion',
   description: "Strategic business sale planning for Toronto entrepreneurs. Maximize value, minimize taxes with capital gains exemption. Expert M&A advisory in the GTA.",
   keywords: 'business sale planning Toronto, selling business Toronto, capital gains exemption Toronto, M&A advisor Toronto, business valuation Toronto',
   openGraph: {
-    title: 'Business Sale Planning Toronto | ProsperBridge',
+    title: 'Business Sale Planning Toronto | Money in Motion',
     description: "Maximize your business sale value in Toronto. Tax optimization and exit strategy experts.",
     type: 'website',
   }

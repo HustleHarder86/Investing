@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Post-Pandemic Divorce Trends: Financial Planning Guide 2025 | ProsperBridge',
+  title: 'Post-Pandemic Divorce Trends: Financial Planning Guide 2025 | Money in Motion',
   description: "How remote work, housing market changes, and economic uncertainty are reshaping divorce settlements in the GTA. Expert guidance for 2025.",
   keywords: 'divorce financial planning Toronto 2025, COVID divorce trends, remote work divorce settlements, GTA divorce rates',
 };

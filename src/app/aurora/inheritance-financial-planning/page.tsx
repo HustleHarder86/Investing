@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Inheritance Tax Planning Aurora | High Net Worth Estate Planning | ProsperBridge',
+  title: 'Inheritance Tax Planning Aurora | High Net Worth Estate Planning | Money in Motion',
   description: "Expert estate planning for Aurora's wealthy families. Minimize taxes on luxury estates, investment portfolios, and family businesses.",
   keywords: 'inheritance planning Aurora, high net worth estate planning, wealth preservation Aurora',
 };

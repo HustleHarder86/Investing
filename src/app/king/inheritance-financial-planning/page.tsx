@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Inheritance Tax Planning King Township | Ultra Wealthy Estate Planning | ProsperBridge',
+  title: 'Inheritance Tax Planning King Township | Ultra Wealthy Estate Planning | Money in Motion',
   description: "Expert estate planning for King Township's ultra-wealthy families. Protect estates, equestrian operations, and family dynasties.",
   keywords: 'estate planning King Township, ultra wealthy inheritance, equestrian estate planning',
 };

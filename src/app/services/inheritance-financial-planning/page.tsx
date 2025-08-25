@@ -3,11 +3,11 @@ import Link from 'next/link';
 import ContactForm from '@/components/forms/ContactForm';
 
 export const metadata: Metadata = {
-  title: 'Inheritance Tax Planning Ontario 2025 | Save Thousands | ProsperBridge',
+  title: 'Inheritance Tax Planning Ontario 2025 | Save Thousands | Money in Motion',
   description: "Expert inheritance financial planning in Ontario. Minimize estate taxes, optimize probate fees, and maximize what your beneficiaries receive. Free consultation available.",
   keywords: 'inheritance tax planning Ontario, estate planning, probate fees, tax optimization, inheritance tax, estate tax, will planning, trust structures',
   openGraph: {
-    title: 'Inheritance Tax Planning Ontario 2025 | ProsperBridge',
+    title: 'Inheritance Tax Planning Ontario 2025 | Money in Motion',
     description: "Minimize inheritance taxes and maximize what your beneficiaries receive with expert estate planning strategies.",
     type: 'website',
   }
@@ -27,7 +27,7 @@ export default function InheritanceFinancialPlanningPage() {
                 </svg>
               </div>
               <div>
-                <div className="text-2xl font-display font-bold text-slate-900">ProsperBridge</div>
+                <div className="text-2xl font-display font-bold text-slate-900">Money in Motion</div>
                 <div className="text-sm text-slate-600 -mt-1 font-medium">Financial Advisory</div>
               </div>
             </Link>
@@ -363,7 +363,7 @@ export default function InheritanceFinancialPlanningPage() {
                   </svg>
                 </div>
                 <div>
-                  <div className="text-2xl font-display font-bold">ProsperBridge</div>
+                  <div className="text-2xl font-display font-bold">Money in Motion</div>
                   <div className="text-slate-300 text-sm">Financial Advisory</div>
                 </div>
               </div>
@@ -374,8 +374,8 @@ export default function InheritanceFinancialPlanningPage() {
                 <a href="tel:+16475550123" className="text-slate-300 hover:text-white transition-colors">
                   📞 647-555-0123
                 </a>
-                <a href="mailto:info@prosperbridge.ca" className="text-slate-300 hover:text-white transition-colors">
-                  ✉️ info@prosperbridge.ca
+                <a href="mailto:info@lifemoney.ca" className="text-slate-300 hover:text-white transition-colors">
+                  ✉️ info@lifemoney.ca
                 </a>
               </div>
             </div>
@@ -402,7 +402,7 @@ export default function InheritanceFinancialPlanningPage() {
           </div>
 
           <div className="border-t border-slate-700 pt-8 mt-8 text-center text-slate-400">
-            <p>&copy; 2025 ProsperBridge Financial Advisory. All rights reserved.</p>
+            <p>&copy; 2025 Money in Motion Financial Advisory. All rights reserved.</p>
           </div>
         </div>
       </footer>

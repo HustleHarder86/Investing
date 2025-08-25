@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'RRSP vs TFSA During Divorce: Which Assets Are Really Yours? | ProsperBridge',
+  title: 'RRSP vs TFSA During Divorce: Which Assets Are Really Yours? | Money in Motion',
   description: 'Understanding how RRSPs and TFSAs are divided in Ontario divorces. Expert guidance on protecting retirement savings during separation in the GTA.',
   keywords: 'RRSP divorce division Ontario, TFSA divorce settlement, retirement assets divorce Toronto, spousal RRSP divorce',
 };

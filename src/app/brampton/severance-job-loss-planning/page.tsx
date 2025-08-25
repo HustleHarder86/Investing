@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Severance Package Planning Brampton | Job Loss Support | ProsperBridge',
+  title: 'Severance Package Planning Brampton | Job Loss Support | Money in Motion',
   description: "Expert severance and job transition planning for Brampton workers. Maximize packages from logistics, manufacturing, and retail sectors. Local Peel Region expertise.",
   keywords: 'severance package Brampton, job loss financial planning Brampton, career transition Peel',
 };

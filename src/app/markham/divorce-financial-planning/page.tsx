@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Markham | Tech Professional CFP® | ProsperBridge',
+  title: 'Divorce Financial Planning Markham | Tech Professional CFP® | Money in Motion',
   description: "Expert divorce financial planning for Markham tech professionals and entrepreneurs. Specialized in stock options, RSUs, and startup equity division.",
   keywords: 'divorce financial planning Markham, tech divorce advisor, CFP® Markham York Region',
 };

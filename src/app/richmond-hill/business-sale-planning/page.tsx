@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Sale Planning Richmond Hill | Professional Practice Sales | ProsperBridge',
+  title: 'Business Sale Planning Richmond Hill | Professional Practice Sales | Money in Motion',
   description: "Strategic sale planning for Richmond Hill professional practices and businesses. Expert M&A for medical, dental, and professional service firms.",
   keywords: 'professional practice sale Richmond Hill, medical practice M&A, business sale planning York',
 };

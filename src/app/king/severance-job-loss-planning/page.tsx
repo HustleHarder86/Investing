@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Severance Package Planning King Township | Estate Worker Support | ProsperBridge',
+  title: 'Severance Package Planning King Township | Estate Worker Support | Money in Motion',
   description: "Expert severance planning for King Township estate workers and luxury service professionals. Navigate unique employment transitions in ultra-wealthy households.",
   keywords: 'severance King Township, estate worker packages, luxury service job loss',
 };

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Inheritance Tax Planning Brampton | Estate Planning | ProsperBridge',
+  title: 'Inheritance Tax Planning Brampton | Estate Planning | Money in Motion',
   description: "Expert inheritance and estate planning for Brampton families. Minimize taxes, protect multi-generational wealth. Serving Peel Region's diverse communities.",
   keywords: 'inheritance tax planning Brampton, estate planning Brampton, probate Peel Region',
 };

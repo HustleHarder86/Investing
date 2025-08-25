@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Severance Package Planning Richmond Hill | Executive Support | ProsperBridge',
+  title: 'Severance Package Planning Richmond Hill | Executive Support | Money in Motion',
   description: "Expert severance planning for Richmond Hill professionals and executives. Navigate corporate restructuring and maximize packages from professional services.",
   keywords: 'executive severance Richmond Hill, professional job loss planning, severance negotiation York',
 };

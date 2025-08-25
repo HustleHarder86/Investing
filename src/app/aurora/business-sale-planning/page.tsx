@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Sale Planning Aurora | Executive Business M&A | ProsperBridge',
+  title: 'Business Sale Planning Aurora | Executive Business M&A | Money in Motion',
   description: "Strategic business sale planning for Aurora companies. Expert M&A advisory for professional services, luxury retail, and family enterprises.",
   keywords: 'business sale Aurora, M&A advisory York Region, luxury business sale Aurora',
 };

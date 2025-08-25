@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Severance Package Planning Burlington | Pre-Retirement Transitions | ProsperBridge',
+  title: 'Severance Package Planning Burlington | Pre-Retirement Transitions | Money in Motion',
   description: "Expert severance planning for Burlington professionals and pre-retirees. Navigate early retirement packages and career transitions in Halton Region.",
   keywords: 'severance package Burlington, early retirement planning, job loss pre-retirement Halton',
 };

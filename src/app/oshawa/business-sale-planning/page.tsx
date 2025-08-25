@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Sale Planning Oshawa | Automotive Supplier M&A | ProsperBridge',
+  title: 'Business Sale Planning Oshawa | Automotive Supplier M&A | Money in Motion',
   description: "Strategic business sale planning for Oshawa automotive suppliers and trades. Expert M&A advisory for parts manufacturers and industrial services.",
   keywords: 'business sale Oshawa, automotive supplier M&A, industrial business sale Durham',
 };

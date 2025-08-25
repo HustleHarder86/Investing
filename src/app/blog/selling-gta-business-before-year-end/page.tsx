@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Selling Your GTA Business Before Year-End: Tax Strategies 2025 | ProsperBridge',
+  title: 'Selling Your GTA Business Before Year-End: Tax Strategies 2025 | Money in Motion',
   description: 'Maximize your business sale proceeds with year-end tax planning strategies. Expert guidance for Toronto business owners on timing, structure, and capital gains optimization.',
   keywords: 'business sale tax planning Toronto, year-end business sale GTA, capital gains business sale Ontario, small business deduction 2025',
 };

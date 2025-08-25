@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Severance Package Planning Caledon | Aggregate Worker Support | ProsperBridge',
+  title: 'Severance Package Planning Caledon | Aggregate Worker Support | Money in Motion',
   description: "Expert severance planning for Caledon aggregate workers and trucking professionals. Navigate industry downturns and maximize separation packages.",
   keywords: 'severance Caledon, aggregate worker layoffs, trucking job loss Bolton',
 };

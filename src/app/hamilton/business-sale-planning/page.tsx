@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Sale Planning Hamilton | Manufacturing M&A | ProsperBridge',
+  title: 'Business Sale Planning Hamilton | Manufacturing M&A | Money in Motion',
   description: "Strategic business sale planning for Hamilton manufacturers and industrial companies. Expert guidance for steel industry suppliers and healthcare businesses.",
   keywords: 'business sale planning Hamilton, selling manufacturing business Hamilton, M&A advisor',
 };

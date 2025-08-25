@@ -3,11 +3,11 @@ import Link from 'next/link';
 import ContactForm from '@/components/forms/ContactForm';
 
 export const metadata: Metadata = {
-  title: 'Business Sale Planning GTA 2025 | Maximize Your Exit | ProsperBridge',
+  title: 'Business Sale Planning GTA 2025 | Maximize Your Exit | Money in Motion',
   description: "Strategic business sale planning for GTA entrepreneurs. Maximize your sale price, minimize taxes with capital gains exemption, and optimize your exit strategy. Expert advisors.",
   keywords: 'business sale planning, capital gains exemption, business exit strategy, selling business Ontario, lifetime capital gains exemption, business valuation, tax optimization',
   openGraph: {
-    title: 'Business Sale Planning GTA 2025 | ProsperBridge',
+    title: 'Business Sale Planning GTA 2025 | Money in Motion',
     description: "Maximize your business sale value and minimize taxes with expert exit planning strategies.",
     type: 'website',
   }
@@ -27,7 +27,7 @@ export default function BusinessSalePlanningPage() {
                 </svg>
               </div>
               <div>
-                <div className="text-2xl font-display font-bold text-slate-900">ProsperBridge</div>
+                <div className="text-2xl font-display font-bold text-slate-900">Money in Motion</div>
                 <div className="text-sm text-slate-600 -mt-1 font-medium">Financial Advisory</div>
               </div>
             </Link>
@@ -439,7 +439,7 @@ export default function BusinessSalePlanningPage() {
                   </svg>
                 </div>
                 <div>
-                  <div className="text-2xl font-display font-bold">ProsperBridge</div>
+                  <div className="text-2xl font-display font-bold">Money in Motion</div>
                   <div className="text-slate-300 text-sm">Financial Advisory</div>
                 </div>
               </div>
@@ -450,8 +450,8 @@ export default function BusinessSalePlanningPage() {
                 <a href="tel:+16475550123" className="text-slate-300 hover:text-white transition-colors">
                   📞 647-555-0123
                 </a>
-                <a href="mailto:info@prosperbridge.ca" className="text-slate-300 hover:text-white transition-colors">
-                  ✉️ info@prosperbridge.ca
+                <a href="mailto:info@lifemoney.ca" className="text-slate-300 hover:text-white transition-colors">
+                  ✉️ info@lifemoney.ca
                 </a>
               </div>
             </div>
@@ -478,7 +478,7 @@ export default function BusinessSalePlanningPage() {
           </div>
 
           <div className="border-t border-slate-700 pt-8 mt-8 text-center text-slate-400">
-            <p>&copy; 2025 ProsperBridge Financial Advisory. All rights reserved.</p>
+            <p>&copy; 2025 Money in Motion Financial Advisory. All rights reserved.</p>
           </div>
         </div>
       </footer>

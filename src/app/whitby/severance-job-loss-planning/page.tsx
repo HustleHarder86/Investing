@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Severance Package Planning Whitby | Professional Job Loss Support | ProsperBridge',
+  title: 'Severance Package Planning Whitby | Professional Job Loss Support | Money in Motion',
   description: "Expert severance planning for Whitby professionals. Navigate corporate downsizing, maximize packages, and plan career transitions in Durham Region.",
   keywords: 'severance planning Whitby, job loss support Durham, career transition Whitby',
 };

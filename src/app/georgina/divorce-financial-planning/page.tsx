@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Georgina | Lake Simcoe CFP® | ProsperBridge',
+  title: 'Divorce Financial Planning Georgina | Lake Simcoe CFP® | Money in Motion',
   description: "Expert divorce financial planning for Georgina families. Navigate waterfront property divisions, cottage separations, and Keswick household splits.",
   keywords: 'divorce financial planning Georgina, Lake Simcoe divorce, Keswick separation advisor',
 };

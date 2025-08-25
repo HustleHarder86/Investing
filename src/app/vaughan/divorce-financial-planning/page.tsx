@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Vaughan | Italian Community Expert | ProsperBridge',
+  title: 'Divorce Financial Planning Vaughan | Italian Community Expert | Money in Motion',
   description: "Expert divorce financial planning in Vaughan. Specialized support for business owners and construction industry families. CFP® certified.",
   keywords: 'divorce financial planning Vaughan, CFP® Vaughan, separation advisor York Region',
 };
