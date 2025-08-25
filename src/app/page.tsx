@@ -188,16 +188,16 @@ export default function Home() {
             {/* Modern Trust Metrics */}
             <div className="grid grid-cols-3 gap-6">
               <div className="group bg-white/60 backdrop-blur-xl rounded-2xl p-6 border border-white/40 shadow-lg hover:shadow-xl transition-all duration-300">
-                <div className="text-3xl font-display font-black text-slate-900 mb-1 group-hover:scale-105 transition-transform duration-300">500+</div>
-                <div className="text-sm text-slate-600 font-medium">Families Served</div>
+                <div className="text-3xl font-display font-black text-slate-900 mb-1 group-hover:scale-105 transition-transform duration-300">10K+</div>
+                <div className="text-sm text-slate-600 font-medium">Families Helped</div>
               </div>
               <div className="group bg-white/60 backdrop-blur-xl rounded-2xl p-6 border border-white/40 shadow-lg hover:shadow-xl transition-all duration-300">
                 <div className="text-3xl font-display font-black text-slate-900 mb-1 group-hover:scale-105 transition-transform duration-300">21</div>
                 <div className="text-sm text-slate-600 font-medium">GTA Cities</div>
               </div>
               <div className="group bg-white/60 backdrop-blur-xl rounded-2xl p-6 border border-white/40 shadow-lg hover:shadow-xl transition-all duration-300">
-                <div className="text-3xl font-display font-black text-slate-900 mb-1 group-hover:scale-105 transition-transform duration-300">98%</div>
-                <div className="text-sm text-slate-600 font-medium">Satisfaction</div>
+                <div className="text-3xl font-display font-black text-slate-900 mb-1 group-hover:scale-105 transition-transform duration-300">$2B+</div>
+                <div className="text-sm text-slate-600 font-medium">Assets Invested</div>
               </div>
             </div>
             
@@ -369,7 +369,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <div className="inline-flex items-center px-6 py-3 bg-white/80 backdrop-blur-xl border border-slate-200/50 rounded-full text-sm font-medium mb-8 shadow-lg">
               <div className="w-2 h-2 bg-teal-500 rounded-full mr-3 animate-pulse"></div>
-              <span className="text-slate-700">Trusted by 500+ GTA Families</span>
+              <span className="text-slate-700">Trusted by 10,000+ GTA Families</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-display font-bold text-slate-900 mb-6 leading-tight">
               Professional Credentials &{' '}
