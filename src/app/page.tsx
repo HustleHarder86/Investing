@@ -282,65 +282,100 @@ export default function Home() {
       </section>
 
       {/* Comprehensive Services Highlight */}
-      <section className="py-16 bg-gradient-to-r from-blue-600 to-purple-700 relative overflow-hidden">
-        <div className="absolute inset-0">
-          <div className="absolute top-20 right-20 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-20 left-20 w-80 h-80 bg-white/5 rounded-full blur-3xl"></div>
+      <section className="py-20 bg-gradient-to-b from-slate-50 to-white relative overflow-hidden">
+        {/* Clean geometric background */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute top-20 left-20 w-96 h-96 bg-gradient-to-r from-teal-400/10 to-blue-500/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-20 right-20 w-80 h-80 bg-gradient-to-r from-purple-400/8 to-pink-400/8 rounded-full blur-3xl"></div>
         </div>
         
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-flex items-center px-6 py-3 bg-white/20 backdrop-blur-xl border border-white/30 rounded-full text-sm font-medium mb-6">
-            <div className="w-2 h-2 bg-white rounded-full mr-3 animate-pulse"></div>
-            <span className="text-white">Comprehensive Financial Planning</span>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center px-6 py-3 bg-white/80 backdrop-blur-xl border border-slate-200/50 rounded-full text-sm font-medium mb-8 shadow-lg">
+              <div className="w-2 h-2 bg-teal-500 rounded-full mr-3 animate-pulse"></div>
+              <span className="text-slate-700">Comprehensive Financial Planning</span>
+            </div>
+            
+            <h2 className="text-4xl md:text-5xl font-display font-bold text-slate-900 mb-6 leading-tight">
+              Any Financial Situation,{' '}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-blue-600">We Can Help</span>
+            </h2>
+            
+            <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
+              While we specialize in major life transitions, we're comprehensive financial planners who handle any money-related situation
+            </p>
           </div>
           
-          <h2 className="text-3xl md:text-4xl font-display font-bold text-white mb-6 leading-tight">
-            Any Financial Situation, We Can Help
-          </h2>
-          
-          <p className="text-xl text-blue-100 max-w-4xl mx-auto leading-relaxed mb-10">
-            While we specialize in major life transitions, we're comprehensive financial planners who handle any money-related situation
-          </p>
-          
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4 max-w-6xl mx-auto">
-            <div className="bg-white/10 backdrop-blur-xl rounded-lg p-4 border border-white/20 text-center">
-              <div className="text-2xl mb-2">💰</div>
-              <div className="text-sm text-white font-medium">Retirement Planning</div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto mb-12">
+            <div className="bg-white/60 backdrop-blur-xl rounded-2xl p-6 border border-slate-200/50 shadow-lg hover:shadow-xl transition-all duration-300 text-center group">
+              <div className="w-12 h-12 bg-gradient-to-r from-teal-500/20 to-blue-500/20 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                <div className="w-6 h-6 bg-gradient-to-r from-teal-600 to-blue-600 rounded"></div>
+              </div>
+              <h3 className="font-display font-semibold text-slate-900 mb-1">Retirement Planning</h3>
+              <p className="text-sm text-slate-600">RRSP/TFSA optimization</p>
             </div>
-            <div className="bg-white/10 backdrop-blur-xl rounded-lg p-4 border border-white/20 text-center">
-              <div className="text-2xl mb-2">📈</div>
-              <div className="text-sm text-white font-medium">Investments</div>
+            
+            <div className="bg-white/60 backdrop-blur-xl rounded-2xl p-6 border border-slate-200/50 shadow-lg hover:shadow-xl transition-all duration-300 text-center group">
+              <div className="w-12 h-12 bg-gradient-to-r from-teal-500/20 to-blue-500/20 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                <div className="w-6 h-6 bg-gradient-to-r from-teal-600 to-blue-600 rounded-full"></div>
+              </div>
+              <h3 className="font-display font-semibold text-slate-900 mb-1">Investment Management</h3>
+              <p className="text-sm text-slate-600">Portfolio construction</p>
             </div>
-            <div className="bg-white/10 backdrop-blur-xl rounded-lg p-4 border border-white/20 text-center">
-              <div className="text-2xl mb-2">🎰</div>
-              <div className="text-sm text-white font-medium">Lottery Winnings</div>
+            
+            <div className="bg-white/60 backdrop-blur-xl rounded-2xl p-6 border border-slate-200/50 shadow-lg hover:shadow-xl transition-all duration-300 text-center group">
+              <div className="w-12 h-12 bg-gradient-to-r from-teal-500/20 to-blue-500/20 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                <div className="w-6 h-6 bg-gradient-to-r from-teal-600 to-blue-600 rounded-lg"></div>
+              </div>
+              <h3 className="font-display font-semibold text-slate-900 mb-1">Sudden Wealth</h3>
+              <p className="text-sm text-slate-600">Lottery, inheritance, windfalls</p>
             </div>
-            <div className="bg-white/10 backdrop-blur-xl rounded-lg p-4 border border-white/20 text-center">
-              <div className="text-2xl mb-2">🏠</div>
-              <div className="text-sm text-white font-medium">Estate Planning</div>
+            
+            <div className="bg-white/60 backdrop-blur-xl rounded-2xl p-6 border border-slate-200/50 shadow-lg hover:shadow-xl transition-all duration-300 text-center group">
+              <div className="w-12 h-12 bg-gradient-to-r from-teal-500/20 to-blue-500/20 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                <div className="w-6 h-6 bg-gradient-to-r from-teal-600 to-blue-600 rounded-full"></div>
+              </div>
+              <h3 className="font-display font-semibold text-slate-900 mb-1">Estate Planning</h3>
+              <p className="text-sm text-slate-600">Wills, trusts, tax efficiency</p>
             </div>
-            <div className="bg-white/10 backdrop-blur-xl rounded-lg p-4 border border-white/20 text-center">
-              <div className="text-2xl mb-2">🎓</div>
-              <div className="text-sm text-white font-medium">Education Funds</div>
+            
+            <div className="bg-white/60 backdrop-blur-xl rounded-2xl p-6 border border-slate-200/50 shadow-lg hover:shadow-xl transition-all duration-300 text-center group">
+              <div className="w-12 h-12 bg-gradient-to-r from-teal-500/20 to-blue-500/20 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                <div className="w-6 h-6 bg-gradient-to-r from-teal-600 to-blue-600 rounded"></div>
+              </div>
+              <h3 className="font-display font-semibold text-slate-900 mb-1">Education Planning</h3>
+              <p className="text-sm text-slate-600">RESP strategies</p>
             </div>
-            <div className="bg-white/10 backdrop-blur-xl rounded-lg p-4 border border-white/20 text-center">
-              <div className="text-2xl mb-2">🛡️</div>
-              <div className="text-sm text-white font-medium">Insurance</div>
+            
+            <div className="bg-white/60 backdrop-blur-xl rounded-2xl p-6 border border-slate-200/50 shadow-lg hover:shadow-xl transition-all duration-300 text-center group">
+              <div className="w-12 h-12 bg-gradient-to-r from-teal-500/20 to-blue-500/20 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                <div className="w-6 h-6 bg-gradient-to-r from-teal-600 to-blue-600 rounded-lg"></div>
+              </div>
+              <h3 className="font-display font-semibold text-slate-900 mb-1">Insurance Planning</h3>
+              <p className="text-sm text-slate-600">Life, disability, critical illness</p>
             </div>
-            <div className="bg-white/10 backdrop-blur-xl rounded-lg p-4 border border-white/20 text-center">
-              <div className="text-2xl mb-2">📊</div>
-              <div className="text-sm text-white font-medium">Tax Planning</div>
+            
+            <div className="bg-white/60 backdrop-blur-xl rounded-2xl p-6 border border-slate-200/50 shadow-lg hover:shadow-xl transition-all duration-300 text-center group">
+              <div className="w-12 h-12 bg-gradient-to-r from-teal-500/20 to-blue-500/20 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                <div className="w-6 h-6 bg-gradient-to-r from-teal-600 to-blue-600 rounded-full"></div>
+              </div>
+              <h3 className="font-display font-semibold text-slate-900 mb-1">Tax Optimization</h3>
+              <p className="text-sm text-slate-600">Income splitting, deferrals</p>
             </div>
-            <div className="bg-white/10 backdrop-blur-xl rounded-lg p-4 border border-white/20 text-center">
-              <div className="text-2xl mb-2">💡</div>
-              <div className="text-sm text-white font-medium">Any Money Matter</div>
+            
+            <div className="bg-white/60 backdrop-blur-xl rounded-2xl p-6 border border-slate-200/50 shadow-lg hover:shadow-xl transition-all duration-300 text-center group">
+              <div className="w-12 h-12 bg-gradient-to-r from-teal-500/20 to-blue-500/20 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                <div className="w-6 h-6 bg-gradient-to-r from-teal-600 to-blue-600 rounded-lg"></div>
+              </div>
+              <h3 className="font-display font-semibold text-slate-900 mb-1">Any Money Matter</h3>
+              <p className="text-sm text-slate-600">If it involves finances, we help</p>
             </div>
           </div>
           
-          <div className="mt-10">
+          <div className="text-center">
             <Link
               href="/contact"
-              className="inline-flex items-center bg-white text-blue-700 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-gray-100 transition-colors shadow-lg"
+              className="inline-flex items-center bg-gradient-to-r from-teal-600 to-blue-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:shadow-lg transition-all duration-300 hover:scale-105"
             >
               Discuss Your Financial Situation
               <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
