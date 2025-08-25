@@ -12,32 +12,32 @@ interface StatData {
 
 const stats: StatData[] = [
   {
-    value: 98,
-    suffix: '%',
-    label: 'Client Satisfaction',
-    description: 'Clients achieve their financial goals',
-    icon: 'satisfaction'
+    value: 10000,
+    suffix: '+',
+    label: 'Families Helped',
+    description: 'Successful transitions guided',
+    icon: 'family'
   },
   {
-    value: 2.4,
+    value: 2000,
     suffix: 'M',
-    label: 'Assets Protected',
+    label: 'Assets Invested',
     description: 'In client wealth managed',
     icon: 'shield'
   },
   {
-    value: 15,
+    value: 45,
     suffix: '+',
     label: 'Years Experience',
     description: 'Combined team expertise',
     icon: 'chart'
   },
   {
-    value: 500,
-    suffix: '+',
-    label: 'Families Helped',
-    description: 'Successful transitions guided',
-    icon: 'family'
+    value: 21,
+    suffix: '',
+    label: 'GTA Cities',
+    description: 'Comprehensive local coverage',
+    icon: 'satisfaction'
   }
 ];
 
@@ -79,7 +79,10 @@ function AnimatedCounter({ target, duration, suffix, isVisible }: AnimatedCounte
 
   const formatNumber = (num: number, suffix: string) => {
     if (suffix === 'M') {
-      return (num / 1000000).toFixed(1) + suffix;
+      return (num / 1000).toFixed(1) + 'B';
+    }
+    if (num >= 10000) {
+      return (num / 1000).toFixed(0) + 'K' + suffix;
     }
     return num.toString() + suffix;
   };
