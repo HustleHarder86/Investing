@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 import { services } from '@/lib/services';
 import { getCitiesByTier } from '@/lib/cities';
@@ -9,133 +11,14 @@ import StatsSection from '@/components/ui/StatsSection';
 import SmartCalculators from '@/components/calculators/SmartCalculators';
 import MobileEnhancements from '@/components/mobile/MobileEnhancements';
 import GTAMap from '@/components/ui/GTAMap';
+import Header from '@/components/layout/Header';
 
 export default function Home() {
   const tier1Cities = getCitiesByTier(1);
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Modern Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-xl border-b border-slate-200/50 shadow-lg">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-4">
-            {/* Logo */}
-            <div className="flex items-center">
-              <Link href="/" className="group flex items-center">
-                <div className="w-12 h-12 bg-gradient-to-r from-teal-600 to-blue-600 rounded-2xl flex items-center justify-center mr-4 group-hover:scale-110 transition-all duration-300 shadow-lg">
-                  <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
-                  </svg>
-                </div>
-                <div>
-                  <div className="text-2xl font-display font-bold text-slate-900">Life Money</div>
-                  <div className="text-sm text-slate-600 -mt-1 font-medium">Financial Advisory</div>
-                </div>
-              </Link>
-            </div>
-            
-            {/* Desktop Navigation */}
-            <div className="hidden lg:flex items-center space-x-2">
-              {/* Services Mega Menu */}
-              <div className="relative group">
-                <button className="px-5 py-3 rounded-xl text-slate-700 hover:text-slate-900 hover:bg-slate-100 transition-all duration-200 font-medium flex items-center" suppressHydrationWarning>
-                  Services
-                  <svg className="ml-2 w-4 h-4 transition-transform group-hover:rotate-180" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-                  </svg>
-                </button>
-                
-                {/* Mega Menu Dropdown */}
-                <div className="absolute top-full left-0 mt-2 w-96 bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl border border-slate-200/50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
-                  <div className="p-6">
-                    <div className="mb-4">
-                      <h3 className="text-lg font-display font-semibold text-slate-900 mb-2">Our Specializations</h3>
-                      <p className="text-sm text-slate-600">Expert guidance for major transitions + comprehensive planning</p>
-                    </div>
-                    <div className="grid grid-cols-1 gap-3">
-                      {services.map((service) => (
-                        <Link
-                          key={service.slug}
-                          href={`/services/${service.slug}`}
-                          className="flex items-center p-3 rounded-xl hover:bg-slate-50 transition-all duration-200 group/item"
-                        >
-                          <div className="w-8 h-8 bg-gradient-to-r from-teal-500/20 to-blue-500/20 rounded-lg flex items-center justify-center mr-3">
-                            <ServiceIcon 
-                              serviceIcon={service.icon} 
-                              size="sm" 
-                              className={
-                                service.icon === 'divorce' ? 'text-teal-600' :
-                                service.icon === 'inheritance' ? 'text-purple-600' :
-                                service.icon === 'business' ? 'text-emerald-600' :
-                                'text-amber-600'
-                              } 
-                            />
-                          </div>
-                          <div className="flex-1">
-                            <div className="font-medium text-slate-900 group-hover/item:text-teal-600 transition-colors">
-                              {service.shortName}
-                            </div>
-                            <div className="text-xs text-slate-500 mt-1">
-                              {service.description.slice(0, 60)}...
-                            </div>
-                          </div>
-                          <svg className="w-4 h-4 text-slate-400 group-hover/item:text-teal-600 transition-all duration-200 transform group-hover/item:translate-x-1" fill="currentColor" viewBox="0 0 20 20">
-                            <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 111.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
-                          </svg>
-                        </Link>
-                      ))}
-                    </div>
-                    <div className="mt-4 pt-4 border-t border-slate-200">
-                      <Link 
-                        href="/services" 
-                        className="flex items-center justify-center w-full py-2 px-4 bg-gradient-to-r from-teal-600 to-blue-600 rounded-xl text-white font-medium hover:scale-105 transition-all duration-200"
-                      >
-                        View All Services
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <Link href="/locations" className="px-5 py-3 rounded-xl text-slate-700 hover:text-slate-900 hover:bg-slate-100 transition-all duration-200 font-medium">
-                Locations  
-              </Link>
-              <Link href="/blog" className="px-5 py-3 rounded-xl text-slate-700 hover:text-slate-900 hover:bg-slate-100 transition-all duration-200 font-medium">
-                Blog
-              </Link>
-              <Link href="/calculators" className="px-5 py-3 rounded-xl text-slate-700 hover:text-slate-900 hover:bg-slate-100 transition-all duration-200 font-medium">
-                Calculators
-              </Link>
-              <Link href="/about" className="px-5 py-3 rounded-xl text-slate-700 hover:text-slate-900 hover:bg-slate-100 transition-all duration-200 font-medium">
-                About
-              </Link>
-              <Link href="/contact" className="px-5 py-3 rounded-xl text-slate-700 hover:text-slate-900 hover:bg-slate-100 transition-all duration-200 font-medium">
-                Contact
-              </Link>
-            </div>
-            
-            {/* Right Side Actions */}
-            <div className="flex items-center space-x-4">
-              <Link 
-                href="#consultation" 
-                className="bg-gradient-to-r from-teal-600 to-blue-600 text-white px-6 py-3 rounded-xl font-semibold text-sm hover:shadow-lg transition-all duration-200"
-              >
-                Free Consultation - No Cost
-              </Link>
-              
-              {/* Mobile Menu Button */}
-              <button className="lg:hidden p-2 rounded-xl text-slate-700 hover:bg-slate-100 transition-all duration-200">
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-              </button>
-            </div>
-          </div>
-        </div>
-        
-        {/* Progress Bar */}
-        <div className="absolute bottom-0 left-0 h-1 bg-gradient-to-r from-teal-500 to-blue-500 transition-all duration-300" style={{width: '0%'}} id="scroll-progress"></div>
-      </nav>
+      <Header currentPage="home" />
 
       {/* Ultra-Modern Hero Section */}
       <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-slate-50 via-white to-slate-100">
@@ -202,15 +85,19 @@ export default function Home() {
                 </svg>
               </Link>
               
-              <Link 
+              <a 
                 href="#consultation"
                 className="group relative px-8 py-4 bg-white/80 backdrop-blur-xl text-slate-900 rounded-2xl font-semibold text-lg border border-slate-200 shadow-lg hover:shadow-xl flex items-center justify-center transition-all duration-300 hover:scale-105"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById('consultation')?.scrollIntoView({ behavior: 'smooth' });
+                }}
               >
                 <svg className="w-5 h-5 mr-3 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                 </svg>
                 <span className="relative z-10">Start Conversation</span>
-              </Link>
+              </a>
             </div>
             
             {/* Primary Credential */}
@@ -744,7 +631,7 @@ export default function Home() {
       <CityGrid />
 
       {/* Modern Contact Section */}
-      <section className="py-20 bg-gradient-to-b from-white to-slate-50">
+      <section id="consultation" className="py-20 bg-gradient-to-b from-white to-slate-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <div className="inline-flex items-center px-6 py-3 bg-white/80 backdrop-blur-xl border border-slate-200/50 rounded-full text-sm font-medium mb-8 shadow-lg">
@@ -1044,6 +931,10 @@ export default function Home() {
         <a 
           href="#"
           className="group bg-white/80 backdrop-blur-xl border border-slate-200/50 text-slate-700 p-4 rounded-full shadow-2xl hover:shadow-xl transition-all duration-200 block"
+          onClick={(e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }}
         >
           <svg className="w-6 h-6 group-hover:-translate-y-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
