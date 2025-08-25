@@ -14,14 +14,6 @@ export default function CityGrid({ showAllCities = false, maxCities = 12 }: City
   return (
     <div className="bg-gray-50 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-gray-900">
-            Serving All of Greater Toronto
-          </h2>
-          <p className="mt-4 text-lg text-gray-600">
-            Based in Mississauga, serving families and businesses across the GTA
-          </p>
-        </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
           {displayCities.map((city) => (

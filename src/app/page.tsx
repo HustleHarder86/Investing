@@ -717,6 +717,29 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Interactive GTA Map Section */}
+      <section className="py-20 bg-gradient-to-b from-slate-50 to-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center px-6 py-3 bg-white/80 backdrop-blur-xl border border-slate-200/50 rounded-full text-sm font-medium mb-8 shadow-lg">
+              <div className="w-2 h-2 bg-teal-500 rounded-full mr-3 animate-pulse"></div>
+              <span className="text-slate-700">Serving All of Greater Toronto</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-display font-bold text-slate-900 mb-8 leading-tight">
+              Based in Mississauga,{' '}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-blue-600">Serving the Entire GTA</span>
+            </h2>
+            <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
+              Explore our interactive map to see all 21 cities we serve across the Greater Toronto Area. Click any location to discover our specialized financial planning services in your area.
+            </p>
+          </div>
+          
+          <div className="max-w-5xl mx-auto">
+            <GTAMap />
+          </div>
+        </div>
+      </section>
+
       {/* City Grid */}
       <CityGrid />
 
