@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Sale Planning Uxbridge | Equestrian Business M&A | Money in Motion',
+  title: 'Business Sale Planning Uxbridge | Equestrian Business M&A | Life Money',
   description: "Strategic business sale planning for Uxbridge equestrian operations and Main Street businesses. Expert M&A for horse farms and trail town enterprises.",
   keywords: 'business sale Uxbridge, equestrian business M&A, trail town business sale',
 };

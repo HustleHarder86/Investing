@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Severance Package Planning Aurora | Executive Severance Support | Money in Motion',
+  title: 'Severance Package Planning Aurora | Executive Severance Support | Life Money',
   description: "Expert severance planning for Aurora executives and professionals. Navigate corporate restructuring and maximize high-value separation packages.",
   keywords: 'executive severance Aurora, job loss planning York Region, golden parachute Aurora',
 };

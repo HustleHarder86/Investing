@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Sale Planning Mississauga | M&A Advisors | Money in Motion',
+  title: 'Business Sale Planning Mississauga | M&A Advisors | Life Money',
   description: "Strategic business sale planning for Mississauga entrepreneurs. Maximize value, minimize taxes. Expert M&A advisory from our Mississauga headquarters.",
   keywords: 'business sale planning Mississauga, selling business Mississauga, M&A advisor Mississauga',
 };

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Ajax | Durham Region CFP® | Money in Motion',
+  title: 'Divorce Financial Planning Ajax | Durham Region CFP® | Life Money',
   description: "Expert divorce financial planning for Ajax families. Specialized support for nuclear industry professionals and Durham Region commuters.",
   keywords: 'divorce financial planning Ajax, CFP® Durham Region, separation advisor Ajax',
 };

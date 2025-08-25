@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Inheritance Tax Planning Whitby | Estate Planning Durham | Money in Motion',
+  title: 'Inheritance Tax Planning Whitby | Estate Planning Durham | Life Money',
   description: "Expert estate planning for Whitby families. Protect growing wealth, family homes, and professional assets while minimizing tax on intergenerational transfers.",
   keywords: 'inheritance planning Whitby, estate tax Durham, wealth transfer Whitby',
 };

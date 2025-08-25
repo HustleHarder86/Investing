@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Inheritance Tax Planning Oshawa | Automotive Estate Planning | Money in Motion',
+  title: 'Inheritance Tax Planning Oshawa | Automotive Estate Planning | Life Money',
   description: "Expert estate planning for Oshawa automotive families. Protect GM pensions, union benefits, and skilled trades wealth for next generation.",
   keywords: 'inheritance planning Oshawa, GM pension estate, automotive worker succession Durham',
 };

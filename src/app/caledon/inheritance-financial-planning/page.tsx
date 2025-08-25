@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Inheritance Tax Planning Caledon | Rural Estate Planning | Money in Motion',
+  title: 'Inheritance Tax Planning Caledon | Rural Estate Planning | Life Money',
   description: "Expert estate planning for Caledon families. Protect rural properties, aggregate businesses, and agricultural lands for next generation.",
   keywords: 'inheritance planning Caledon, rural estate planning, farm succession Peel',
 };

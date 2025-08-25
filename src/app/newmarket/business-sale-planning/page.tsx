@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Sale Planning Newmarket | Main Street M&A | Money in Motion',
+  title: 'Business Sale Planning Newmarket | Main Street M&A | Life Money',
   description: "Strategic business sale planning for Newmarket Main Street shops and professional practices. Expert M&A advisory for heritage businesses and healthcare practices.",
   keywords: 'business sale Newmarket, Main Street business M&A, healthcare practice sale York',
 };

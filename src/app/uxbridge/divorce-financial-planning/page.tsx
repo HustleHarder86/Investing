@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Uxbridge | Rural Durham CFP® | Money in Motion',
+  title: 'Divorce Financial Planning Uxbridge | Rural Durham CFP® | Life Money',
   description: "Expert divorce financial planning for Uxbridge families. Navigate rural property divisions, equestrian assets, and trail town household separations.",
   keywords: 'divorce financial planning Uxbridge, rural divorce Durham, equestrian property division',
 };

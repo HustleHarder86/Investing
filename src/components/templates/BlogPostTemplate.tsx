@@ -38,7 +38,7 @@ export default function BlogPostTemplate({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Money in Motion
+              Life Money
             </Link>
             <div className="hidden md:flex items-center space-x-8">
               <Link href="/services/divorce-financial-planning" className="text-gray-700 hover:text-blue-600 transition-colors">Services</Link>
@@ -216,7 +216,7 @@ export default function BlogPostTemplate({
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4">Money in Motion</h3>
+              <h3 className="text-2xl font-bold mb-4">Life Money</h3>
               <p className="text-gray-400">
                 Expert financial planning for life's major transitions.
               </p>
@@ -250,7 +250,7 @@ export default function BlogPostTemplate({
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Money in Motion Financial Planning. All rights reserved.</p>
+            <p>&copy; 2025 Life Money Financial Planning. All rights reserved.</p>
           </div>
         </div>
       </footer>

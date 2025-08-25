@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Inheritance Tax Planning Vaughan | Estate Planning York | Money in Motion',
+  title: 'Inheritance Tax Planning Vaughan | Estate Planning York | Life Money',
   description: "Expert estate planning for Vaughan families. Protect family businesses, real estate portfolios, and multi-generational wealth. Italian succession expertise.",
   keywords: 'inheritance tax planning Vaughan, estate planning Vaughan, Italian succession planning',
 };

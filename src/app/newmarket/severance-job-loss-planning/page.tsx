@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Severance Package Planning Newmarket | Healthcare Worker Support | Money in Motion',
+  title: 'Severance Package Planning Newmarket | Healthcare Worker Support | Life Money',
   description: "Expert severance planning for Newmarket healthcare workers and professionals. Navigate hospital restructuring and maximize packages from Southlake and York Region.",
   keywords: 'severance Newmarket, healthcare layoffs Southlake, job loss planning York Region',
 };

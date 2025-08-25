@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Sale Planning Whitby | Durham Business M&A | Money in Motion',
+  title: 'Business Sale Planning Whitby | Durham Business M&A | Life Money',
   description: "Strategic business sale planning for Whitby companies. Expert M&A advisory for professional services, retail businesses, and growing Durham enterprises.",
   keywords: 'business sale Whitby, M&A advisory Durham, company valuation Whitby',
 };

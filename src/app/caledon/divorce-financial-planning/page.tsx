@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Caledon | Rural Estate CFP® | Money in Motion',
+  title: 'Divorce Financial Planning Caledon | Rural Estate CFP® | Life Money',
   description: "Expert divorce financial planning for Caledon families. Navigate rural property divisions, aggregate industry incomes, and Bolton's growing households.",
   keywords: 'divorce financial planning Caledon, rural property division, Bolton divorce advisor',
 };

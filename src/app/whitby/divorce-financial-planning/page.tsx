@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Whitby | Durham Professional CFP® | Money in Motion',
+  title: 'Divorce Financial Planning Whitby | Durham Professional CFP® | Life Money',
   description: "Expert divorce financial planning for Whitby professionals and growing families. Navigate complex property division and dual-income household separations.",
   keywords: 'divorce financial planning Whitby, CFP® Durham Region, separation advisor Whitby',
 };

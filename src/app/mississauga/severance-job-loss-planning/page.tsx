@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Severance Package Planning Mississauga | Job Loss Advisor | Money in Motion',
+  title: 'Severance Package Planning Mississauga | Job Loss Advisor | Life Money',
   description: "Expert severance and job transition planning for Mississauga professionals. Maximize packages, optimize taxes. Local expertise from our Mississauga office.",
   keywords: 'severance package Mississauga, job loss financial planning Mississauga, career transition Mississauga',
 };

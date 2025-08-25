@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Richmond Hill | High Net Worth CFP® | Money in Motion',
+  title: 'Divorce Financial Planning Richmond Hill | High Net Worth CFP® | Life Money',
   description: "Expert divorce financial planning for Richmond Hill's affluent families. Specialized in complex assets, professional practices, and high-value estates.",
   keywords: 'divorce financial planning Richmond Hill, high net worth divorce York Region, CFP® Richmond Hill',
 };

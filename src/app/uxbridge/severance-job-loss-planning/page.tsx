@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Severance Package Planning Uxbridge | Rural Worker Support | Money in Motion',
+  title: 'Severance Package Planning Uxbridge | Rural Worker Support | Life Money',
   description: "Expert severance planning for Uxbridge agricultural and equestrian workers. Navigate seasonal employment and maximize rural industry packages.",
   keywords: 'severance Uxbridge, agricultural worker layoffs, equestrian job loss Durham',
 };

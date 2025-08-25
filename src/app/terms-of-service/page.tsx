@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | Money in Motion Financial Advisory',
-  description: "Terms of service for Money in Motion Financial Advisory. Our agreement for providing financial planning services.",
+  title: 'Terms of Service | Life Money Financial Advisory',
+  description: "Terms of service for Life Money Financial Advisory. Our agreement for providing financial planning services.",
 };
 
 export default function TermsOfServicePage() {
@@ -19,7 +19,7 @@ export default function TermsOfServicePage() {
                 </svg>
               </div>
               <div>
-                <div className="text-2xl font-display font-bold text-slate-900">Money in Motion</div>
+                <div className="text-2xl font-display font-bold text-slate-900">Life Money</div>
                 <div className="text-sm text-slate-600 -mt-1 font-medium">Financial Advisory</div>
               </div>
             </Link>
@@ -38,13 +38,13 @@ export default function TermsOfServicePage() {
           <section className="mb-8">
             <h2 className="text-2xl font-display font-bold text-slate-900 mb-4">1. Agreement to Terms</h2>
             <p className="text-slate-600">
-              By accessing or using Money in Motion Financial Advisory services, you agree to be bound by these Terms of Service. If you disagree with any part of these terms, you may not access our services.
+              By accessing or using Life Money Financial Advisory services, you agree to be bound by these Terms of Service. If you disagree with any part of these terms, you may not access our services.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-display font-bold text-slate-900 mb-4">2. Services Description</h2>
-            <p className="text-slate-600 mb-4">Money in Motion provides financial planning and advisory services including:</p>
+            <p className="text-slate-600 mb-4">Life Money provides financial planning and advisory services including:</p>
             <ul className="list-disc pl-6 text-slate-600 space-y-2">
               <li>Divorce financial planning</li>
               <li>Inheritance and estate planning</li>
@@ -59,7 +59,7 @@ export default function TermsOfServicePage() {
             <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 text-amber-900">
               <p className="font-semibold mb-2">Important Notice:</p>
               <p>
-                Money in Motion provides financial planning services for informational purposes. We are not lawyers, accountants, or registered investment advisors unless specifically stated. Always consult appropriate professionals for legal, tax, or investment advice.
+                Life Money provides financial planning services for informational purposes. We are not lawyers, accountants, or registered investment advisors unless specifically stated. Always consult appropriate professionals for legal, tax, or investment advice.
               </p>
             </div>
           </section>
@@ -91,7 +91,7 @@ export default function TermsOfServicePage() {
           <section className="mb-8">
             <h2 className="text-2xl font-display font-bold text-slate-900 mb-4">6. Limitation of Liability</h2>
             <p className="text-slate-600">
-              To the maximum extent permitted by law, Money in Motion shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use or inability to use our services, even if we have been advised of the possibility of such damages.
+              To the maximum extent permitted by law, Life Money shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use or inability to use our services, even if we have been advised of the possibility of such damages.
             </p>
           </section>
 
@@ -105,7 +105,7 @@ export default function TermsOfServicePage() {
           <section className="mb-8">
             <h2 className="text-2xl font-display font-bold text-slate-900 mb-4">8. Intellectual Property</h2>
             <p className="text-slate-600">
-              All content, materials, and intellectual property on our website and in our services remain the property of Money in Motion. You may not reproduce, distribute, or create derivative works without our written permission.
+              All content, materials, and intellectual property on our website and in our services remain the property of Life Money. You may not reproduce, distribute, or create derivative works without our written permission.
             </p>
           </section>
 
@@ -126,7 +126,7 @@ export default function TermsOfServicePage() {
           <section className="mb-8">
             <h2 className="text-2xl font-display font-bold text-slate-900 mb-4">11. Contact Information</h2>
             <div className="bg-slate-50 rounded-xl p-6">
-              <p className="text-slate-700 font-semibold">Money in Motion Financial Advisory</p>
+              <p className="text-slate-700 font-semibold">Life Money Financial Advisory</p>
               <p className="text-slate-600">Email: legal@lifemoney.ca</p>
               <p className="text-slate-600">Phone: 647-555-0123</p>
               <p className="text-slate-600">Address: Mississauga, Ontario, Canada</p>

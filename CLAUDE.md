@@ -1,4 +1,4 @@
-# Money in Motion Financial Advisory
+# Life Money Financial Advisory
 
 ## Project Overview
 Local SEO financial advisory website maximizing coverage across all GTA municipalities for 4 financial planning specialties. Fully automated blog publishing system with 103 total pages including location-specific service pages.

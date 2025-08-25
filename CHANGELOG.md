@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to Money in Motion Financial Advisory will be documented in this file.
+All notable changes to Life Money Financial Advisory will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
@@ -10,8 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changelog and Plans tracking system for better project management
 
 ### Changed
-- Complete rebranding from ProsperBridge to Money in Motion
+- Complete rebranding from ProsperBridge to Life Money
 - Updated all domain references from prosperbridge.ca to lifemoney.ca
+- Corrected brand name from Money in Motion to Life Money (108 files updated)
 - Updated all 103+ pages with new brand identity
 - Updated SEO metadata, structured data, and sitemap
 - Updated all service pages, location pages, and blog content
@@ -24,7 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.0] - 2025-08-25
 ### Added
-- Complete Money in Motion Financial Advisory website
+- Complete Life Money Financial Advisory website
 - Next.js 14 with App Router and TypeScript
 - 103 total pages including location-specific service pages
 - Automated blog publishing system with GitHub Actions

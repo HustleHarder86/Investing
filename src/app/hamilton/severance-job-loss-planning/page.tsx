@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Severance Package Planning Hamilton | Steel Worker Support | Money in Motion',
+  title: 'Severance Package Planning Hamilton | Steel Worker Support | Life Money',
   description: "Expert severance planning for Hamilton steel workers and manufacturing employees. Maximize packages, navigate union agreements, and plan transitions.",
   keywords: 'severance package Hamilton, steel worker layoffs Hamilton, job loss planning',
 };

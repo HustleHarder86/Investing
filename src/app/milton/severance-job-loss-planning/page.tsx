@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Severance Package Planning Milton | Young Professional Support | Money in Motion',
+  title: 'Severance Package Planning Milton | Young Professional Support | Life Money',
   description: "Expert severance planning for Milton's young professionals and growing families. Navigate job loss with mortgage obligations and family responsibilities.",
   keywords: 'severance package Milton, job loss young families, career transition Milton Halton',
 };

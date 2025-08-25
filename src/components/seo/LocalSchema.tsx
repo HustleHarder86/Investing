@@ -11,7 +11,7 @@ export default function LocalSchema({ city, service, isHomepage = false }: Local
   const baseSchema = {
     "@context": "https://schema.org",
     "@type": "FinancialService",
-    "name": "Money in Motion",
+    "name": "Life Money",
     "description": service && city 
       ? `${service.name} in ${city.name}, Ontario. Expert financial planning for major life transitions.`
       : "Financial planning for divorce, inheritance, business sales, and job loss in the Greater Toronto Area.",

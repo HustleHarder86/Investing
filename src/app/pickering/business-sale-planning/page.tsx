@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Sale Planning Pickering | Nuclear Contractor M&A | Money in Motion',
+  title: 'Business Sale Planning Pickering | Nuclear Contractor M&A | Life Money',
   description: "Strategic business sale planning for Pickering nuclear contractors and marine businesses. Expert M&A advisory for OPG suppliers and waterfront enterprises.",
   keywords: 'business sale Pickering, nuclear contractor M&A, marine business sale Durham',
 };

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Severance Package Planning Oshawa | Auto Worker Support | Money in Motion',
+  title: 'Severance Package Planning Oshawa | Auto Worker Support | Life Money',
   description: "Expert severance planning for Oshawa automotive workers. Navigate GM restructuring, supplier layoffs, and maximize union-negotiated packages.",
   keywords: 'severance Oshawa GM, automotive layoffs Durham, Unifor severance packages',
 };

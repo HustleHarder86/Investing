@@ -9,12 +9,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Money in Motion | Expert Financial Planning in the GTA",
+  title: "Life Money | Expert Financial Planning in the GTA",
   description: "Specialized financial planning for divorce, inheritance, business sales, and job loss across the Greater Toronto Area. Based in Mississauga, serving all GTA cities.",
   keywords: "financial planner GTA, divorce financial advisor Toronto, inheritance planning Mississauga, business sale advisor, severance package planning",
-  authors: [{ name: "Money in Motion" }],
-  creator: "Money in Motion",
-  publisher: "Money in Motion",
+  authors: [{ name: "Life Money" }],
+  creator: "Life Money",
+  publisher: "Life Money",
   robots: {
     index: true,
     follow: true,
@@ -30,13 +30,13 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_CA',
     url: 'https://lifemoney.ca',
-    siteName: 'Money in Motion',
-    title: 'Money in Motion | Expert Financial Planning in the GTA',
+    siteName: 'Life Money',
+    title: 'Life Money | Expert Financial Planning in the GTA',
     description: "Specialized financial planning for divorce, inheritance, business sales, and job loss across the Greater Toronto Area.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Money in Motion | Expert Financial Planning in the GTA',
+    title: 'Life Money | Expert Financial Planning in the GTA',
     description: "Specialized financial planning for divorce, inheritance, business sales, and job loss across the Greater Toronto Area.",
   },
   verification: {

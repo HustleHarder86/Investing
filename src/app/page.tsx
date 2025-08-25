@@ -30,7 +30,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <div>
-                  <div className="text-2xl font-display font-bold text-slate-900">Money in Motion</div>
+                  <div className="text-2xl font-display font-bold text-slate-900">Life Money</div>
                   <div className="text-sm text-slate-600 -mt-1 font-medium">Financial Advisory</div>
                 </div>
               </Link>
@@ -678,7 +678,7 @@ export default function Home() {
               <span className="text-slate-700">Why Choose Us</span>
             </div>
             <h2 className="text-4xl font-display font-bold text-slate-900 mb-4">
-              Why Choose <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-blue-600">Money in Motion</span>?
+              Why Choose <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-blue-600">Life Money</span>?
             </h2>
           </div>
           
@@ -883,7 +883,7 @@ export default function Home() {
                     </svg>
                   </div>
                   <div>
-                    <div className="text-2xl font-display font-bold text-white">Money in Motion</div>
+                    <div className="text-2xl font-display font-bold text-white">Life Money</div>
                     <div className="text-sm text-white/70">Financial Advisory</div>
                   </div>
                 </div>
@@ -996,7 +996,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="text-white/60 text-sm mb-4 md:mb-0">
-                &copy; 2024 Money in Motion. All rights reserved.
+                &copy; 2024 Life Money. All rights reserved.
               </div>
               
               {/* Professional Badges */}

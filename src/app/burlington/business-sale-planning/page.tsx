@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Sale Planning Burlington | Retirement Business Exit | Money in Motion',
+  title: 'Business Sale Planning Burlington | Retirement Business Exit | Life Money',
   description: "Strategic exit planning for Burlington business owners approaching retirement. Expert M&A advisory for established local businesses and professional practices.",
   keywords: 'business sale planning Burlington, retirement business exit, small business M&A Halton',
 };

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Pickering | Nuclear Worker CFP® | Money in Motion',
+  title: 'Divorce Financial Planning Pickering | Nuclear Worker CFP® | Life Money',
   description: "Expert divorce financial planning for Pickering Nuclear Station families. Specialized support for OPG employees navigating pension division and benefit allocation.",
   keywords: 'divorce financial planning Pickering, nuclear worker divorce, OPG pension division Durham',
 };

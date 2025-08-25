@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Inheritance Tax Planning Milton | Young Family Estate Planning | Money in Motion',
+  title: 'Inheritance Tax Planning Milton | Young Family Estate Planning | Life Money',
   description: "Expert estate planning for Milton's growing families. Protect your children's future with guardian planning, RESPs, and life insurance strategies.",
   keywords: 'inheritance tax planning Milton, young family estate planning, guardian planning Halton',
 };

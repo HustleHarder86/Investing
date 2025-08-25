@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Sale Planning Milton | Growing Business M&A | Money in Motion',
+  title: 'Business Sale Planning Milton | Growing Business M&A | Life Money',
   description: "Strategic exit planning for Milton's growing businesses and startups. Expert M&A advisory for service companies and new ventures in Canada's fastest-growing town.",
   keywords: 'business sale planning Milton, startup exit strategy, growing business M&A Halton',
 };

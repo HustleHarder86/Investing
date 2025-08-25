@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Inheritance Tax Planning Uxbridge | Rural Estate Planning Durham | Money in Motion',
+  title: 'Inheritance Tax Planning Uxbridge | Rural Estate Planning Durham | Life Money',
   description: "Expert estate planning for Uxbridge families. Protect horse farms, rural estates, and heritage properties for next generation.",
   keywords: 'inheritance planning Uxbridge, rural estate Durham, horse farm succession',
 };

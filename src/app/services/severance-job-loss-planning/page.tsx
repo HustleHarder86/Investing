@@ -3,11 +3,11 @@ import Link from 'next/link';
 import ContactForm from '@/components/forms/ContactForm';
 
 export const metadata: Metadata = {
-  title: 'Severance Financial Planning Toronto 2025 | Maximize Your Package | Money in Motion',
+  title: 'Severance Financial Planning Toronto 2025 | Maximize Your Package | Life Money',
   description: "Expert severance and job transition financial planning in the GTA. Maximize your severance package, optimize taxes, manage benefits continuation, and plan your career pivot.",
   keywords: 'severance package planning, job loss financial planning, career transition, EI optimization, RRSP strategies, severance negotiation, Toronto layoffs 2025',
   openGraph: {
-    title: 'Severance & Job Transition Planning Toronto 2025 | Money in Motion',
+    title: 'Severance & Job Transition Planning Toronto 2025 | Life Money',
     description: "Secure your financial future during career transitions with expert severance optimization and planning.",
     type: 'website',
   }
@@ -27,7 +27,7 @@ export default function SeveranceJobLossPlanningPage() {
                 </svg>
               </div>
               <div>
-                <div className="text-2xl font-display font-bold text-slate-900">Money in Motion</div>
+                <div className="text-2xl font-display font-bold text-slate-900">Life Money</div>
                 <div className="text-sm text-slate-600 -mt-1 font-medium">Financial Advisory</div>
               </div>
             </Link>
@@ -339,7 +339,7 @@ export default function SeveranceJobLossPlanningPage() {
       <footer className="bg-gradient-to-r from-slate-900 to-slate-800 text-white py-16">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center text-slate-400">
-            <p>&copy; 2025 Money in Motion Financial Advisory. All rights reserved.</p>
+            <p>&copy; 2025 Life Money Financial Advisory. All rights reserved.</p>
           </div>
         </div>
       </footer>

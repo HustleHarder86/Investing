@@ -3,11 +3,11 @@ import Link from 'next/link';
 import ContactForm from '@/components/forms/ContactForm';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Ontario 2025 | CFP® Certified | Money in Motion',
+  title: 'Divorce Financial Planning Ontario 2025 | CFP® Certified | Life Money',
   description: "Expert divorce financial planning in Ontario. CFP® certified advisor for asset division, spousal support, and pension splitting. Protect your financial future.",
   keywords: 'divorce financial planning Ontario, CFP® Toronto, asset division, spousal support, pension splitting, separation financial advisor',
   openGraph: {
-    title: 'Divorce Financial Planning Ontario 2025 | Money in Motion',
+    title: 'Divorce Financial Planning Ontario 2025 | Life Money',
     description: "Navigate divorce with expert financial guidance. Protect assets, optimize settlements, secure your future.",
     type: 'website',
   }
@@ -27,7 +27,7 @@ export default function DivorceFinancialPlanningPage() {
                 </svg>
               </div>
               <div>
-                <div className="text-2xl font-display font-bold text-slate-900">Money in Motion</div>
+                <div className="text-2xl font-display font-bold text-slate-900">Life Money</div>
                 <div className="text-sm text-slate-600 -mt-1 font-medium">Financial Advisory</div>
               </div>
             </Link>
@@ -489,7 +489,7 @@ export default function DivorceFinancialPlanningPage() {
                   </svg>
                 </div>
                 <div>
-                  <div className="text-xl font-display font-bold">Money in Motion</div>
+                  <div className="text-xl font-display font-bold">Life Money</div>
                   <div className="text-sm text-slate-400">Financial Advisory</div>
                 </div>
               </div>
@@ -550,7 +550,7 @@ export default function DivorceFinancialPlanningPage() {
           </div>
           
           <div className="border-t border-slate-800 mt-8 pt-8 text-center text-slate-400">
-            <p>&copy; 2025 Money in Motion. All rights reserved.</p>
+            <p>&copy; 2025 Life Money. All rights reserved.</p>
           </div>
         </div>
       </footer>

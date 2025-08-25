@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Severance Package Planning Georgina | Seasonal Worker Support | Money in Motion',
+  title: 'Severance Package Planning Georgina | Seasonal Worker Support | Life Money',
   description: "Expert severance planning for Georgina seasonal workers and tourism employees. Navigate seasonal layoffs and maximize packages.",
   keywords: 'severance Georgina, seasonal worker layoffs, tourism job loss Lake Simcoe',
 };

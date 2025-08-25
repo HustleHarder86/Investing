@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Aurora | Affluent Family CFP® | Money in Motion',
+  title: 'Divorce Financial Planning Aurora | Affluent Family CFP® | Life Money',
   description: "Expert divorce financial planning for Aurora's affluent families. Navigate high-asset divorces, executive compensation, and luxury property division.",
   keywords: 'divorce financial planning Aurora, high net worth divorce York, CFP® Aurora Ontario',
 };

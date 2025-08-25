@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Inheritance Tax Planning Burlington | Retirement Estate Planning | Money in Motion',
+  title: 'Inheritance Tax Planning Burlington | Retirement Estate Planning | Life Money',
   description: "Expert estate planning for Burlington retirees and seniors. Minimize taxes on retirement accounts, waterfront properties, and family cottages.",
   keywords: 'inheritance tax planning Burlington, retirement estate planning, waterfront property estate Halton',
 };

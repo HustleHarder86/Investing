@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Halton Hills | Georgetown CFP® | Money in Motion',
+  title: 'Divorce Financial Planning Halton Hills | Georgetown CFP® | Life Money',
   description: "Expert divorce financial planning for Halton Hills families. Navigate Georgetown property divisions and Acton's working family separations.",
   keywords: 'divorce financial planning Halton Hills, Georgetown divorce advisor, Acton separation planning',
 };

@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Money in Motion Financial Advisory',
-  description: "Privacy policy for Money in Motion Financial Advisory. Learn how we collect, use, and protect your personal information.",
+  title: 'Privacy Policy | Life Money Financial Advisory',
+  description: "Privacy policy for Life Money Financial Advisory. Learn how we collect, use, and protect your personal information.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -19,7 +19,7 @@ export default function PrivacyPolicyPage() {
                 </svg>
               </div>
               <div>
-                <div className="text-2xl font-display font-bold text-slate-900">Money in Motion</div>
+                <div className="text-2xl font-display font-bold text-slate-900">Life Money</div>
                 <div className="text-sm text-slate-600 -mt-1 font-medium">Financial Advisory</div>
               </div>
             </Link>
@@ -38,7 +38,7 @@ export default function PrivacyPolicyPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-display font-bold text-slate-900 mb-4">1. Information We Collect</h2>
             <p className="text-slate-600 mb-4">
-              Money in Motion Financial Advisory collects information you provide directly to us, including:
+              Life Money Financial Advisory collects information you provide directly to us, including:
             </p>
             <ul className="list-disc pl-6 text-slate-600 space-y-2">
               <li>Personal identification information (name, email, phone number)</li>
@@ -116,7 +116,7 @@ export default function PrivacyPolicyPage() {
               For privacy-related inquiries or to exercise your rights, contact us at:
             </p>
             <div className="bg-slate-50 rounded-xl p-6">
-              <p className="text-slate-700 font-semibold">Money in Motion Financial Advisory</p>
+              <p className="text-slate-700 font-semibold">Life Money Financial Advisory</p>
               <p className="text-slate-600">Email: privacy@lifemoney.ca</p>
               <p className="text-slate-600">Phone: 647-555-0123</p>
               <p className="text-slate-600">Address: Mississauga, Ontario, Canada</p>

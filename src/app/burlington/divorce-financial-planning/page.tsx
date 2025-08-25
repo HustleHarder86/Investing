@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning Burlington | Retirement & Estate Division | Money in Motion',
+  title: 'Divorce Financial Planning Burlington | Retirement & Estate Division | Life Money',
   description: "Expert divorce financial planning for Burlington retirees and established families. Specialized in pension division, waterfront properties, and retirement assets.",
   keywords: 'divorce financial planning Burlington, retirement divorce Halton, pension division Burlington',
 };

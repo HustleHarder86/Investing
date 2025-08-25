@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Financial Planning King Township | Ultra High Net Worth CFP® | Money in Motion',
+  title: 'Divorce Financial Planning King Township | Ultra High Net Worth CFP® | Life Money',
   description: "Expert divorce financial planning for King Township's ultra-wealthy. Navigate estate divisions, equestrian properties, and multi-million dollar settlements.",
   keywords: 'divorce King Township, ultra high net worth divorce, equestrian property division',
 };

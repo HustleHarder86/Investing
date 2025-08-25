@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Sale Planning Vaughan | Construction M&A Experts | Money in Motion',
+  title: 'Business Sale Planning Vaughan | Construction M&A Experts | Life Money',
   description: "Strategic business sale planning for Vaughan construction companies and family businesses. Expert M&A advisory for contractors, developers, and trades.",
   keywords: 'business sale planning Vaughan, construction company sale, contractor M&A York Region',
 };

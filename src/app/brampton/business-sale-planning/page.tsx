@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Sale Planning Brampton | M&A Advisors | Money in Motion',
+  title: 'Business Sale Planning Brampton | M&A Advisors | Life Money',
   description: "Strategic business sale planning for Brampton entrepreneurs. Maximize value for trucking, logistics, and manufacturing businesses. Expert M&A advisory.",
   keywords: 'business sale planning Brampton, selling business Brampton, M&A advisor Peel',
 };

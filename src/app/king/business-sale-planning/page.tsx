@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Sale Planning King Township | Equestrian Business M&A | Money in Motion',
+  title: 'Business Sale Planning King Township | Equestrian Business M&A | Life Money',
   description: "Strategic business sale planning for King Township equestrian operations and luxury businesses. Expert M&A for farms, stables, and high-end enterprises.",
   keywords: 'business sale King Township, equestrian business M&A, farm sale York Region',
 };

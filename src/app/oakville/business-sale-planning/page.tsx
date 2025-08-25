@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Sale Planning Oakville | Private Company M&A | Money in Motion',
+  title: 'Business Sale Planning Oakville | Private Company M&A | Life Money',
   description: "Strategic exit planning for Oakville private companies and family offices. Expert M&A advisory for luxury brands, private equity, and established enterprises.",
   keywords: 'business sale planning Oakville, private company M&A, family business succession Halton',
 };

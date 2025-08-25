@@ -42,7 +42,7 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
                 </svg>
               </div>
               <div>
-                <div className="text-2xl font-display font-bold text-slate-900">Money in Motion</div>
+                <div className="text-2xl font-display font-bold text-slate-900">Life Money</div>
                 <div className="text-sm text-slate-600 -mt-1 font-medium">Financial Advisory</div>
               </div>
             </Link>
@@ -130,7 +130,7 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <div>
               <h2 className="text-3xl font-display font-bold text-slate-900 mb-6">
-                Why Choose Money in Motion for {service.name} in {city.name}?
+                Why Choose Life Money for {service.name} in {city.name}?
               </h2>
               <p className="text-slate-600 mb-6 leading-relaxed">
                 {city.description} With a population of {city.population}, {city.name} residents face unique 
@@ -233,7 +233,7 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
               ))}
             </div>
             <blockquote className="text-2xl text-slate-700 text-center mb-8 italic">
-              &ldquo;Money in Motion helped me navigate my {service.name.toLowerCase()} with expertise and compassion. 
+              &ldquo;Life Money helped me navigate my {service.name.toLowerCase()} with expertise and compassion. 
               Their knowledge of {city.name}'s specific regulations was invaluable.&rdquo;
             </blockquote>
             <div className="text-center">
@@ -300,7 +300,7 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FinancialService",
-            "name": `Money in Motion ${service.name} - ${city.name}`,
+            "name": `Life Money ${service.name} - ${city.name}`,
             "description": `Expert ${service.name.toLowerCase()} services in ${city.name}, Ontario`,
             "areaServed": {
               "@type": "City",
@@ -329,7 +329,7 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
       {/* Footer */}
       <footer className="bg-gradient-to-r from-slate-900 to-slate-800 text-white py-16">
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <p>&copy; 2025 Money in Motion Financial Advisory - Serving {city.name} and the Greater Toronto Area</p>
+          <p>&copy; 2025 Life Money Financial Advisory - Serving {city.name} and the Greater Toronto Area</p>
         </div>
       </footer>
     </div>

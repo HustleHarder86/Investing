@@ -1,4 +1,4 @@
-# Money in Motion Robots.txt
+# Life Money Robots.txt
 # https://lifemoney.ca
 
 # Allow all search engines

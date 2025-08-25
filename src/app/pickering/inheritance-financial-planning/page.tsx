@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Inheritance Tax Planning Pickering | OPG Estate Planning | Money in Motion',
+  title: 'Inheritance Tax Planning Pickering | OPG Estate Planning | Life Money',
   description: "Expert estate planning for Pickering nuclear families. Maximize OPG pensions, navigate survivor benefits, and protect high-value estates in Durham Region.",
   keywords: 'inheritance planning Pickering, OPG estate planning, nuclear worker succession Durham',
 };

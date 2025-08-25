@@ -1,12 +1,12 @@
 # Project Plans & Task Tracking
 
-Track all project planning, task completion status, and rollback points for Money in Motion Financial Advisory.
+Track all project planning, task completion status, and rollback points for Life Money Financial Advisory.
 
 ## Current Active Plans
 
 ### 🔄 In Progress
 - **Plan ID**: REBRAND-001
-- **Title**: Rebrand from ProsperBridge to Money in Motion
+- **Title**: Rebrand from ProsperBridge to Life Money
 - **Status**: In Progress
 - **Started**: 2025-08-25
 - **Tasks**:

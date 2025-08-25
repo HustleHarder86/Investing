@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Inheritance Tax Planning Markham | High Net Worth Estate | Money in Motion',
+  title: 'Inheritance Tax Planning Markham | High Net Worth Estate | Life Money',
   description: "Expert estate planning for Markham's affluent families. Minimize taxes on tech wealth, real estate portfolios, and international assets. York Region expertise.",
   keywords: 'inheritance tax planning Markham, estate planning Markham tech, high net worth York Region',
 };

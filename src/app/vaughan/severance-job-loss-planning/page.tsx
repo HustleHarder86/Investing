@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
 
 export const metadata: Metadata = {
-  title: 'Severance Package Planning Vaughan | Construction Worker Support | Money in Motion',
+  title: 'Severance Package Planning Vaughan | Construction Worker Support | Life Money',
   description: "Expert severance planning for Vaughan construction workers and trades. Navigate layoffs, maximize packages, and plan career transitions in York Region.",
   keywords: 'severance package Vaughan, construction layoffs, job loss planning York Region',
 };
