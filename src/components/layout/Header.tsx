@@ -258,8 +258,14 @@ export default function Header({ currentPage = '' }: HeaderProps) {
                   {/* Services Section */}
                   <div className="mb-6">
                     <button
-                      onClick={() => setIsServicesOpen(!isServicesOpen)}
-                      className="flex items-center justify-between w-full p-3 rounded-xl text-slate-700 hover:bg-slate-100 transition-all duration-200 font-medium"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        setIsServicesOpen(!isServicesOpen);
+                      }}
+                      className="flex items-center justify-between w-full p-3 rounded-xl text-slate-700 hover:bg-slate-100 active:bg-slate-200 transition-all duration-200 font-medium touch-manipulation"
+                      aria-expanded={isServicesOpen}
+                      aria-controls="services-dropdown"
                     >
                       <span>Services</span>
                       <svg 
@@ -271,16 +277,23 @@ export default function Header({ currentPage = '' }: HeaderProps) {
                       </svg>
                     </button>
                     
-                    {isServicesOpen && (
-                      <div className="ml-4 mt-2 space-y-2 animate-in slide-in-from-top duration-200">
+                    <div 
+                      id="services-dropdown"
+                      className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                        isServicesOpen 
+                          ? 'max-h-96 opacity-100' 
+                          : 'max-h-0 opacity-0'
+                      }`}
+                    >
+                      <div className="ml-4 mt-2 space-y-2 pb-2">
                         {services.map((service) => (
                           <Link
                             key={service.slug}
                             href={`/services/${service.slug}`}
                             onClick={closeMobileMenu}
-                            className="flex items-center p-3 rounded-xl hover:bg-slate-50 transition-all duration-200 group"
+                            className="flex items-center p-3 rounded-xl hover:bg-slate-50 active:bg-slate-100 transition-all duration-200 group touch-manipulation"
                           >
-                            <div className="w-6 h-6 bg-gradient-to-r from-teal-500/20 to-blue-500/20 rounded-lg flex items-center justify-center mr-3">
+                            <div className="w-6 h-6 bg-gradient-to-r from-teal-500/20 to-blue-500/20 rounded-lg flex items-center justify-center mr-3 flex-shrink-0">
                               <ServiceIcon 
                                 serviceIcon={service.icon} 
                                 size="xs" 
@@ -292,7 +305,7 @@ export default function Header({ currentPage = '' }: HeaderProps) {
                                 } 
                               />
                             </div>
-                            <div className="flex-1">
+                            <div className="flex-1 min-w-0">
                               <div className="font-medium text-slate-900 group-hover:text-teal-600 transition-colors text-sm">
                                 {service.shortName}
                               </div>
@@ -302,12 +315,12 @@ export default function Header({ currentPage = '' }: HeaderProps) {
                         <Link
                           href="/services"
                           onClick={closeMobileMenu}
-                          className="flex items-center justify-center w-full py-2 px-4 bg-gradient-to-r from-teal-600 to-blue-600 rounded-xl text-white font-medium mt-3 hover:shadow-lg transition-all duration-200"
+                          className="flex items-center justify-center w-full py-3 px-4 bg-gradient-to-r from-teal-600 to-blue-600 rounded-xl text-white font-medium mt-3 hover:shadow-lg active:scale-95 transition-all duration-200 touch-manipulation"
                         >
                           View All Services
                         </Link>
                       </div>
-                    )}
+                    </div>
                   </div>
                   
                   {/* Main Navigation Links */}
