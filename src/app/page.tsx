@@ -105,6 +105,9 @@ export default function Home() {
               <Link href="/blog" className="px-5 py-3 rounded-xl text-slate-700 hover:text-slate-900 hover:bg-slate-100 transition-all duration-200 font-medium">
                 Blog
               </Link>
+              <Link href="/calculators" className="px-5 py-3 rounded-xl text-slate-700 hover:text-slate-900 hover:bg-slate-100 transition-all duration-200 font-medium">
+                Calculators
+              </Link>
               <Link href="/about" className="px-5 py-3 rounded-xl text-slate-700 hover:text-slate-900 hover:bg-slate-100 transition-all duration-200 font-medium">
                 About
               </Link>

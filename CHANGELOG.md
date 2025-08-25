@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased] - Local Development
 ### Added
 - Changelog and Plans tracking system for better project management
+- About Us page with team story and values
+- Contact page with comprehensive consultation form
+- Calculators page with retirement, severance, mortgage, and estate planning tools
+- Updated navigation to include calculators link
 
 ### Changed
 - Complete rebranding from ProsperBridge to Life Money
