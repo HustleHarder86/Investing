@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'back-to-school-budgeting-divorced-parents',
+    title: 'Back-to-School Budgeting for Newly Divorced Parents',
+    excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
+    author: 'Sarah Mitchell',
+    authorTitle: 'CFP®, Estate Planning Specialist',
+    date: '2025-08-25',
+    readTime: '10 min',
+    category: 'Divorce Planning',
+    categorySlug: 'divorce-planning',
+    featured: false
+  },
+  {
     slug: 'selling-gta-business-before-year-end',
     title: 'Selling Your GTA Business Before Year-End: Tax Strategies',
     excerpt: 'Expert insights on business sale to help you navigate your financial transition.',
