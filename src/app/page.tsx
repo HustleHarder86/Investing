@@ -281,6 +281,76 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Comprehensive Services Highlight */}
+      <section className="py-16 bg-gradient-to-r from-blue-600 to-purple-700 relative overflow-hidden">
+        <div className="absolute inset-0">
+          <div className="absolute top-20 right-20 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-20 left-20 w-80 h-80 bg-white/5 rounded-full blur-3xl"></div>
+        </div>
+        
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="inline-flex items-center px-6 py-3 bg-white/20 backdrop-blur-xl border border-white/30 rounded-full text-sm font-medium mb-6">
+            <div className="w-2 h-2 bg-white rounded-full mr-3 animate-pulse"></div>
+            <span className="text-white">Comprehensive Financial Planning</span>
+          </div>
+          
+          <h2 className="text-3xl md:text-4xl font-display font-bold text-white mb-6 leading-tight">
+            Any Financial Situation, We Can Help
+          </h2>
+          
+          <p className="text-xl text-blue-100 max-w-4xl mx-auto leading-relaxed mb-10">
+            While we specialize in major life transitions, we're comprehensive financial planners who handle any money-related situation
+          </p>
+          
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4 max-w-6xl mx-auto">
+            <div className="bg-white/10 backdrop-blur-xl rounded-lg p-4 border border-white/20 text-center">
+              <div className="text-2xl mb-2">💰</div>
+              <div className="text-sm text-white font-medium">Retirement Planning</div>
+            </div>
+            <div className="bg-white/10 backdrop-blur-xl rounded-lg p-4 border border-white/20 text-center">
+              <div className="text-2xl mb-2">📈</div>
+              <div className="text-sm text-white font-medium">Investments</div>
+            </div>
+            <div className="bg-white/10 backdrop-blur-xl rounded-lg p-4 border border-white/20 text-center">
+              <div className="text-2xl mb-2">🎰</div>
+              <div className="text-sm text-white font-medium">Lottery Winnings</div>
+            </div>
+            <div className="bg-white/10 backdrop-blur-xl rounded-lg p-4 border border-white/20 text-center">
+              <div className="text-2xl mb-2">🏠</div>
+              <div className="text-sm text-white font-medium">Estate Planning</div>
+            </div>
+            <div className="bg-white/10 backdrop-blur-xl rounded-lg p-4 border border-white/20 text-center">
+              <div className="text-2xl mb-2">🎓</div>
+              <div className="text-sm text-white font-medium">Education Funds</div>
+            </div>
+            <div className="bg-white/10 backdrop-blur-xl rounded-lg p-4 border border-white/20 text-center">
+              <div className="text-2xl mb-2">🛡️</div>
+              <div className="text-sm text-white font-medium">Insurance</div>
+            </div>
+            <div className="bg-white/10 backdrop-blur-xl rounded-lg p-4 border border-white/20 text-center">
+              <div className="text-2xl mb-2">📊</div>
+              <div className="text-sm text-white font-medium">Tax Planning</div>
+            </div>
+            <div className="bg-white/10 backdrop-blur-xl rounded-lg p-4 border border-white/20 text-center">
+              <div className="text-2xl mb-2">💡</div>
+              <div className="text-sm text-white font-medium">Any Money Matter</div>
+            </div>
+          </div>
+          
+          <div className="mt-10">
+            <Link
+              href="/contact"
+              className="inline-flex items-center bg-white text-blue-700 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-gray-100 transition-colors shadow-lg"
+            >
+              Discuss Your Financial Situation
+              <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Modern Trust & Credibility Section */}
       <section className="py-20 bg-gradient-to-b from-white to-slate-50 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
