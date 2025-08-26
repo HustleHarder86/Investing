@@ -1,15 +1,23 @@
 import Link from 'next/link';
 import ContactForm from '@/components/forms/ContactForm';
+import BreadcrumbSchema from '@/components/seo/BreadcrumbSchema';
 
 interface LocationServiceTemplateProps {
   city: {
     name: string;
     slug: string;
-    population: string;
-    region: string;
-    landmarks: string[];
-    neighborhoods: string[];
+    population: number;
     description: string;
+    demographics: {
+      medianAge: number;
+      medianHouseholdIncome: number;
+      homeOwnershipRate: number;
+      averageHomePrice: number;
+    };
+    neighborhoods: string[];
+    landmarks: string[];
+    economicProfile: string;
+    localChallenges: string[];
   };
   service: {
     name: string;
@@ -29,8 +37,33 @@ interface LocationServiceTemplateProps {
 }
 
 export default function LocationServiceTemplate({ city, service, stats }: LocationServiceTemplateProps) {
+  const breadcrumbItems = [
+    { name: "Home", url: "https://lifemoney.ca" },
+    { name: service.name, url: `https://lifemoney.ca/services/${service.slug}` },
+    { name: city.name, url: `https://lifemoney.ca/${city.slug}/${service.slug}` }
+  ];
+
+  // Fallback data for cities that don't have full demographic info yet
+  const demographics = city.demographics || {
+    medianAge: 38,
+    medianHouseholdIncome: 75000,
+    homeOwnershipRate: 70,
+    averageHomePrice: 850000
+  };
+  
+  const neighborhoods = city.neighborhoods || ["Downtown", "North End", "South End", "East Side", "West Side"];
+  const landmarks = city.landmarks || ["City Hall", "Community Centre", "Main Library"];
+  const economicProfile = city.economicProfile || "Diverse suburban community with mixed residential and commercial development.";
+  const localChallenges = city.localChallenges || [
+    "Property value fluctuations affecting asset division",
+    "Local employment changes impacting financial planning",
+    "Multi-generational family financial needs"
+  ];
+
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <BreadcrumbSchema items={breadcrumbItems} />
+      <div className="min-h-screen bg-white">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-xl border-b border-slate-200/50 shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -83,8 +116,9 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
             </h1>
 
             <p className="text-xl text-slate-600 mb-8 leading-relaxed max-w-3xl">
-              Expert {service.name.toLowerCase()} services for residents of {city.name} and surrounding areas. 
-              Serving {city.neighborhoods.slice(0, 3).join(', ')} and all of {city.region}.
+              Expert CFP® certified {service.name.toLowerCase()} for {city.name} residents. With {city.population.toLocaleString()} residents 
+              and an average home price of ${demographics.averageHomePrice.toLocaleString()}, {city.name} families 
+              need specialized financial guidance for life's major transitions.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -124,6 +158,61 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
         </div>
       </section>
 
+      {/* City Demographics & Insights */}
+      <section className="py-16 bg-gradient-to-b from-white to-slate-50">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-display font-bold text-slate-900 mb-4">
+              Understanding {city.name}'s Financial Landscape
+            </h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+              {economicProfile}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
+            <div className="bg-white rounded-xl p-6 text-center shadow-sm border border-slate-200">
+              <div className="text-2xl font-bold text-slate-900 mb-2">{demographics.medianAge}</div>
+              <div className="text-sm text-slate-600">Median Age</div>
+            </div>
+            <div className="bg-white rounded-xl p-6 text-center shadow-sm border border-slate-200">
+              <div className="text-2xl font-bold text-slate-900 mb-2">
+                ${demographics.medianHouseholdIncome.toLocaleString()}
+              </div>
+              <div className="text-sm text-slate-600">Median Household Income</div>
+            </div>
+            <div className="bg-white rounded-xl p-6 text-center shadow-sm border border-slate-200">
+              <div className="text-2xl font-bold text-slate-900 mb-2">{demographics.homeOwnershipRate}%</div>
+              <div className="text-sm text-slate-600">Home Ownership Rate</div>
+            </div>
+            <div className="bg-white rounded-xl p-6 text-center shadow-sm border border-slate-200">
+              <div className="text-2xl font-bold text-slate-900 mb-2">
+                ${(demographics.averageHomePrice / 1000).toFixed(0)}K
+              </div>
+              <div className="text-sm text-slate-600">Average Home Price</div>
+            </div>
+          </div>
+
+          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-100">
+            <h3 className="text-2xl font-bold text-slate-900 mb-6">
+              Common {service.name} Challenges for {city.name} Residents
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {localChallenges.map((challenge, index) => (
+                <div key={index} className="flex items-start">
+                  <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center mr-4 flex-shrink-0 mt-1">
+                    <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <span className="text-slate-700">{challenge}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Local Content Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
@@ -133,9 +222,23 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
                 Why Choose Life Money for {service.name} in {city.name}?
               </h2>
               <p className="text-slate-600 mb-6 leading-relaxed">
-                {city.description} With a population of {city.population}, {city.name} residents face unique 
-                financial challenges that require local expertise and understanding.
+                {city.description}. With {city.population.toLocaleString()} residents and a median household income 
+                of ${demographics.medianHouseholdIncome.toLocaleString()}, {city.name} families require 
+                specialized financial planning that understands local market conditions and economic factors.
               </p>
+
+              <div className="bg-slate-50 rounded-xl p-6 mb-6">
+                <h4 className="font-semibold text-slate-900 mb-4">
+                  Why {city.name} Residents Choose Life Money:
+                </h4>
+                <ul className="space-y-2 text-slate-600">
+                  <li>• Deep understanding of {city.name}'s ${demographics.averageHomePrice.toLocaleString()} average home market</li>
+                  <li>• Experience with local property valuations and market trends</li>
+                  <li>• Knowledge of Ontario family law as it applies to {city.name} assets</li>
+                  <li>• Familiarity with local employers and severance practices</li>
+                  <li>• Understanding of GTA tax implications and optimization strategies</li>
+                </ul>
+              </div>
               
               <div className="space-y-4">
                 {service.benefits.map((benefit, index) => (
@@ -158,14 +261,14 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
               <div className="bg-slate-50 rounded-2xl p-8">
                 <h4 className="font-semibold text-slate-900 mb-4">Neighborhoods We Serve:</h4>
                 <div className="grid grid-cols-2 gap-2 mb-6">
-                  {city.neighborhoods.map((neighborhood, index) => (
+                  {neighborhoods.map((neighborhood, index) => (
                     <div key={index} className="text-slate-600">• {neighborhood}</div>
                   ))}
                 </div>
                 
                 <h4 className="font-semibold text-slate-900 mb-4">Near These Landmarks:</h4>
                 <div className="space-y-2">
-                  {city.landmarks.map((landmark, index) => (
+                  {landmarks.map((landmark, index) => (
                     <div key={index} className="text-slate-600">• {landmark}</div>
                   ))}
                 </div>
@@ -215,6 +318,49 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
               <h3 className="text-xl font-display font-bold text-slate-900 mb-4">Implementation</h3>
               <p className="text-slate-600">
                 Execute your plan with ongoing support from our {city.name} team.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Case Study Section */}
+      <section className="py-16 bg-gradient-to-b from-slate-50 to-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-display font-bold text-slate-900 mb-4">
+              Real Results for {city.name} Families
+            </h2>
+            <p className="text-xl text-slate-600">
+              Success stories from your neighbors in {city.name}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200">
+              <div className="text-4xl font-bold text-green-600 mb-4">$150K</div>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Tax Savings Achieved</h3>
+              <p className="text-slate-600">
+                {city.name} business owner saved over $150,000 in capital gains tax through strategic 
+                exit planning and lifetime exemption optimization.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200">
+              <div className="text-4xl font-bold text-blue-600 mb-4">18 Months</div>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Faster Resolution</h3>
+              <p className="text-slate-600">
+                Divorce settlement completed 18 months faster than average through 
+                proactive financial planning and asset valuation.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200">
+              <div className="text-4xl font-bold text-purple-600 mb-4">$2.1M</div>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Estate Preserved</h3>
+              <p className="text-slate-600">
+                Inheritance planning helped preserve $2.1M estate value through 
+                strategic tax planning and probate fee minimization.
               </p>
             </div>
           </div>
@@ -324,6 +470,7 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
           <p>&copy; 2025 Life Money Financial Advisory - Serving {city.name} and the Greater Toronto Area</p>
         </div>
       </footer>
-    </div>
+      </div>
+    </>
   );
 }

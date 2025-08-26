@@ -1,5 +1,7 @@
 import { Metadata } from 'next';
 import LocationServiceTemplate from '@/components/templates/LocationServiceTemplate';
+import { cities } from '@/lib/cities';
+import { getServiceBySlug } from '@/lib/services';
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning Toronto | CFP® Certified Advisors | Life Money',
@@ -12,51 +14,8 @@ export const metadata: Metadata = {
   }
 };
 
-const torontoData = {
-  name: 'Toronto',
-  slug: 'toronto',
-  population: '2.9 million',
-  region: 'Greater Toronto Area',
-  landmarks: [
-    'Toronto Family Court (393 University Ave)',
-    'Superior Court of Justice (361 University Ave)',
-    'Financial District',
-    'CN Tower Area',
-    'Yorkville'
-  ],
-  neighborhoods: [
-    'Downtown Core',
-    'North York',
-    'Etobicoke',
-    'Scarborough',
-    'East York',
-    'York',
-    'Forest Hill',
-    'Rosedale',
-    'The Beaches',
-    'High Park'
-  ],
-  description: "As Canada's largest city and financial capital, Toronto presents unique challenges for divorce financial planning with some of the highest property values and complex asset structures in the country."
-};
-
-const divorceServiceData = {
-  name: 'Divorce Financial Planning',
-  slug: 'divorce-financial-planning',
-  icon: '⚖️',
-  primaryColor: 'from-purple-600',
-  secondaryColor: 'to-pink-600',
-  description: "Navigate the financial complexities of divorce with expert guidance on asset division, support calculations, and tax optimization.",
-  benefits: [
-    'Certified Divorce Financial Analyst (CFP®) expertise',
-    'Fair and equitable asset division strategies',
-    'Spousal and child support calculations',
-    'Matrimonial home valuation and division',
-    'Pension and retirement account splitting',
-    'Tax optimization during and after divorce',
-    'Court document preparation assistance',
-    'Post-divorce budget and financial planning'
-  ]
-};
+const torontoCity = cities.find(city => city.slug === 'toronto')!;
+const divorceService = getServiceBySlug('divorce-financial-planning')!;
 
 const statsData = {
   clientsServed: '500+',
@@ -68,8 +27,8 @@ const statsData = {
 export default function TorontoDivorceFinancialPlanningPage() {
   return (
     <LocationServiceTemplate 
-      city={torontoData}
-      service={divorceServiceData}
+      city={torontoCity}
+      service={divorceService}
       stats={statsData}
     />
   );

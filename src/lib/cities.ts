@@ -9,6 +9,16 @@ export interface City {
     lng: number;
   };
   distanceFromMississauga: number;
+  demographics: {
+    medianAge: number;
+    medianHouseholdIncome: number;
+    homeOwnershipRate: number;
+    averageHomePrice: number;
+  };
+  neighborhoods: string[];
+  landmarks: string[];
+  economicProfile: string;
+  localChallenges: string[];
 }
 
 export const cities: City[] = [
@@ -18,18 +28,64 @@ export const cities: City[] = [
     slug: "toronto",
     tier: 1,
     population: 2794356,
-    description: "Canada's largest city and financial capital",
+    description: "Canada's largest city and financial capital, home to the Toronto Stock Exchange and major financial institutions",
     coordinates: { lat: 43.6532, lng: -79.3832 },
-    distanceFromMississauga: 25
+    distanceFromMississauga: 25,
+    demographics: {
+      medianAge: 39.3,
+      medianHouseholdIncome: 84500,
+      homeOwnershipRate: 68.2,
+      averageHomePrice: 1150000
+    },
+    neighborhoods: [
+      "Downtown Core", "North York", "Scarborough", "Etobicoke", "York", 
+      "East York", "The Beaches", "Leslieville", "The Junction", "High Park",
+      "Rosedale", "Forest Hill", "Lawrence Park", "Leaside", "The Danforth"
+    ],
+    landmarks: [
+      "CN Tower", "Toronto Stock Exchange", "Royal Ontario Museum", 
+      "Casa Loma", "Harbourfront Centre", "University of Toronto",
+      "Toronto City Hall", "Rogers Centre", "Scotiabank Arena",
+      "Distillery District", "St. Lawrence Market", "Financial District"
+    ],
+    economicProfile: "Major financial hub with banking, insurance, and investment sectors. High concentration of Bay Street professionals, tech companies, and real estate activity.",
+    localChallenges: [
+      "High cost of living and housing prices",
+      "Complex divorce asset valuations due to expensive real estate",
+      "Business sale opportunities in competitive tech market",
+      "Inheritance tax planning for high-net-worth individuals",
+      "Severance negotiations in financial services sector"
+    ]
   },
   {
     name: "Mississauga",
     slug: "mississauga",
     tier: 1,
     population: 717961,
-    description: "ProsperBridge Financial Advisory's home base",
+    description: "Life Money Financial Advisory's home base in the heart of the GTA",
     coordinates: { lat: 43.5890, lng: -79.6441 },
-    distanceFromMississauga: 0
+    distanceFromMississauga: 0,
+    demographics: {
+      medianAge: 37.8,
+      medianHouseholdIncome: 79500,
+      homeOwnershipRate: 74.5,
+      averageHomePrice: 980000
+    },
+    neighborhoods: [
+      "Port Credit", "Streetsville", "Clarkson", "Lakeview", "Meadowvale", 
+      "Erin Mills", "Square One District", "Cooksville", "Malton", "Heartland"
+    ],
+    landmarks: [
+      "Square One Shopping Centre", "Port Credit Harbour", "Credit Valley Hospital",
+      "University of Toronto Mississauga", "Living Arts Centre", "Celebration Square"
+    ],
+    economicProfile: "Major suburban center with diverse economy including corporate headquarters, manufacturing, and service industries.",
+    localChallenges: [
+      "Growing property values in transit-oriented developments",
+      "Diverse population requiring multilingual financial services",
+      "Business succession planning for family enterprises",
+      "Estate planning for multi-generational families"
+    ]
   },
   {
     name: "Brampton",
