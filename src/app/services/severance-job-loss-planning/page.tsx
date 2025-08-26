@@ -1,10 +1,11 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ContactForm from '@/components/forms/ContactForm';
+import FAQSchema from '@/components/seo/FAQSchema';
 
 export const metadata: Metadata = {
   title: 'Severance Financial Planning Toronto 2025 | Maximize Your Package | Life Money',
-  description: "Expert severance and job transition financial planning in the GTA. Maximize your severance package, optimize taxes, manage benefits continuation, and plan your career pivot.",
+  description: "Maximize your severance payout & minimize taxes! CFP® certified job loss planning in Toronto & GTA. FREE urgent consultation for severance negotiation & career transition. Act fast!",
   keywords: 'severance package planning, job loss financial planning, career transition, EI optimization, RRSP strategies, severance negotiation, Toronto layoffs 2025',
   openGraph: {
     title: 'Severance & Job Transition Planning Toronto 2025 | Life Money',
@@ -14,8 +15,37 @@ export const metadata: Metadata = {
 };
 
 export default function SeveranceJobLossPlanningPage() {
+  const faqData = [
+    {
+      question: "How much severance am I entitled to in Ontario?",
+      answer: "Minimum entitlements are 1 week per year of service under Employment Standards Act. Common law often provides more - potentially 20-30 months for senior roles. Factors include age, position, length of service, and re-employment prospects."
+    },
+    {
+      question: "Should I take my severance as a lump sum or instalments?",
+      answer: "Lump sum provides certainty and investment opportunity, but may push you into higher tax brackets. Instalments spread tax burden but lack flexibility. A CFP® can model both scenarios to determine optimal choice."
+    },
+    {
+      question: "How is severance taxed and can I reduce the tax burden?",
+      answer: "Severance is fully taxable as employment income. Strategies include RRSP contributions, income spreading over multiple years, retiring allowance transfers, and timing with other income to minimize tax brackets."
+    },
+    {
+      question: "Can I collect EI benefits while receiving severance?",
+      answer: "Generally no. EI benefits are typically deferred until severance payments end. However, lump sum payments may allow immediate EI access. The interaction between severance structure and EI timing affects your total income."
+    },
+    {
+      question: "What happens to my pension and benefits during job transition?",
+      answer: "Pension options include leaving funds with former employer, transferring to new employer, or locking into personal accounts. Benefits may continue under COBRA-style arrangements. Each option has different costs and tax implications."
+    },
+    {
+      question: "How do I negotiate a better severance package?",
+      answer: "Consider total compensation (salary, benefits, pension), non-compete restrictions, reference letters, and outplacement services. Legal advice helps with negotiation, while CFP® guidance ensures optimal financial structure of any settlement."
+    }
+  ];
+
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <FAQSchema faqs={faqData} />
+      <div className="min-h-screen bg-white">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-xl border-b border-slate-200/50 shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -343,6 +373,7 @@ export default function SeveranceJobLossPlanningPage() {
           </div>
         </div>
       </footer>
-    </div>
+      </div>
+    </>
   );
 }

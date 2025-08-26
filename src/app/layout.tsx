@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Life Money | Expert Financial Planning in the GTA",
-  description: "Specialized financial planning for divorce, inheritance, business sales, and job loss across the Greater Toronto Area. Based in Mississauga, serving all GTA cities.",
+  title: "Life Money - CFP® Certified Financial Planning | Divorce, Inheritance & Business Sale Experts | GTA",
+  description: "Get expert CFP® certified financial planning for life transitions. Free consultations for divorce, inheritance, business sales & severance planning across Toronto, Mississauga, Brampton & all GTA. Call today!",
   keywords: "financial planner GTA, divorce financial advisor Toronto, inheritance planning Mississauga, business sale advisor, severance package planning",
   authors: [{ name: "Life Money" }],
   creator: "Life Money",
@@ -32,16 +32,16 @@ export const metadata: Metadata = {
     locale: 'en_CA',
     url: 'https://lifemoney.ca',
     siteName: 'Life Money',
-    title: 'Life Money | Expert Financial Planning in the GTA',
-    description: "Specialized financial planning for divorce, inheritance, business sales, and job loss across the Greater Toronto Area.",
+    title: 'Life Money - CFP® Certified Financial Planning | GTA Experts',
+    description: "Get expert CFP® certified financial planning for life transitions. Free consultations for divorce, inheritance, business sales & severance planning across the GTA.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Life Money | Expert Financial Planning in the GTA',
-    description: "Specialized financial planning for divorce, inheritance, business sales, and job loss across the Greater Toronto Area.",
+    title: 'Life Money - CFP® Certified Financial Planning | GTA Experts',
+    description: "Get expert CFP® certified financial planning for life transitions. Free consultations for divorce, inheritance, business sales & severance planning across the GTA.",
   },
   verification: {
-    google: 'google-site-verification-token-here',
+    google: 'mhlzLkvd9HxIG32i_Aw3dsNTfD1nH892gsBoSPpKnaY',
   },
 };
 

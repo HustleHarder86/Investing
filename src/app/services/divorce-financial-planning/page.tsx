@@ -1,10 +1,11 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ContactForm from '@/components/forms/ContactForm';
+import FAQSchema from '@/components/seo/FAQSchema';
 
 export const metadata: Metadata = {
   title: 'Divorce Financial Planning Ontario 2025 | CFP® Certified | Life Money',
-  description: "Expert divorce financial planning in Ontario. CFP® certified advisor for asset division, spousal support, and pension splitting. Protect your financial future.",
+  description: "Expert CFP® divorce financial planning in Toronto, Mississauga & GTA. FREE consultation for asset division, spousal support & pension splitting. Ontario family law expertise. Call today!",
   keywords: 'divorce financial planning Ontario, CFP® Toronto, asset division, spousal support, pension splitting, separation financial advisor',
   openGraph: {
     title: 'Divorce Financial Planning Ontario 2025 | Life Money',
@@ -14,8 +15,37 @@ export const metadata: Metadata = {
 };
 
 export default function DivorceFinancialPlanningPage() {
+  const faqData = [
+    {
+      question: "What is a CFP® and why do I need one for divorce?",
+      answer: "A Certified Financial Planner (CFP®) specializes in the financial aspects of divorce. We understand the complex intersection of family law and financial planning, ensuring informed decisions about your financial future during divorce proceedings."
+    },
+    {
+      question: "How is property divided in Ontario divorce?",
+      answer: "Ontario follows equalization where each spouse gets half the increase in net worth during marriage. This includes the home, pensions, investments, and businesses, with certain exclusions for inheritances and gifts received during marriage."
+    },
+    {
+      question: "Can I keep the matrimonial home after divorce?",
+      answer: "It depends on your income, mortgage capacity, and overall asset division. We analyze cash flow, refinancing options, and tax implications to determine if keeping the home aligns with your long-term financial goals."
+    },
+    {
+      question: "How is spousal support calculated in Ontario?",
+      answer: "Spousal support follows the Spousal Support Advisory Guidelines (SSAGs), considering income differences, marriage length, and children. We help structure support in the most tax-efficient manner possible for both parties."
+    },
+    {
+      question: "What happens to my pension in divorce?",
+      answer: "Pension credits earned during marriage are subject to division. Options include pension splitting, lump sum transfers, or ongoing sharing. Each has different tax implications requiring careful analysis by a CFP® professional."
+    },
+    {
+      question: "When should I hire a divorce financial planner?",
+      answer: "The earlier the better. Ideally, engage a CFP® before making major decisions or signing agreements. Professional guidance helps avoid costly mistakes and ensures informed decisions about your financial future."
+    }
+  ];
+
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <FAQSchema faqs={faqData} />
+      <div className="min-h-screen bg-white">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-xl border-b border-slate-200/50 shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -554,6 +584,7 @@ export default function DivorceFinancialPlanningPage() {
           </div>
         </div>
       </footer>
-    </div>
+      </div>
+    </>
   );
 }

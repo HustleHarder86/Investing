@@ -1,10 +1,11 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ContactForm from '@/components/forms/ContactForm';
+import FAQSchema from '@/components/seo/FAQSchema';
 
 export const metadata: Metadata = {
   title: 'Business Sale Planning GTA 2025 | Maximize Your Exit | Life Money',
-  description: "Strategic business sale planning for GTA entrepreneurs. Maximize your sale price, minimize taxes with capital gains exemption, and optimize your exit strategy. Expert advisors.",
+  description: "Maximize your business sale value by millions! CFP® certified exit planning in Toronto & GTA. FREE consultation for capital gains exemption & tax optimization. Don't lose $$ to taxes!",
   keywords: 'business sale planning, capital gains exemption, business exit strategy, selling business Ontario, lifetime capital gains exemption, business valuation, tax optimization',
   openGraph: {
     title: 'Business Sale Planning GTA 2025 | Life Money',
@@ -14,8 +15,37 @@ export const metadata: Metadata = {
 };
 
 export default function BusinessSalePlanningPage() {
+  const faqData = [
+    {
+      question: "What is the lifetime capital gains exemption for business sales?",
+      answer: "The lifetime capital gains exemption allows up to $1 million in tax-free capital gains on qualified small business corporation shares. This can save you over $250,000 in taxes on your business sale if structured properly."
+    },
+    {
+      question: "How is my business valued for sale purposes?",
+      answer: "Business valuations consider assets, earnings, cash flow, market comparables, and growth potential. Professional valuators use multiple approaches including asset-based, income-based, and market-based methods to determine fair value."
+    },
+    {
+      question: "What tax planning strategies can maximize my business sale proceeds?",
+      answer: "Strategies include capital gains exemption planning, income splitting with family members, defer/spread income recognition, estate freezes, and structuring the sale as asset vs share transaction for optimal tax treatment."
+    },
+    {
+      question: "Should I sell my business assets or shares?",
+      answer: "Share sales typically qualify for capital gains treatment and the lifetime exemption. Asset sales may result in recapture and regular income tax. The optimal structure depends on your business type, buyer preferences, and tax situation."
+    },
+    {
+      question: "How much money do I need to retire after selling my business?",
+      answer: "This depends on your desired retirement lifestyle, expenses, other income sources, and time horizon. A CFP® will analyze your post-sale financial picture to determine if you have enough to achieve your retirement goals."
+    },
+    {
+      question: "When should I start planning my business exit strategy?",
+      answer: "Ideally 3-5 years before your planned exit. This allows time for tax planning, business optimization, management development, and maximizing sale value. Earlier planning typically results in better outcomes and more options."
+    }
+  ];
+
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <FAQSchema faqs={faqData} />
+      <div className="min-h-screen bg-white">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-xl border-b border-slate-200/50 shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -482,6 +512,7 @@ export default function BusinessSalePlanningPage() {
           </div>
         </div>
       </footer>
-    </div>
+      </div>
+    </>
   );
 }

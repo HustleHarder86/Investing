@@ -1,10 +1,11 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import ContactForm from '@/components/forms/ContactForm';
+import FAQSchema from '@/components/seo/FAQSchema';
 
 export const metadata: Metadata = {
   title: 'Inheritance Tax Planning Ontario 2025 | Save Thousands | Life Money',
-  description: "Expert inheritance financial planning in Ontario. Minimize estate taxes, optimize probate fees, and maximize what your beneficiaries receive. Free consultation available.",
+  description: "Save thousands on inheritance taxes! Expert CFP® estate planning in Toronto, Mississauga & GTA. FREE consultation to minimize probate fees & maximize your legacy. Act now!",
   keywords: 'inheritance tax planning Ontario, estate planning, probate fees, tax optimization, inheritance tax, estate tax, will planning, trust structures',
   openGraph: {
     title: 'Inheritance Tax Planning Ontario 2025 | Life Money',
@@ -14,8 +15,37 @@ export const metadata: Metadata = {
 };
 
 export default function InheritanceFinancialPlanningPage() {
+  const faqData = [
+    {
+      question: "Do I have to pay taxes on my inheritance in Canada?",
+      answer: "Generally, beneficiaries don't pay income tax on inherited money or property. However, the estate may owe taxes on capital gains or income earned before death. Inherited investments may have future tax implications when sold."
+    },
+    {
+      question: "What are Ontario probate fees and how can I minimize them?",
+      answer: "Ontario probate fees are 1.5% on estates over $50,000. You can minimize fees through joint ownership, beneficiary designations, trusts, and proper estate planning. A CFP® can help structure your inheritance to reduce these costs."
+    },
+    {
+      question: "Should I invest my inheritance immediately or wait?",
+      answer: "This depends on your financial situation, goals, and market conditions. A CFP® will assess your overall financial picture, risk tolerance, and time horizon to create a strategic investment plan for your inheritance."
+    },
+    {
+      question: "How do I handle inherited RRSPs and RRIFs?",
+      answer: "Inherited RRSPs/RRIFs are typically taxable as income to the estate. Spouses can transfer them tax-free to their own RRSP. Other beneficiaries may face immediate taxation. Proper planning can minimize the tax impact."
+    },
+    {
+      question: "What is the lifetime capital gains exemption for inherited property?",
+      answer: "The lifetime capital gains exemption allows up to $1 million in tax-free capital gains on qualified small business shares and farm/fishing property. Inherited property receives a 'stepped-up basis' which can reduce future capital gains."
+    },
+    {
+      question: "How can I preserve my inheritance for future generations?",
+      answer: "Strategies include trusts, tax-efficient investing, estate freezes, and insurance planning. A CFP® can help structure your wealth to minimize taxes and maximize what passes to your heirs while meeting your current needs."
+    }
+  ];
+
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <FAQSchema faqs={faqData} />
+      <div className="min-h-screen bg-white">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-xl border-b border-slate-200/50 shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -406,6 +436,7 @@ export default function InheritanceFinancialPlanningPage() {
           </div>
         </div>
       </footer>
-    </div>
+      </div>
+    </>
   );
 }

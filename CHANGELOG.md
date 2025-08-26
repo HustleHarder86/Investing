@@ -33,10 +33,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated all service pages, location pages, and blog content
 
 ### Working On (Local Changes)
-- *Track local modifications here before committing*
+- **SEO Audit & Optimization (2025-08-26)**
+  - Fixed duplicate sitemap entry for RRSP vs TFSA blog post
+  - Enhanced LocalSchema component with comprehensive Organization schema
+  - Added logo, contact info, social media links, and service areas to schema markup
+  - Updated homepage meta descriptions with CFP® certification emphasis
+  - Added "FREE consultation" CTAs and location-specific content (Toronto, Mississauga, GTA)
+  - Enhanced meta descriptions for all 4 main service pages with urgency language
+  - Created FAQSchema component for structured data markup
+  - Added FAQ structured data to all main service pages (24 FAQs total)
+  - Implemented dual optimization for traditional search engines and LLMs
+  - Files modified: layout.tsx, LocalSchema.tsx, FAQSchema.tsx, sitemap.xml, 4 service page files
 
 ### Staged Changes
 - *List staged changes before pushing to GitHub*
+
+### Fixed
+- Mobile services dropdown functionality in navigation bar
+- Enhanced touch event handling with preventDefault/stopPropagation
+- Improved dropdown animation using max-height transition
+- Added active states and touch-manipulation for better mobile UX
+- Added accessibility attributes (aria-expanded, aria-controls)
+- Fixed layout issues with flex-shrink-0 and min-w-0 classes
+- Git Commit: e080075
 
 ## [1.0.0] - 2025-08-25
 ### Added
