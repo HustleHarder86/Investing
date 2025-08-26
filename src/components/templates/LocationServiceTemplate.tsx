@@ -60,6 +60,114 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
     "Multi-generational family financial needs"
   ];
 
+  // Generate varied testimonials based on city and service
+  const getTestimonial = (cityName: string, serviceName: string) => {
+    const testimonials = {
+      'divorce-financial-planning': [
+        {
+          quote: "Life Money helped me navigate my divorce with expertise and compassion. Their knowledge of {city}'s property values was invaluable during asset division.",
+          name: "Sarah M.",
+          location: "{city} Resident"
+        },
+        {
+          quote: "The divorce process seemed overwhelming until I found Life Money. They protected my financial future and ensured fair spousal support calculations.",
+          name: "Michael R.", 
+          location: "{city} Client"
+        },
+        {
+          quote: "As a {city} business owner going through divorce, Life Money's expertise in complex asset division saved me thousands. Highly recommended.",
+          name: "Jennifer K.",
+          location: "{city} Business Owner"
+        },
+        {
+          quote: "Life Money understood the unique challenges of divorce in {city}. Their CFP® certification and local knowledge made all the difference.",
+          name: "David L.",
+          location: "{city} Resident"
+        }
+      ],
+      'inheritance-financial-planning': [
+        {
+          quote: "When I inherited my family's {city} property, Life Money helped minimize taxes and preserve wealth for my children. Exceptional service.",
+          name: "Patricia W.",
+          location: "{city} Homeowner"
+        },
+        {
+          quote: "Life Money's inheritance planning saved our family over $80,000 in probate fees. Their knowledge of Ontario tax law is outstanding.",
+          name: "Robert C.",
+          location: "{city} Family"
+        },
+        {
+          quote: "Navigating my parents' estate in {city} was complex. Life Money provided clear guidance and maximized what we could preserve.",
+          name: "Amanda S.",
+          location: "{city} Inheritor"
+        },
+        {
+          quote: "The tax implications of my inheritance seemed daunting. Life Money turned a stressful situation into a well-planned financial future.",
+          name: "Thomas H.",
+          location: "{city} Client"
+        }
+      ],
+      'business-sale-planning': [
+        {
+          quote: "Selling my {city} business was the biggest financial decision of my life. Life Money maximized the value and minimized taxes perfectly.",
+          name: "Lisa D.",
+          location: "{city} Business Owner"
+        },
+        {
+          quote: "Life Money's exit planning expertise helped me structure my business sale to save over $200,000 in capital gains tax. Incredible value.",
+          name: "James P.",
+          location: "{city} Entrepreneur"
+        },
+        {
+          quote: "After 20 years building my {city} company, Life Money ensured I got maximum value from the sale. Their guidance was invaluable.",
+          name: "Maria G.",
+          location: "{city} Former Business Owner"
+        },
+        {
+          quote: "The lifetime capital gains exemption planning Life Money provided doubled my after-tax proceeds. Best investment I ever made.",
+          name: "Steven B.",
+          location: "{city} Retiree"
+        }
+      ],
+      'severance-job-loss-planning': [
+        {
+          quote: "When I was laid off in {city}, Life Money helped negotiate a better severance package and optimized the tax implications.",
+          name: "Karen T.",
+          location: "{city} Professional"
+        },
+        {
+          quote: "Life Money turned my job loss into an opportunity. Their severance optimization and career transition planning was excellent.",
+          name: "Richard M.",
+          location: "{city} Manager"
+        },
+        {
+          quote: "Facing unexpected job loss in {city} was scary. Life Money provided clarity and maximized my severance payout.",
+          name: "Nicole F.",
+          location: "{city} Executive"
+        },
+        {
+          quote: "The severance negotiation support from Life Money increased my package by 8 months. Their expertise saved my financial future.",
+          name: "Daniel W.",
+          location: "{city} Senior Professional"
+        }
+      ]
+    };
+
+    const serviceTestimonials = testimonials[service.slug as keyof typeof testimonials] || testimonials['divorce-financial-planning'];
+    
+    // Use city name and service to create consistent but varied selection
+    const index = (cityName.length + service.slug.length) % serviceTestimonials.length;
+    const testimonial = serviceTestimonials[index];
+    
+    return {
+      quote: testimonial.quote.replace(/{city}/g, cityName),
+      name: testimonial.name,
+      location: testimonial.location.replace(/{city}/g, cityName)
+    };
+  };
+
+  const testimonial = getTestimonial(city.name, service.name);
+
   return (
     <>
       <BreadcrumbSchema items={breadcrumbItems} />
@@ -379,12 +487,11 @@ export default function LocationServiceTemplate({ city, service, stats }: Locati
               ))}
             </div>
             <blockquote className="text-2xl text-slate-700 text-center mb-8 italic">
-              &ldquo;Life Money helped me navigate my {service.name.toLowerCase()} with expertise and compassion. 
-              Their knowledge of {city.name}'s specific regulations was invaluable.&rdquo;
+              &ldquo;{testimonial.quote}&rdquo;
             </blockquote>
             <div className="text-center">
-              <div className="font-semibold text-slate-900">M. Thompson</div>
-              <div className="text-slate-600">{city.name} Resident</div>
+              <div className="font-semibold text-slate-900">{testimonial.name}</div>
+              <div className="text-slate-600">{testimonial.location}</div>
             </div>
           </div>
         </div>
