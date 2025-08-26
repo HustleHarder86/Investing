@@ -127,8 +127,7 @@ export default function TermsOfServicePage() {
             <h2 className="text-2xl font-display font-bold text-slate-900 mb-4">11. Contact Information</h2>
             <div className="bg-slate-50 rounded-xl p-6">
               <p className="text-slate-700 font-semibold">Life Money Financial Advisory</p>
-              <p className="text-slate-600">Email: legal@lifemoney.ca</p>
-              <p className="text-slate-600">Phone: Contact via form</p>
+              <p className="text-slate-600">Contact: Via form only</p>
               <p className="text-slate-600">Address: Mississauga, Ontario, Canada</p>
             </div>
           </section>

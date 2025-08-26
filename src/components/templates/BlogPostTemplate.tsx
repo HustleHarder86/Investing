@@ -44,12 +44,12 @@ export default function BlogPostTemplate({
               <Link href="/services/divorce-financial-planning" className="text-gray-700 hover:text-blue-600 transition-colors">Services</Link>
               <Link href="/locations" className="text-gray-700 hover:text-blue-600 transition-colors">Locations</Link>
               <Link href="/blog" className="text-blue-600 font-semibold">Blog</Link>
-              <a 
-                href="tel:1-Contact via form" 
+              <Link 
+                href="/contact" 
                 className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300"
               >
-                1-Contact via form
-              </a>
+                Contact Us
+              </Link>
             </div>
           </div>
         </div>
@@ -195,12 +195,12 @@ export default function BlogPostTemplate({
             Our certified advisors are here to help you navigate your financial transition.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="tel:1-Contact via form" 
+            <Link 
+              href="/contact" 
               className="bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold hover:shadow-xl transition-all duration-300"
             >
-              Call 1-Contact via form
-            </a>
+              Contact Us
+            </Link>
             <Link 
               href="/services/divorce-financial-planning" 
               className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300"
@@ -242,8 +242,7 @@ export default function BlogPostTemplate({
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <ul className="space-y-2 text-gray-400">
-                <li>1-Contact via form</li>
-                <li>Contact via form</li>
+                <li>Contact via form only</li>
                 <li>Mon-Fri 9AM-6PM EST</li>
                 <li>Sat 10AM-4PM EST</li>
               </ul>

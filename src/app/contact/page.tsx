@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { Phone, Mail, MapPin, Clock, MessageCircle, Shield } from 'lucide-react';
+import { Mail, MapPin, Clock, MessageCircle, Shield } from 'lucide-react';
 import ContactForm from '@/components/forms/ContactForm';
 
 export const metadata: Metadata = {
@@ -39,15 +39,15 @@ export default function ContactPage() {
               
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
-                  <Phone className="w-5 h-5 text-blue-600 mt-1" />
+                  <MessageCircle className="w-5 h-5 text-blue-600 mt-1" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Phone</h3>
+                    <h3 className="font-semibold text-gray-900">Contact Method</h3>
                     <p className="text-gray-600">
                       <a href="#consultation" className="hover:text-blue-600 transition-colors">
-                        (647) 555-0123
+                        Contact form only
                       </a>
                     </p>
-                    <p className="text-sm text-gray-500">Mon-Fri: 8:00 AM - 6:00 PM</p>
+                    <p className="text-sm text-gray-500">We respond within 4 hours</p>
                   </div>
                 </div>
                 

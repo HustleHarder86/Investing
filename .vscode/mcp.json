@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "gsc": {
+      "command": "/home/amy/investing/.venv/bin/python",
+      "args": ["/home/amy/investing/gsc_mcp.py"],
+      "env": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "/home/amy/secrets/gsc-service-account.json",
+        "GSC_SITE_URL": "https://lifemoney.ca/"
+      }
+    }
+  }
+}

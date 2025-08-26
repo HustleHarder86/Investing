@@ -50,20 +50,29 @@ interface AnimatedCounterProps {
 
 function AnimatedCounter({ target, duration, suffix, isVisible }: AnimatedCounterProps) {
   const [count, setCount] = useState(0);
+  const [hasAnimated, setHasAnimated] = useState(false);
 
   useEffect(() => {
-    if (!isVisible) return;
+    if (!isVisible || hasAnimated) return;
 
+    setHasAnimated(true);
     let startTime: number;
     let animationId: number;
 
+    // Detect mobile device for performance optimization
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    const optimizedDuration = isMobile ? Math.min(duration, 2000) : duration; // Shorter duration on mobile
+
     const animate = (currentTime: number) => {
       if (!startTime) startTime = currentTime;
-      const progress = Math.min((currentTime - startTime) / duration, 1);
+      const progress = Math.min((currentTime - startTime) / optimizedDuration, 1);
       
-      // Easing function for smooth animation
-      const easeOutExpo = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
-      const currentCount = Math.floor(easeOutExpo * target);
+      // Simplified easing for mobile performance
+      const easingFunction = isMobile 
+        ? progress * (2 - progress) // Simple easeOutQuad for mobile
+        : progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress); // easeOutExpo for desktop
+        
+      const currentCount = Math.floor(easingFunction * target);
       
       setCount(currentCount);
 
@@ -72,10 +81,16 @@ function AnimatedCounter({ target, duration, suffix, isVisible }: AnimatedCounte
       }
     };
 
-    animationId = requestAnimationFrame(animate);
+    // Add small delay to ensure element is visible
+    const startTimer = setTimeout(() => {
+      animationId = requestAnimationFrame(animate);
+    }, 100);
     
-    return () => cancelAnimationFrame(animationId);
-  }, [target, duration, isVisible]);
+    return () => {
+      cancelAnimationFrame(animationId);
+      clearTimeout(startTimer);
+    };
+  }, [target, duration, isVisible, hasAnimated]);
 
   const formatNumber = (num: number, suffix: string) => {
     if (suffix === 'M') {
@@ -103,23 +118,32 @@ interface ProgressRingProps {
 
 function ProgressRing({ percentage, size, strokeWidth, isVisible }: ProgressRingProps) {
   const [progress, setProgress] = useState(0);
+  const [hasAnimated, setHasAnimated] = useState(false);
   const radius = (size - strokeWidth) / 2;
   const circumference = radius * 2 * Math.PI;
   const offset = circumference - (progress / 100) * circumference;
 
   useEffect(() => {
-    if (!isVisible) return;
+    if (!isVisible || hasAnimated) return;
 
+    setHasAnimated(true);
     let startTime: number;
     let animationId: number;
 
+    // Mobile optimization
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    const duration = isMobile ? 1500 : 2000; // Faster on mobile
+
     const animate = (currentTime: number) => {
       if (!startTime) startTime = currentTime;
-      const duration = 2000;
       const elapsed = Math.min((currentTime - startTime) / duration, 1);
       
-      const easeOutCubic = 1 - Math.pow(1 - elapsed, 3);
-      const currentProgress = easeOutCubic * percentage;
+      // Simpler easing for mobile
+      const easingFunction = isMobile
+        ? elapsed * (2 - elapsed) // easeOutQuad for mobile
+        : 1 - Math.pow(1 - elapsed, 3); // easeOutCubic for desktop
+        
+      const currentProgress = easingFunction * percentage;
       
       setProgress(currentProgress);
 
@@ -128,10 +152,16 @@ function ProgressRing({ percentage, size, strokeWidth, isVisible }: ProgressRing
       }
     };
 
-    animationId = requestAnimationFrame(animate);
+    // Delay start slightly for better visual effect
+    const startTimer = setTimeout(() => {
+      animationId = requestAnimationFrame(animate);
+    }, 300);
     
-    return () => cancelAnimationFrame(animationId);
-  }, [percentage, isVisible]);
+    return () => {
+      cancelAnimationFrame(animationId);
+      clearTimeout(startTimer);
+    };
+  }, [percentage, isVisible, hasAnimated]);
 
   return (
     <div className="relative inline-block">
@@ -179,20 +209,38 @@ export default function StatsSection() {
   const sectionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    // Enhanced mobile-friendly intersection observer
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
         }
       },
-      { threshold: 0.3 }
+      { 
+        threshold: 0.1, // Lower threshold for mobile - trigger earlier
+        rootMargin: '50px 0px', // Add margin to trigger animations sooner
+      }
     );
 
     if (sectionRef.current) {
       observer.observe(sectionRef.current);
     }
 
-    return () => observer.disconnect();
+    // Fallback for older browsers or mobile issues
+    const fallbackTimer = setTimeout(() => {
+      if (sectionRef.current) {
+        const rect = sectionRef.current.getBoundingClientRect();
+        const viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+        if (rect.top < viewHeight && rect.bottom > 0) {
+          setIsVisible(true);
+        }
+      }
+    }, 1000);
+
+    return () => {
+      observer.disconnect();
+      clearTimeout(fallbackTimer);
+    };
   }, []);
 
   return (

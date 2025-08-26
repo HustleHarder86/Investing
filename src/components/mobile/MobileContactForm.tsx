@@ -10,8 +10,6 @@ interface MobileContactFormProps {
 export default function MobileContactForm({ service, city }: MobileContactFormProps) {
   const [formData, setFormData] = useState({
     name: '',
-    email: '',
-    phone: '',
     service: service || '',
     city: city || '',
     message: '',
@@ -26,7 +24,7 @@ export default function MobileContactForm({ service, city }: MobileContactFormPr
   
   const formRef = useRef<HTMLDivElement>(null);
   const steps = [
-    { title: 'Personal Info', fields: ['name', 'phone', 'email'] },
+    { title: 'Personal Info', fields: ['name'] },
     { title: 'Service Details', fields: ['service', 'urgency'] },
     { title: 'Tell Us More', fields: ['message'] }
   ];
@@ -213,35 +211,6 @@ export default function MobileContactForm({ service, city }: MobileContactFormPr
                 />
               </div>
 
-              <div>
-                <label className="block text-sm font-medium text-slate-700 mb-2">
-                  Phone Number *
-                </label>
-                <input
-                  type="tel"
-                  name="phone"
-                  required
-                  value={formData.phone}
-                  onChange={handleChange}
-                  className="w-full px-4 py-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-teal-500 focus:border-transparent text-lg"
-                  placeholder="(647) 555-0123"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-slate-700 mb-2">
-                  Email Address *
-                </label>
-                <input
-                  type="email"
-                  name="email"
-                  required
-                  value={formData.email}
-                  onChange={handleChange}
-                  className="w-full px-4 py-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-teal-500 focus:border-transparent text-lg"
-                  placeholder="your@email.com"
-                />
-              </div>
             </div>
 
             {/* Step 2: Service Details */}
