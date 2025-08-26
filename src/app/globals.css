@@ -590,6 +590,19 @@ html {
 
 /* Mobile-Optimized Animations */
 @media (max-width: 768px) {
+  /* Force animations to trigger on mobile */
+  .stats-counter {
+    animation: mobileCounterTrigger 3s ease-out forwards;
+  }
+  
+  .progress-ring {
+    animation: mobileProgressRing 2s ease-out 0.5s forwards;
+  }
+  
+  /* Ensure mobile animations work without JavaScript */
+  .mobile-animate {
+    animation: fadeInUpMobile 1s ease-out forwards;
+  }
   /* Disable blur and complex transforms on mobile */
   .slide-in-left {
     animation: slideInLeftMobile 0.8s ease-out;
@@ -729,6 +742,28 @@ html {
   }
   100% { 
     background-position: 100% 0;
+  }
+}
+
+@keyframes mobileCounterTrigger {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes mobileProgressRing {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
   }
 }
 

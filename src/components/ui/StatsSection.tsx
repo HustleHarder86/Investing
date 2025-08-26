@@ -209,7 +209,37 @@ export default function StatsSection() {
   const sectionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Enhanced mobile-friendly intersection observer
+    // Detect mobile device
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    
+    // For mobile devices, use multiple triggers for better reliability
+    if (isMobile) {
+      // Immediate trigger after short delay for mobile
+      const mobileTimer = setTimeout(() => {
+        setIsVisible(true);
+      }, 500);
+
+      // Also try scroll-based detection for mobile
+      const handleScroll = () => {
+        if (sectionRef.current) {
+          const rect = sectionRef.current.getBoundingClientRect();
+          const viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+          if (rect.top < viewHeight * 0.8 && rect.bottom > 0) {
+            setIsVisible(true);
+            window.removeEventListener('scroll', handleScroll);
+          }
+        }
+      };
+
+      window.addEventListener('scroll', handleScroll, { passive: true });
+
+      return () => {
+        clearTimeout(mobileTimer);
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }
+
+    // Desktop: Use intersection observer
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -217,8 +247,8 @@ export default function StatsSection() {
         }
       },
       { 
-        threshold: 0.1, // Lower threshold for mobile - trigger earlier
-        rootMargin: '50px 0px', // Add margin to trigger animations sooner
+        threshold: 0.1,
+        rootMargin: '50px 0px',
       }
     );
 
@@ -226,7 +256,7 @@ export default function StatsSection() {
       observer.observe(sectionRef.current);
     }
 
-    // Fallback for older browsers or mobile issues
+    // Additional fallback for all devices
     const fallbackTimer = setTimeout(() => {
       if (sectionRef.current) {
         const rect = sectionRef.current.getBoundingClientRect();
@@ -235,7 +265,7 @@ export default function StatsSection() {
           setIsVisible(true);
         }
       }
-    }, 1000);
+    }, 2000);
 
     return () => {
       observer.disconnect();
@@ -302,7 +332,7 @@ export default function StatsSection() {
               </div>
               
               {/* Animated counter */}
-              <div className="mb-4 relative z-10">
+              <div className="mb-4 relative z-10 stats-counter">
                 <AnimatedCounter 
                   target={stat.value} 
                   duration={2500} 
@@ -339,34 +369,40 @@ export default function StatsSection() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {/* Service success rates */}
             <div className="flex flex-col items-center">
-              <ProgressRing 
-                percentage={96} 
-                size={180} 
-                strokeWidth={12} 
-                isVisible={isVisible}
-              />
+              <div className="progress-ring">
+                <ProgressRing 
+                  percentage={96} 
+                  size={180} 
+                  strokeWidth={12} 
+                  isVisible={isVisible}
+                />
+              </div>
               <h4 className="text-xl font-bold text-slate-900 mt-6 mb-2">Divorce Planning</h4>
               <p className="text-slate-600 text-center">Successful settlements achieved</p>
             </div>
             
             <div className="flex flex-col items-center">
-              <ProgressRing 
-                percentage={94} 
-                size={180} 
-                strokeWidth={12} 
-                isVisible={isVisible}
-              />
+              <div className="progress-ring">
+                <ProgressRing 
+                  percentage={94} 
+                  size={180} 
+                  strokeWidth={12} 
+                  isVisible={isVisible}
+                />
+              </div>
               <h4 className="text-xl font-bold text-slate-900 mt-6 mb-2">Inheritance Planning</h4>
               <p className="text-slate-600 text-center">Tax optimization success rate</p>
             </div>
             
             <div className="flex flex-col items-center">
-              <ProgressRing 
-                percentage={92} 
-                size={180} 
-                strokeWidth={12} 
-                isVisible={isVisible}
-              />
+              <div className="progress-ring">
+                <ProgressRing 
+                  percentage={92} 
+                  size={180} 
+                  strokeWidth={12} 
+                  isVisible={isVisible}
+                />
+              </div>
               <h4 className="text-xl font-bold text-slate-900 mt-6 mb-2">Business Sale</h4>
               <p className="text-slate-600 text-center">Optimal deal structuring</p>
             </div>
