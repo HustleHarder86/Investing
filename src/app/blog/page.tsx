@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'september-severance-trends-tech',
+    title: 'September Severance Trends: Tech Industry Update',
+    excerpt: 'Expert insights on severance planning to help you navigate your financial transition.',
+    author: 'David Kumar',
+    authorTitle: 'CFP®, Career Transition Advisor',
+    date: '2025-08-27',
+    readTime: '9 min',
+    category: 'Severance Planning',
+    categorySlug: 'severance-planning',
+    featured: false
+  },
+  {
     slug: 'back-to-school-budgeting-divorced-parents',
     title: 'Back-to-School Budgeting for Newly Divorced Parents',
     excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
