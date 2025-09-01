@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'fall-financial-reset-after-job-loss',
+    title: 'Fall Financial Reset After Job Loss',
+    excerpt: 'Expert insights on severance planning to help you navigate your financial transition.',
+    author: 'David Kumar',
+    authorTitle: 'CFP®, Career Transition Advisor',
+    date: '2025-09-01',
+    readTime: '9 min',
+    category: 'Severance Planning',
+    categorySlug: 'severance-planning',
+    featured: false
+  },
+  {
     slug: 'cottage-inheritance-labor-day',
     title: 'Cottage Inheritance: Labor Day Planning Guide',
     excerpt: 'Expert insights on inheritance planning to help you navigate your financial transition.',
