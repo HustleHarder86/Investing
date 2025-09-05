@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'business-valuation-methods-q4',
+    title: 'Business Valuation Methods: Preparing for Q4 Sale',
+    excerpt: 'Expert insights on business sale to help you navigate your financial transition.',
+    author: 'Jennifer Park',
+    authorTitle: 'CPA, Tax Planning Expert',
+    date: '2025-09-05',
+    readTime: '12 min',
+    category: 'Business Sale',
+    categorySlug: 'business-sale',
+    featured: false
+  },
+  {
     slug: 'toronto-real-estate-division-september',
     title: 'Toronto Real Estate Division in Divorce: September Market Update',
     excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
