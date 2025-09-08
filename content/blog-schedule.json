@@ -145,11 +145,35 @@
       "status": "pending"
     },
     {
+      "date": "2025-09-18",
+      "slug": "retirement-income-splitting-strategies",
+      "title": "Retirement Income Splitting: Save Thousands in Tax",
+      "category": "Retirement Planning",
+      "author": "Jennifer Park",
+      "status": "pending"
+    },
+    {
       "date": "2025-09-19",
       "slug": "gray-divorce-retirement-accounts",
       "title": "Gray Divorce: Retirement Account Division Strategies",
       "category": "Divorce Planning",
       "author": "Michael Chen",
+      "status": "pending"
+    },
+    {
+      "date": "2025-09-20",
+      "slug": "self-employed-retirement-ipp-rrsp",
+      "title": "Self-Employed Retirement: IPP vs RRSP vs TFSA",
+      "category": "Retirement Planning",
+      "author": "Jennifer Park",
+      "status": "pending"
+    },
+    {
+      "date": "2025-09-21",
+      "slug": "government-benefits-oas-gis-cpp",
+      "title": "Government Benefits Guide: OAS, GIS, and CPP Explained",
+      "category": "Retirement Planning",
+      "author": "Jennifer Park",
       "status": "pending"
     },
     {
@@ -169,11 +193,43 @@
       "status": "pending"
     },
     {
+      "date": "2025-09-23",
+      "slug": "retirement-planning-age-40",
+      "title": "Retirement Planning at 40: Critical Steps to Take Now",
+      "category": "Retirement Planning",
+      "author": "Jennifer Park",
+      "status": "pending"
+    },
+    {
+      "date": "2025-09-25",
+      "slug": "resp-to-rrsp-education-retirement",
+      "title": "RESP to RRSP: Education Savings in Retirement Planning",
+      "category": "Retirement Planning",
+      "author": "Jennifer Park",
+      "status": "pending"
+    },
+    {
       "date": "2025-09-26",
       "slug": "spousal-support-duration-case-law",
       "title": "Spousal Support Duration: Recent Case Law",
       "category": "Divorce Planning",
       "author": "Michael Chen",
+      "status": "pending"
+    },
+    {
+      "date": "2025-09-27",
+      "slug": "pension-commutation-lump-sum-analysis",
+      "title": "Pension Commutation: Lump Sum vs Monthly Payments",
+      "category": "Retirement Planning",
+      "author": "Jennifer Park",
+      "status": "pending"
+    },
+    {
+      "date": "2025-09-28",
+      "slug": "tax-free-retirement-income-strategies",
+      "title": "Tax-Free Retirement Income: Legal Strategies for 2025",
+      "category": "Retirement Planning",
+      "author": "Jennifer Park",
       "status": "pending"
     },
     {
@@ -185,10 +241,26 @@
       "status": "pending"
     },
     {
+      "date": "2025-09-30",
+      "slug": "early-retirement-50s-complete-roadmap",
+      "title": "Early Retirement in Your 50s: Complete Financial Roadmap",
+      "category": "Retirement Planning",
+      "author": "Jennifer Park",
+      "status": "pending"
+    },
+    {
       "date": "2025-10-01",
       "slug": "october-tax-planning-inheritances",
       "title": "October Tax Planning for Recent Inheritances",
       "category": "Inheritance Planning",
+      "author": "Jennifer Park",
+      "status": "pending"
+    },
+    {
+      "date": "2025-10-02",
+      "slug": "defined-benefit-pension-options",
+      "title": "Defined Benefit Pension: Understanding Your Options",
+      "category": "Retirement Planning",
       "author": "Jennifer Park",
       "status": "pending"
     },
@@ -298,7 +370,7 @@
     }
   ],
   "metadata": {
-    "totalPosts": 83,
+    "totalPosts": 95,
     "startDate": "2025-08-20",
     "endDate": "2026-02-19",
     "publishDays": [
@@ -308,8 +380,8 @@
       "Divorce Planning": 28,
       "Severance Planning": 19,
       "Inheritance Planning": 18,
-      "Business Sale": 13,
-      "Retirement Planning": 5
+      "Retirement Planning": 17,
+      "Business Sale": 13
     }
   }
 }
