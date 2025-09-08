@@ -73,11 +73,27 @@
       "status": "published"
     },
     {
+      "date": "2025-09-09",
+      "slug": "rrsp-contribution-room-maximize-2025",
+      "title": "RRSP Contribution Room: Maximize Your 2025 Tax Savings",
+      "category": "Retirement Planning",
+      "author": "Jennifer Park",
+      "status": "pending"
+    },
+    {
       "date": "2025-09-10",
       "slug": "negotiating-severance-financial-services",
       "title": "Negotiating Severance in Financial Services",
       "category": "Severance Planning",
       "author": "David Kumar",
+      "status": "pending"
+    },
+    {
+      "date": "2025-09-11",
+      "slug": "tfsa-vs-rrsp-retirement-strategy",
+      "title": "TFSA vs RRSP for Retirement: Age-Based Strategy Guide",
+      "category": "Retirement Planning",
+      "author": "Jennifer Park",
       "status": "pending"
     },
     {
@@ -89,11 +105,35 @@
       "status": "pending"
     },
     {
+      "date": "2025-09-13",
+      "slug": "cpp-timing-60-65-70-decision",
+      "title": "CPP at 60 vs 65 vs 70: The $200,000 Decision",
+      "category": "Retirement Planning",
+      "author": "Jennifer Park",
+      "status": "pending"
+    },
+    {
+      "date": "2025-09-14",
+      "slug": "retirement-planning-checklist-gta",
+      "title": "Complete Retirement Planning Checklist for GTA Residents",
+      "category": "Retirement Planning",
+      "author": "Jennifer Park",
+      "status": "pending"
+    },
+    {
       "date": "2025-09-15",
       "slug": "maximizing-ei-benefits-guide",
       "title": "Maximizing EI Benefits: Complete Guide",
       "category": "Severance Planning",
       "author": "David Kumar",
+      "status": "pending"
+    },
+    {
+      "date": "2025-09-16",
+      "slug": "rrif-conversion-strategy-timing",
+      "title": "RRIF Conversion Strategy: Timing Your RRSP Rollover",
+      "category": "Retirement Planning",
+      "author": "Jennifer Park",
       "status": "pending"
     },
     {
@@ -258,19 +298,18 @@
     }
   ],
   "metadata": {
-    "totalPosts": 78,
+    "totalPosts": 83,
     "startDate": "2025-08-20",
     "endDate": "2026-02-19",
     "publishDays": [
-      "Monday",
-      "Wednesday",
-      "Friday"
+      "Daily"
     ],
     "categories": {
       "Divorce Planning": 28,
       "Severance Planning": 19,
       "Inheritance Planning": 18,
-      "Business Sale": 13
+      "Business Sale": 13,
+      "Retirement Planning": 5
     }
   }
 }
