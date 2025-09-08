@@ -487,8 +487,9 @@ export default function RetirementChecklistGTAPage() {
       readTime="18 min"
       category="Retirement Planning"
       categorySlug="retirement-planning"
-      content={<BlogContent />}
       relatedPosts={relatedPosts}
-    />
+    >
+      <BlogContent />
+    </BlogPostTemplate>
   );
 }

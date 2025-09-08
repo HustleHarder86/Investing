@@ -335,8 +335,9 @@ export default function RRSPContributionRoomPage() {
       readTime="12 min"
       category="Retirement Planning"
       categorySlug="retirement-planning"
-      content={<BlogContent />}
       relatedPosts={relatedPosts}
-    />
+    >
+      <BlogContent />
+    </BlogPostTemplate>
   );
 }

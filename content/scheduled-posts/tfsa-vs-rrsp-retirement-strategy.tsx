@@ -428,8 +428,9 @@ export default function TFSAvsRRSPStrategyPage() {
       readTime="14 min"
       category="Retirement Planning"
       categorySlug="retirement-planning"
-      content={<BlogContent />}
       relatedPosts={relatedPosts}
-    />
+    >
+      <BlogContent />
+    </BlogPostTemplate>
   );
 }

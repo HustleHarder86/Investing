@@ -497,8 +497,9 @@ export default function CPPTimingDecisionPage() {
       readTime="15 min"
       category="Retirement Planning"
       categorySlug="retirement-planning"
-      content={<BlogContent />}
       relatedPosts={relatedPosts}
-    />
+    >
+      <BlogContent />
+    </BlogPostTemplate>
   );
 }
