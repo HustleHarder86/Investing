@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Healthcare Benefits After Job Loss: 2025 Ontario Coverage Guide | ProsperBridge',
+  title: 'Healthcare Benefits After Job Loss: 2025 Ontario Coverage Guide | Life Money',
   description: 'Navigate health and dental coverage after termination. COBRA alternatives, private insurance, and benefit continuation strategies for Canadian families.',
   keywords: 'healthcare after job loss Ontario, benefit continuation severance, private health insurance Canada, dental coverage unemployed',
 };
@@ -502,7 +502,7 @@ const BlogContent = () => (
     <p className="mb-6">
       Losing employer health benefits can feel overwhelming, but with proper planning and strategic 
       decisions, you can maintain essential healthcare coverage without breaking your budget. At 
-      ProsperBridge, we help terminated employees maximize their severance benefits, negotiate optimal 
+      Life Money, we help terminated employees maximize their severance benefits, negotiate optimal 
       healthcare continuation, and create sustainable coverage bridges until re-employment. Our expertise 
       in both severance negotiation and insurance planning ensures you get the healthcare protection your 
       family needs during this transition. Don't let benefit termination become a healthcare crisis—let 

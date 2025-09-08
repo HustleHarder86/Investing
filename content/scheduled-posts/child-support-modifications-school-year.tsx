@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Child Support Modifications for School Year 2025: Complete Ontario Guide | ProsperBridge',
+  title: 'Child Support Modifications for School Year 2025: Complete Ontario Guide | Life Money',
   description: 'Navigate child support adjustments for back-to-school 2025. Private school costs, extracurricular expenses, and Section 7 modifications for GTA families.',
   keywords: 'child support modifications Ontario 2025, school expenses child support, Section 7 expenses Toronto, private school support calculations',
 };
@@ -593,7 +593,7 @@ const BlogContent = () => (
     
     <p className="mb-6">
       September's school expenses don't have to derail your family's financial stability or create 
-      unnecessary conflict. At ProsperBridge, our Certified Financial Planners specialize in child 
+      unnecessary conflict. At Life Money, our Certified Financial Planners specialize in child 
       support modifications and Section 7 expense calculations. We work with family lawyers and mediators 
       to ensure fair, sustainable arrangements that prioritize your children's education while respecting 
       both parents' financial realities. Don't let September surprises strain your co-parenting 

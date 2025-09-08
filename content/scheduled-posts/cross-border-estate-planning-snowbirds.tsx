@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Cross-Border Estate Planning for Snowbirds: 2025 Guide | ProsperBridge',
+  title: 'Cross-Border Estate Planning for Snowbirds: 2025 Guide | Life Money',
   description: 'Essential estate planning strategies for Canadian snowbirds with U.S. property and investments. Navigate tax treaties, probate, and succession laws.',
   keywords: 'snowbird estate planning, cross-border estates Canada US, Florida property Canadian owners, US estate tax Canadians 2025',
 };

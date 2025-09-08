@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Estate Freezes: Lock in 2025 Values Before Tax Changes | ProsperBridge',
+  title: 'Estate Freezes: Lock in 2025 Values Before Tax Changes | Life Money',
   description: 'Strategic guide to estate freeze transactions in Q4 2025. Lock in current values before potential 2026 tax increases for GTA business owners.',
   keywords: 'estate freeze Canada 2025, business succession planning Toronto, capital gains tax planning, estate freeze Ontario',
 };

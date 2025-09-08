@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Professional Practice Sales: Lawyers, Doctors, Dentists | ProsperBridge',
+  title: 'Professional Practice Sales: Lawyers, Doctors, Dentists | Life Money',
   description: 'Complete guide to selling professional practices in Ontario. Tax strategies, valuation methods, and transition planning for regulated professions.',
   keywords: 'sell medical practice Ontario, dental practice sale Toronto, law firm succession planning, professional practice valuation GTA',
 };

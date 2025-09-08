@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Maximizing EI Benefits 2025: Complete Guide for Ontario Workers | ProsperBridge',
+  title: 'Maximizing EI Benefits 2025: Complete Guide for Ontario Workers | Life Money',
   description: 'Comprehensive guide to Employment Insurance optimization in Ontario. Eligibility, calculations, working while on claim, and strategies to maximize your benefits.',
   keywords: 'EI benefits Ontario 2025, Employment Insurance maximization, working while on EI, EI eligibility Toronto',
 };
@@ -483,7 +483,7 @@ const BlogContent = () => (
     
     <p className="mb-6">
       Maximizing EI benefits while maintaining financial stability requires careful planning and expert 
-      knowledge of the system. At ProsperBridge, we help GTA professionals navigate the complexities of 
+      knowledge of the system. At Life Money, we help GTA professionals navigate the complexities of 
       EI, severance interaction, and career transition financing. Our comprehensive approach ensures you 
       receive every dollar you're entitled to while building a sustainable financial bridge to your next 
       opportunity.

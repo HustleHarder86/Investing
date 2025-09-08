@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Thanksgiving Family Meetings: Estate Planning Conversations Guide | ProsperBridge',
+  title: 'Thanksgiving Family Meetings: Estate Planning Conversations Guide | Life Money',
   description: 'How to navigate difficult estate planning discussions during Thanksgiving gatherings. Scripts, strategies, and timing for productive family conversations.',
   keywords: 'family estate planning discussions, Thanksgiving financial conversations, inheritance talk with parents, estate planning family meeting',
 };

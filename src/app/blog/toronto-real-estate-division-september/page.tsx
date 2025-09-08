@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Toronto Real Estate Division in Divorce: September 2025 Market Update | ProsperBridge',
+  title: 'Toronto Real Estate Division in Divorce: September 2025 Market Update | Life Money',
   description: 'September 2025 Toronto real estate market analysis for divorcing couples. Property division strategies, valuation timing, and buyout calculations in current market.',
   keywords: 'Toronto divorce real estate September 2025, matrimonial home division, property buyout divorce Toronto, real estate valuation divorce',
 };
@@ -445,7 +445,7 @@ const BlogContent = () => (
     
     <p className="mb-6">
       The September 2025 Toronto real estate market presents both opportunities and challenges for 
-      divorcing couples. At ProsperBridge, our Certified Financial Planners work closely with real 
+      divorcing couples. At Life Money, our Certified Financial Planners work closely with real 
       estate professionals, mortgage brokers, and family lawyers to ensure your property division is 
       fair, tax-efficient, and financially sustainable. We understand that your home is more than an 
       asset—it's where memories were made and futures planned. Let us help you navigate this transition 

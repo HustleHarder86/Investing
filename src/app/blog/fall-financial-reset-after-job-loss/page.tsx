@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Fall Financial Reset After Job Loss: Your Complete Recovery Guide | ProsperBridge',
+  title: 'Fall Financial Reset After Job Loss: Your Complete Recovery Guide | Life Money',
   description: 'Strategic financial planning guide for fall 2025 after job loss. Budget adjustments, EI optimization, and career transition strategies for GTA professionals.',
   keywords: 'financial reset after layoff, job loss financial planning Toronto, fall 2025 career transition, EI benefits optimization',
 };
@@ -383,7 +383,7 @@ const BlogContent = () => (
     
     <p className="mb-6">
       Navigating job loss and financial reset requires both emotional resilience and strategic planning. 
-      At ProsperBridge, we specialize in helping GTA professionals transform career setbacks into 
+      At Life Money, we specialize in helping GTA professionals transform career setbacks into 
       financial comebacks. Our comprehensive approach addresses immediate cash flow needs, optimizes 
       government benefits, minimizes tax impact, and creates sustainable financial strategies for your 
       career transition.

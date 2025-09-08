@@ -11,6 +11,66 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'estate-planning-blended-families',
+    title: 'Estate Planning for Blended Families',
+    excerpt: 'Expert insights on inheritance planning to help you navigate your financial transition.',
+    author: 'Sarah Mitchell',
+    authorTitle: 'CFP®, Estate Planning Specialist',
+    date: '2025-09-08',
+    readTime: '8 min',
+    category: 'Inheritance Planning',
+    categorySlug: 'inheritance-planning',
+    featured: false
+  },
+  {
+    slug: 'business-valuation-methods-q4',
+    title: 'Business Valuation Methods: Preparing for Q4 Sale',
+    excerpt: 'Expert insights on business sale to help you navigate your financial transition.',
+    author: 'Jennifer Park',
+    authorTitle: 'CPA, Tax Planning Expert',
+    date: '2025-09-05',
+    readTime: '12 min',
+    category: 'Business Sale',
+    categorySlug: 'business-sale',
+    featured: false
+  },
+  {
+    slug: 'toronto-real-estate-division-september',
+    title: 'Toronto Real Estate Division in Divorce: September Market Update',
+    excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
+    author: 'Michael Chen',
+    authorTitle: 'CFP®, Divorce Specialist',
+    date: '2025-09-03',
+    readTime: '10 min',
+    category: 'Divorce Planning',
+    categorySlug: 'divorce-planning',
+    featured: false
+  },
+  {
+    slug: 'fall-financial-reset-after-job-loss',
+    title: 'Fall Financial Reset After Job Loss',
+    excerpt: 'Expert insights on severance planning to help you navigate your financial transition.',
+    author: 'David Kumar',
+    authorTitle: 'CFP®, Career Transition Advisor',
+    date: '2025-09-01',
+    readTime: '9 min',
+    category: 'Severance Planning',
+    categorySlug: 'severance-planning',
+    featured: false
+  },
+  {
+    slug: 'cottage-inheritance-labor-day',
+    title: 'Cottage Inheritance: Labor Day Planning Guide',
+    excerpt: 'Expert insights on inheritance planning to help you navigate your financial transition.',
+    author: 'Sarah Mitchell',
+    authorTitle: 'CFP®, Estate Planning Specialist',
+    date: '2025-08-29',
+    readTime: '8 min',
+    category: 'Inheritance Planning',
+    categorySlug: 'inheritance-planning',
+    featured: false
+  },
+  {
     slug: 'september-severance-trends-tech',
     title: 'September Severance Trends: Tech Industry Update',
     excerpt: 'Expert insights on severance planning to help you navigate your financial transition.',

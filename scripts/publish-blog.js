@@ -116,7 +116,7 @@ const updateSitemap = (post) => {
   let content = fs.readFileSync(sitemapPath, 'utf8');
   
   // Find the blog section (look for the last blog entry)
-  const lastBlogEntry = content.lastIndexOf('</url>\n  <url>\n    <loc>https://prosperbridge.ca/blog/');
+  const lastBlogEntry = content.lastIndexOf('</url>\n  <url>\n    <loc>https://lifemoney.ca/blog/');
   if (lastBlogEntry === -1) {
     console.log('⚠️  Could not find blog section in sitemap');
     return;
@@ -128,7 +128,7 @@ const updateSitemap = (post) => {
   // Create new sitemap entry
   const newEntry = `
   <url>
-    <loc>https://prosperbridge.ca/blog/${post.slug}</loc>
+    <loc>https://lifemoney.ca/blog/${post.slug}</loc>
     <lastmod>${post.date}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -184,18 +184,18 @@ const main = () => {
     return;
   }
   
-  // Find posts scheduled for today
+  // Find posts scheduled for today or earlier that haven't been published yet
   const today = getTodayDate();
   const postsToPublish = schedule.schedule.filter(
-    post => post.date === today && post.status === 'pending'
+    post => post.date <= today && post.status === 'pending'
   );
   
   if (postsToPublish.length === 0) {
-    console.log('📭 No posts scheduled for today');
+    console.log('📭 No posts scheduled for publishing');
     return;
   }
   
-  console.log(`📬 Found ${postsToPublish.length} post(s) to publish today`);
+  console.log(`📬 Found ${postsToPublish.length} post(s) to publish (scheduled for today or earlier)`);
   
   // Publish each post
   postsToPublish.forEach(post => {

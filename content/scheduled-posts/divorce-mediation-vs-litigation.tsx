@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Divorce Mediation vs Litigation: Cost Analysis & Strategy Guide 2025 | ProsperBridge',
+  title: 'Divorce Mediation vs Litigation: Cost Analysis & Strategy Guide 2025 | Life Money',
   description: 'Compare divorce mediation and litigation costs in Ontario. Process timelines, success rates, and financial strategies for different conflict levels.',
   keywords: 'divorce mediation vs litigation Ontario, divorce costs comparison, mediation success rates, family court costs Toronto',
 };
@@ -543,7 +543,7 @@ const BlogContent = () => (
     <p className="mb-6">
       The difference between a $10,000 mediated divorce and a $200,000 litigation battle isn't just 
       money—it's your children's education, your retirement security, and your financial future. At 
-      ProsperBridge, we help divorcing couples make strategic process choices that minimize costs while 
+      Life Money, we help divorcing couples make strategic process choices that minimize costs while 
       achieving fair outcomes. Our financial expertise combined with process knowledge ensures you 
       understand the true cost implications of each decision. Whether through mediation support, 
       litigation budgeting, or hybrid strategies, we'll help you navigate divorce without destroying 

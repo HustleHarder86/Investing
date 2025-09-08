@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'October Tax Planning for Recent Inheritances: 2025 Strategies | ProsperBridge',
+  title: 'October Tax Planning for Recent Inheritances: 2025 Strategies | Life Money',
   description: 'Year-end tax planning strategies for beneficiaries who received inheritances in 2025. Maximize tax efficiency before December 31st deadline.',
   keywords: 'inheritance tax planning Canada, year-end tax strategies estate, October tax planning GTA, inherited property taxes 2025',
 };

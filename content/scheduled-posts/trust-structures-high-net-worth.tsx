@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Trust Structures for High Net Worth Estates: 2025 Strategies | ProsperBridge',
+  title: 'Trust Structures for High Net Worth Estates: 2025 Strategies | Life Money',
   description: 'Advanced trust planning for wealthy families in Ontario. Family trusts, alter ego trusts, and dynasty planning for estates over $5 million.',
   keywords: 'high net worth estate planning Toronto, family trust Canada, alter ego trust Ontario, dynasty trust planning GTA',
 };

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Manufacturing Severance Trends Q4 2025: Ontario Plant Closures Guide | ProsperBridge',
+  title: 'Manufacturing Severance Trends Q4 2025: Ontario Plant Closures Guide | Life Money',
   description: 'Navigate manufacturing sector layoffs and plant closures in Ontario. Mass termination rights, union considerations, and severance strategies for factory workers.',
   keywords: 'manufacturing severance Ontario 2025, plant closure severance, factory layoff rights, mass termination Ontario',
 };
@@ -486,7 +486,7 @@ const BlogContent = () => (
     
     <p className="mb-6">
       Manufacturing workers built Ontario's economy with skill, dedication, and sacrifice. When plants 
-      close, you deserve more than minimum statutory severance. At ProsperBridge, we specialize in 
+      close, you deserve more than minimum statutory severance. At Life Money, we specialize in 
       maximizing severance packages for manufacturing workers, understanding the unique aspects of 
       industrial employment from shift premiums to pension considerations. Whether you're facing a plant 
       closure, mass layoff, or individual termination, we'll ensure you receive every dollar you're 

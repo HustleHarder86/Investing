@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Estate Planning for Blended Families: 2025 Complete Guide | ProsperBridge',
+  title: 'Estate Planning for Blended Families: 2025 Complete Guide | Life Money',
   description: 'Navigate complex estate planning for blended families in Ontario. Protect biological children, current spouse, and avoid family conflicts with proper structures.',
   keywords: 'blended family estate planning Ontario, stepchildren inheritance, second marriage wills, family trust planning Toronto',
 };
@@ -515,7 +515,7 @@ const BlogContent = () => (
     
     <p className="mb-6">
       Blended family estate planning requires delicate balancing of emotions, finances, and legal 
-      structures. At ProsperBridge, our Certified Financial Planners specialize in creating comprehensive 
+      structures. At Life Money, our Certified Financial Planners specialize in creating comprehensive 
       estate plans that honor your commitments to both your current spouse and your children from all 
       relationships. We work with estate lawyers and tax professionals to ensure your plan is legally 
       sound, tax-efficient, and family-harmony preserving. Don't let complexity lead to unintended 

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Negotiating Severance in Financial Services: Insider Guide 2025 | ProsperBridge',
+  title: 'Negotiating Severance in Financial Services: Insider Guide 2025 | Life Money',
   description: 'Expert strategies for negotiating severance packages in banking, insurance, and investment firms. Learn how to maximize your exit compensation in Toronto\'s financial district.',
   keywords: 'severance negotiation financial services, Toronto banking severance, Bay Street severance packages, financial sector termination pay Ontario',
 };

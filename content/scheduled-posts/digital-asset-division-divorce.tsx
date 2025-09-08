@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Digital Asset Division in Modern Divorce: 2025 Complete Guide | ProsperBridge',
+  title: 'Digital Asset Division in Modern Divorce: 2025 Complete Guide | Life Money',
   description: 'Comprehensive guide to identifying, valuing, and dividing digital assets in Ontario divorces. Cryptocurrency, NFTs, online businesses, social media accounts, and digital IP strategies.',
   keywords: 'digital assets divorce Ontario, cryptocurrency divorce division, NFT divorce settlement, online business divorce Toronto, Bitcoin divorce Canada',
 };

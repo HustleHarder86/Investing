@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Stock Options in Severance Packages: 2025 Guide for Tech Workers | ProsperBridge',
+  title: 'Stock Options in Severance Packages: 2025 Guide for Tech Workers | Life Money',
   description: 'Navigate stock options, RSUs, and equity compensation in your severance package. Tax strategies, vesting acceleration, and negotiation tactics for GTA tech professionals.',
   keywords: 'stock options severance 2025, RSU severance package, equity compensation layoff, tech stock options Toronto',
 };
@@ -503,7 +503,7 @@ const BlogContent = () => (
     <p className="mb-6">
       Stock options and equity compensation can represent the majority of your wealth accumulation from 
       years of hard work. Don't let complex rules and tight deadlines cost you hundreds of thousands in 
-      value. At ProsperBridge, we specialize in equity compensation strategies for tech professionals, 
+      value. At Life Money, we specialize in equity compensation strategies for tech professionals, 
       combining severance negotiation expertise with sophisticated tax planning to maximize your outcomes. 
       From exercise decisions to secondary sales, we'll help you extract maximum value from your equity 
       compensation during this critical transition.

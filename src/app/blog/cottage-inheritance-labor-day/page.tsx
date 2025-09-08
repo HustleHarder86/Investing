@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Cottage Inheritance Planning: Labor Day Family Meeting Guide | ProsperBridge',
+  title: 'Cottage Inheritance Planning: Labor Day Family Meeting Guide | Life Money',
   description: 'Use Labor Day weekend to plan cottage succession. Tax strategies, ownership structures, and family meeting templates for Ontario cottage inheritance.',
   keywords: 'cottage inheritance Ontario, Labor Day estate planning, cottage succession planning, family cottage tax strategies',
 };
@@ -510,7 +510,7 @@ const BlogContent = () => (
     
     <p className="mb-6">
       The cottage that holds your family's memories deserves a succession plan that preserves both the 
-      property and the relationships. At ProsperBridge, we specialize in cottage succession planning that 
+      property and the relationships. At Life Money, we specialize in cottage succession planning that 
       balances emotional attachments with financial realities. Our comprehensive approach addresses tax 
       minimization, ownership structures, family dynamics, and long-term sustainability.
     </p>

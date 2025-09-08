@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Q4 2025 Business Exit Planning Checklist: Complete Guide | ProsperBridge',
+  title: 'Q4 2025 Business Exit Planning Checklist: Complete Guide | Life Money',
   description: 'Essential Q4 business exit checklist for GTA business owners. Tax optimization, deal structuring, and closing strategies for year-end business sales.',
   keywords: 'Q4 business exit planning 2025, year-end business sale Toronto, business exit checklist, selling business Q4 strategies',
 };
@@ -482,7 +482,7 @@ const BlogContent = () => (
     
     <p className="mb-6">
       A successful Q4 business exit requires precision execution across multiple complex workstreams. 
-      At ProsperBridge, our M&A advisory team has guided dozens of GTA business owners through successful 
+      At Life Money, our M&A advisory team has guided dozens of GTA business owners through successful 
       year-end exits, maximizing value while minimizing taxes and risks. From initial valuation through 
       post-closing wealth management, we're your comprehensive partner for achieving the exit you deserve. 
       Don't let Q4 slip away—engage our team now to ensure your business exit captures maximum value 

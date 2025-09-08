@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Navigating First Holidays After Divorce: Financial & Emotional Guide | ProsperBridge',
+  title: 'Navigating First Holidays After Divorce: Financial & Emotional Guide | Life Money',
   description: 'Comprehensive guide for managing holidays after divorce, including budgeting strategies, co-parenting schedules, family dynamics, and creating new traditions in the GTA.',
   keywords: 'holidays after divorce, Thanksgiving divorced parents, co-parenting holidays Toronto, divorce holiday budget, Christmas after separation',
 };

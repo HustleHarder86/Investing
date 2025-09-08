@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Halloween: Managing Shared Custody During Holidays | ProsperBridge',
+  title: 'Halloween: Managing Shared Custody During Holidays | Life Money',
   description: 'Practical guide for divorced parents navigating Halloween with shared custody. Scheduling, budgeting, and creating positive experiences for children.',
   keywords: 'Halloween shared custody, divorced parents Halloween, co-parenting holidays Toronto, Halloween custody schedule',
 };

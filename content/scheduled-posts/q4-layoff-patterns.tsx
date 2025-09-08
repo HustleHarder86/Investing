@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Q4 Layoff Patterns: What to Expect in 2025 | ProsperBridge',
+  title: 'Q4 Layoff Patterns: What to Expect in 2025 | Life Money',
   description: 'Analysis of Q4 2025 layoff trends across GTA industries. Prepare for potential job loss with severance insights and financial planning strategies.',
   keywords: 'Q4 layoffs Toronto 2025, year-end terminations GTA, severance trends Ontario, tech layoffs Toronto',
 };

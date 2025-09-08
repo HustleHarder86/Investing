@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Probate Fees in Ontario: 2025 Updates and Strategies | ProsperBridge',
+  title: 'Probate Fees in Ontario: 2025 Updates and Strategies | Life Money',
   description: 'Complete guide to Ontario probate fees in 2025, including new rates, calculation methods, and legal strategies to minimize estate administration tax in the GTA.',
   keywords: 'Ontario probate fees 2025, estate administration tax Ontario, probate costs Toronto, avoid probate fees Ontario',
 };

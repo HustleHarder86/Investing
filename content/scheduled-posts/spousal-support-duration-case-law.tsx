@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Spousal Support Duration: Recent Case Law Updates 2025 | ProsperBridge',
+  title: 'Spousal Support Duration: Recent Case Law Updates 2025 | Life Money',
   description: 'Analysis of 2024-2025 Ontario court decisions affecting spousal support duration. Essential reading for divorce financial planning in the GTA.',
   keywords: 'spousal support duration Ontario, alimony length Canada, divorce support case law 2025, Toronto spousal support lawyers',
 };

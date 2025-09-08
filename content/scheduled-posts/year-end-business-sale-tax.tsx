@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Year-End Business Sale Tax Planning 2025: Complete Ontario Guide | ProsperBridge',
+  title: 'Year-End Business Sale Tax Planning 2025: Complete Ontario Guide | Life Money',
   description: 'Optimize taxes on your Q4 2025 business sale. Capital gains strategies, lifetime exemption planning, and year-end timing for maximum after-tax proceeds.',
   keywords: 'business sale tax planning 2025, year-end tax strategies Ontario, capital gains exemption business, Q4 business sale tax',
 };
@@ -527,7 +527,7 @@ const BlogContent = () => (
     
     <p className="mb-6">
       The difference between good and great tax planning on your business sale can be measured in millions. 
-      At ProsperBridge, our business exit specialists combine deep tax expertise with strategic transaction 
+      At Life Money, our business exit specialists combine deep tax expertise with strategic transaction 
       planning to ensure you keep the maximum amount of your hard-earned business value. From pre-sale 
       restructuring through post-sale wealth management, we navigate the complex intersection of tax law, 
       deal structure, and timing optimization. Don't let poor tax planning erode decades of business building—

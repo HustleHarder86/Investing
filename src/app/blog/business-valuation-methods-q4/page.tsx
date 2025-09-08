@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Valuation Methods for Q4 2025 Sale: Complete Guide | ProsperBridge',
+  title: 'Business Valuation Methods for Q4 2025 Sale: Complete Guide | Life Money',
   description: 'Prepare your GTA business for Q4 sale with comprehensive valuation strategies. Asset-based, income, and market approaches explained with 2025 multiples.',
   keywords: 'business valuation Q4 2025, selling business Toronto, business sale valuation methods, EBITDA multiples 2025',
 };
@@ -508,7 +508,7 @@ const BlogContent = () => (
     <p className="mb-6">
       The difference between a good and great business sale often comes down to valuation strategy and 
       timing. Q4 2025 presents unique opportunities for sellers who understand how to position their 
-      business value effectively. At ProsperBridge, our M&A advisory team combines valuation expertise 
+      business value effectively. At Life Money, our M&A advisory team combines valuation expertise 
       with tax optimization and deal structuring to ensure you achieve maximum value. Don't leave money 
       on the table—let us help you navigate the complex valuation landscape and achieve the exit you deserve.
     </p>

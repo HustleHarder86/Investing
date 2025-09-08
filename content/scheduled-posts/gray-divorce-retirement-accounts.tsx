@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Gray Divorce: Retirement Account Division Strategies 2025 | ProsperBridge',
+  title: 'Gray Divorce: Retirement Account Division Strategies 2025 | Life Money',
   description: 'Navigate retirement account division in divorce after 50. RRSP splitting, pension valuation, and strategies to protect retirement security in Ontario.',
   keywords: 'gray divorce retirement accounts, RRSP division divorce Ontario, pension splitting over 50, retirement security divorce',
 };
@@ -509,7 +509,7 @@ const BlogContent = () => (
     <p className="mb-6">
       Gray divorce doesn't have to mean financial devastation in your retirement years. With careful 
       planning, strategic division of assets, and realistic adjustments, you can maintain financial 
-      security even after a late-life separation. At ProsperBridge, our Certified Financial Planners 
+      security even after a late-life separation. At Life Money, our Certified Financial Planners 
       specialize in gray divorce financial planning, helping clients navigate the complex intersection 
       of retirement planning and divorce. We understand that at this stage of life, there's no room 
       for mistakes. Let us help you protect what you've built and create a sustainable path forward 

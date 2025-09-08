@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Business Partnership Buyouts: Structuring the Deal | ProsperBridge',
+  title: 'Business Partnership Buyouts: Structuring the Deal | Life Money',
   description: 'Complete guide to structuring partnership buyouts in Canada. Tax-efficient strategies, valuation methods, and financing options for GTA business owners.',
   keywords: 'partnership buyout Canada, business partner buyout agreement, share purchase tax planning, business valuation Toronto',
 };
