@@ -83,7 +83,7 @@ const BlogContent = () => (
             <li>• Gifted program enrollment</li>
             <li>• Elite sports team selection</li>
             <li>• Post-secondary commencement</li>
-            <li>• Income change >15%</li>
+            <li>• Income change &gt;15%</li>
           </ul>
         </div>
         <div>
