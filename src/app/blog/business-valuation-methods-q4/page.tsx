@@ -497,7 +497,7 @@ const BlogContent = () => (
         <li>☐ Prepare growth projections with support</li>
         <li>☐ Address value detractors proactively</li>
         <li>☐ Create negotiation range strategy</li>
-        <li>☐ Consider professional valuation if >$3M</li>
+        <li>☐ Consider professional valuation if &gt;$3M</li>
       </ul>
     </div>
 

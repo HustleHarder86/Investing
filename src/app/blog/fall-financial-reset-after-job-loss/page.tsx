@@ -342,7 +342,7 @@ const BlogContent = () => (
         <li>• Networking contacts made (target: 10/week)</li>
         <li>• Interview conversion rate (target: 1 per 10 applications)</li>
         <li>• Alternative income generated (track all sources)</li>
-        <li>• Stress level (1-10 scale, seek help if consistently >7)</li>
+        <li>• Stress level (1-10 scale, seek help if consistently &gt;7)</li>
         <li>• Days of runway remaining (recalculate weekly)</li>
       </ul>
     </div>
