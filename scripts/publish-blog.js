@@ -104,6 +104,58 @@ const updateBlogListing = (post) => {
   console.log('✅ Updated blog listing page');
 };
 
+// Ping search engines to notify about sitemap changes
+const pingSearchEngines = async () => {
+  const sitemapUrl = 'https://investing-eight.vercel.app/sitemap.xml';
+  
+  // Google Search Console ping
+  const googlePingUrl = `https://www.google.com/ping?sitemap=${encodeURIComponent(sitemapUrl)}`;
+  
+  // Bing Webmaster Tools ping
+  const bingPingUrl = `https://www.bing.com/ping?sitemap=${encodeURIComponent(sitemapUrl)}`;
+  
+  const https = require('https');
+  
+  // Ping Google
+  try {
+    await new Promise((resolve) => {
+      https.get(googlePingUrl, (res) => {
+        // Google returns 404 for unauthenticated pings now, but still processes them
+        if (res.statusCode === 200 || res.statusCode === 404) {
+          console.log('✅ Submitted sitemap to Google');
+        } else {
+          console.log(`⚠️  Google ping returned status ${res.statusCode}`);
+        }
+        resolve();
+      }).on('error', (err) => {
+        console.log('⚠️  Could not ping Google (non-critical):', err.message);
+        resolve();
+      });
+    });
+  } catch (error) {
+    console.log('⚠️  Could not ping Google (non-critical):', error.message);
+  }
+  
+  // Ping Bing
+  try {
+    await new Promise((resolve) => {
+      https.get(bingPingUrl, (res) => {
+        if (res.statusCode === 200) {
+          console.log('✅ Notified Bing about sitemap update');
+        } else {
+          console.log(`⚠️  Bing ping returned status ${res.statusCode}`);
+        }
+        resolve();
+      }).on('error', (err) => {
+        console.log('⚠️  Could not ping Bing (non-critical):', err.message);
+        resolve();
+      });
+    });
+  } catch (error) {
+    console.log('⚠️  Could not ping Bing (non-critical):', error.message);
+  }
+};
+
 // Update sitemap
 const updateSitemap = (post) => {
   const sitemapPath = path.join(__dirname, '..', 'public', 'sitemap.xml');
@@ -173,7 +225,7 @@ const getCategorySlug = (category) => {
 };
 
 // Main function
-const main = () => {
+const main = async () => {
   console.log('🚀 Blog Publisher Running...');
   console.log(`📅 Today's date: ${getTodayDate()}`);
   
@@ -218,6 +270,13 @@ const main = () => {
   
   // Save updated schedule
   saveSchedule(schedule);
+  
+  // Ping search engines if any posts were published
+  if (postsToPublish.length > 0) {
+    console.log('\n📡 Notifying search engines...');
+    await pingSearchEngines();
+  }
+  
   console.log('\n✨ Publishing complete!');
 };
 
