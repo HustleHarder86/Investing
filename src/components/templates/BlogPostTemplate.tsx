@@ -10,7 +10,8 @@ interface BlogPostTemplateProps {
   readTime: string;
   category: string;
   categorySlug: string;
-  content: React.ReactNode;
+  content?: React.ReactNode;
+  children?: React.ReactNode;
   relatedPosts?: {
     title: string;
     slug: string;
@@ -29,6 +30,7 @@ export default function BlogPostTemplate({
   category,
   categorySlug,
   content,
+  children,
   relatedPosts = []
 }: BlogPostTemplateProps) {
   return (
@@ -113,7 +115,7 @@ export default function BlogPostTemplate({
         {/* Article Content */}
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
           <div className="prose prose-lg max-w-none">
-            {content}
+            {children || content}
           </div>
 
           {/* Share Section */}
