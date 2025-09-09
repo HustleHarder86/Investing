@@ -1,14 +1,6 @@
 {
   "schedule": [
     {
-      "date": "2025-09-09",
-      "slug": "test-auto-publish",
-      "title": "Test: Auto-Publishing System Verification",
-      "category": "System Test",
-      "author": "System Test",
-      "status": "published"
-    },
-    {
       "date": "2025-08-20",
       "slug": "rrsp-vs-tfsa-during-divorce",
       "title": "RRSP vs TFSA During Divorce: Which Assets Are Really Yours?",
