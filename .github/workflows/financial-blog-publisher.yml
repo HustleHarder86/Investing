@@ -1,10 +1,10 @@
-name: Blog Publisher
+name: Financial Blog Publisher
 
-# Schedule for 9 AM EST (14:00 UTC) every day
+# Schedule for testing - every 5 minutes
 # NOTE: GitHub Actions scheduling is broken - use Vercel Cron instead
 on:
   schedule:
-    - cron: '0 14 * * *'
+    - cron: '*/5 * * * *'
   
   # Manual trigger as backup
   workflow_dispatch:

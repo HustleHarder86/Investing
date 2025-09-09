@@ -22,7 +22,7 @@ export async function GET(request: Request) {
 
     // Trigger the GitHub Actions workflow
     const response = await fetch(
-      'https://api.github.com/repos/HustleHarder86/Investing/actions/workflows/blog-publisher.yml/dispatches',
+      'https://api.github.com/repos/HustleHarder86/Investing/actions/workflows/financial-blog-publisher.yml/dispatches',
       {
         method: 'POST',
         headers: {
