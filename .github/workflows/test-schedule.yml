@@ -1,0 +1,22 @@
+name: Test Schedule
+
+on:
+  schedule:
+    # Run every 5 minutes for testing
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Test Schedule
+      run: |
+        echo "🕐 Test workflow triggered at: $(date)"
+        echo "📅 UTC time: $(date -u)"
+        echo "🔄 Trigger event: ${{ github.event_name }}"
+        if [ "${{ github.event_name }}" = "schedule" ]; then
+          echo "✅ Schedule is working!"
+        else
+          echo "👤 Manual trigger"
+        fi
