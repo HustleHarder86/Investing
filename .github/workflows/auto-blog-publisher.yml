@@ -6,7 +6,7 @@ on:
     - cron: '0 14 * * *'
   
   # Manual trigger for testing
-  workflow_dispatch:
+  workflow_dispatch: {}
   
   # Trigger when blog schedule is updated
   push:
