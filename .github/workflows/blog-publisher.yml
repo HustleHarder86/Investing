@@ -1,9 +1,10 @@
 name: Blog Publisher
 
-# Schedule for 9 AM EST (14:00 UTC) every day
+# TESTING: Run every 5 minutes to verify scheduling works
+# Original: '0 14 * * *' (9 AM EST / 14:00 UTC daily)
 on:
   schedule:
-    - cron: '0 14 * * *'
+    - cron: '*/5 * * * *'
   
   # Manual trigger as backup
   workflow_dispatch:
