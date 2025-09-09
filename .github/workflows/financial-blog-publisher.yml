@@ -65,6 +65,7 @@ jobs:
             echo "No posts to publish today"
           else
             git commit -m "📚 Auto-publish blog post for $(TZ='America/Toronto' date +'%Y-%m-%d')"
+            git pull --rebase origin main
             git push
             echo "✅ Blog post published successfully!"
           fi
