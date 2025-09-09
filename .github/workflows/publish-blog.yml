@@ -2,9 +2,10 @@ name: Publish Scheduled Blog Posts
 
 on:
   schedule:
-    # Run at 9 AM EST (2 PM UTC) every day
+    # TESTING: Run every 5 minutes to verify schedule works
+    # Original: '0 14 * * *' (9 AM EST daily)
     # Updated: 2025-09-09 to reset schedule
-    - cron: '0 14 * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
