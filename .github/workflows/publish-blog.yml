@@ -3,6 +3,7 @@ name: Publish Scheduled Blog Posts
 on:
   schedule:
     # Run at 9 AM EST (2 PM UTC) every day
+    # Updated: 2025-09-09 to reset schedule
     - cron: '0 14 * * *'
   workflow_dispatch: # Allow manual trigger
 
@@ -13,6 +14,20 @@ jobs:
       contents: write
       actions: read
     steps:
+    - name: Log trigger information
+      run: |
+        echo "🕐 Workflow triggered at: $(date)"
+        echo "📅 UTC time: $(date -u)"
+        echo "🌍 Toronto time: $(TZ='America/Toronto' date)"
+        echo "🔄 Trigger event: ${{ github.event_name }}"
+        echo "📌 Run ID: ${{ github.run_id }}"
+        echo "📌 Run number: ${{ github.run_number }}"
+        if [ "${{ github.event_name }}" = "schedule" ]; then
+          echo "✅ This is a SCHEDULED run"
+        else
+          echo "👤 This is a MANUAL run"
+        fi
+    
     - name: Checkout repository
       uses: actions/checkout@v3
       with:
@@ -28,7 +43,9 @@ jobs:
       run: npm ci
     
     - name: Run blog publisher
-      run: node scripts/publish-blog.js
+      run: |
+        echo "🚀 Starting blog publisher..."
+        node scripts/publish-blog.js
       env:
         TZ: 'America/Toronto'
     
@@ -38,8 +55,10 @@ jobs:
         git config --local user.name "GitHub Action"
         git add .
         if git diff-index --quiet HEAD; then
-          echo "No changes to commit"
+          echo "📭 No changes to commit (no posts scheduled for today)"
         else
+          echo "📬 Committing published posts..."
           git commit -m "🚀 Auto-publish scheduled blog post for $(date +'%Y-%m-%d')"
           git push
+          echo "✅ Changes pushed successfully"
         fi
