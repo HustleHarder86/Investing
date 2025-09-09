@@ -81,6 +81,14 @@
       "status": "published"
     },
     {
+      "date": "2025-09-09",
+      "slug": "test-auto-publish",
+      "title": "TEST: Auto-Publish Verification Post",
+      "category": "Inheritance Planning",
+      "author": "Sarah Mitchell",
+      "status": "pending"
+    },
+    {
       "date": "2025-09-10",
       "slug": "negotiating-severance-financial-services",
       "title": "Negotiating Severance in Financial Services",
