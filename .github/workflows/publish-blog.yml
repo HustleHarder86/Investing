@@ -2,13 +2,14 @@ name: Publish Scheduled Blog Posts
 
 on:
   schedule:
-    # TESTING: Run every minute to verify scheduling works
-    - cron: '* * * * *'
-    # Original schedules (temporarily disabled for testing):
-    # Primary: Run at 9 AM EST (2 PM UTC) every day - cron: '0 14 * * *'
-    # Backup: Also run at 3 PM EST (8 PM UTC) as fallback - cron: '0 20 * * *'
-    # Testing started: 2025-09-09 10:10 AM EST
-  workflow_dispatch: # Allow manual trigger
+    # NOTE: GitHub Actions scheduled workflows are NOT working for this repo as of Sept 2025
+    # These schedules are defined but not triggering automatically
+    # Primary: Run at 9 AM EST (2 PM UTC) every day
+    - cron: '0 14 * * *'
+    # Backup: Also run at 3 PM EST (8 PM UTC) as fallback
+    - cron: '0 20 * * *'
+    # IMPORTANT: Use manual triggers or external cron service until GitHub fixes this issue
+  workflow_dispatch: # Allow manual trigger - THIS WORKS
 
 jobs:
   publish:
