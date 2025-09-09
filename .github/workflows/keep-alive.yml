@@ -1,0 +1,37 @@
+name: Keep Repository Active
+
+# Run daily at 8 AM EST to keep repository active for scheduled workflows
+on:
+  schedule:
+    - cron: '0 13 * * *'
+  workflow_dispatch:
+
+jobs:
+  keep-alive:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Update activity timestamp
+        run: |
+          mkdir -p .github
+          echo "Last activity: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" > .github/last-activity.txt
+          echo "This file is automatically updated to keep GitHub Actions schedules active" >> .github/last-activity.txt
+      
+      - name: Commit activity update
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .github/last-activity.txt
+          if git diff --staged --quiet; then
+            echo "No changes needed"
+          else
+            git commit -m "🤖 Keep repository active for scheduled workflows"
+            git push
+          fi
