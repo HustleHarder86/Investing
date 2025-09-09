@@ -2,7 +2,7 @@
 
 ## Overview
 
-ProsperBridge uses an automated blog publishing system to maintain consistent content delivery 3 times per week (Monday, Wednesday, Friday). This system ensures Google sees regular publishing activity rather than bulk content dumps, improving SEO performance.
+Life Money uses an automated blog publishing system to maintain consistent content delivery 3 times per week (Monday, Wednesday, Friday). This system ensures Google sees regular publishing activity rather than bulk content dumps, improving SEO performance.
 
 ## System Components
 
@@ -55,7 +55,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: '[Title] | ProsperBridge',
+  title: '[Title] | Life Money',
   description: '[Description]',
   keywords: '[keywords]',
 };
@@ -176,7 +176,7 @@ Posts are not published on major holidays:
 gh run list --workflow=publish-blog.yml
 
 # Check calendar dashboard
-open https://prosperbridge.ca/blog/calendar
+open https://lifemoney.ca/blog/calendar
 ```
 
 ### Common Issues & Solutions

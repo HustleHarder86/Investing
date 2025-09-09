@@ -59,20 +59,13 @@ function AnimatedCounter({ target, duration, suffix, isVisible }: AnimatedCounte
     let startTime: number;
     let animationId: number;
 
-    // Detect mobile device for performance optimization
-    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    const optimizedDuration = isMobile ? Math.min(duration, 2000) : duration; // Shorter duration on mobile
-
     const animate = (currentTime: number) => {
       if (!startTime) startTime = currentTime;
-      const progress = Math.min((currentTime - startTime) / optimizedDuration, 1);
+      const progress = Math.min((currentTime - startTime) / duration, 1);
       
-      // Simplified easing for mobile performance
-      const easingFunction = isMobile 
-        ? progress * (2 - progress) // Simple easeOutQuad for mobile
-        : progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress); // easeOutExpo for desktop
-        
-      const currentCount = Math.floor(easingFunction * target);
+      // Simple easing function
+      const easeOutQuad = progress * (2 - progress);
+      const currentCount = Math.floor(easeOutQuad * target);
       
       setCount(currentCount);
 
@@ -81,14 +74,13 @@ function AnimatedCounter({ target, duration, suffix, isVisible }: AnimatedCounte
       }
     };
 
-    // Add small delay to ensure element is visible
-    const startTimer = setTimeout(() => {
-      animationId = requestAnimationFrame(animate);
-    }, 100);
+    // Start animation immediately when visible
+    animationId = requestAnimationFrame(animate);
     
     return () => {
-      cancelAnimationFrame(animationId);
-      clearTimeout(startTimer);
+      if (animationId) {
+        cancelAnimationFrame(animationId);
+      }
     };
   }, [target, duration, isVisible, hasAnimated]);
 
@@ -129,21 +121,15 @@ function ProgressRing({ percentage, size, strokeWidth, isVisible }: ProgressRing
     setHasAnimated(true);
     let startTime: number;
     let animationId: number;
-
-    // Mobile optimization
-    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    const duration = isMobile ? 1500 : 2000; // Faster on mobile
+    const duration = 2000;
 
     const animate = (currentTime: number) => {
       if (!startTime) startTime = currentTime;
       const elapsed = Math.min((currentTime - startTime) / duration, 1);
       
-      // Simpler easing for mobile
-      const easingFunction = isMobile
-        ? elapsed * (2 - elapsed) // easeOutQuad for mobile
-        : 1 - Math.pow(1 - elapsed, 3); // easeOutCubic for desktop
-        
-      const currentProgress = easingFunction * percentage;
+      // Simple easing function
+      const easeOutQuad = elapsed * (2 - elapsed);
+      const currentProgress = easeOutQuad * percentage;
       
       setProgress(currentProgress);
 
@@ -152,13 +138,15 @@ function ProgressRing({ percentage, size, strokeWidth, isVisible }: ProgressRing
       }
     };
 
-    // Delay start slightly for better visual effect
+    // Start with slight delay for staggered effect
     const startTimer = setTimeout(() => {
       animationId = requestAnimationFrame(animate);
-    }, 300);
+    }, 500);
     
     return () => {
-      cancelAnimationFrame(animationId);
+      if (animationId) {
+        cancelAnimationFrame(animationId);
+      }
       clearTimeout(startTimer);
     };
   }, [percentage, isVisible, hasAnimated]);
@@ -209,46 +197,16 @@ export default function StatsSection() {
   const sectionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Detect mobile device
-    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    
-    // For mobile devices, use multiple triggers for better reliability
-    if (isMobile) {
-      // Immediate trigger after short delay for mobile
-      const mobileTimer = setTimeout(() => {
-        setIsVisible(true);
-      }, 500);
-
-      // Also try scroll-based detection for mobile
-      const handleScroll = () => {
-        if (sectionRef.current) {
-          const rect = sectionRef.current.getBoundingClientRect();
-          const viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
-          if (rect.top < viewHeight * 0.8 && rect.bottom > 0) {
-            setIsVisible(true);
-            window.removeEventListener('scroll', handleScroll);
-          }
-        }
-      };
-
-      window.addEventListener('scroll', handleScroll, { passive: true });
-
-      return () => {
-        clearTimeout(mobileTimer);
-        window.removeEventListener('scroll', handleScroll);
-      };
-    }
-
-    // Desktop: Use intersection observer
+    // Simplified visibility detection
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting) {
+        if (entry.isIntersecting && !isVisible) {
           setIsVisible(true);
         }
       },
       { 
         threshold: 0.1,
-        rootMargin: '50px 0px',
+        rootMargin: '100px 0px',
       }
     );
 
@@ -256,22 +214,18 @@ export default function StatsSection() {
       observer.observe(sectionRef.current);
     }
 
-    // Additional fallback for all devices
+    // Simplified fallback - trigger after 3 seconds if not already visible
     const fallbackTimer = setTimeout(() => {
-      if (sectionRef.current) {
-        const rect = sectionRef.current.getBoundingClientRect();
-        const viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
-        if (rect.top < viewHeight && rect.bottom > 0) {
-          setIsVisible(true);
-        }
+      if (!isVisible) {
+        setIsVisible(true);
       }
-    }, 2000);
+    }, 3000);
 
     return () => {
       observer.disconnect();
       clearTimeout(fallbackTimer);
     };
-  }, []);
+  }, [isVisible]);
 
   return (
     <section 

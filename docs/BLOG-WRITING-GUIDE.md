@@ -1,4 +1,4 @@
-# Blog Writing Guide for ProsperBridge
+# Blog Writing Guide for Life Money
 
 ## Quick Reference Template
 
@@ -20,7 +20,7 @@ import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 // 1. SEO METADATA (Required)
 export const metadata: Metadata = {
-  title: '[Title] | ProsperBridge',  // 60 chars max
+  title: '[Title] | Life Money',  // 60 chars max
   description: '[Description with keywords]',  // 155-160 chars
   keywords: '[primary keyword], [secondary keywords], [location keywords]',
 };
@@ -311,7 +311,7 @@ Before publishing any blog post:
 5. **Update sitemap.xml** in `/public/sitemap.xml`:
    ```xml
    <url>
-     <loc>https://prosperbridge.ca/blog/your-blog-slug</loc>
+     <loc>https://lifemoney.ca/blog/your-blog-slug</loc>
      <lastmod>2025-08-XX</lastmod>
      <changefreq>monthly</changefreq>
      <priority>0.8</priority>
@@ -371,4 +371,4 @@ Every blog post must:
 **Last Updated**: August 19, 2025
 **Next Review**: Monthly
 
-**Note**: This guide ensures all ProsperBridge blog content maintains consistent quality, structure, and branding. Follow it exactly for each new blog post.
+**Note**: This guide ensures all Life Money blog content maintains consistent quality, structure, and branding. Follow it exactly for each new blog post.

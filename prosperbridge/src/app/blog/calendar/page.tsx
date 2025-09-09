@@ -3,8 +3,8 @@ import Link from 'next/link';
 import scheduleData from '@/../../../../content/blog-schedule.json';
 
 export const metadata: Metadata = {
-  title: 'Blog Content Calendar | ProsperBridge',
-  description: 'Upcoming blog posts and content schedule for ProsperBridge financial planning blog.',
+  title: 'Blog Content Calendar | Life Money',
+  description: 'Upcoming blog posts and content schedule for Life Money financial planning blog.',
   robots: 'noindex, nofollow' // Don't index the calendar page
 };
 
@@ -72,7 +72,7 @@ export default function BlogCalendarPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <Link href="/" className="text-2xl font-bold text-blue-600 hover:text-blue-700">
-              ProsperBridge
+              Life Money
             </Link>
             <div className="flex space-x-8">
               <Link href="/blog" className="text-gray-700 hover:text-blue-600">
@@ -91,7 +91,7 @@ export default function BlogCalendarPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-4">Blog Content Calendar</h1>
           <p className="text-gray-600 mb-6">
-            Track and manage upcoming blog posts for ProsperBridge
+            Track and manage upcoming blog posts for Life Money
           </p>
           
           {/* Stats */}
@@ -203,7 +203,7 @@ export default function BlogCalendarPage() {
       <footer className="bg-gray-900 text-white mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <p className="text-center text-gray-400">
-            © 2025 ProsperBridge. Internal tool - not for public access.
+            © 2025 Life Money. Internal tool - not for public access.
           </p>
         </div>
       </footer>

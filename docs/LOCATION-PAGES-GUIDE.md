@@ -1,7 +1,7 @@
 # Location Pages Guide
 
 ## Overview
-This guide documents the structure and patterns used for ProsperBridge location pages to ensure consistency when adding new cities or services in the future.
+This guide documents the structure and patterns used for Life Money location pages to ensure consistency when adding new cities or services in the future.
 
 ## Directory Structure
 
@@ -36,7 +36,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 // 1. Metadata - SEO optimized for city + service
 export const metadata: Metadata = {
-  title: '[Service] [City] | [Industry Focus] | ProsperBridge',
+  title: '[Service] [City] | [Industry Focus] | Life Money',
   description: '[60-160 chars describing service for city residents with local focus]',
   keywords: '[service keywords] [city], [local industry keywords], [region keywords]',
 };
@@ -183,7 +183,7 @@ Add entries for all four services in alphabetical order by city:
 ```xml
 <!-- [City Name] Location Pages -->
 <url>
-  <loc>https://prosperbridge.ca/[city-slug]/divorce-financial-planning</loc>
+  <loc>https://lifemoney.ca/[city-slug]/divorce-financial-planning</loc>
   <lastmod>2025-08-19</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>

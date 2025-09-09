@@ -1,4 +1,4 @@
-# 🚀 ProsperBridge Deployment & SEO Roadmap (2025)
+# 🚀 Life Money Deployment & SEO Roadmap (2025)
 
 ## ✅ COMPLETED TASKS
 
@@ -54,7 +54,7 @@ All main service pages created with SEO-optimized content:
 ## 📋 REMAINING TASKS FOR FULL LAUNCH
 
 ### Technical SEO Setup
-- [ ] Configure prosperbridge.ca domain on Vercel
+- [ ] Configure lifemoney.ca domain on Vercel
 - [ ] Add robots.txt file
 - [ ] Implement breadcrumb navigation
 - [ ] Add JSON-LD schema markup to all pages
@@ -101,7 +101,7 @@ import LocationServiceTemplate from '@/components/templates/LocationServiceTempl
 
 // SEO metadata
 export const metadata: Metadata = {
-  title: '[Service] [City] | [Focus] | ProsperBridge',
+  title: '[Service] [City] | [Focus] | Life Money',
   description: '[Local focus with keywords]',
   keywords: '[service] [city], [local keywords]',
 };

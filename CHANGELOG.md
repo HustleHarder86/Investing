@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased] - Local Development
 ### Added
+- Complete rebranding from ProsperBridge to Life Money across entire codebase (44 files updated)
+  - Updated project name in package.json from "prosperbridge" to "lifemoney"
+  - Changed domain references from prosperbridge.ca to lifemoney.ca across all configuration files
+  - Updated all blog post metadata titles from "| ProsperBridge" to "| Life Money"
+  - Updated 30 scheduled blog posts with new branding in both titles and content
+  - Updated 2 published blog posts with new branding
+  - Updated all documentation files (README, deployment guide, location guide, blog guide)
+  - Updated sitemap generation URLs in publish-blog.js script
+  - Updated legacy files in prosperbridge/ directory
 - Changelog and Plans tracking system for better project management
 - About Us page with team story and values
 - Contact page with comprehensive consultation form

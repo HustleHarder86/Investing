@@ -158,7 +158,7 @@ Each of the 84 location pages uses `LocationServiceTemplate` with:
 
 ### Production Environment
 - **Platform**: Vercel with auto-deployment from GitHub main branch
-- **Domain**: Custom domain setup pending (prosperbridge.ca)
+- **Domain**: Custom domain setup pending (lifemoney.ca)
 - **Performance**: Optimized for Core Web Vitals and mobile-first indexing
 
 ### Monitoring & Validation

@@ -1,10 +1,10 @@
-# ProsperBridge Financial Planning
+# Life Money Financial Planning
 
 A comprehensive financial advisory website serving the Greater Toronto Area with specialized planning for divorce, inheritance, business sales, and severance packages.
 
 ## 🚀 Live Site
 - Production: [https://investing-eight.vercel.app](https://investing-eight.vercel.app)
-- Domain: prosperbridge.ca (pending configuration)
+- Domain: lifemoney.ca (pending configuration)
 
 ## 📁 Project Structure
 

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'Back-to-School Budgeting for Newly Divorced Parents 2025 | ProsperBridge',
+  title: 'Back-to-School Budgeting for Newly Divorced Parents 2025 | Life Money',
   description: 'Navigate back-to-school expenses after divorce with practical budgeting strategies. Expert guidance for GTA parents on cost-sharing, tax credits, and financial planning.',
   keywords: 'back to school budget divorce, divorced parents school expenses Toronto, child support school costs Ontario, separated parents education expenses',
 };

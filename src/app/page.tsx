@@ -12,6 +12,7 @@ import SmartCalculators from '@/components/calculators/SmartCalculators';
 import MobileEnhancements from '@/components/mobile/MobileEnhancements';
 import GTAMap from '@/components/ui/GTAMap';
 import Header from '@/components/layout/Header';
+import AnimatedCounter from '@/components/ui/AnimatedCounter';
 
 export default function Home() {
   const tier1Cities = getCitiesByTier(1);
@@ -60,15 +61,29 @@ export default function Home() {
             {/* Modern Trust Metrics */}
             <div className="grid grid-cols-3 gap-6">
               <div className="group bg-white/60 backdrop-blur-xl rounded-2xl p-6 border border-white/40 shadow-lg hover:shadow-xl transition-all duration-300">
-                <div className="text-3xl font-display font-black text-slate-900 mb-1 group-hover:scale-105 transition-transform duration-300">10K+</div>
+                <AnimatedCounter 
+                  target={10000} 
+                  suffix="K+" 
+                  className="text-3xl font-display font-black text-slate-900 mb-1 group-hover:scale-105 transition-transform duration-300"
+                  startDelay={200}
+                />
                 <div className="text-sm text-slate-600 font-medium">Families Helped</div>
               </div>
               <div className="group bg-white/60 backdrop-blur-xl rounded-2xl p-6 border border-white/40 shadow-lg hover:shadow-xl transition-all duration-300">
-                <div className="text-3xl font-display font-black text-slate-900 mb-1 group-hover:scale-105 transition-transform duration-300">21</div>
+                <AnimatedCounter 
+                  target={21} 
+                  className="text-3xl font-display font-black text-slate-900 mb-1 group-hover:scale-105 transition-transform duration-300"
+                  startDelay={400}
+                />
                 <div className="text-sm text-slate-600 font-medium">GTA Cities</div>
               </div>
               <div className="group bg-white/60 backdrop-blur-xl rounded-2xl p-6 border border-white/40 shadow-lg hover:shadow-xl transition-all duration-300">
-                <div className="text-3xl font-display font-black text-slate-900 mb-1 group-hover:scale-105 transition-transform duration-300">$2B+</div>
+                <AnimatedCounter 
+                  target={2000} 
+                  suffix="B+" 
+                  className="text-3xl font-display font-black text-slate-900 mb-1 group-hover:scale-105 transition-transform duration-300"
+                  startDelay={600}
+                />
                 <div className="text-sm text-slate-600 font-medium">Assets Invested</div>
               </div>
             </div>

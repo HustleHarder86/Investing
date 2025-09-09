@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
 
 export const metadata: Metadata = {
-  title: 'September 2025 Tech Severance Trends: What GTA Workers Need to Know | ProsperBridge',
+  title: 'September 2025 Tech Severance Trends: What GTA Workers Need to Know | Life Money',
   description: 'Latest tech industry severance trends for September 2025. Negotiation strategies, package comparisons, and sector-specific insights for Toronto tech workers.',
   keywords: 'tech severance September 2025, Toronto tech layoffs, severance negotiation GTA, tech sector job loss trends',
 };
@@ -412,7 +412,7 @@ const BlogContent = () => (
     </p>
 
     <p className="mb-6">
-      At ProsperBridge, our Certified Financial Planners specialize in tech sector severance optimization. 
+      At Life Money, our Certified Financial Planners specialize in tech sector severance optimization. 
       We've helped over 400 GTA tech professionals maximize their packages and transition successfully. 
       From negotiation support to tax optimization and career transition planning, we're here to ensure 
       you emerge from this challenge stronger than before.
