@@ -2,8 +2,8 @@ name: Daily Blog Publisher
 
 on:
   schedule:
-    # TEST: Run every 5 minutes to verify scheduling works
-    - cron: '*/5 * * * *'
+    # Run at 9 AM EST (2 PM UTC) every day
+    - cron: '0 14 * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
