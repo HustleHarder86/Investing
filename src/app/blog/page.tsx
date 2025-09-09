@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'test-auto-publish',
+    title: 'TEST: Auto-Publish Verification Post',
+    excerpt: 'Expert insights on inheritance planning to help you navigate your financial transition.',
+    author: 'Sarah Mitchell',
+    authorTitle: 'CFP®, Estate Planning Specialist',
+    date: '2025-09-09',
+    readTime: '8 min',
+    category: 'Inheritance Planning',
+    categorySlug: 'inheritance-planning',
+    featured: false
+  },
+  {
     slug: 'rrsp-contribution-room-maximize-2025',
     title: 'RRSP Contribution Room: Maximize Your 2025 Tax Savings',
     excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
