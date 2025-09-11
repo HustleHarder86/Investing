@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'tfsa-vs-rrsp-retirement-strategy',
+    title: 'TFSA vs RRSP for Retirement: Age-Based Strategy Guide',
+    excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
+    author: 'Jennifer Park',
+    authorTitle: 'CPA, Tax Planning Expert',
+    date: '2025-09-11',
+    readTime: '8 min',
+    category: 'Retirement Planning',
+    categorySlug: 'general',
+    featured: false
+  },
+  {
     slug: 'negotiating-severance-financial-services',
     title: 'Negotiating Severance in Financial Services',
     excerpt: 'Expert insights on severance planning to help you navigate your financial transition.',
