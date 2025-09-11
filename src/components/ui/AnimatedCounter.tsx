@@ -58,19 +58,28 @@ export default function AnimatedCounter({
     };
 
     // Multiple fallback strategies for reliable animation
-    // 1. Normal delay-based trigger
-    const delayTimer = setTimeout(triggerAnimation, startDelay);
+    // 1. Immediate trigger for production
+    const immediateTimer = setTimeout(triggerAnimation, 50);
     
-    // 2. Immediate fallback for production issues
-    const immediateTimer = setTimeout(triggerAnimation, Math.max(100, startDelay / 2));
+    // 2. Normal delay-based trigger
+    const delayTimer = setTimeout(triggerAnimation, Math.max(200, startDelay));
     
     // 3. Final fallback to ensure animation always triggers
-    const fallbackTimer = setTimeout(triggerAnimation, Math.max(1000, startDelay + 500));
+    const fallbackTimer = setTimeout(triggerAnimation, Math.max(800, startDelay + 300));
+    
+    // 4. Nuclear option - if everything fails, just set the target value
+    const nuclearTimer = setTimeout(() => {
+      if (!hasAnimated) {
+        setCount(target);
+        setHasAnimated(true);
+      }
+    }, 2000);
     
     return () => {
-      clearTimeout(delayTimer);
       clearTimeout(immediateTimer);
+      clearTimeout(delayTimer);
       clearTimeout(fallbackTimer);
+      clearTimeout(nuclearTimer);
       if (animationId) {
         cancelAnimationFrame(animationId);
       }
@@ -97,9 +106,12 @@ export default function AnimatedCounter({
     return num.toString() + suffix;
   };
 
+  // Emergency fallback: if animation completely fails, show target value
+  const displayValue = isMounted && count === 0 && hasAnimated ? target : count;
+
   return (
     <div ref={counterRef} className={className}>
-      {formatNumber(count, suffix)}
+      {formatNumber(displayValue, suffix)}
     </div>
   );
 }

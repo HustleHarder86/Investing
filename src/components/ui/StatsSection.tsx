@@ -93,10 +93,18 @@ function AnimatedCounter({ target, duration, suffix, isVisible }: AnimatedCounte
     // Start animation immediately
     animationId = requestAnimationFrame(animate);
     
+    // Nuclear option - if animation completely fails, just show target value
+    const nuclearTimer = setTimeout(() => {
+      if (count === 0) {
+        setCount(target);
+      }
+    }, 1500);
+    
     return () => {
       if (animationId) {
         cancelAnimationFrame(animationId);
       }
+      clearTimeout(nuclearTimer);
     };
   }, [target, duration, isVisible, hasAnimated, isMobile]);
 
@@ -189,11 +197,19 @@ function ProgressRing({ percentage, size, strokeWidth, isVisible }: ProgressRing
       animationId = requestAnimationFrame(animate);
     }, delay);
     
+    // Nuclear option for progress rings
+    const nuclearTimer = setTimeout(() => {
+      if (progress === 0) {
+        setProgress(percentage);
+      }
+    }, 1500);
+    
     return () => {
       if (animationId) {
         cancelAnimationFrame(animationId);
       }
       clearTimeout(startTimer);
+      clearTimeout(nuclearTimer);
     };
   }, [percentage, isVisible, hasAnimated, isMobile]);
 
