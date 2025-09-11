@@ -79,7 +79,7 @@ export default function Home() {
               </div>
               <div className="group bg-white/60 backdrop-blur-xl rounded-2xl p-6 border border-white/40 shadow-lg hover:shadow-xl transition-all duration-300">
                 <AnimatedCounter 
-                  target={250} 
+                  target={500} 
                   suffix="M+" 
                   className="text-3xl font-display font-black text-slate-900 mb-1 group-hover:scale-105 transition-transform duration-300"
                   startDelay={600}

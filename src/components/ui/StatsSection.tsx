@@ -19,7 +19,7 @@ const stats: StatData[] = [
     icon: 'family'
   },
   {
-    value: 250,
+    value: 500,
     suffix: 'M',
     label: 'Assets Managed',
     description: 'In client wealth under management',
@@ -51,9 +51,25 @@ interface AnimatedCounterProps {
 function AnimatedCounter({ target, duration, suffix, isVisible }: AnimatedCounterProps) {
   const [count, setCount] = useState(0);
   const [hasAnimated, setHasAnimated] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Detect mobile device
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768 || /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   useEffect(() => {
-    if (!isVisible || hasAnimated) return;
+    // For mobile, start animation immediately without waiting for isVisible
+    const shouldStartAnimation = isVisible || (isMobile && !hasAnimated);
+    
+    if (!shouldStartAnimation || hasAnimated) return;
 
     setHasAnimated(true);
     let startTime: number;
@@ -74,7 +90,7 @@ function AnimatedCounter({ target, duration, suffix, isVisible }: AnimatedCounte
       }
     };
 
-    // Start animation immediately when visible
+    // Start animation immediately
     animationId = requestAnimationFrame(animate);
     
     return () => {
@@ -82,7 +98,7 @@ function AnimatedCounter({ target, duration, suffix, isVisible }: AnimatedCounte
         cancelAnimationFrame(animationId);
       }
     };
-  }, [target, duration, isVisible, hasAnimated]);
+  }, [target, duration, isVisible, hasAnimated, isMobile]);
 
   const formatNumber = (num: number, suffix: string) => {
     if (suffix === 'M') {
@@ -124,12 +140,28 @@ interface ProgressRingProps {
 function ProgressRing({ percentage, size, strokeWidth, isVisible }: ProgressRingProps) {
   const [progress, setProgress] = useState(0);
   const [hasAnimated, setHasAnimated] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const radius = (size - strokeWidth) / 2;
   const circumference = radius * 2 * Math.PI;
   const offset = circumference - (progress / 100) * circumference;
 
+  // Detect mobile device
   useEffect(() => {
-    if (!isVisible || hasAnimated) return;
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768 || /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  useEffect(() => {
+    // For mobile, start animation immediately without waiting for isVisible
+    const shouldStartAnimation = isVisible || (isMobile && !hasAnimated);
+    
+    if (!shouldStartAnimation || hasAnimated) return;
 
     setHasAnimated(true);
     let startTime: number;
@@ -151,10 +183,11 @@ function ProgressRing({ percentage, size, strokeWidth, isVisible }: ProgressRing
       }
     };
 
-    // Start with slight delay for staggered effect
+    // Shorter delay for mobile, longer for desktop staggered effect
+    const delay = isMobile ? 100 : 500;
     const startTimer = setTimeout(() => {
       animationId = requestAnimationFrame(animate);
-    }, 500);
+    }, delay);
     
     return () => {
       if (animationId) {
@@ -162,7 +195,7 @@ function ProgressRing({ percentage, size, strokeWidth, isVisible }: ProgressRing
       }
       clearTimeout(startTimer);
     };
-  }, [percentage, isVisible, hasAnimated]);
+  }, [percentage, isVisible, hasAnimated, isMobile]);
 
   return (
     <div className="relative inline-block">
@@ -207,19 +240,38 @@ function ProgressRing({ percentage, size, strokeWidth, isVisible }: ProgressRing
 
 export default function StatsSection() {
   const [isVisible, setIsVisible] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
 
+  // Handle client-side mounting
   useEffect(() => {
-    // Simplified visibility detection
+    setIsMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (!isMounted) return;
+
+    let hasTriggered = false;
+
+    const triggerAnimation = () => {
+      if (!hasTriggered) {
+        hasTriggered = true;
+        setIsVisible(true);
+      }
+    };
+
+    // Multiple fallback strategies for animation triggering
+    
+    // 1. Intersection Observer (primary method)
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting && !isVisible) {
-          setIsVisible(true);
+        if (entry.isIntersecting) {
+          triggerAnimation();
         }
       },
       { 
-        threshold: 0.1,
-        rootMargin: '100px 0px',
+        threshold: 0.05,  // Lower threshold for better mobile support
+        rootMargin: '150px 0px',  // Larger margin for earlier trigger
       }
     );
 
@@ -227,18 +279,38 @@ export default function StatsSection() {
       observer.observe(sectionRef.current);
     }
 
-    // Simplified fallback - trigger after 3 seconds if not already visible
-    const fallbackTimer = setTimeout(() => {
-      if (!isVisible) {
-        setIsVisible(true);
+    // 2. Scroll-based fallback
+    const handleScroll = () => {
+      if (sectionRef.current) {
+        const rect = sectionRef.current.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+        
+        // Trigger if section is anywhere in viewport
+        if (rect.top < windowHeight && rect.bottom > 0) {
+          triggerAnimation();
+        }
       }
-    }, 3000);
+    };
+
+    // 3. Immediate fallback for mobile and slow devices
+    const immediateTimer = setTimeout(triggerAnimation, 1000);
+    
+    // 4. Final fallback - ensure animation triggers
+    const fallbackTimer = setTimeout(triggerAnimation, 2500);
+
+    // Add scroll listener as backup
+    window.addEventListener('scroll', handleScroll);
+    
+    // Check immediately on mount
+    handleScroll();
 
     return () => {
       observer.disconnect();
+      window.removeEventListener('scroll', handleScroll);
+      clearTimeout(immediateTimer);
       clearTimeout(fallbackTimer);
     };
-  }, [isVisible]);
+  }, [isMounted]);
 
   return (
     <section 
