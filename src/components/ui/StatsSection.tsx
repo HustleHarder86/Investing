@@ -59,7 +59,7 @@ function AnimatedCounter({ target, duration, suffix, isVisible }: AnimatedCounte
   useEffect(() => {
     if (!isMounted) return;
 
-    // Bulletproof animation that always works
+    // Ultra-simple, bulletproof animation
     let hasStarted = false;
     
     const startAnimation = () => {
@@ -85,17 +85,30 @@ function AnimatedCounter({ target, duration, suffix, isVisible }: AnimatedCounte
       };
       
       animationId = requestAnimationFrame(animate);
+      
+      return () => {
+        if (animationId) cancelAnimationFrame(animationId);
+      };
     };
 
-    // Start immediately and with multiple fallbacks
+    // Multiple immediate triggers
     startAnimation();
-    setTimeout(startAnimation, 50);
-    setTimeout(startAnimation, 200);
-    setTimeout(startAnimation, 500);
     
-    // Emergency fallback
-    setTimeout(() => setCount(target), 1000);
+    const timer1 = setTimeout(startAnimation, 10);
+    const timer2 = setTimeout(startAnimation, 100);
+    const timer3 = setTimeout(startAnimation, 200);
     
+    // Absolute fallback - just show the number
+    const emergencyTimer = setTimeout(() => {
+      setCount(target);
+    }, 1000);
+    
+    return () => {
+      clearTimeout(timer1);
+      clearTimeout(timer2);
+      clearTimeout(timer3);
+      clearTimeout(emergencyTimer);
+    };
   }, [target, duration, isMounted]);
 
   const formatNumber = (num: number, suffix: string) => {
@@ -149,7 +162,7 @@ function ProgressRing({ percentage, size, strokeWidth, isVisible }: ProgressRing
   useEffect(() => {
     if (!isMounted) return;
 
-    // Bulletproof progress ring animation
+    // Ultra-simple, bulletproof progress ring animation
     let hasStarted = false;
     
     const startAnimation = () => {
@@ -176,17 +189,30 @@ function ProgressRing({ percentage, size, strokeWidth, isVisible }: ProgressRing
       };
       
       animationId = requestAnimationFrame(animate);
+      
+      return () => {
+        if (animationId) cancelAnimationFrame(animationId);
+      };
     };
 
-    // Start immediately and with multiple fallbacks
+    // Multiple immediate triggers
     startAnimation();
-    setTimeout(startAnimation, 100);
-    setTimeout(startAnimation, 300);
-    setTimeout(startAnimation, 600);
     
-    // Emergency fallback
-    setTimeout(() => setProgress(percentage), 1200);
+    const timer1 = setTimeout(startAnimation, 10);
+    const timer2 = setTimeout(startAnimation, 100);
+    const timer3 = setTimeout(startAnimation, 200);
     
+    // Absolute fallback - just show the percentage
+    const emergencyTimer = setTimeout(() => {
+      setProgress(percentage);
+    }, 1000);
+    
+    return () => {
+      clearTimeout(timer1);
+      clearTimeout(timer2);
+      clearTimeout(timer3);
+      clearTimeout(emergencyTimer);
+    };
   }, [percentage, isMounted]);
 
   return (
@@ -243,6 +269,7 @@ export default function StatsSection() {
   useEffect(() => {
     if (!isMounted) return;
 
+    // Ultra-simple, bulletproof trigger - just start immediately
     let hasTriggered = false;
 
     const triggerAnimation = () => {
@@ -252,59 +279,17 @@ export default function StatsSection() {
       }
     };
 
-    // Multiple fallback strategies for animation triggering
+    // Multiple immediate triggers
+    triggerAnimation();
     
-    // 1. Intersection Observer (primary method)
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          triggerAnimation();
-        }
-      },
-      { 
-        threshold: 0.05,  // Lower threshold for better mobile support
-        rootMargin: '150px 0px',  // Larger margin for earlier trigger
-      }
-    );
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-
-    // 2. Scroll-based fallback
-    const handleScroll = () => {
-      if (sectionRef.current) {
-        const rect = sectionRef.current.getBoundingClientRect();
-        const windowHeight = window.innerHeight;
-        
-        // Trigger if section is anywhere in viewport
-        if (rect.top < windowHeight && rect.bottom > 0) {
-          triggerAnimation();
-        }
-      }
-    };
-
-    // 3. Immediate fallback for mobile and slow devices
-    const immediateTimer = setTimeout(triggerAnimation, 500);
-    
-    // 4. Earlier fallback for production issues
-    const earlyTimer = setTimeout(triggerAnimation, 1000);
-    
-    // 5. Final fallback - ensure animation always triggers
-    const fallbackTimer = setTimeout(triggerAnimation, 2000);
-
-    // Add scroll listener as backup
-    window.addEventListener('scroll', handleScroll);
-    
-    // Check immediately on mount
-    handleScroll();
+    const timer1 = setTimeout(triggerAnimation, 10);
+    const timer2 = setTimeout(triggerAnimation, 100);
+    const timer3 = setTimeout(triggerAnimation, 200);
 
     return () => {
-      observer.disconnect();
-      window.removeEventListener('scroll', handleScroll);
-      clearTimeout(immediateTimer);
-      clearTimeout(earlyTimer);
-      clearTimeout(fallbackTimer);
+      clearTimeout(timer1);
+      clearTimeout(timer2);
+      clearTimeout(timer3);
     };
   }, [isMounted]);
 
