@@ -33,11 +33,12 @@ export default function AnimatedCounter({
     return num.toString() + suffix;
   };
 
-  // ULTIMATE SIMPLIFICATION: Just show the formatted target value directly
-  // No state, no effects, no client-side JavaScript at all
+  // ULTIMATE TEST: Show both raw and formatted values
+  const formatted = formatNumber(target, suffix);
+  
   return (
     <div className={className}>
-      {formatNumber(target, suffix)}
+      RAW: {target} | SUFFIX: {suffix} | FORMATTED: {formatted}
     </div>
   );
 }
