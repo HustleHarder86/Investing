@@ -1,6 +1,4 @@
-'use client';
-
-import { useState, useEffect, useRef } from 'react';
+// Simplified StaticStatsSection - no client-side JavaScript
 
 interface StatData {
   value: number;
@@ -49,26 +47,6 @@ interface AnimatedCounterProps {
 }
 
 function AnimatedCounter({ target, duration, suffix, isVisible }: AnimatedCounterProps) {
-  const [count, setCount] = useState(0);
-  const [isMounted, setIsMounted] = useState(false);
-
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
-
-  useEffect(() => {
-    if (!isMounted) return;
-    
-    // NUCLEAR OPTION: Skip animation entirely - just show the target immediately
-    setCount(target);
-    
-    // Multiple backups in case state doesn't update
-    setTimeout(() => setCount(target), 0);
-    setTimeout(() => setCount(target), 10);
-    setTimeout(() => setCount(target), 100);
-    
-  }, [target, isMounted]);
-
   const formatNumber = (num: number, suffix: string) => {
     if (suffix === 'M') {
       // Display millions properly (e.g., "$2000M" or "$2.0B")
@@ -92,9 +70,10 @@ function AnimatedCounter({ target, duration, suffix, isVisible }: AnimatedCounte
     return num.toString() + suffix;
   };
 
+  // ULTIMATE SIMPLIFICATION: Just show the formatted target value directly
   return (
     <span className="text-5xl font-display font-black text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-blue-600">
-      {formatNumber(count, suffix)}
+      {formatNumber(target, suffix)}
     </span>
   );
 }
@@ -107,29 +86,11 @@ interface ProgressRingProps {
 }
 
 function ProgressRing({ percentage, size, strokeWidth, isVisible }: ProgressRingProps) {
-  const [progress, setProgress] = useState(0);
-  const [isMounted, setIsMounted] = useState(false);
   const radius = (size - strokeWidth) / 2;
   const circumference = radius * 2 * Math.PI;
-  const offset = circumference - (progress / 100) * circumference;
+  const offset = circumference - (percentage / 100) * circumference;
 
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
-
-  useEffect(() => {
-    if (!isMounted) return;
-    
-    // NUCLEAR OPTION: Skip animation entirely - just show the percentage immediately
-    setProgress(percentage);
-    
-    // Multiple backups in case state doesn't update
-    setTimeout(() => setProgress(percentage), 0);
-    setTimeout(() => setProgress(percentage), 10);
-    setTimeout(() => setProgress(percentage), 100);
-    
-  }, [percentage, isMounted]);
-
+  // ULTIMATE SIMPLIFICATION: Just show the target percentage directly
   return (
     <div className="relative inline-block">
       <svg width={size} height={size} className="transform -rotate-90">
@@ -164,7 +125,7 @@ function ProgressRing({ percentage, size, strokeWidth, isVisible }: ProgressRing
       </svg>
       <div className="absolute inset-0 flex items-center justify-center">
         <span className="text-3xl font-display font-bold text-slate-900">
-          {Math.round(progress)}%
+          {Math.round(percentage)}%
         </span>
       </div>
     </div>
@@ -172,45 +133,11 @@ function ProgressRing({ percentage, size, strokeWidth, isVisible }: ProgressRing
 }
 
 export default function StatsSection() {
-  const [isVisible, setIsVisible] = useState(false);
-  const [isMounted, setIsMounted] = useState(false);
-  const sectionRef = useRef<HTMLDivElement>(null);
-
-  // Handle client-side mounting
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
-
-  useEffect(() => {
-    if (!isMounted) return;
-
-    // Ultra-simple, bulletproof trigger - just start immediately
-    let hasTriggered = false;
-
-    const triggerAnimation = () => {
-      if (!hasTriggered) {
-        hasTriggered = true;
-        setIsVisible(true);
-      }
-    };
-
-    // Multiple immediate triggers
-    triggerAnimation();
-    
-    const timer1 = setTimeout(triggerAnimation, 10);
-    const timer2 = setTimeout(triggerAnimation, 100);
-    const timer3 = setTimeout(triggerAnimation, 200);
-
-    return () => {
-      clearTimeout(timer1);
-      clearTimeout(timer2);
-      clearTimeout(timer3);
-    };
-  }, [isMounted]);
+  // ULTIMATE SIMPLIFICATION: Just render everything directly
+  const isVisible = true;
 
   return (
-    <section 
-      ref={sectionRef}
+    <section
       className="relative py-20 bg-gradient-to-b from-slate-50 to-white overflow-hidden"
     >
       {/* Clean modern background elements */}

@@ -1,7 +1,3 @@
-'use client';
-
-import { useState, useEffect, useRef } from 'react';
-
 interface AnimatedCounterProps {
   target: number;
   suffix?: string;
@@ -17,29 +13,6 @@ export default function AnimatedCounter({
   className = '',
   startDelay = 0 
 }: AnimatedCounterProps) {
-  const [count, setCount] = useState(0);
-  const [isMounted, setIsMounted] = useState(false);
-  const counterRef = useRef<HTMLDivElement>(null);
-
-  // Handle hydration
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
-
-  // NUCLEAR OPTION: Skip animation entirely - just show the target immediately
-  useEffect(() => {
-    if (!isMounted) return;
-    
-    // Just set the target value immediately - no animation at all
-    setCount(target);
-    
-    // Backup in case state doesn't update
-    setTimeout(() => setCount(target), 0);
-    setTimeout(() => setCount(target), 10);
-    setTimeout(() => setCount(target), 100);
-    
-  }, [target, isMounted]);
-
   const formatNumber = (num: number, suffix: string) => {
     if (suffix === 'K+') {
       // Display full number with commas for readability (e.g., "10,000+")
@@ -60,9 +33,11 @@ export default function AnimatedCounter({
     return num.toString() + suffix;
   };
 
+  // ULTIMATE SIMPLIFICATION: Just show the formatted target value directly
+  // No state, no effects, no client-side JavaScript at all
   return (
-    <div ref={counterRef} className={className}>
-      DEBUG: target={target}, count={count}, formatted={formatNumber(count, suffix)}
+    <div className={className}>
+      {formatNumber(target, suffix)}
     </div>
   );
 }
