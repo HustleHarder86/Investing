@@ -19,10 +19,10 @@ const stats: StatData[] = [
     icon: 'family'
   },
   {
-    value: 2000,
+    value: 250,
     suffix: 'M',
-    label: 'Assets Invested',
-    description: 'In client wealth managed',
+    label: 'Assets Managed',
+    description: 'In client wealth under management',
     icon: 'shield'
   },
   {
@@ -86,10 +86,23 @@ function AnimatedCounter({ target, duration, suffix, isVisible }: AnimatedCounte
 
   const formatNumber = (num: number, suffix: string) => {
     if (suffix === 'M') {
-      return (num / 1000).toFixed(1) + 'B';
+      // Display millions properly (e.g., "$2000M" or "$2.0B")
+      if (num >= 1000) {
+        return '$' + (num / 1000).toFixed(1) + 'B';
+      }
+      return '$' + num.toString() + 'M';
+    }
+    if (suffix === 'K') {
+      // Display thousands properly (e.g., "10K")
+      return (num / 1000).toFixed(0) + 'K';
     }
     if (num >= 10000) {
+      // For large numbers without suffix, show with K
       return (num / 1000).toFixed(0) + 'K' + suffix;
+    }
+    // For numbers with + suffix, add commas for readability
+    if (suffix === '+' && num >= 1000) {
+      return num.toLocaleString() + suffix;
     }
     return num.toString() + suffix;
   };

@@ -63,10 +63,20 @@ export default function AnimatedCounter({
 
   const formatNumber = (num: number, suffix: string) => {
     if (suffix === 'K+') {
-      return (num / 1000).toFixed(0) + 'K+';
+      // Display full number with commas for readability (e.g., "10,000+")
+      return num.toLocaleString() + '+';
     }
     if (suffix === 'B+') {
+      // Display billions properly (e.g., "$2.0B+")
       return '$' + (num / 1000).toFixed(1) + 'B+';
+    }
+    if (suffix === 'M+') {
+      // Display millions properly (e.g., "$2.0M+")
+      return '$' + (num / 1000).toFixed(1) + 'M+';
+    }
+    // For numbers without special suffixes, add commas for readability
+    if (num >= 1000) {
+      return num.toLocaleString() + suffix;
     }
     return num.toString() + suffix;
   };

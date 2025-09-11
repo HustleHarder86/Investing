@@ -79,12 +79,12 @@ export default function Home() {
               </div>
               <div className="group bg-white/60 backdrop-blur-xl rounded-2xl p-6 border border-white/40 shadow-lg hover:shadow-xl transition-all duration-300">
                 <AnimatedCounter 
-                  target={2000} 
-                  suffix="B+" 
+                  target={250} 
+                  suffix="M+" 
                   className="text-3xl font-display font-black text-slate-900 mb-1 group-hover:scale-105 transition-transform duration-300"
                   startDelay={600}
                 />
-                <div className="text-sm text-slate-600 font-medium">Assets Invested</div>
+                <div className="text-sm text-slate-600 font-medium">Assets Managed</div>
               </div>
             </div>
             
