@@ -26,61 +26,19 @@ export default function AnimatedCounter({
     setIsMounted(true);
   }, []);
 
-  // Ultra-simple, bulletproof animation
+  // NUCLEAR OPTION: Skip animation entirely - just show the target immediately
   useEffect(() => {
     if (!isMounted) return;
-
-    // Start immediately with multiple aggressive fallbacks
-    let hasStarted = false;
     
-    const startAnimation = () => {
-      if (hasStarted) return;
-      hasStarted = true;
-      
-      let animationId: number;
-      let startTime: number;
-      
-      const animate = (currentTime: number) => {
-        if (!startTime) startTime = currentTime;
-        const elapsed = currentTime - startTime;
-        const progress = Math.min(elapsed / duration, 1);
-        
-        const easeOut = 1 - Math.pow(1 - progress, 3);
-        const currentCount = Math.floor(easeOut * target);
-        
-        setCount(currentCount);
-        
-        if (progress < 1) {
-          animationId = requestAnimationFrame(animate);
-        }
-      };
-      
-      animationId = requestAnimationFrame(animate);
-      
-      return () => {
-        if (animationId) cancelAnimationFrame(animationId);
-      };
-    };
-
-    // Multiple immediate triggers
-    startAnimation();
+    // Just set the target value immediately - no animation at all
+    setCount(target);
     
-    const timer1 = setTimeout(startAnimation, 10);
-    const timer2 = setTimeout(startAnimation, 100);
-    const timer3 = setTimeout(startAnimation, Math.max(200, startDelay));
+    // Backup in case state doesn't update
+    setTimeout(() => setCount(target), 0);
+    setTimeout(() => setCount(target), 10);
+    setTimeout(() => setCount(target), 100);
     
-    // Absolute fallback - just show the number
-    const emergencyTimer = setTimeout(() => {
-      setCount(target);
-    }, 1000);
-    
-    return () => {
-      clearTimeout(timer1);
-      clearTimeout(timer2);
-      clearTimeout(timer3);
-      clearTimeout(emergencyTimer);
-    };
-  }, [target, duration, startDelay, isMounted]);
+  }, [target, isMounted]);
 
   const formatNumber = (num: number, suffix: string) => {
     if (suffix === 'K+') {
