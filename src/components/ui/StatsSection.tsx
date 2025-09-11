@@ -293,10 +293,13 @@ export default function StatsSection() {
     };
 
     // 3. Immediate fallback for mobile and slow devices
-    const immediateTimer = setTimeout(triggerAnimation, 1000);
+    const immediateTimer = setTimeout(triggerAnimation, 500);
     
-    // 4. Final fallback - ensure animation triggers
-    const fallbackTimer = setTimeout(triggerAnimation, 2500);
+    // 4. Earlier fallback for production issues
+    const earlyTimer = setTimeout(triggerAnimation, 1000);
+    
+    // 5. Final fallback - ensure animation always triggers
+    const fallbackTimer = setTimeout(triggerAnimation, 2000);
 
     // Add scroll listener as backup
     window.addEventListener('scroll', handleScroll);
@@ -308,6 +311,7 @@ export default function StatsSection() {
       observer.disconnect();
       window.removeEventListener('scroll', handleScroll);
       clearTimeout(immediateTimer);
+      clearTimeout(earlyTimer);
       clearTimeout(fallbackTimer);
     };
   }, [isMounted]);

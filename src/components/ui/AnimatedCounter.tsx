@@ -19,6 +19,7 @@ export default function AnimatedCounter({
 }: AnimatedCounterProps) {
   const [count, setCount] = useState(0);
   const [isMounted, setIsMounted] = useState(false);
+  const [hasAnimated, setHasAnimated] = useState(false);
   const counterRef = useRef<HTMLDivElement>(null);
 
   // Handle hydration
@@ -26,40 +27,55 @@ export default function AnimatedCounter({
     setIsMounted(true);
   }, []);
 
-  // Start animation after component mounts and delay
+  // Reliable animation triggering with multiple fallbacks
   useEffect(() => {
-    if (!isMounted) return;
+    if (!isMounted || hasAnimated) return;
 
     let animationId: ReturnType<typeof requestAnimationFrame> | null = null;
     let startTime: number | null = null;
 
-    const animate = (currentTime: number) => {
-      if (!startTime) startTime = currentTime;
-      const progress = Math.min((currentTime - startTime) / duration, 1);
+    const triggerAnimation = () => {
+      if (hasAnimated) return;
       
-      // Simple easing function
-      const easeOutQuad = progress * (2 - progress);
-      const currentCount = Math.floor(easeOutQuad * target);
+      setHasAnimated(true);
       
-      setCount(currentCount);
+      const animate = (currentTime: number) => {
+        if (!startTime) startTime = currentTime;
+        const progress = Math.min((currentTime - startTime) / duration, 1);
+        
+        // Simple easing function
+        const easeOutQuad = progress * (2 - progress);
+        const currentCount = Math.floor(easeOutQuad * target);
+        
+        setCount(currentCount);
 
-      if (progress < 1) {
-        animationId = requestAnimationFrame(animate);
-      }
+        if (progress < 1) {
+          animationId = requestAnimationFrame(animate);
+        }
+      };
+
+      animationId = requestAnimationFrame(animate);
     };
 
-    // Start animation after the specified delay
-    const startTimer = setTimeout(() => {
-      animationId = requestAnimationFrame(animate);
-    }, startDelay);
+    // Multiple fallback strategies for reliable animation
+    // 1. Normal delay-based trigger
+    const delayTimer = setTimeout(triggerAnimation, startDelay);
+    
+    // 2. Immediate fallback for production issues
+    const immediateTimer = setTimeout(triggerAnimation, Math.max(100, startDelay / 2));
+    
+    // 3. Final fallback to ensure animation always triggers
+    const fallbackTimer = setTimeout(triggerAnimation, Math.max(1000, startDelay + 500));
     
     return () => {
-      clearTimeout(startTimer);
+      clearTimeout(delayTimer);
+      clearTimeout(immediateTimer);
+      clearTimeout(fallbackTimer);
       if (animationId) {
         cancelAnimationFrame(animationId);
       }
     };
-  }, [target, duration, startDelay, isMounted]);
+  }, [target, duration, startDelay, isMounted, hasAnimated]);
 
   const formatNumber = (num: number, suffix: string) => {
     if (suffix === 'K+') {
