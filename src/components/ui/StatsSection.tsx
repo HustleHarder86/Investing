@@ -50,63 +50,53 @@ interface AnimatedCounterProps {
 
 function AnimatedCounter({ target, duration, suffix, isVisible }: AnimatedCounterProps) {
   const [count, setCount] = useState(0);
-  const [hasAnimated, setHasAnimated] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
 
-  // Detect mobile device
   useEffect(() => {
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth <= 768 || /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
-    };
-    
-    checkMobile();
-    window.addEventListener('resize', checkMobile);
-    
-    return () => window.removeEventListener('resize', checkMobile);
+    setIsMounted(true);
   }, []);
 
   useEffect(() => {
-    // For mobile, start animation immediately without waiting for isVisible
-    const shouldStartAnimation = isVisible || (isMobile && !hasAnimated);
+    if (!isMounted) return;
+
+    // Bulletproof animation that always works
+    let hasStarted = false;
     
-    if (!shouldStartAnimation || hasAnimated) return;
-
-    setHasAnimated(true);
-    let startTime: number;
-    let animationId: number;
-
-    const animate = (currentTime: number) => {
-      if (!startTime) startTime = currentTime;
-      const progress = Math.min((currentTime - startTime) / duration, 1);
+    const startAnimation = () => {
+      if (hasStarted) return;
+      hasStarted = true;
       
-      // Simple easing function
-      const easeOutQuad = progress * (2 - progress);
-      const currentCount = Math.floor(easeOutQuad * target);
+      let animationId: number;
+      let startTime: number;
       
-      setCount(currentCount);
-
-      if (progress < 1) {
-        animationId = requestAnimationFrame(animate);
-      }
+      const animate = (currentTime: number) => {
+        if (!startTime) startTime = currentTime;
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        
+        const easeOut = 1 - Math.pow(1 - progress, 3);
+        const currentCount = Math.floor(easeOut * target);
+        
+        setCount(currentCount);
+        
+        if (progress < 1) {
+          animationId = requestAnimationFrame(animate);
+        }
+      };
+      
+      animationId = requestAnimationFrame(animate);
     };
 
-    // Start animation immediately
-    animationId = requestAnimationFrame(animate);
+    // Start immediately and with multiple fallbacks
+    startAnimation();
+    setTimeout(startAnimation, 50);
+    setTimeout(startAnimation, 200);
+    setTimeout(startAnimation, 500);
     
-    // Nuclear option - if animation completely fails, just show target value
-    const nuclearTimer = setTimeout(() => {
-      if (count === 0) {
-        setCount(target);
-      }
-    }, 1500);
+    // Emergency fallback
+    setTimeout(() => setCount(target), 1000);
     
-    return () => {
-      if (animationId) {
-        cancelAnimationFrame(animationId);
-      }
-      clearTimeout(nuclearTimer);
-    };
-  }, [target, duration, isVisible, hasAnimated, isMobile]);
+  }, [target, duration, isMounted]);
 
   const formatNumber = (num: number, suffix: string) => {
     if (suffix === 'M') {
@@ -147,71 +137,57 @@ interface ProgressRingProps {
 
 function ProgressRing({ percentage, size, strokeWidth, isVisible }: ProgressRingProps) {
   const [progress, setProgress] = useState(0);
-  const [hasAnimated, setHasAnimated] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
   const radius = (size - strokeWidth) / 2;
   const circumference = radius * 2 * Math.PI;
   const offset = circumference - (progress / 100) * circumference;
 
-  // Detect mobile device
   useEffect(() => {
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth <= 768 || /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
-    };
-    
-    checkMobile();
-    window.addEventListener('resize', checkMobile);
-    
-    return () => window.removeEventListener('resize', checkMobile);
+    setIsMounted(true);
   }, []);
 
   useEffect(() => {
-    // For mobile, start animation immediately without waiting for isVisible
-    const shouldStartAnimation = isVisible || (isMobile && !hasAnimated);
+    if (!isMounted) return;
+
+    // Bulletproof progress ring animation
+    let hasStarted = false;
     
-    if (!shouldStartAnimation || hasAnimated) return;
-
-    setHasAnimated(true);
-    let startTime: number;
-    let animationId: number;
-    const duration = 2000;
-
-    const animate = (currentTime: number) => {
-      if (!startTime) startTime = currentTime;
-      const elapsed = Math.min((currentTime - startTime) / duration, 1);
+    const startAnimation = () => {
+      if (hasStarted) return;
+      hasStarted = true;
       
-      // Simple easing function
-      const easeOutQuad = elapsed * (2 - elapsed);
-      const currentProgress = easeOutQuad * percentage;
+      let animationId: number;
+      let startTime: number;
+      const duration = 2000;
       
-      setProgress(currentProgress);
-
-      if (elapsed < 1) {
-        animationId = requestAnimationFrame(animate);
-      }
-    };
-
-    // Shorter delay for mobile, longer for desktop staggered effect
-    const delay = isMobile ? 100 : 500;
-    const startTimer = setTimeout(() => {
+      const animate = (currentTime: number) => {
+        if (!startTime) startTime = currentTime;
+        const elapsed = currentTime - startTime;
+        const animProgress = Math.min(elapsed / duration, 1);
+        
+        const easeOut = 1 - Math.pow(1 - animProgress, 3);
+        const currentProgress = easeOut * percentage;
+        
+        setProgress(currentProgress);
+        
+        if (animProgress < 1) {
+          animationId = requestAnimationFrame(animate);
+        }
+      };
+      
       animationId = requestAnimationFrame(animate);
-    }, delay);
-    
-    // Nuclear option for progress rings
-    const nuclearTimer = setTimeout(() => {
-      if (progress === 0) {
-        setProgress(percentage);
-      }
-    }, 1500);
-    
-    return () => {
-      if (animationId) {
-        cancelAnimationFrame(animationId);
-      }
-      clearTimeout(startTimer);
-      clearTimeout(nuclearTimer);
     };
-  }, [percentage, isVisible, hasAnimated, isMobile]);
+
+    // Start immediately and with multiple fallbacks
+    startAnimation();
+    setTimeout(startAnimation, 100);
+    setTimeout(startAnimation, 300);
+    setTimeout(startAnimation, 600);
+    
+    // Emergency fallback
+    setTimeout(() => setProgress(percentage), 1200);
+    
+  }, [percentage, isMounted]);
 
   return (
     <div className="relative inline-block">

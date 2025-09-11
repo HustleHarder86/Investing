@@ -19,7 +19,6 @@ export default function AnimatedCounter({
 }: AnimatedCounterProps) {
   const [count, setCount] = useState(0);
   const [isMounted, setIsMounted] = useState(false);
-  const [hasAnimated, setHasAnimated] = useState(false);
   const counterRef = useRef<HTMLDivElement>(null);
 
   // Handle hydration
@@ -27,64 +26,61 @@ export default function AnimatedCounter({
     setIsMounted(true);
   }, []);
 
-  // Reliable animation triggering with multiple fallbacks
+  // Ultra-simple, bulletproof animation
   useEffect(() => {
-    if (!isMounted || hasAnimated) return;
+    if (!isMounted) return;
 
-    let animationId: ReturnType<typeof requestAnimationFrame> | null = null;
-    let startTime: number | null = null;
-
-    const triggerAnimation = () => {
-      if (hasAnimated) return;
+    // Start immediately with multiple aggressive fallbacks
+    let hasStarted = false;
+    
+    const startAnimation = () => {
+      if (hasStarted) return;
+      hasStarted = true;
       
-      setHasAnimated(true);
+      let animationId: number;
+      let startTime: number;
       
       const animate = (currentTime: number) => {
         if (!startTime) startTime = currentTime;
-        const progress = Math.min((currentTime - startTime) / duration, 1);
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / duration, 1);
         
-        // Simple easing function
-        const easeOutQuad = progress * (2 - progress);
-        const currentCount = Math.floor(easeOutQuad * target);
+        const easeOut = 1 - Math.pow(1 - progress, 3);
+        const currentCount = Math.floor(easeOut * target);
         
         setCount(currentCount);
-
+        
         if (progress < 1) {
           animationId = requestAnimationFrame(animate);
         }
       };
-
+      
       animationId = requestAnimationFrame(animate);
+      
+      return () => {
+        if (animationId) cancelAnimationFrame(animationId);
+      };
     };
 
-    // Multiple fallback strategies for reliable animation
-    // 1. Immediate trigger for production
-    const immediateTimer = setTimeout(triggerAnimation, 50);
+    // Multiple immediate triggers
+    startAnimation();
     
-    // 2. Normal delay-based trigger
-    const delayTimer = setTimeout(triggerAnimation, Math.max(200, startDelay));
+    const timer1 = setTimeout(startAnimation, 10);
+    const timer2 = setTimeout(startAnimation, 100);
+    const timer3 = setTimeout(startAnimation, Math.max(200, startDelay));
     
-    // 3. Final fallback to ensure animation always triggers
-    const fallbackTimer = setTimeout(triggerAnimation, Math.max(800, startDelay + 300));
-    
-    // 4. Nuclear option - if everything fails, just set the target value
-    const nuclearTimer = setTimeout(() => {
-      if (!hasAnimated) {
-        setCount(target);
-        setHasAnimated(true);
-      }
-    }, 2000);
+    // Absolute fallback - just show the number
+    const emergencyTimer = setTimeout(() => {
+      setCount(target);
+    }, 1000);
     
     return () => {
-      clearTimeout(immediateTimer);
-      clearTimeout(delayTimer);
-      clearTimeout(fallbackTimer);
-      clearTimeout(nuclearTimer);
-      if (animationId) {
-        cancelAnimationFrame(animationId);
-      }
+      clearTimeout(timer1);
+      clearTimeout(timer2);
+      clearTimeout(timer3);
+      clearTimeout(emergencyTimer);
     };
-  }, [target, duration, startDelay, isMounted, hasAnimated]);
+  }, [target, duration, startDelay, isMounted]);
 
   const formatNumber = (num: number, suffix: string) => {
     if (suffix === 'K+') {
@@ -106,12 +102,9 @@ export default function AnimatedCounter({
     return num.toString() + suffix;
   };
 
-  // Emergency fallback: if animation completely fails, show target value
-  const displayValue = isMounted && count === 0 && hasAnimated ? target : count;
-
   return (
     <div ref={counterRef} className={className}>
-      {formatNumber(displayValue, suffix)}
+      {formatNumber(count, suffix)}
     </div>
   );
 }
