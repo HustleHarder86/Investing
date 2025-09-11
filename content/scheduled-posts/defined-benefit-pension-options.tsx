@@ -439,7 +439,7 @@ const BlogContent = () => (
         <li>• Significant debt requiring immediate payoff</li>
         <li>• Business opportunity needing capital</li>
         <li>• Plans to emigrate (pension may not be portable)</li>
-        <li>• Sophisticated investor with >8% historical returns</li>
+        <li>• Sophisticated investor with &gt;8% historical returns</li>
       </ul>
       
       <h4 className="font-semibold text-gray-800 mb-2">Plan Concerns:</h4>
