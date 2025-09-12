@@ -2,8 +2,9 @@ name: Daily Blog Publisher
 
 on:
   schedule:
-    # Run at 9 AM EST (2 PM UTC) every day
-    - cron: '0 14 * * *'
+    # Run at 9 AM Toronto time (1 PM UTC during EDT, 2 PM UTC during EST)
+    # Using 1 PM UTC works for EDT (March-November)
+    - cron: '0 13 * * *'
   workflow_dispatch: # Allow manual trigger
 
 permissions:

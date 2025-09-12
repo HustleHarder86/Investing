@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'child-support-modifications-school-year',
+    title: 'Child Support Modifications for School Year Changes',
+    excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
+    author: 'Michael Chen',
+    authorTitle: 'CFP®, Divorce Specialist',
+    date: '2025-09-12',
+    readTime: '10 min',
+    category: 'Divorce Planning',
+    categorySlug: 'divorce-planning',
+    featured: false
+  },
+  {
     slug: 'tfsa-vs-rrsp-retirement-strategy',
     title: 'TFSA vs RRSP for Retirement: Age-Based Strategy Guide',
     excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
