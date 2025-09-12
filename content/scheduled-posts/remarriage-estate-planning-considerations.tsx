@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export const metadata: Metadata = {
   title: 'Remarriage: Estate Planning Considerations 2025 | Life Money',
@@ -21,6 +26,40 @@ const relatedPosts = [
     readTime: '15 min'
   }
 ];
+
+
+const blogFAQs = [
+  {
+    "question": "What is the best approach to divorce planning in Toronto?",
+    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    "question": "How much does divorce planning cost?",
+    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+  },
+  {
+    "question": "When should I start divorce planning?",
+    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+  }
+];
+
+const keyTakeaways = [
+  "• Matrimonial home rights",
+  "• Equalization claim option",
+  "• Preferential share ($350,000)",
+  "Early planning leads to better financial outcomes",
+  "Taking action now prevents costly mistakes later"
+];
+
+const relatedQuestions = [
+  "Where can I find divorce planning services in Toronto?",
+  "What documents do I need for divorce planning in Ontario?",
+  "How much does divorce planning cost in the GTA?",
+  "Are there free divorce planning resources in Toronto?",
+  "What are common divorce planning mistakes to avoid?"
+];
+
+const quickAnswer = "At 58, Patricia Wong thought she had estate planning figured out. Her $3.2 million estate would be divided equally among her three adult children ...";
 
 const BlogContent = () => (
   <>
@@ -429,7 +468,7 @@ const BlogContent = () => (
 
 export default function BlogPost() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="Remarriage: Estate Planning Considerations"
       subtitle="Balancing new love with family legacy protection"
       author="Sarah Mitchell"
@@ -439,8 +478,12 @@ export default function BlogPost() {
       category="Divorce Planning"
       categorySlug="divorce-planning"
       relatedPosts={relatedPosts}
-    >
+    
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} >
       <BlogContent />
-    </BlogPostTemplate>
+    </BlogPostTemplateEnhanced>
   );
 }

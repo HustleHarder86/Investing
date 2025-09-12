@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export const metadata: Metadata = {
   title: 'Maximizing EI Benefits 2025: Complete Guide for Ontario Workers | Life Money',
@@ -21,6 +26,40 @@ const relatedPosts = [
     readTime: '10 min'
   }
 ];
+
+
+const blogFAQs = [
+  {
+    "question": "What is the best approach to severance planning in Toronto?",
+    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    "question": "How much does severance planning cost?",
+    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+  },
+  {
+    "question": "When should I start severance planning?",
+    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+  }
+];
+
+const keyTakeaways = [
+  "• Maximum insurable earnings: $63,200 (up from $61,500)",
+  "• Maximum weekly benefit: $668 (55% of average earnings)",
+  "• Minimum hours needed: 420-700 (depends on regional unemployment)",
+  "Early planning leads to better financial outcomes",
+  "Taking action now prevents costly mistakes later"
+];
+
+const relatedQuestions = [
+  "How long does severance planning take in Ontario?",
+  "Where can I find severance planning services in Toronto?",
+  "What documents do I need for severance planning in Ontario?",
+  "How much does severance planning cost in the GTA?",
+  "Are there free severance planning resources in Toronto?"
+];
+
+const quickAnswer = "When Marcus received his Record of Employment after 12 years with a Bay Street firm, he thought applying for EI would be straightforward. \"I paid ...";
 
 const BlogContent = () => (
   <>
@@ -493,7 +532,7 @@ const BlogContent = () => (
 
 export default function BlogPostPage() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="Maximizing EI Benefits 2025: Complete Guide for Ontario Workers"
       subtitle="Everything you need to know about Employment Insurance optimization"
       author="David Kumar"
@@ -502,7 +541,11 @@ export default function BlogPostPage() {
       readTime="14 min"
       category="Severance Planning"
       categorySlug="severance-planning"
-      content={<BlogContent />}
+      content={<BlogContent 
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} />}
       relatedPosts={relatedPosts}
     />
   );

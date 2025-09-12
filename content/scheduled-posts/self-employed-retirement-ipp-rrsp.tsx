@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export const metadata: Metadata = {
   title: 'Self-Employed Retirement: IPP vs RRSP vs TFSA | Life Money',
@@ -21,6 +26,40 @@ const relatedPosts = [
     readTime: '12 min'
   }
 ];
+
+
+const blogFAQs = [
+  {
+    "question": "What is the best approach to retirement planning in Toronto?",
+    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    "question": "How much does retirement planning cost?",
+    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+  },
+  {
+    "question": "When should I start retirement planning?",
+    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+  }
+];
+
+const keyTakeaways = [
+  "• No employer pension or contribution matching",
+  "• Irregular income complicates savings plans",
+  "• Business reinvestment competes with retirement savings",
+  "Early planning leads to better financial outcomes",
+  "Taking action now prevents costly mistakes later"
+];
+
+const relatedQuestions = [
+  "Where can I find retirement planning services in Toronto?",
+  "What documents do I need for retirement planning in Ontario?",
+  "How much does retirement planning cost in the GTA?",
+  "Are there free retirement planning resources in Toronto?",
+  "What are common retirement planning mistakes to avoid?"
+];
+
+const quickAnswer = "Dr. Raj Sharma built a thriving medical practice in Markham over 25 years, but at 52, he had a startling realization: \"I've been so focused on my ...";
 
 const BlogContent = () => (
   <>
@@ -488,7 +527,7 @@ const BlogContent = () => (
 
 export default function BlogPost() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="Self-Employed Retirement: IPP vs RRSP vs TFSA"
       subtitle="Discover how Individual Pension Plans can triple your retirement savings capacity"
       author="Jennifer Park"
@@ -498,8 +537,12 @@ export default function BlogPost() {
       category="Retirement Planning"
       categorySlug="retirement-planning"
       relatedPosts={relatedPosts}
-    >
+    
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} >
       <BlogContent />
-    </BlogPostTemplate>
+    </BlogPostTemplateEnhanced>
   );
 }

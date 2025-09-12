@@ -1,9 +1,14 @@
 import React from 'react';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export default function TaxFreeRetirementIncomePost() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="Tax-Free Retirement Income: Legal Strategies for 2025"
       author="Sarah Mitchell"
       date="2025-01-17"
@@ -23,7 +28,11 @@ export default function TaxFreeRetirementIncomePost() {
       ]}
       readTime="14 min"
       slug="tax-free-retirement-income-strategies"
-    >
+    
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} />
       <div className="space-y-8">
         {/* Introduction */}
         <div>
@@ -705,6 +714,6 @@ export default function TaxFreeRetirementIncomePost() {
           </p>
         </section>
       </div>
-    </BlogPostTemplate>
+    </BlogPostTemplateEnhanced>
   );
 }

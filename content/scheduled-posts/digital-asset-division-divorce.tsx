@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export const metadata: Metadata = {
   title: 'Digital Asset Division in Modern Divorce: 2025 Complete Guide | Life Money',
@@ -21,6 +26,40 @@ const relatedPosts = [
     readTime: '10 min'
   }
 ];
+
+
+const blogFAQs = [
+  {
+    "question": "What is the best approach to divorce planning in Toronto?",
+    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    "question": "How much does divorce planning cost?",
+    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+  },
+  {
+    "question": "When should I start divorce planning?",
+    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+  }
+];
+
+const keyTakeaways = [
+  "• Cryptocurrencies: Bitcoin, Ethereum, altcoins (Cardano, Solana, Polygon)",
+  "• Stablecoins: USDT, USDC, DAI pegged to fiat currencies",
+  "• DeFi Positions: Liquidity pools, staking rewards, yield farming",
+  "Early planning leads to better financial outcomes",
+  "Taking action now prevents costly mistakes later"
+];
+
+const relatedQuestions = [
+  "Where can I find divorce planning services in Toronto?",
+  "What documents do I need for divorce planning in Ontario?",
+  "How much does divorce planning cost in the GTA?",
+  "Are there free divorce planning resources in Toronto?",
+  "What are common divorce planning mistakes to avoid?"
+];
+
+const quickAnswer = "When Marcus discovered his ex-spouse had transferred $300,000 worth of Bitcoin to an undisclosed wallet during their divorce proceedings, it marke...";
 
 const BlogContent = () => (
   <>
@@ -642,7 +681,7 @@ const BlogContent = () => (
 
 export default function BlogPost() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="Digital Asset Division in Modern Divorce"
       subtitle="Comprehensive guide to cryptocurrency, NFTs, and online businesses in Ontario family law"
       author="Michael Chen"
@@ -651,8 +690,12 @@ export default function BlogPost() {
       category="Divorce Planning"
       categorySlug="divorce-planning"
       relatedPosts={relatedPosts}
-    >
+    
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} >
       <BlogContent />
-    </BlogPostTemplate>
+    </BlogPostTemplateEnhanced>
   );
 }

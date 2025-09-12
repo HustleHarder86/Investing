@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export const metadata: Metadata = {
   title: 'Custody Arrangements: Financial Impact Assessment 2025 | Life Money',
@@ -21,6 +26,40 @@ const relatedPosts = [
     readTime: '10 min'
   }
 ];
+
+
+const blogFAQs = [
+  {
+    "question": "What is the best approach to divorce planning in Toronto?",
+    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    "question": "How much does divorce planning cost?",
+    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+  },
+  {
+    "question": "When should I start divorce planning?",
+    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+  }
+];
+
+const keyTakeaways = [
+  "• Full table child support amount",
+  "• No reduction for access time",
+  "• Payor covers Section 7 share",
+  "Early planning leads to better financial outcomes",
+  "Taking action now prevents costly mistakes later"
+];
+
+const relatedQuestions = [
+  "Where can I find divorce planning services in Toronto?",
+  "What documents do I need for divorce planning in Ontario?",
+  "How much does divorce planning cost in the GTA?",
+  "Are there free divorce planning resources in Toronto?",
+  "What are common divorce planning mistakes to avoid?"
+];
+
+const quickAnswer = "\"I thought 50/50 custody meant no child support,\" David Chen said, staring at his financial statement showing $2,400 monthly payments despite equa...";
 
 const BlogContent = () => (
   <>
@@ -308,7 +347,7 @@ const BlogContent = () => (
       
       <h4 className="font-semibold text-gray-800 mb-2">Material Changes Triggering Review:</h4>
       <ul className="space-y-1 text-gray-700 mb-4">
-        <li>□ Income change >15%</li>
+        <li>□ Income change &gt;15%</li>
         <li>□ Relocation affecting access</li>
         <li>□ Children's needs evolution</li>
         <li>□ Remarriage with new children</li>
@@ -393,7 +432,7 @@ const BlogContent = () => (
 
 export default function BlogPost() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="Custody Arrangements: Financial Impact Assessment"
       subtitle="Understanding the true costs of different custody models"
       author="Michael Chen"
@@ -403,8 +442,12 @@ export default function BlogPost() {
       category="Divorce Planning"
       categorySlug="divorce-planning"
       relatedPosts={relatedPosts}
-    >
+    
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} >
       <BlogContent />
-    </BlogPostTemplate>
+    </BlogPostTemplateEnhanced>
   );
 }

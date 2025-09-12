@@ -1,9 +1,14 @@
 import React from 'react';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export default function DefinedBenefitPensionPost() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="Defined Benefit Pension Maximization: Complete 2025 Guide"
       author="Michael Chen"
       date="2025-01-22"
@@ -23,7 +28,11 @@ export default function DefinedBenefitPensionPost() {
       ]}
       readTime="14 min"
       slug="defined-benefit-pension-maximization"
-    >
+    
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} />
       <div className="space-y-8">
         {/* Introduction */}
         <div>
@@ -848,6 +857,6 @@ export default function DefinedBenefitPensionPost() {
           </p>
         </section>
       </div>
-    </BlogPostTemplate>
+    </BlogPostTemplateEnhanced>
   );
 }

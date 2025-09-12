@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export const metadata: Metadata = {
   title: 'Manufacturing Severance Trends Q4 2025: Ontario Plant Closures Guide | Life Money',
@@ -21,6 +26,40 @@ const relatedPosts = [
     readTime: '11 min'
   }
 ];
+
+
+const blogFAQs = [
+  {
+    "question": "What is the best approach to severance planning in Toronto?",
+    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    "question": "How much does severance planning cost?",
+    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+  },
+  {
+    "question": "When should I start severance planning?",
+    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+  }
+];
+
+const keyTakeaways = [
+  "• 87 plant closures announced for Q4 2025",
+  "• 12,500+ manufacturing jobs at risk",
+  "• Average worker tenure: 18.5 years",
+  "Early planning leads to better financial outcomes",
+  "Taking action now prevents costly mistakes later"
+];
+
+const relatedQuestions = [
+  "How long does severance planning take in Ontario?",
+  "Where can I find severance planning services in Toronto?",
+  "What documents do I need for severance planning in Ontario?",
+  "How much does severance planning cost in the GTA?",
+  "Are there free severance planning resources in Toronto?"
+];
+
+const quickAnswer = "The announcement came at 6 AM on a Tuesday morning shift. After 32 years operating in Mississauga, Precision Manufacturing was closing its doors, ...";
 
 const BlogContent = () => (
   <>
@@ -498,7 +537,7 @@ const BlogContent = () => (
 
 export default function BlogPostPage() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="Manufacturing Severance Trends Q4 2025: Ontario Plant Closures Guide"
       subtitle="Navigate plant closures and mass layoffs with maximum severance protection"
       author="Robert Martinez"
@@ -507,7 +546,11 @@ export default function BlogPostPage() {
       readTime="18 min"
       category="Severance Planning"
       categorySlug="severance-planning"
-      content={<BlogContent />}
+      content={<BlogContent 
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} />}
       relatedPosts={relatedPosts}
     />
   );

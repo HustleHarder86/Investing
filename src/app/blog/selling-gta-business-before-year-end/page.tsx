@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export const metadata: Metadata = {
   title: 'Selling Your GTA Business Before Year-End: Tax Strategies 2025 | Life Money',
@@ -21,6 +26,40 @@ const relatedPosts = [
     readTime: '12 min'
   }
 ];
+
+
+const blogFAQs = [
+  {
+    "question": "What is the best approach to business sale in Toronto?",
+    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    "question": "How much does business sale cost?",
+    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+  },
+  {
+    "question": "When should I start business sale?",
+    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+  }
+];
+
+const keyTakeaways = [
+  "• Capital Gains Inclusion Rate: 50% on first $250,000, 66.67% above",
+  "• Lifetime Capital Gains Exemption: $1,016,836 for qualified small business shares",
+  "• Small Business Tax Rate: 12.2% in Ontario (combined federal/provincial)",
+  "Early planning leads to better financial outcomes",
+  "Taking action now prevents costly mistakes later"
+];
+
+const relatedQuestions = [
+  "Where can I find business sale services in Toronto?",
+  "What documents do I need for business sale in Ontario?",
+  "How much does business sale cost in the GTA?",
+  "Are there free business sale resources in Toronto?",
+  "What are common business sale mistakes to avoid?"
+];
+
+const quickAnswer = "As Roberto walked through his Vaughan manufacturing facility one last time this August, he couldn't help but feel overwhelmed. After 22 years buil...";
 
 const BlogContent = () => (
   <>
@@ -494,7 +533,7 @@ const BlogContent = () => (
 
 export default function SellingGtaBusinessBeforeYearEndPage() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="Selling Your GTA Business Before Year-End: Tax Strategies"
       subtitle="Strategic insights for Toronto-area business owners on timing, structuring, and optimizing their business sale for maximum tax efficiency before December 31, 2025"
       author="Jennifer Park"
@@ -503,7 +542,11 @@ export default function SellingGtaBusinessBeforeYearEndPage() {
       readTime="12 min"
       category="Business Sale"
       categorySlug="business-sale"
-      content={<BlogContent />}
+      content={<BlogContent 
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} />}
       relatedPosts={relatedPosts}
     />
   );

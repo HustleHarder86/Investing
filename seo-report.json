@@ -1,0 +1,1764 @@
+{
+  "timestamp": "2025-09-12T22:06:38.564Z",
+  "summary": {
+    "total": 79,
+    "optimized": 79,
+    "nonOptimized": 0,
+    "optimizationRate": "100.0",
+    "averageScore": "9.9"
+  },
+  "componentAdoption": {
+    "quickAnswer": "100.0%",
+    "faqSection": "100.0%",
+    "keyTakeaways": "100.0%",
+    "relatedQuestions": "100.0%",
+    "structuredData": "100.0%"
+  },
+  "details": [
+    {
+      "file": "defined-benefit-pension-maximization.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 11,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": true,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": []
+    },
+    {
+      "file": "early-retirement-50s-financial-independence.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 11,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": true,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": []
+    },
+    {
+      "file": "tax-free-retirement-income-strategies.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 11,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": true,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": []
+    },
+    {
+      "file": "page.tsx",
+      "path": "published",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "page.tsx",
+      "path": "published",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "page.tsx",
+      "path": "published",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "page.tsx",
+      "path": "published",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "page.tsx",
+      "path": "published",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "page.tsx",
+      "path": "published",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "page.tsx",
+      "path": "published",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "page.tsx",
+      "path": "published",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "page.tsx",
+      "path": "published",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "page.tsx",
+      "path": "published",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "page.tsx",
+      "path": "published",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "page.tsx",
+      "path": "published",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "page.tsx",
+      "path": "published",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "page.tsx",
+      "path": "published",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "page.tsx",
+      "path": "published",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "page.tsx",
+      "path": "published",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "black-friday-retirement-spending-budget.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "career-transition-financial-planning.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "common-law-separation-asset-division.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "cpp-timing-60-65-70-decision.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "cross-border-estate-planning-snowbirds.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "custody-arrangements-financial-impact.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "defined-benefit-pension-options.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "digital-asset-division-divorce.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "divorce-mediation-vs-litigation.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "early-retirement-50s-complete-roadmap.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "estate-freezes-2025.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "family-business-succession-planning.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "government-benefits-oas-gis-cpp.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "gray-divorce-retirement-accounts.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "halloween-shared-custody.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "healthcare-benefits-after-job-loss.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "high-conflict-divorce-financial-protection.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "manufacturing-severance-trends.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "maximizing-ei-benefits-guide.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "navigating-holidays-after-divorce.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "november-severance-negotiation-strategies.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "october-tax-planning-inheritances.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "partnership-buyouts-structuring.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "pension-commutation-lump-sum-analysis.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "prenup-financial-protection-strategies.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "probate-fees-ontario-2025.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "professional-practice-sales.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "q4-business-exit-planning.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "q4-layoff-patterns.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "remarriage-estate-planning-considerations.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "remembrance-day-veteran-benefits.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "resp-to-rrsp-education-retirement.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "retirement-healthcare-cost-planning.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "retirement-housing-downsizing-gta.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "retirement-income-splitting-strategies.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "retirement-part-time-work-strategies.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "retirement-planning-age-40.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "retirement-planning-checklist-gta.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "retirement-travel-budget-planning.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "retirement-withdrawal-sequence-optimization.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "rrif-conversion-strategy-timing.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "self-employed-retirement-ipp-rrsp.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "spousal-support-duration-case-law.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "stock-options-severance-packages.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "thanksgiving-blended-family-finances.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "thanksgiving-estate-planning-conversations.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "trust-structures-high-net-worth.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "year-end-business-sale-tax.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 10,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": true,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription"
+      ]
+    },
+    {
+      "file": "career-pivot-financial-planning.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 9,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": false,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription",
+        "ProperTitle"
+      ]
+    },
+    {
+      "file": "charitable-giving-tax-planning.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 9,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": false,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription",
+        "ProperTitle"
+      ]
+    },
+    {
+      "file": "constructive-dismissal-financial-rights.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 9,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": false,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription",
+        "ProperTitle"
+      ]
+    },
+    {
+      "file": "ei-benefits-maximization-strategies.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 9,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": false,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription",
+        "ProperTitle"
+      ]
+    },
+    {
+      "file": "emotional-financial-wellness-job-loss.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 9,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": false,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription",
+        "ProperTitle"
+      ]
+    },
+    {
+      "file": "family-cottage-inheritance-disputes.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 9,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": false,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription",
+        "ProperTitle"
+      ]
+    },
+    {
+      "file": "inheritance-tax-planning-ontario.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 9,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": false,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription",
+        "ProperTitle"
+      ]
+    },
+    {
+      "file": "inherited-debt-obligations-canada.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 9,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": false,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription",
+        "ProperTitle"
+      ]
+    },
+    {
+      "file": "inherited-investment-accounts-tax.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 9,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": false,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription",
+        "ProperTitle"
+      ]
+    },
+    {
+      "file": "job-search-expense-tax-deductions.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 9,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": false,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription",
+        "ProperTitle"
+      ]
+    },
+    {
+      "file": "power-of-attorney-financial-decisions.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 9,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": false,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription",
+        "ProperTitle"
+      ]
+    },
+    {
+      "file": "severance-package-negotiation-tactics.tsx",
+      "path": "scheduled",
+      "isOptimized": true,
+      "score": 9,
+      "checks": {
+        "hasEnhancedTemplate": true,
+        "hasQuickAnswer": true,
+        "hasFAQSection": true,
+        "hasKeyTakeaways": true,
+        "hasRelatedQuestions": true,
+        "hasStructuredData": true,
+        "hasMetaDescription": false,
+        "hasProperTitle": false,
+        "hasFAQData": true,
+        "hasKeyTakeawaysData": true,
+        "hasRelatedQuestionsData": true
+      },
+      "missing": [
+        "MetaDescription",
+        "ProperTitle"
+      ]
+    }
+  ],
+  "needsOptimization": []
+}

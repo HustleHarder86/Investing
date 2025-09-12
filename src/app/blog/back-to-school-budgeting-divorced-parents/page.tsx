@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export const metadata: Metadata = {
   title: 'Back-to-School Budgeting for Newly Divorced Parents 2025 | Life Money',
@@ -21,6 +26,40 @@ const relatedPosts = [
     readTime: '10 min'
   }
 ];
+
+
+const blogFAQs = [
+  {
+    "question": "What is the best approach to divorce planning in Toronto?",
+    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    "question": "How much does divorce planning cost?",
+    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+  },
+  {
+    "question": "When should I start divorce planning?",
+    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+  }
+];
+
+const keyTakeaways = [
+  "• School supplies: $150-250",
+  "• Clothing and shoes: $300-500",
+  "• Technology (laptop/tablet): $400-1,200",
+  "Early planning leads to better financial outcomes",
+  "Taking action now prevents costly mistakes later"
+];
+
+const relatedQuestions = [
+  "Where can I find divorce planning services in Toronto?",
+  "What documents do I need for divorce planning in Ontario?",
+  "How much does divorce planning cost in the GTA?",
+  "Are there free divorce planning resources in Toronto?",
+  "What are common divorce planning mistakes to avoid?"
+];
+
+const quickAnswer = "Sarah stared at the back-to-school supply list for her two kids attending school in North York, her stomach tightening. This would be her first Se...";
 
 const BlogContent = () => (
   <>
@@ -530,7 +569,7 @@ const BlogContent = () => (
 
 export default function BackToSchoolBudgetingDivorcedParentsPage() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="Back-to-School Budgeting for Newly Divorced Parents"
       subtitle="Practical strategies for managing school expenses, coordinating with your ex-spouse, and ensuring your children have everything they need for academic success"
       author="Sarah Mitchell"
@@ -539,7 +578,11 @@ export default function BackToSchoolBudgetingDivorcedParentsPage() {
       readTime="10 min"
       category="Divorce Planning"
       categorySlug="divorce-planning"
-      content={<BlogContent />}
+      content={<BlogContent 
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} />}
       relatedPosts={relatedPosts}
     />
   );

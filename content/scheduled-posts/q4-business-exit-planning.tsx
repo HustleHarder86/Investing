@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export const metadata: Metadata = {
   title: 'Q4 2025 Business Exit Planning Checklist: Complete Guide | Life Money',
@@ -21,6 +26,40 @@ const relatedPosts = [
     readTime: '11 min'
   }
 ];
+
+
+const blogFAQs = [
+  {
+    "question": "What is the best approach to business sale in Toronto?",
+    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    "question": "How much does business sale cost?",
+    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+  },
+  {
+    "question": "When should I start business sale?",
+    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+  }
+];
+
+const keyTakeaways = [
+  "• Strategic buyers completing annual acquisition targets",
+  "• Private equity deploying remaining fund allocations",
+  "• Tax planning driving seller urgency (66.67% capital gains)",
+  "Early planning leads to better financial outcomes",
+  "Taking action now prevents costly mistakes later"
+];
+
+const relatedQuestions = [
+  "How long does business sale take in Ontario?",
+  "What changed in business sale regulations this year?",
+  "Where can I find business sale services in Toronto?",
+  "What documents do I need for business sale in Ontario?",
+  "How much does business sale cost in the GTA?"
+];
+
+const quickAnswer = "October 1st marked exactly 90 days until year-end, and Sandra's phone hadn't stopped ringing. As the founder of a successful Toronto marketing age...";
 
 const BlogContent = () => (
   <>
@@ -493,7 +532,7 @@ const BlogContent = () => (
 
 export default function BlogPostPage() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="Q4 2025 Business Exit Planning Checklist: Complete Guide"
       subtitle="Your 90-day roadmap to a successful year-end business sale"
       author="Jennifer Park"
@@ -502,7 +541,11 @@ export default function BlogPostPage() {
       readTime="16 min"
       category="Business Sale"
       categorySlug="business-sale"
-      content={<BlogContent />}
+      content={<BlogContent 
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} />}
       relatedPosts={relatedPosts}
     />
   );

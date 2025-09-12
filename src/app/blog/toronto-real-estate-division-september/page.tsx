@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export const metadata: Metadata = {
   title: 'Toronto Real Estate Division in Divorce: September 2025 Market Update | Life Money',
@@ -21,6 +26,40 @@ const relatedPosts = [
     readTime: '11 min'
   }
 ];
+
+
+const blogFAQs = [
+  {
+    "question": "What is the best approach to divorce planning in Toronto?",
+    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    "question": "How much does divorce planning cost?",
+    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+  },
+  {
+    "question": "When should I start divorce planning?",
+    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+  }
+];
+
+const keyTakeaways = [
+  "• Average detached home: $1,676,000 (up 3.2% YoY)",
+  "• Average semi-detached: $1,123,000 (up 2.8% YoY)",
+  "• Average condo: $742,000 (down 1.3% YoY)",
+  "Early planning leads to better financial outcomes",
+  "Taking action now prevents costly mistakes later"
+];
+
+const relatedQuestions = [
+  "What changed in divorce planning regulations this year?",
+  "Where can I find divorce planning services in Toronto?",
+  "What documents do I need for divorce planning in Ontario?",
+  "How much does divorce planning cost in the GTA?",
+  "Are there free divorce planning resources in Toronto?"
+];
+
+const quickAnswer = "The September 2025 Toronto real estate market presents a paradox for divorcing couples: home values have stabilized after two years of volatility,...";
 
 const BlogContent = () => (
   <>
@@ -456,7 +495,7 @@ const BlogContent = () => (
 
 export default function BlogPostPage() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="Toronto Real Estate Division in Divorce: September 2025 Market Update"
       subtitle="Navigate property division in Toronto's complex real estate landscape"
       author="Michael Chen"
@@ -465,7 +504,11 @@ export default function BlogPostPage() {
       readTime="13 min"
       category="Divorce Planning"
       categorySlug="divorce-planning"
-      content={<BlogContent />}
+      content={<BlogContent 
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} />}
       relatedPosts={relatedPosts}
     />
   );

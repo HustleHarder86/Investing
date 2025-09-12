@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export const metadata: Metadata = {
   title: 'Cottage Inheritance Planning: Labor Day Family Meeting Guide | Life Money',
@@ -21,6 +26,40 @@ const relatedPosts = [
     readTime: '10 min'
   }
 ];
+
+
+const blogFAQs = [
+  {
+    "question": "What is the best approach to inheritance planning in Toronto?",
+    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    "question": "How much does inheritance planning cost?",
+    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+  },
+  {
+    "question": "When should I start inheritance planning?",
+    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+  }
+];
+
+const keyTakeaways = [
+  "• Capital gains inclusion rate increased to 66.67% (from 50%)",
+  "• Muskoka cottage values up 180% since 2015",
+  "• Average cottage tax bill on death: $275,000",
+  "Early planning leads to better financial outcomes",
+  "Taking action now prevents costly mistakes later"
+];
+
+const relatedQuestions = [
+  "How long does inheritance planning take in Ontario?",
+  "Where can I find inheritance planning services in Toronto?",
+  "What documents do I need for inheritance planning in Ontario?",
+  "How much does inheritance planning cost in the GTA?",
+  "Are there free inheritance planning resources in Toronto?"
+];
+
+const quickAnswer = "The Thompson family's Muskoka cottage had been their sanctuary for three generations. Every Labor Day weekend, children, grandchildren, and now gr...";
 
 const BlogContent = () => (
   <>
@@ -526,7 +565,7 @@ const BlogContent = () => (
 
 export default function BlogPostPage() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="Cottage Inheritance Planning: Labor Day Family Meeting Guide"
       subtitle="Turn your holiday weekend into a cottage succession planning success"
       author="Sarah Mitchell"
@@ -535,7 +574,11 @@ export default function BlogPostPage() {
       readTime="15 min"
       category="Inheritance Planning"
       categorySlug="inheritance-planning"
-      content={<BlogContent />}
+      content={<BlogContent 
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} />}
       relatedPosts={relatedPosts}
     />
   );

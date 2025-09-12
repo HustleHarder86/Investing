@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export const metadata: Metadata = {
   title: 'RRSP vs TFSA During Divorce: Which Assets Are Really Yours? | Life Money',
@@ -21,6 +26,40 @@ const relatedPosts = [
     readTime: '8 min'
   }
 ];
+
+
+const blogFAQs = [
+  {
+    "question": "What is the best approach to divorce planning in Toronto?",
+    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    "question": "How much does divorce planning cost?",
+    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+  },
+  {
+    "question": "When should I start divorce planning?",
+    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+  }
+];
+
+const keyTakeaways = [
+  "• RRSPs: Considered property under Ontario Family Law Act, subject to equalization",
+  "• TFSAs: Also property, but with different tax implications on division",
+  "• Valuation Date: Both valued at date of separation, not divorce",
+  "Early planning leads to better financial outcomes",
+  "Taking action now prevents costly mistakes later"
+];
+
+const relatedQuestions = [
+  "Where can I find divorce planning services in Toronto?",
+  "What documents do I need for divorce planning in Ontario?",
+  "How much does divorce planning cost in the GTA?",
+  "Are there free divorce planning resources in Toronto?",
+  "What are common divorce planning mistakes to avoid?"
+];
+
+const quickAnswer = "When Jennifer and Mark sat in my Toronto office last month, they thought dividing their retirement accounts would be straightforward. \"We'll just ...";
 
 const BlogContent = () => (
   <>
@@ -409,7 +448,7 @@ const BlogContent = () => (
 
 export default function RrspVsTfsaDuringDivorcePage() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="RRSP vs TFSA During Divorce: Which Assets Are Really Yours?"
       subtitle="A comprehensive guide to understanding how retirement accounts are divided in Ontario divorces, with strategies to minimize taxes and protect your financial future"
       author="Michael Chen"
@@ -418,7 +457,11 @@ export default function RrspVsTfsaDuringDivorcePage() {
       readTime="10 min"
       category="Divorce Planning"
       categorySlug="divorce-planning"
-      content={<BlogContent />}
+      content={<BlogContent 
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} />}
       relatedPosts={relatedPosts}
     />
   );

@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export const metadata: Metadata = {
   title: '2025 Ontario Inheritance Tax Changes: Complete Guide | Life Money',
@@ -21,6 +26,40 @@ const relatedPosts = [
     readTime: '12 min'
   }
 ];
+
+
+const blogFAQs = [
+  {
+    "question": "What is the best approach to inheritance planning in Toronto?",
+    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    "question": "How much does inheritance planning cost?",
+    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+  },
+  {
+    "question": "When should I start inheritance planning?",
+    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+  }
+];
+
+const keyTakeaways = [
+  "• Capital gains inclusion rate increases to 66.67% for gains over $250,000",
+  "• First $250,000 of capital gains remains at 50% inclusion rate",
+  "• Principal residence exemption remains unchanged",
+  "Early planning leads to better financial outcomes",
+  "Taking action now prevents costly mistakes later"
+];
+
+const relatedQuestions = [
+  "What changed in inheritance planning regulations this year?",
+  "Where can I find inheritance planning services in Toronto?",
+  "What documents do I need for inheritance planning in Ontario?",
+  "How much does inheritance planning cost in the GTA?",
+  "Are there free inheritance planning resources in Toronto?"
+];
+
+const quickAnswer = "The 2025 federal budget has introduced significant changes to how inherited assets are taxed in Canada, with the capital gains inclusion rate incr...";
 
 const BlogContent = () => (
   <>
@@ -303,7 +342,7 @@ const BlogContent = () => (
 
 export default function OntarioInheritanceTaxChanges2025Page() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="2025 Ontario Inheritance Tax Changes: What You Need to Know"
       subtitle="Major updates to capital gains inclusion rates could cost your family thousands - here's how to protect your estate"
       author="Sarah Mitchell"
@@ -312,7 +351,11 @@ export default function OntarioInheritanceTaxChanges2025Page() {
       readTime="8 min"
       category="Inheritance Planning"
       categorySlug="inheritance-planning"
-      content={<BlogContent />}
+      content={<BlogContent 
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} />}
       relatedPosts={relatedPosts}
     />
   );

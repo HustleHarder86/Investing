@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export const metadata: Metadata = {
   title: 'Professional Practice Sales: Lawyers, Doctors, Dentists | Life Money',
@@ -21,6 +26,40 @@ const relatedPosts = [
     readTime: '11 min'
   }
 ];
+
+
+const blogFAQs = [
+  {
+    "question": "What is the best approach to business sale in Toronto?",
+    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    "question": "How much does business sale cost?",
+    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+  },
+  {
+    "question": "When should I start business sale?",
+    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+  }
+];
+
+const keyTakeaways = [
+  "• Regulatory Restrictions: Who can own and operate",
+  "• Personal Goodwill: Value tied to individual practitioner",
+  "• Patient/Client Relationships: Transferability challenges",
+  "Early planning leads to better financial outcomes",
+  "Taking action now prevents costly mistakes later"
+];
+
+const relatedQuestions = [
+  "Where can I find business sale services in Toronto?",
+  "What documents do I need for business sale in Ontario?",
+  "How much does business sale cost in the GTA?",
+  "Are there free business sale resources in Toronto?",
+  "What are common business sale mistakes to avoid?"
+];
+
+const quickAnswer = "Dr. Patricia Chen had built one of Markham's most successful dental practices over 25 years, but at 58, she was ready to slow down. When a corpora...";
 
 const BlogContent = () => (
   <>
@@ -552,7 +591,7 @@ const BlogContent = () => (
 
 export default function BlogPost() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="Professional Practice Sales: Lawyers, Doctors, Dentists"
       subtitle="Specialized strategies for regulated profession transitions"
       author="Jennifer Park"
@@ -561,8 +600,12 @@ export default function BlogPost() {
       category="Business Sale"
       categorySlug="business-sale-planning"
       relatedPosts={relatedPosts}
-    >
+    
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} >
       <BlogContent />
-    </BlogPostTemplate>
+    </BlogPostTemplateEnhanced>
   );
 }

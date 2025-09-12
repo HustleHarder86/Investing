@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export const metadata: Metadata = {
   title: 'Healthcare Benefits After Job Loss: 2025 Ontario Coverage Guide | Life Money',
@@ -21,6 +26,40 @@ const relatedPosts = [
     readTime: '12 min'
   }
 ];
+
+
+const blogFAQs = [
+  {
+    "question": "What is the best approach to severance planning in Toronto?",
+    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    "question": "How much does severance planning cost?",
+    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+  },
+  {
+    "question": "When should I start severance planning?",
+    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+  }
+];
+
+const keyTakeaways = [
+  "• Prescription medications: $200-2,500",
+  "• Dental cleanings/checkups: $250-400",
+  "• Vision care and glasses: $100-200",
+  "Early planning leads to better financial outcomes",
+  "Taking action now prevents costly mistakes later"
+];
+
+const relatedQuestions = [
+  "How long does severance planning take in Ontario?",
+  "What changed in severance planning regulations this year?",
+  "Where can I find severance planning services in Toronto?",
+  "What documents do I need for severance planning in Ontario?",
+  "How much does severance planning cost in the GTA?"
+];
+
+const quickAnswer = "The email from HR arrived three weeks after David's termination from his senior marketing role: \"Your extended health and dental benefits will ter...";
 
 const BlogContent = () => (
   <>
@@ -513,7 +552,7 @@ const BlogContent = () => (
 
 export default function BlogPostPage() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="Healthcare Benefits After Job Loss: 2025 Ontario Coverage Guide"
       subtitle="Maintain essential health coverage without employer benefits"
       author="Lisa Thompson"
@@ -522,7 +561,11 @@ export default function BlogPostPage() {
       readTime="19 min"
       category="Severance Planning"
       categorySlug="severance-planning"
-      content={<BlogContent />}
+      content={<BlogContent 
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} />}
       relatedPosts={relatedPosts}
     />
   );

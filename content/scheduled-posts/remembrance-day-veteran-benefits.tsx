@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export const metadata: Metadata = {
   title: 'Remembrance Day: Veteran Financial Benefits Overview 2025 | Life Money',
@@ -21,6 +26,40 @@ const relatedPosts = [
     readTime: '11 min'
   }
 ];
+
+
+const blogFAQs = [
+  {
+    "question": "What is the best approach to retirement planning in Toronto?",
+    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    "question": "How much does retirement planning cost?",
+    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+  },
+  {
+    "question": "When should I start retirement planning?",
+    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+  }
+];
+
+const keyTakeaways = [
+  "• Disability benefits: Up to $4,200/month",
+  "• Income replacement: 90% of pre-release salary",
+  "• War veterans allowance: $1,600-2,400/month",
+  "Early planning leads to better financial outcomes",
+  "Taking action now prevents costly mistakes later"
+];
+
+const relatedQuestions = [
+  "Where can I find retirement planning services in Toronto?",
+  "What documents do I need for retirement planning in Ontario?",
+  "How much does retirement planning cost in the GTA?",
+  "Are there free retirement planning resources in Toronto?",
+  "What are common retirement planning mistakes to avoid?"
+];
+
+const quickAnswer = "Master Corporal James Thompson served three tours in Afghanistan, but his toughest battle came after returning home to Toronto in 2019. \"I knew ho...";
 
 const BlogContent = () => (
   <>
@@ -446,7 +485,7 @@ const BlogContent = () => (
 
 export default function BlogPost() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="Remembrance Day: Veteran Financial Benefits Overview"
       subtitle="Honoring service through comprehensive benefit access and financial security"
       author="Jennifer Park"
@@ -456,8 +495,12 @@ export default function BlogPost() {
       category="Retirement Planning"
       categorySlug="retirement-planning"
       relatedPosts={relatedPosts}
-    >
+    
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} >
       <BlogContent />
-    </BlogPostTemplate>
+    </BlogPostTemplateEnhanced>
   );
 }

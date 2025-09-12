@@ -1,5 +1,10 @@
 import React from 'react';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 const blogPost = {
   title: "Inherited Debt in Canada: What You're Really Responsible For When Someone Dies",
@@ -422,5 +427,9 @@ const blogPost = {
 };
 
 export default function InheritedDebtObligationsPost() {
-  return <BlogPostTemplate post={blogPost} />;
+  return <BlogPostTemplateEnhanced post={blogPost} 
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} />;
 }

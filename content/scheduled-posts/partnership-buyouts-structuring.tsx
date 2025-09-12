@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export const metadata: Metadata = {
   title: 'Business Partnership Buyouts: Structuring the Deal | Life Money',
@@ -21,6 +26,40 @@ const relatedPosts = [
     readTime: '13 min'
   }
 ];
+
+
+const blogFAQs = [
+  {
+    "question": "What is the best approach to business sale in Toronto?",
+    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    "question": "How much does business sale cost?",
+    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+  },
+  {
+    "question": "When should I start business sale?",
+    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+  }
+];
+
+const keyTakeaways = [
+  "• Valuation: Determining fair market value of the business",
+  "• Price Adjustment: Minority discounts, control premiums",
+  "• Payment Structure: Lump sum, installments, earn-outs",
+  "Early planning leads to better financial outcomes",
+  "Taking action now prevents costly mistakes later"
+];
+
+const relatedQuestions = [
+  "Where can I find business sale services in Toronto?",
+  "What documents do I need for business sale in Ontario?",
+  "How much does business sale cost in the GTA?",
+  "Are there free business sale resources in Toronto?",
+  "What are common business sale mistakes to avoid?"
+];
+
+const quickAnswer = "The conference room was silent as the two partners who had built a $15 million Toronto tech company over twelve years faced an impossible situatio...";
 
 const BlogContent = () => (
   <>
@@ -572,7 +611,7 @@ const BlogContent = () => (
 
 export default function BlogPost() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="Business Partnership Buyouts: Structuring the Deal"
       subtitle="Tax-efficient strategies for buying out your business partner"
       author="Jennifer Park"
@@ -581,8 +620,12 @@ export default function BlogPost() {
       category="Business Sale"
       categorySlug="business-sale-planning"
       relatedPosts={relatedPosts}
-    >
+    
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} >
       <BlogContent />
-    </BlogPostTemplate>
+    </BlogPostTemplateEnhanced>
   );
 }

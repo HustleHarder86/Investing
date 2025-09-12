@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export const metadata: Metadata = {
   title: 'Post-Pandemic Divorce Trends: Financial Planning Guide 2025 | Life Money',
@@ -21,6 +26,40 @@ const relatedPosts = [
     readTime: '12 min'
   }
 ];
+
+
+const blogFAQs = [
+  {
+    "question": "What is the best approach to divorce planning in Toronto?",
+    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    "question": "How much does divorce planning cost?",
+    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+  },
+  {
+    "question": "When should I start divorce planning?",
+    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+  }
+];
+
+const keyTakeaways = [
+  "• 42% of divorcing couples now have at least one remote worker",
+  "• Average GTA home value increased 65% since 2020",
+  "• 38% cite pandemic-related stress as a contributing factor",
+  "Early planning leads to better financial outcomes",
+  "Taking action now prevents costly mistakes later"
+];
+
+const relatedQuestions = [
+  "Where can I find divorce planning services in Toronto?",
+  "What documents do I need for divorce planning in Ontario?",
+  "How much does divorce planning cost in the GTA?",
+  "Are there free divorce planning resources in Toronto?",
+  "What are common divorce planning mistakes to avoid?"
+];
+
+const quickAnswer = "The COVID-19 pandemic fundamentally altered how we work, where we live, and sadly, how we divorce. Three years after the initial lockdowns, Greate...";
 
 const BlogContent = () => (
   <>
@@ -387,7 +426,7 @@ const BlogContent = () => (
 
 export default function DivorceFinancialPlanningAfterCovidPage() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="Post-Pandemic Divorce Trends: Financial Planning in the New Normal"
       subtitle="How remote work, housing market changes, and economic uncertainty are reshaping divorce settlements in the Greater Toronto Area"
       author="Michael Chen"
@@ -396,7 +435,11 @@ export default function DivorceFinancialPlanningAfterCovidPage() {
       readTime="10 min"
       category="Divorce Planning"
       categorySlug="divorce-planning"
-      content={<BlogContent />}
+      content={<BlogContent 
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} />}
       relatedPosts={relatedPosts}
     />
   );

@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export const metadata: Metadata = {
   title: 'October Tax Planning for Recent Inheritances: 2025 Strategies | Life Money',
@@ -21,6 +26,40 @@ const relatedPosts = [
     readTime: '12 min'
   }
 ];
+
+
+const blogFAQs = [
+  {
+    "question": "What is the best approach to inheritance planning in Toronto?",
+    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    "question": "How much does inheritance planning cost?",
+    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+  },
+  {
+    "question": "When should I start inheritance planning?",
+    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+  }
+];
+
+const keyTakeaways = [
+  "• Cash: Tax-free receipt, but investment income taxable going forward",
+  "• Real Estate: Stepped-up cost base, future gains taxable",
+  "• Stocks/Bonds: Fair market value at death becomes your cost base",
+  "Early planning leads to better financial outcomes",
+  "Taking action now prevents costly mistakes later"
+];
+
+const relatedQuestions = [
+  "Where can I find inheritance planning services in Toronto?",
+  "What documents do I need for inheritance planning in Ontario?",
+  "How much does inheritance planning cost in the GTA?",
+  "Are there free inheritance planning resources in Toronto?",
+  "What are common inheritance planning mistakes to avoid?"
+];
+
+const quickAnswer = "When Sarah inherited $1.8 million from her aunt's estate in April 2025, she thought the hard part was over once probate cleared. But sitting in ou...";
 
 const BlogContent = () => (
   <>
@@ -356,7 +395,7 @@ const BlogContent = () => (
 
 export default function BlogPost() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="October Tax Planning for Recent Inheritances"
       subtitle="Critical year-end strategies for 2025 beneficiaries"
       author="Jennifer Park"
@@ -365,8 +404,12 @@ export default function BlogPost() {
       category="Inheritance Planning"
       categorySlug="inheritance-planning"
       relatedPosts={relatedPosts}
-    >
+    
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} >
       <BlogContent />
-    </BlogPostTemplate>
+    </BlogPostTemplateEnhanced>
   );
 }

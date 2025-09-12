@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export const metadata: Metadata = {
   title: 'Cross-Border Estate Planning for Snowbirds: 2025 Guide | Life Money',
@@ -21,6 +26,40 @@ const relatedPosts = [
     readTime: '14 min'
   }
 ];
+
+
+const blogFAQs = [
+  {
+    "question": "What is the best approach to inheritance planning in Toronto?",
+    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    "question": "How much does inheritance planning cost?",
+    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+  },
+  {
+    "question": "When should I start inheritance planning?",
+    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+  }
+];
+
+const keyTakeaways = [
+  "• U.S. Citizens: $13.61 million exemption",
+  "• Non-U.S. Persons: $60,000 exemption (U.S.-situs assets only)",
+  "• Treaty Benefits: Pro-rated exemption based on worldwide estate",
+  "Early planning leads to better financial outcomes",
+  "Taking action now prevents costly mistakes later"
+];
+
+const relatedQuestions = [
+  "Where can I find inheritance planning services in Toronto?",
+  "What documents do I need for inheritance planning in Ontario?",
+  "How much does inheritance planning cost in the GTA?",
+  "Are there free inheritance planning resources in Toronto?",
+  "What are common inheritance planning mistakes to avoid?"
+];
+
+const quickAnswer = "Robert and Linda had spent fifteen winters in their Naples, Florida condo, living the quintessential Canadian snowbird dream. But when Robert pass...";
 
 const BlogContent = () => (
   <>
@@ -404,7 +443,7 @@ const BlogContent = () => (
 
 export default function BlogPost() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="Cross-Border Estate Planning for Snowbirds"
       subtitle="Essential strategies for Canadians with U.S. property and investments"
       author="Sarah Mitchell"
@@ -413,8 +452,12 @@ export default function BlogPost() {
       category="Inheritance Planning"
       categorySlug="inheritance-planning"
       relatedPosts={relatedPosts}
-    >
+    
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} >
       <BlogContent />
-    </BlogPostTemplate>
+    </BlogPostTemplateEnhanced>
   );
 }

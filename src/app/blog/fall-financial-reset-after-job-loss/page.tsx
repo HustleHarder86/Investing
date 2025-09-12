@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export const metadata: Metadata = {
   title: 'Fall Financial Reset After Job Loss: Your Complete Recovery Guide | Life Money',
@@ -21,6 +26,40 @@ const relatedPosts = [
     readTime: '8 min'
   }
 ];
+
+
+const blogFAQs = [
+  {
+    "question": "What is the best approach to severance planning in Toronto?",
+    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    "question": "How much does severance planning cost?",
+    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+  },
+  {
+    "question": "When should I start severance planning?",
+    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+  }
+];
+
+const keyTakeaways = [
+  "• September hiring up 34% vs. summer months",
+  "• Q4 budget allocations creating 45,000 new GTA positions",
+  "• Average time-to-hire decreased to 23 days (from 31 in July)",
+  "Early planning leads to better financial outcomes",
+  "Taking action now prevents costly mistakes later"
+];
+
+const relatedQuestions = [
+  "How long does severance planning take in Ontario?",
+  "Where can I find severance planning services in Toronto?",
+  "What documents do I need for severance planning in Ontario?",
+  "How much does severance planning cost in the GTA?",
+  "Are there free severance planning resources in Toronto?"
+];
+
+const quickAnswer = "Sarah stared at her laptop screen, the September 1st date mocking her from the calendar widget. Six weeks since her layoff from a prominent Toront...";
 
 const BlogContent = () => (
   <>
@@ -400,7 +439,7 @@ const BlogContent = () => (
 
 export default function BlogPostPage() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="Fall Financial Reset After Job Loss: Your Complete Recovery Guide"
       subtitle="Transform your career setback into a financial comeback this fall"
       author="David Kumar"
@@ -409,7 +448,11 @@ export default function BlogPostPage() {
       readTime="12 min"
       category="Severance Planning"
       categorySlug="severance-planning"
-      content={<BlogContent />}
+      content={<BlogContent 
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} />}
       relatedPosts={relatedPosts}
     />
   );

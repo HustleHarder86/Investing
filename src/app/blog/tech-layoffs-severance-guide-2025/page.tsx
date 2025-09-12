@@ -1,5 +1,10 @@
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
+
 
 export const metadata: Metadata = {
   title: 'Tech Layoffs 2025: Complete Severance Package Guide | Life Money',
@@ -21,6 +26,40 @@ const relatedPosts = [
     readTime: '10 min'
   }
 ];
+
+
+const blogFAQs = [
+  {
+    "question": "What is the best approach to severance planning in Toronto?",
+    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    "question": "How much does severance planning cost?",
+    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+  },
+  {
+    "question": "When should I start severance planning?",
+    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+  }
+];
+
+const keyTakeaways = [
+  "• 15,000+ tech workers laid off in the GTA since January 2024",
+  "• Average severance: 3-4 weeks per year of service",
+  "• 67% receive less than their legal entitlement initially",
+  "Early planning leads to better financial outcomes",
+  "Taking action now prevents costly mistakes later"
+];
+
+const relatedQuestions = [
+  "Where can I find severance planning services in Toronto?",
+  "What documents do I need for severance planning in Ontario?",
+  "How much does severance planning cost in the GTA?",
+  "Are there free severance planning resources in Toronto?",
+  "What are common severance planning mistakes to avoid?"
+];
+
+const quickAnswer = "The tech industry's boom-and-bust cycle hit a dramatic inflection point in 2025. After the massive hiring sprees of 2020-2022, Greater Toronto Are...";
 
 const BlogContent = () => (
   <>
@@ -453,7 +492,7 @@ const BlogContent = () => (
 
 export default function TechLayoffsSeveranceGuide2025Page() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="Tech Layoffs 2025: Maximizing Your Severance Package"
       subtitle="Essential strategies for tech professionals navigating job loss, from severance negotiation to tax optimization and career transition planning"
       author="David Kumar"
@@ -462,7 +501,11 @@ export default function TechLayoffsSeveranceGuide2025Page() {
       readTime="12 min"
       category="Severance Planning"
       categorySlug="severance-planning"
-      content={<BlogContent />}
+      content={<BlogContent 
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions} />}
       relatedPosts={relatedPosts}
     />
   );

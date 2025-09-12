@@ -16,7 +16,11 @@ Example: `src/app/blog/rrsp-contribution-strategies-2025/page.tsx`
 
 ```typescript
 import { Metadata } from 'next';
-import BlogPostTemplate from '@/components/templates/BlogPostTemplate';
+import BlogPostTemplateEnhanced from '@/components/templates/BlogPostTemplateEnhanced';
+import QuickAnswer from '@/components/seo/QuickAnswer';
+import FAQSection from '@/components/seo/FAQSection';
+import KeyTakeaways from '@/components/seo/KeyTakeaways';
+import RelatedQuestions from '@/components/seo/RelatedQuestions';
 
 // 1. SEO METADATA (Required)
 export const metadata: Metadata = {
@@ -36,7 +40,41 @@ const relatedPosts = [
   // Add 2-3 related posts
 ];
 
-// 3. BLOG CONTENT COMPONENT
+// 3. SEO DATA (Required for AI/Search optimization)
+const blogFAQs = [
+  {
+    question: "What is the best approach to [topic] in Toronto?",
+    answer: "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+  },
+  {
+    question: "How much does [service] cost in the GTA?",
+    answer: "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management."
+  },
+  {
+    question: "When should I start [planning type]?",
+    answer: "The best time to start is now. Early planning provides more options and better outcomes."
+  }
+];
+
+const keyTakeaways = [
+  "Key insight or statistic from the article",
+  "Important action item for readers",
+  "Common mistake to avoid",
+  "Time-sensitive consideration",
+  "Local GTA-specific insight"
+];
+
+const relatedQuestions = [
+  "Where can I find [service] in Toronto?",
+  "What documents do I need for [process] in Ontario?",
+  "How much does [service] cost in the GTA?",
+  "Are there free [service] resources in Toronto?",
+  "What are common [topic] mistakes to avoid?"
+];
+
+const quickAnswer = "Brief 150-200 character answer to the main question posed by the article title. This appears in search results.";
+
+// 4. BLOG CONTENT COMPONENT
 const BlogContent = () => (
   <>
     {/* OPENING PARAGRAPH - Hook the reader */}
@@ -107,10 +145,10 @@ const BlogContent = () => (
   </>
 );
 
-// 4. EXPORT DEFAULT FUNCTION
+// 5. EXPORT DEFAULT FUNCTION
 export default function [BlogSlug]Page() {
   return (
-    <BlogPostTemplate
+    <BlogPostTemplateEnhanced
       title="Full Blog Title"
       subtitle="Compelling subtitle that expands on the title"
       author="Author Name"
@@ -119,9 +157,14 @@ export default function [BlogSlug]Page() {
       readTime="X min"
       category="Category Name"
       categorySlug="category-slug"
-      content={<BlogContent />}
       relatedPosts={relatedPosts}
-    />
+      quickAnswer={quickAnswer}
+      keyTakeaways={keyTakeaways}
+      faqs={blogFAQs}
+      relatedQuestions={relatedQuestions}
+    >
+      <BlogContent />
+    </BlogPostTemplateEnhanced>
   );
 }
 ```
@@ -140,7 +183,32 @@ export default function [BlogSlug]Page() {
 - **Keywords**: Natural density of 1-2%
 - **Internal Links**: 3-5 links to services or other blogs
 
-### 3. Content Elements to Include
+### 3. SEO Components (Required)
+
+#### Quick Answer
+- 150-200 characters answering the main question
+- Appears in search results and AI summaries
+- Should be concise and actionable
+
+#### FAQs (3-5 questions)
+- Common questions about the topic
+- Include location-specific questions
+- Answers should be 50-150 words
+- Use schema.org FAQ markup
+
+#### Key Takeaways (5 items)
+- Bullet points of main insights
+- Each should be self-contained
+- Include statistics when possible
+- Focus on actionable items
+
+#### Related Questions (5 items)
+- "People Also Ask" style questions
+- Include location variations
+- Cover adjacent topics
+- Help with long-tail SEO
+
+### 4. Content Elements to Include
 
 #### Opening (150-200 words)
 - Hook with current statistics or trends
@@ -178,7 +246,7 @@ Each main section should include:
 <div className="bg-gray-50 p-6 rounded-lg mb-8">
 ```
 
-### 4. Writing Style
+### 5. Writing Style
 
 #### Tone
 - Professional but conversational
@@ -192,7 +260,7 @@ Each main section should include:
 - Present tense for current information
 - Avoid jargon without explanation
 
-### 5. Required Components
+### 6. Required Components
 
 #### Statistics & Data
 - Current year references (2025/2026)
@@ -212,7 +280,7 @@ Each main section should include:
 - Checklists for action items
 - Comparison tables when relevant
 
-### 6. Categories & Tags
+### 7. Categories & Tags
 
 #### Main Categories (use exactly as shown)
 - **Divorce Planning** (slug: divorce-planning)
@@ -226,7 +294,7 @@ Each main section should include:
 - David Kumar, CFP®, Career Transition Advisor
 - Jennifer Park, CPA, Tax Planning Expert
 
-### 7. Blog Post Ideas & Topics
+### 8. Blog Post Ideas & Topics
 
 #### Divorce Planning Topics
 - Matrimonial home strategies in hot markets
@@ -263,6 +331,11 @@ Before publishing any blog post:
 - [ ] File follows naming convention: `kebab-case-slug`
 - [ ] Metadata includes title, description, keywords
 - [ ] Related posts array has 2-3 relevant articles
+- [ ] Quick Answer is 150-200 characters
+- [ ] FAQs include 3-5 questions with schema markup
+- [ ] Key Takeaways has 5 actionable points
+- [ ] Related Questions has 5 "People Also Ask" items
+- [ ] Using BlogPostTemplateEnhanced (not old BlogPostTemplate)
 - [ ] Content uses BlogContent component structure
 - [ ] All className attributes use consistent styling
 - [ ] Images have alt text (if used)
@@ -368,7 +441,8 @@ Every blog post must:
 
 ---
 
-**Last Updated**: August 19, 2025
+**Last Updated**: September 12, 2025
+**Major Update**: Added SEO enhancement components for Google and AI platform optimization
 **Next Review**: Monthly
 
 **Note**: This guide ensures all Life Money blog content maintains consistent quality, structure, and branding. Follow it exactly for each new blog post.

@@ -9,7 +9,10 @@
     "lint": "next lint",
     "blog:publish": "node scripts/publish-blog.js",
     "blog:validate": "node scripts/validate-posts.js",
-    "blog:calendar": "echo 'View calendar at http://localhost:3000/blog/calendar'"
+    "blog:calendar": "echo 'View calendar at http://localhost:3000/blog/calendar'",
+    "blog:optimize": "node scripts/batch-optimize-blogs.js",
+    "seo:monitor": "node scripts/seo-monitor.js",
+    "seo:check": "node scripts/seo-monitor.js check"
   },
   "dependencies": {
     "lucide-react": "^0.540.0",
