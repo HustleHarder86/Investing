@@ -106,8 +106,7 @@ const updateBlogListing = (post) => {
 
 // Ping search engines to notify about sitemap changes
 const pingSearchEngines = async () => {
-  // Using Vercel URL until lifemoney.ca domain is configured
-  const sitemapUrl = 'https://investing-eight.vercel.app/sitemap.xml';
+  const sitemapUrl = 'https://lifemoney.ca/sitemap.xml';
   
   // Google Search Console ping
   const googlePingUrl = `https://www.google.com/ping?sitemap=${encodeURIComponent(sitemapUrl)}`;
