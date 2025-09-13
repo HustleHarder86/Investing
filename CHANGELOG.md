@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased] - Local Development
+
+## [1.1.1] - 2025-09-13
+### Fixed
+- Critical build errors blocking Vercel deployment since Sept 12
+- Fixed JSX syntax errors in 41 blog post files (24 scheduled + 17 published)
+- Changed all imports from BlogPostTemplateEnhancedEnhanced to BlogPostTemplateEnhanced
+- Fixed self-closing tags with children content in blog components
+- Restored automatic blog publishing functionality
+
 ### Added
 - Complete rebranding from ProsperBridge to Life Money across entire codebase (44 files updated)
   - Updated project name in package.json from "prosperbridge" to "lifemoney"
