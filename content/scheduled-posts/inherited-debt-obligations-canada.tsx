@@ -1,5 +1,5 @@
 import React from 'react';
-import BlogPostTemplateEnhancedEnhanced from '@/components/templates/BlogPostTemplateEnhancedEnhanced';
+import BlogPostTemplateEnhanced from '@/components/templates/BlogPostTemplateEnhanced';
 import QuickAnswer from '@/components/seo/QuickAnswer';
 import FAQSection from '@/components/seo/FAQSection';
 import KeyTakeaways from '@/components/seo/KeyTakeaways';
