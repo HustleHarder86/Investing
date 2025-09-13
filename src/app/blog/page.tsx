@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'cpp-timing-60-65-70-decision',
+    title: 'CPP at 60 vs 65 vs 70: The $200,000 Decision',
+    excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
+    author: 'Jennifer Park',
+    authorTitle: 'CPA, Tax Planning Expert',
+    date: '2025-09-13',
+    readTime: '8 min',
+    category: 'Retirement Planning',
+    categorySlug: 'general',
+    featured: false
+  },
+  {
     slug: 'child-support-modifications-school-year',
     title: 'Child Support Modifications for School Year Changes',
     excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
