@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'maximizing-ei-benefits-guide',
+    title: 'Maximizing EI Benefits: Complete Guide',
+    excerpt: 'Expert insights on severance planning to help you navigate your financial transition.',
+    author: 'David Kumar',
+    authorTitle: 'CFP®, Career Transition Advisor',
+    date: '2025-09-15',
+    readTime: '9 min',
+    category: 'Severance Planning',
+    categorySlug: 'severance-planning',
+    featured: false
+  },
+  {
     slug: 'retirement-planning-checklist-gta',
     title: 'Complete Retirement Planning Checklist for GTA Residents',
     excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
