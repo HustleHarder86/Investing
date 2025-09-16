@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'rrif-conversion-strategy-timing',
+    title: 'RRIF Conversion Strategy: Timing Your RRSP Rollover',
+    excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
+    author: 'Jennifer Park',
+    authorTitle: 'CPA, Tax Planning Expert',
+    date: '2025-09-16',
+    readTime: '8 min',
+    category: 'Retirement Planning',
+    categorySlug: 'general',
+    featured: false
+  },
+  {
     slug: 'maximizing-ei-benefits-guide',
     title: 'Maximizing EI Benefits: Complete Guide',
     excerpt: 'Expert insights on severance planning to help you navigate your financial transition.',
