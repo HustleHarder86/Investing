@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Accept that sadness is normal and temporary",
-  "• Schedule \"grief time\" before celebrations",
-  "• Prepare responses for well-meaning questions",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Net family property is equalized 50/50 in Ontario divorces",
+  "Matrimonial home is shared regardless of title ownership",
+  "Spousal support duration typically 0.5-1 year per year of marriage",
+  "Systematic approach ensures nothing is overlooked",
+  "Professional guidance accelerates successful outcomes"
 ];
 
 const relatedQuestions = [

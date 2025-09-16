@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Capital gains inclusion rate increases to 66.67% for gains over $250,000",
-  "• First $250,000 of capital gains remains at 50% inclusion rate",
-  "• Principal residence exemption remains unchanged",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Probate fees in Ontario are 1.5% on estates over $50,000",
+  "Primary residence exemption can save hundreds of thousands in taxes",
+  "Multiple wills strategy can reduce probate costs significantly",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

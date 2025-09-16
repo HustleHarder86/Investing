@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• 42% of divorcing couples now have at least one remote worker",
-  "• Average GTA home value increased 65% since 2020",
-  "• 38% cite pandemic-related stress as a contributing factor",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Net family property is equalized 50/50 in Ontario divorces",
+  "Matrimonial home is shared regardless of title ownership",
+  "Spousal support duration typically 0.5-1 year per year of marriage",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

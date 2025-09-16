@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• One dinner: $200-400",
-  "• One location: $0 travel",
-  "• Simple logistics: One plan",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Estate planning crucial to protect children's inheritances",
+  "Mutual wills can ensure promises to children honored",
+  "Life insurance trusts provide guaranteed distributions",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

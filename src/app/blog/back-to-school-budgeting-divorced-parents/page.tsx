@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• School supplies: $150-250",
-  "• Clothing and shoes: $300-500",
-  "• Technology (laptop/tablet): $400-1,200",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Professional financial planning optimizes outcomes",
+  "Early planning provides more options and flexibility",
+  "Tax strategies can significantly impact net results",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

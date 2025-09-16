@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Prescription medications: $200-2,500",
-  "• Dental cleanings/checkups: $250-400",
-  "• Vision care and glasses: $100-200",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Minimum severance is 1 week per year up to 8 weeks in Ontario",
+  "Common law severance can be 1-2 months per year of service",
+  "Negotiate total compensation package, not just base severance",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

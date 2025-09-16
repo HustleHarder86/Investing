@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Maximum monthly payment at 65: $1,364.60",
-  "• Average payment received: $758.00",
-  "• Reduction for starting at 60: 36% (0.6% per month early)",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Taking CPP at 60 reduces benefits by 36%, at 70 increases by 42%",
+  "Break-even age for early CPP is typically 77-80 years old",
+  "Maximum monthly CPP at 65 is $1,364 in 2025",
+  "Average CPP payment received is $758 per month",
+  "Health status and life expectancy crucial for timing decision"
 ];
 
 const relatedQuestions = [

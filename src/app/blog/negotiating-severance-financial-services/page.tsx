@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Base Severance: Industry standard 1-2 months per year (negotiable to 2-3)",
-  "• Bonus Continuation: Pro-rated current year plus 1-2 years forward",
-  "• Deferred Compensation: Accelerated vesting often negotiable",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Minimum severance is 1 week per year up to 8 weeks in Ontario",
+  "Common law severance can be 1-2 months per year of service",
+  "Negotiate total compensation package, not just base severance",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

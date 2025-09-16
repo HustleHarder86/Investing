@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Annual budget: $4,000-8,000",
-  "• Trips per year: 3-5",
-  "• Average trip length: 7-10 days",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Travel medical insurance essential for trips over 7 days",
+  "Credit card insurance often has age and trip length limits",
+  "Provincial coverage minimal outside Canada",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

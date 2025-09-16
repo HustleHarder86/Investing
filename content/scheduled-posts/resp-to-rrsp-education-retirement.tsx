@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• 20% government grant (CESG)",
-  "• Additional CLB for low income",
-  "• Flexible withdrawal timing",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Maximum CESG grant is $500/year, $7,200 lifetime per child",
+  "Unused RESP room can transfer to RRSP under conditions",
+  "Educational assistance payments taxed in student's hands",
+  "Contribution room doesn't expire until child turns 31",
+  "Family plans allow flexibility between beneficiaries"
 ];
 
 const relatedQuestions = [

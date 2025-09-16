@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Capital Gains Inclusion Rate: 50% on first $250,000, 66.67% above",
-  "• Lifetime Capital Gains Exemption: $1,016,836 for qualified small business shares",
-  "• Small Business Tax Rate: 12.2% in Ontario (combined federal/provincial)",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Year-end tax planning can save thousands in current year",
+  "RRSP deadline is 60 days after December 31",
+  "Capital losses can offset gains from past 3 years",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

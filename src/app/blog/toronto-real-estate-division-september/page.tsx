@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Average detached home: $1,676,000 (up 3.2% YoY)",
-  "• Average semi-detached: $1,123,000 (up 2.8% YoY)",
-  "• Average condo: $742,000 (down 1.3% YoY)",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Probate fees in Ontario are 1.5% on estates over $50,000",
+  "Primary residence exemption can save hundreds of thousands in taxes",
+  "Multiple wills strategy can reduce probate costs significantly",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Accrual Rate: Typically 1.5% to 2% per year of service",
-  "• Best Average Earnings: Usually best 5 consecutive years",
-  "• Years of Service: Credited service plus any purchased service",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "DB pensions provide guaranteed income indexed to inflation",
+  "Commuted value option provides flexibility but transfers risk",
+  "Bridge benefits typically end at age 65 when CPP starts",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

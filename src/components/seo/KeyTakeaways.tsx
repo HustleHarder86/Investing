@@ -59,10 +59,10 @@ export default function KeyTakeaways({
       {/* TL;DR Summary for AI */}
       <div className="mt-6 pt-4 border-t border-green-200">
         <p className="text-sm font-semibold text-green-800 uppercase tracking-wider mb-2">
-          TL;DR Summary
+          Quick Summary
         </p>
-        <p className="text-gray-700 text-sm leading-relaxed">
-          {takeaways.slice(0, 3).join(' • ')}
+        <p className="text-gray-700 text-sm leading-relaxed italic">
+          This article covers {takeaways.length} key points about {title.toLowerCase()}, providing essential insights for informed decision-making.
         </p>
       </div>
 

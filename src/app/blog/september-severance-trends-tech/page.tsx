@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Average severance increased to 4.2 weeks per year (up from 3.8 in June)",
-  "• 73% of packages now include extended benefits (up from 65%)",
-  "• Median negotiation success: 45% increase from initial offer",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Minimum severance is 1 week per year up to 8 weeks in Ontario",
+  "Common law severance can be 1-2 months per year of service",
+  "Negotiate total compensation package, not just base severance",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

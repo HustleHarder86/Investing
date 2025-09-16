@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Maximum insurable earnings: $63,200 (up from $61,500)",
-  "• Maximum weekly benefit: $668 (55% of average earnings)",
-  "• Minimum hours needed: 420-700 (depends on regional unemployment)",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Maximum EI benefit is $668/week for up to 45 weeks in 2025",
+  "Need 420-700 insurable hours depending on regional unemployment rate",
+  "Apply within 4 weeks of job loss to avoid benefit delays",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

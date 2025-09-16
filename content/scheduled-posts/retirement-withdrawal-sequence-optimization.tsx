@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Higher lifetime taxes: +$200-500K",
-  "• Lost OAS benefits: $7,700/year",
-  "• Estate value reduction: 20-30%",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Optimal sequence: non-registered, TFSA, then RRSP/RRIF",
+  "Tax bracket management can save 10-15% annually",
+  "GIS and OAS clawbacks affect optimal strategy",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

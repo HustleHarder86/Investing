@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• 40% of Canadian families are now blended",
-  "• 67% have no formal estate plan addressing complexity",
-  "• 73% of estate disputes involve blended families",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Probate fees in Ontario are 1.5% on estates over $50,000",
+  "Primary residence exemption can save hundreds of thousands in taxes",
+  "Multiple wills strategy can reduce probate costs significantly",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

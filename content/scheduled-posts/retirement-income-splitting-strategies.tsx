@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• RRIF withdrawals: All payments from your RRIF",
-  "• Life annuity payments: From RRSPs or pension plans",
-  "• Registered pension plan: Monthly pension payments",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Split up to 50% of eligible pension income with spouse at 65+",
+  "Save $3,000-8,000 annually through income splitting strategies",
+  "Both spouses can claim $2,000 pension income tax credit",
+  "RRIF, annuity, and pension plan payments all qualify",
+  "Strategic splitting can reduce OAS clawback impact"
 ];
 
 const relatedQuestions = [

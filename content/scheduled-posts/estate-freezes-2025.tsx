@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Tax Certainty: Lock in current tax rates and values",
-  "• Growth Transfer: Future appreciation benefits next generation",
-  "• Control Retention: Maintain voting control through preferred shares",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Probate fees in Ontario are 1.5% on estates over $50,000",
+  "Primary residence exemption can save hundreds of thousands in taxes",
+  "Multiple wills strategy can reduce probate costs significantly",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

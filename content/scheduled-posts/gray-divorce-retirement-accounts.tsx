@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• 1 in 4 divorces now involve couples over 50",
-  "• Average length of marriage: 26 years",
-  "• Median retirement savings at stake: $680,000",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Retirement accounts divided using equalization date values",
+  "CPP credits can be split for years of cohabitation",
+  "Health insurance continuation crucial consideration",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

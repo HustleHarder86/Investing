@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Capital gains inclusion rate at 66.67% (affecting buyer financing)",
-  "• Interest rates at 5.25% (impacting leveraged buyouts)",
-  "• Year-end tax planning driving acquisition timing",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Year-end tax planning can save thousands in current year",
+  "RRSP deadline is 60 days after December 31",
+  "Capital losses can offset gains from past 3 years",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

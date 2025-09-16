@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Valuation: Determining fair market value of the business",
-  "• Price Adjustment: Minority discounts, control premiums",
-  "• Payment Structure: Lump sum, installments, earn-outs",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Valuation methodology must be predetermined in agreement",
+  "Life insurance funding ensures liquidity for buyouts",
+  "Shotgun clauses can force sales at inopportune times",
+  "Customized strategies outperform generic approaches",
+  "Regular reviews ensure plans remain optimal"
 ];
 
 const relatedQuestions = [

@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Toronto average: $1.82M",
-  "• Mississauga: $1.45M",
-  "• Annual carrying costs: $35-50K",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Downsizing can free up $300,000-500,000 in GTA market",
+  "Principal residence exemption preserves full proceeds",
+  "Condo fees and property tax must factor into budgets",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

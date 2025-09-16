@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Strategic buyers completing annual acquisition targets",
-  "• Private equity deploying remaining fund allocations",
-  "• Tax planning driving seller urgency (66.67% capital gains)",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Lifetime capital gains exemption is $971,190 for 2025",
+  "Asset sale vs share sale has major tax implications",
+  "Earnouts and vendor financing can optimize tax treatment",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

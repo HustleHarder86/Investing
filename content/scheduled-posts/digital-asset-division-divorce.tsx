@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Cryptocurrencies: Bitcoin, Ethereum, altcoins (Cardano, Solana, Polygon)",
-  "• Stablecoins: USDT, USDC, DAI pegged to fiat currencies",
-  "• DeFi Positions: Liquidity pools, staking rewards, yield farming",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Cryptocurrency and NFTs are divisible marital property",
+  "Social media accounts with income are business assets",
+  "Digital asset disclosure increasingly required",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

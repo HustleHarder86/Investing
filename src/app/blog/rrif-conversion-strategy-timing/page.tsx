@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Age 71: 5.28% of RRIF value",
-  "• Pension income tax credit ($2,000)",
-  "• Income splitting eligibility at 65",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Convert RRSP to RRIF by December 31 of the year you turn 71",
+  "Minimum withdrawal rates increase from 5.28% at 71 to 20% at 95+",
+  "Using younger spouse's age can reduce mandatory withdrawals significantly",
+  "Strategic planning can reduce costs by 30-50%",
+  "Implementation timing affects overall success"
 ];
 
 const relatedQuestions = [

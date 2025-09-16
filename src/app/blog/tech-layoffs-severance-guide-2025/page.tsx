@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• 15,000+ tech workers laid off in the GTA since January 2024",
-  "• Average severance: 3-4 weeks per year of service",
-  "• 67% receive less than their legal entitlement initially",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Minimum severance is 1 week per year up to 8 weeks in Ontario",
+  "Common law severance can be 1-2 months per year of service",
+  "Negotiate total compensation package, not just base severance",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

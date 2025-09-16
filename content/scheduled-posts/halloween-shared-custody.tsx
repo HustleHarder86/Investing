@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Limited 2-3 hour trick-or-treating window",
-  "• Neighborhood-based activity (whose neighborhood?)",
-  "• School parties and parades during custody time",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Best interests of child is paramount consideration",
+  "Equal shared parenting increasingly common default",
+  "Relocation requires consent or court approval",
+  "Customized strategies outperform generic approaches",
+  "Regular reviews ensure plans remain optimal"
 ];
 
 const relatedQuestions = [

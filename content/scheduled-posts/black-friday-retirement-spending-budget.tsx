@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• \"I've earned it\" mentality",
-  "• Grandparent guilt spending",
-  "• FOMO on \"lifetime deals\"",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Average Canadian spends $1,800 during holiday season",
+  "Retirement budgets need 3-5% inflation adjustment annually",
+  "Holiday spending can derail retirement savings goals",
+  "Budget 10-15% of retirement income for discretionary spending",
+  "Credit card debt reduces retirement savings by 20-30%"
 ];
 
 const relatedQuestions = [

@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Average number of career changes: 5-7 per lifetime",
-  "• Workers considering career change: 52%",
-  "• Average transition period: 6-18 months",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Career change at 50+ requires 12-18 months financial cushion",
+  "Pension transfers have strict timelines and limits",
+  "Retraining costs may qualify for tax credits",
+  "Strategic planning can reduce costs by 30-50%",
+  "Implementation timing affects overall success"
 ];
 
 const relatedQuestions = [

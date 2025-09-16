@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• 2025 new room: $7,000",
-  "• Total since 2009: $95,000",
-  "• Tax on withdrawal: 0%",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "TFSA contribution limit is $7,000 for 2025, $95,000 total room",
+  "Investment growth and withdrawals are completely tax-free",
+  "Over-contributions face 1% monthly penalty tax",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

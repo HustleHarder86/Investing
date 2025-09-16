@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• 38% of annual terminations occur Nov-Dec",
-  "• 67% of restructuring announcements in Q4",
-  "• Average severance in November: 3.2 weeks per year",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Minimum severance is 1 week per year up to 8 weeks in Ontario",
+  "Common law severance can be 1-2 months per year of service",
+  "Negotiate total compensation package, not just base severance",
+  "Strategic planning can reduce costs by 30-50%",
+  "Implementation timing affects overall success"
 ];
 
 const relatedQuestions = [

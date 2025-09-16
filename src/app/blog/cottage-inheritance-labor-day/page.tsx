@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Capital gains inclusion rate increased to 66.67% (from 50%)",
-  "• Muskoka cottage values up 180% since 2015",
-  "• Average cottage tax bill on death: $275,000",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Probate fees in Ontario are 1.5% on estates over $50,000",
+  "Primary residence exemption can save hundreds of thousands in taxes",
+  "Multiple wills strategy can reduce probate costs significantly",
+  "Systematic approach ensures nothing is overlooked",
+  "Professional guidance accelerates successful outcomes"
 ];
 
 const relatedQuestions = [

@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Conservative approach: 33x annual expenses ($2.64M for $80K/year)",
-  "• Moderate approach: 28x annual expenses ($2.24M for $80K/year)",
-  "• Aggressive approach: 25x annual expenses ($2M for $80K/year)",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Professional financial planning optimizes outcomes",
+  "Early planning provides more options and flexibility",
+  "Tax strategies can significantly impact net results",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

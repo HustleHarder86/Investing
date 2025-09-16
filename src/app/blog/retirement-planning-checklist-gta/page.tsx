@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Average Toronto home price: $1.2 million (major retirement asset)",
-  "• Cost of retirement in GTA: $65,000-85,000/year for couples",
-  "• Average retirement savings at 55: $125,000 (far below needs)",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "GTA retirement costs average $65,000-85,000/year for couples",
+  "CPP maximum benefit is $1,364/month if taken at 65",
+  "TFSA contribution room is $7,000 for 2025",
+  "Average Toronto home price $1.2M is major retirement asset",
+  "Most retirees need $1.5-2.5 million for comfortable GTA lifestyle"
 ];
 
 const relatedQuestions = [

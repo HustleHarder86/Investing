@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Full table child support amount",
-  "• No reduction for access time",
-  "• Payor covers Section 7 share",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Best interests of child is paramount consideration",
+  "Equal shared parenting increasingly common default",
+  "Relocation requires consent or court approval",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

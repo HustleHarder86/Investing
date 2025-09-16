@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• No employer pension or contribution matching",
-  "• Irregular income complicates savings plans",
-  "• Business reinvestment competes with retirement savings",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "IPP can provide 65% more retirement savings than RRSP",
+  "No employer pension means higher personal savings needed",
+  "Incorporation enables income splitting and tax deferral",
+  "Small business deduction saves $30,000+ annually",
+  "Dividend vs salary decision affects CPP and retirement"
 ];
 
 const relatedQuestions = [

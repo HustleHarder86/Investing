@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Median savings: $63,000",
-  "• Bottom 40%: Under $25,000",
-  "• Home equity: $285,000",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "At 40, you need 8-10x annual income saved by retirement",
+  "25 years of compound growth can multiply savings 4-6 times",
+  "Maximum RRSP contributions can save $15,000+ annually in taxes",
+  "GTA retirement requires $1.5-2.5 million for comfortable lifestyle",
+  "Starting at 40 requires saving 20-25% of gross income"
 ];
 
 const relatedQuestions = [

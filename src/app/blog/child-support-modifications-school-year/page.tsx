@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Childcare: Work or education-related daycare",
-  "• Medical/Dental: Uninsured health expenses over $100/year",
-  "• Health insurance: Premiums for extended coverage",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Child support tables are mandatory minimums in Ontario",
+  "Section 7 expenses shared proportional to income",
+  "Support continues if child in full-time post-secondary",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

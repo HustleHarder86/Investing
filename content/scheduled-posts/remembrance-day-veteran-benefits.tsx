@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Disability benefits: Up to $4,200/month",
-  "• Income replacement: 90% of pre-release salary",
-  "• War veterans allowance: $1,600-2,400/month",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Veterans Affairs disability benefits are completely tax-free",
+  "Career Impact Allowance supplements up to $1,500/month",
+  "Survivor benefits continue for spouse and children",
+  "Veterans Independence Program covers home care costs",
+  "Priority access to long-term care facilities available"
 ];
 
 const relatedQuestions = [

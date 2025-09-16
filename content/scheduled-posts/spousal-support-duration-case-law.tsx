@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Short marriages (under 5 years): 0.5 to 1 year per year of marriage",
-  "• Medium marriages (5-19 years): Gradual increase in duration",
-  "• Long marriages (20+ years): Often indefinite duration",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Support duration typically 0.5-1 year per year married",
+  "Spousal Support Advisory Guidelines provide ranges",
+  "Support can be reviewable, time-limited, or indefinite",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

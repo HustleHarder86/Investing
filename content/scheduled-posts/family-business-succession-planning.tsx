@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• 70% of family businesses fail during first generation transfer",
-  "• 90% don't survive to third generation",
-  "• Only 23% have formal succession plans",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Family business capital gains exemption doubled in 2025",
+  "Estate freeze locks in current values for tax purposes",
+  "Succession planning should start 5-10 years before exit",
+  "Customized strategies outperform generic approaches",
+  "Regular reviews ensure plans remain optimal"
 ];
 
 const relatedQuestions = [

@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Second marriages: 67%",
-  "• High net worth: 82%",
-  "• Business owners: 74%",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Prenups protect pre-marital assets and inheritances",
+  "Must have independent legal advice to be enforceable",
+  "Cannot waive child support or custody rights",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

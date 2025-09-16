@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Automatic rights after 3 years",
-  "• Same as marriage after living together",
-  "• Equal property division",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "No automatic property division for common law in Ontario",
+  "Cohabitation agreements protect individual assets",
+  "Spousal support possible after 3 years cohabitation",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

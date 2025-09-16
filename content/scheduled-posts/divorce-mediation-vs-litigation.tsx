@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "✅ Both parties committed to settlement",
-  "✅ Full financial disclosure provided",
-  "✅ Children's interests prioritized",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Mediation costs 80% less than litigation on average",
+  "Litigation timeline typically 18-36 months vs 3-6 for mediation",
+  "Mediated agreements have higher compliance rates",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

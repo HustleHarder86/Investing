@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• RRSPs: Considered property under Ontario Family Law Act, subject to equalization",
-  "• TFSAs: Also property, but with different tax implications on division",
-  "• Valuation Date: Both valued at date of separation, not divorce",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "TFSA contribution limit is $7,000 for 2025, $95,000 total room",
+  "Investment growth and withdrawals are completely tax-free",
+  "Over-contributions face 1% monthly penalty tax",
+  "Customized strategies outperform generic approaches",
+  "Regular reviews ensure plans remain optimal"
 ];
 
 const relatedQuestions = [

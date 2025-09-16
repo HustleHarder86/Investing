@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Budget Planning: 2026 budgets finalized without certain positions",
-  "• Bonus Avoidance: Terminate before year-end bonus eligibility",
-  "• Tax Write-offs: Severance costs reduce current year taxes",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Year-end tax planning can save thousands in current year",
+  "RRSP deadline is 60 days after December 31",
+  "Capital losses can offset gains from past 3 years",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

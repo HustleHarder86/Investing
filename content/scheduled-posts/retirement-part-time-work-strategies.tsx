@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Stay mentally active: 68%",
-  "• Social connections: 61%",
-  "• Sense of purpose: 58%",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Earning over $5,000 may trigger CPP contributions",
+  "GIS benefits reduced by 50 cents per dollar earned",
+  "Part-time income can delay RRIF withdrawals",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

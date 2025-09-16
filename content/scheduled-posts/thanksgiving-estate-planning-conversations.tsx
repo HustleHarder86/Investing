@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Natural gathering without estate-specific pressure",
-  "• Multiple days together allows for gradual conversations",
-  "• Gratitude mindset promotes constructive dialogue",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Probate fees in Ontario are 1.5% on estates over $50,000",
+  "Primary residence exemption can save hundreds of thousands in taxes",
+  "Multiple wills strategy can reduce probate costs significantly",
+  "Systematic approach ensures nothing is overlooked",
+  "Professional guidance accelerates successful outcomes"
 ];
 
 const relatedQuestions = [

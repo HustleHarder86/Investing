@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Capital gains inclusion rate: 66.67% (up from 50%)",
-  "• Lifetime capital gains exemption: $1,016,836",
-  "• Small business deduction limit: $500,000",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Lifetime capital gains exemption is $971,190 for 2025",
+  "Asset sale vs share sale has major tax implications",
+  "Earnouts and vendor financing can optimize tax treatment",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

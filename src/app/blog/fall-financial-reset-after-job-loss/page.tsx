@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• September hiring up 34% vs. summer months",
-  "• Q4 budget allocations creating 45,000 new GTA positions",
-  "• Average time-to-hire decreased to 23 days (from 31 in July)",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Minimum severance is 1 week per year up to 8 weeks in Ontario",
+  "Common law severance can be 1-2 months per year of service",
+  "Negotiate total compensation package, not just base severance",
+  "Systematic approach ensures nothing is overlooked",
+  "Professional guidance accelerates successful outcomes"
 ];
 
 const relatedQuestions = [

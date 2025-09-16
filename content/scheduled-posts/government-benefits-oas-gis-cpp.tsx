@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Universal program at 65",
-  "• Max: $8,116/year (2025)",
-  "• Clawback starts at $90,997",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "OAS maximum is $713.34/month at 65, clawback starts at $90,997",
+  "GIS provides up to $1,065/month for low-income seniors",
+  "CPP maximum is $1,364/month if taken at age 65",
+  "Combined government benefits can provide $30,000+ annually",
+  "Apply 6 months before turning 65 to avoid delays"
 ];
 
 const relatedQuestions = [

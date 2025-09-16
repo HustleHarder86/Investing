@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Commuted value: Present value of all future pension payments",
-  "• Discount rate: Interest rate used to calculate lump sum",
-  "• Transfer options: LIRA, LIF, or cash (taxable)",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Commuted value transfers have maximum transfer limits to RRSP",
+  "Excess amounts are taxable immediately at marginal rate",
+  "Life expectancy and health status crucial for decision",
+  "Customized strategies outperform generic approaches",
+  "Regular reviews ensure plans remain optimal"
 ];
 
 const relatedQuestions = [

@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• First $50,000: $5 per $1,000 (or $250 total)",
-  "• Over $50,000: $15 per $1,000 (no upper limit)",
-  "• Calculation: Based on total estate value at date of death",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Ontario probate fees are 1.5% on estates over $50,000",
+  "Joint ownership with right of survivorship avoids probate",
+  "Multiple wills can shelter private company shares",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Regulatory Restrictions: Who can own and operate",
-  "• Personal Goodwill: Value tied to individual practitioner",
-  "• Patient/Client Relationships: Transferability challenges",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Goodwill valuation typically 60-150% of annual revenue",
+  "Non-compete agreements essential for value preservation",
+  "Transition period improves client retention rates",
+  "Customized strategies outperform generic approaches",
+  "Regular reviews ensure plans remain optimal"
 ];
 
 const relatedQuestions = [

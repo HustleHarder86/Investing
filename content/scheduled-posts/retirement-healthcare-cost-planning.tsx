@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• Prescription drugs: $0 coverage",
-  "• Dental care: $0 coverage",
-  "• Vision care: Limited after 65",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Healthcare costs average $5,000-15,000/year in retirement",
+  "Provincial coverage doesn't include dental, vision, or prescriptions",
+  "Long-term care insurance protects against catastrophic costs",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [

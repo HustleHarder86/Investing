@@ -44,11 +44,11 @@ const blogFAQs = [
 ];
 
 const keyTakeaways = [
-  "• March 3, 2025: Final day for 2024 tax year contributions",
-  "• $31,560: Maximum 2024 contribution (18% of $175,333 income)",
-  "• $32,490: New 2025 contribution limit (18% of $180,500)",
-  "Expert guidance ensures optimal outcomes",
-  "Professional advice maximizes your financial success"
+  "Professional financial planning optimizes outcomes",
+  "Early planning provides more options and flexibility",
+  "Tax strategies can significantly impact net results",
+  "New tax rules and contribution limits apply for 2025",
+  "Review strategies annually as regulations change"
 ];
 
 const relatedQuestions = [
