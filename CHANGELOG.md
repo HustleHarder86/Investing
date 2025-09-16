@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased] - Local Development
 
+### Fixed
+- Fixed import typo in two blog posts (BlogPostTemplateEnhancedEnhanced -> BlogPostTemplateEnhanced)
+  - Affected files: retirement-planning-checklist-gta and rrif-conversion-strategy-timing
+  - This was causing Vercel deployment failures since Sept 14
+  - All three pending blog posts (Sept 14, 15, 16) are now live on production
+
 ## [1.1.1] - 2025-09-13
 ### Fixed
 - Critical build errors blocking Vercel deployment since Sept 12
