@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'test-deployment-verification',
+    title: 'Test Deployment Verification',
+    excerpt: 'Expert insights on system test to help you navigate your financial transition.',
+    author: 'System Test',
+    authorTitle: 'Financial Planning Specialist',
+    date: '2025-09-16',
+    readTime: '8 min',
+    category: 'System Test',
+    categorySlug: 'general',
+    featured: false
+  },
+  {
     slug: 'rrif-conversion-strategy-timing',
     title: 'RRIF Conversion Strategy: Timing Your RRSP Rollover',
     excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
