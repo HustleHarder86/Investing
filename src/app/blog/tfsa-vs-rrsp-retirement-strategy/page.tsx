@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "What is the best approach to retirement planning in Toronto?",
-    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+    "question": "What makes Life Money different from other financial advisors?",
+    "answer": "We specialize in complex life transitions with dedicated expertise in divorce, inheritance, business sales, and career changes. Our GTA-focused approach means we understand local markets and regulations."
   },
   {
-    "question": "How much does retirement planning cost?",
-    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+    "question": "How much do financial planning services cost?",
+    "answer": "Fees vary based on complexity and services needed. Initial consultations help determine scope and provide transparent pricing. Many clients save more in taxes and optimization than our fees cost."
   },
   {
-    "question": "When should I start retirement planning?",
-    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+    "question": "How do I get started with financial planning?",
+    "answer": "Book a consultation to discuss your situation and goals. We'll review your finances, identify opportunities and risks, and create a customized action plan for your success."
   }
 ];
 
@@ -47,8 +47,8 @@ const keyTakeaways = [
   "• 2025 new room: $7,000",
   "• Total since 2009: $95,000",
   "• Tax on withdrawal: 0%",
-  "Early planning leads to better financial outcomes",
-  "Taking action now prevents costly mistakes later"
+  "Expert guidance ensures optimal outcomes",
+  "Professional advice maximizes your financial success"
 ];
 
 const relatedQuestions = [
@@ -59,7 +59,7 @@ const relatedQuestions = [
   "Are there free retirement planning resources in Toronto?"
 ];
 
-const quickAnswer = "Sarah Chen, a 32-year-old marketing director in downtown Toronto, sat across from her twin brother Michael at a Yorkville café, both equally confu...";
+const quickAnswer = "Choose TFSAs for retirement if you expect to be in a lower tax bracket now than in retirement, or if you want to avoid OAS clawback. Choose RRSPs if you're in a high tax bracket now (over $100,000 income) and expect lower income in retirement. Most GTA professionals benefit from maximizing both.";
 
 const BlogContent = () => (
   <>

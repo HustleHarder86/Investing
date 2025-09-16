@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "What is the best approach to retirement planning in Toronto?",
-    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
-  },
-  {
-    "question": "How much does retirement planning cost?",
-    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+    "question": "How much do I need to retire in Toronto?",
+    "answer": "Most couples need $65,000-85,000 annually for a comfortable retirement in the GTA, requiring total assets of $1.5-2.5 million including home equity."
   },
   {
     "question": "When should I start retirement planning?",
-    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+    "answer": "Ideally, start serious retirement planning by age 40, though it's never too late. The last 10-15 years before retirement are critical for maximizing savings and optimizing strategies."
+  },
+  {
+    "question": "What documents do I need for retirement planning?",
+    "answer": "Key documents include recent tax returns, investment statements, pension statements, insurance policies, estate planning documents, and a current budget."
   }
 ];
 
@@ -47,8 +47,8 @@ const keyTakeaways = [
   "• Average Toronto home price: $1.2 million (major retirement asset)",
   "• Cost of retirement in GTA: $65,000-85,000/year for couples",
   "• Average retirement savings at 55: $125,000 (far below needs)",
-  "Early planning leads to better financial outcomes",
-  "Taking action now prevents costly mistakes later"
+  "Expert guidance ensures optimal outcomes",
+  "Professional advice maximizes your financial success"
 ];
 
 const relatedQuestions = [
@@ -59,7 +59,7 @@ const relatedQuestions = [
   "Are there free retirement planning resources in Toronto?"
 ];
 
-const quickAnswer = "Margaret Chen stared at the retirement planning checklist her bank had given her – all three generic bullet points of it. \"Save more, spend less, ...";
+const quickAnswer = "A comprehensive retirement plan for GTA residents should include: RRSP/TFSA optimization, CPP/OAS timing decisions, real estate strategy for your home worth $1.2M+, healthcare cost planning, and estate planning. Start with a retirement needs analysis calculating your required income of $65,000-85,000 annually for couples in Toronto.";
 
 const BlogContent = () => (
   <>

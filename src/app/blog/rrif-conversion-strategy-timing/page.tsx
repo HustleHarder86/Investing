@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "What is the best approach to retirement planning in Toronto?",
-    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+    "question": "When do I have to convert my RRSP to a RRIF?",
+    "answer": "You must convert your RRSP to a RRIF by December 31 of the year you turn 71. However, you can convert earlier if it makes strategic sense for your situation."
   },
   {
-    "question": "How much does retirement planning cost?",
-    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+    "question": "What are the minimum RRIF withdrawal rates?",
+    "answer": "At age 71, the minimum withdrawal is 5.28% of your RRIF value. This percentage increases each year, reaching 20% at age 95 and beyond."
   },
   {
-    "question": "When should I start retirement planning?",
-    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+    "question": "Can I convert just part of my RRSP to a RRIF?",
+    "answer": "Yes, partial conversions are allowed and often recommended. Many retirees convert just enough to claim the pension income tax credit at age 65."
   }
 ];
 
@@ -47,8 +47,8 @@ const keyTakeaways = [
   "• Age 71: 5.28% of RRIF value",
   "• Pension income tax credit ($2,000)",
   "• Income splitting eligibility at 65",
-  "Early planning leads to better financial outcomes",
-  "Taking action now prevents costly mistakes later"
+  "Expert guidance ensures optimal outcomes",
+  "Professional advice maximizes your financial success"
 ];
 
 const relatedQuestions = [
@@ -59,7 +59,7 @@ const relatedQuestions = [
   "What are common retirement planning mistakes to avoid?"
 ];
 
-const quickAnswer = "Margaret Chen stared at the letter from her bank: \"Your 71st birthday is approaching. You must convert your RRSP to a RRIF by December 31st.\" With...";
+const quickAnswer = "You must convert your RRSP to a RRIF by December 31 of the year you turn 71. Strategic early conversion starting at age 65 can unlock the $2,000 pension income tax credit and enable income splitting with your spouse, potentially saving thousands in taxes annually.";
 
 const BlogContent = () => (
   <>

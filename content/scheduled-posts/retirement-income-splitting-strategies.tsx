@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "What is the best approach to retirement planning in Toronto?",
-    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+    "question": "What makes Life Money different from other financial advisors?",
+    "answer": "We specialize in complex life transitions with dedicated expertise in divorce, inheritance, business sales, and career changes. Our GTA-focused approach means we understand local markets and regulations."
   },
   {
-    "question": "How much does retirement planning cost?",
-    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+    "question": "How much do financial planning services cost?",
+    "answer": "Fees vary based on complexity and services needed. Initial consultations help determine scope and provide transparent pricing. Many clients save more in taxes and optimization than our fees cost."
   },
   {
-    "question": "When should I start retirement planning?",
-    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+    "question": "How do I get started with financial planning?",
+    "answer": "Book a consultation to discuss your situation and goals. We'll review your finances, identify opportunities and risks, and create a customized action plan for your success."
   }
 ];
 
@@ -47,8 +47,8 @@ const keyTakeaways = [
   "• RRIF withdrawals: All payments from your RRIF",
   "• Life annuity payments: From RRSPs or pension plans",
   "• Registered pension plan: Monthly pension payments",
-  "Early planning leads to better financial outcomes",
-  "Taking action now prevents costly mistakes later"
+  "Expert guidance ensures optimal outcomes",
+  "Professional advice maximizes your financial success"
 ];
 
 const relatedQuestions = [
@@ -59,7 +59,7 @@ const relatedQuestions = [
   "What are common retirement planning mistakes to avoid?"
 ];
 
-const quickAnswer = "\"We're paying $42,000 in taxes on our retirement income, but my wife's tax bill is only $8,000,\" complained Richard Patel during our consultation ...";
+const quickAnswer = "Eligible pension income can be split up to 50% with your spouse starting at age 65, including RRIF withdrawals, annuity payments, and registered pension plans. This strategy can save $3,000-8,000 annually in taxes by equalizing tax brackets and both claiming the pension income tax credit.";
 
 const BlogContent = () => (
   <>

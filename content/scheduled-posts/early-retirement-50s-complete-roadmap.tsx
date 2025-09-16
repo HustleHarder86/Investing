@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "What is the best approach to retirement planning in Toronto?",
-    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+    "question": "What makes Life Money different from other financial advisors?",
+    "answer": "We specialize in complex life transitions with dedicated expertise in divorce, inheritance, business sales, and career changes. Our GTA-focused approach means we understand local markets and regulations."
   },
   {
-    "question": "How much does retirement planning cost?",
-    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+    "question": "How much do financial planning services cost?",
+    "answer": "Fees vary based on complexity and services needed. Initial consultations help determine scope and provide transparent pricing. Many clients save more in taxes and optimization than our fees cost."
   },
   {
-    "question": "When should I start retirement planning?",
-    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+    "question": "How do I get started with financial planning?",
+    "answer": "Book a consultation to discuss your situation and goals. We'll review your finances, identify opportunities and risks, and create a customized action plan for your success."
   }
 ];
 
@@ -47,8 +47,8 @@ const keyTakeaways = [
   "• Conservative approach: 33x annual expenses ($2.64M for $80K/year)",
   "• Moderate approach: 28x annual expenses ($2.24M for $80K/year)",
   "• Aggressive approach: 25x annual expenses ($2M for $80K/year)",
-  "Early planning leads to better financial outcomes",
-  "Taking action now prevents costly mistakes later"
+  "Expert guidance ensures optimal outcomes",
+  "Professional advice maximizes your financial success"
 ];
 
 const relatedQuestions = [
@@ -59,7 +59,7 @@ const relatedQuestions = [
   "Are there free retirement planning resources in Toronto?"
 ];
 
-const quickAnswer = "When Robert Martinez walked out of his Bay Street office for the last time at age 54, his colleagues thought he'd lost his mind. \"You're leaving t...";
+const quickAnswer = "Early retirement in your 50s requires 25-30x annual expenses saved, a bridge strategy until government benefits begin, and private health insurance until 65. Key milestones: age 55 (pension unlocking), 60 (CPP eligible), 65 (OAS begins). Most need $2-3 million invested to retire comfortably in the GTA.";
 
 const BlogContent = () => (
   <>

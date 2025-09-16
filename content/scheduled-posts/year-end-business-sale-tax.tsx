@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "What is the best approach to business sale in Toronto?",
-    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+    "question": "What makes Life Money different from other financial advisors?",
+    "answer": "We specialize in complex life transitions with dedicated expertise in divorce, inheritance, business sales, and career changes. Our GTA-focused approach means we understand local markets and regulations."
   },
   {
-    "question": "How much does business sale cost?",
-    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+    "question": "How much do financial planning services cost?",
+    "answer": "Fees vary based on complexity and services needed. Initial consultations help determine scope and provide transparent pricing. Many clients save more in taxes and optimization than our fees cost."
   },
   {
-    "question": "When should I start business sale?",
-    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+    "question": "How do I get started with financial planning?",
+    "answer": "Book a consultation to discuss your situation and goals. We'll review your finances, identify opportunities and risks, and create a customized action plan for your success."
   }
 ];
 
@@ -47,8 +47,8 @@ const keyTakeaways = [
   "• Capital gains inclusion rate: 66.67% (up from 50%)",
   "• Lifetime capital gains exemption: $1,016,836",
   "• Small business deduction limit: $500,000",
-  "Early planning leads to better financial outcomes",
-  "Taking action now prevents costly mistakes later"
+  "Expert guidance ensures optimal outcomes",
+  "Professional advice maximizes your financial success"
 ];
 
 const relatedQuestions = [
@@ -59,7 +59,7 @@ const relatedQuestions = [
   "Are there free business sale resources in Toronto?"
 ];
 
-const quickAnswer = "December 15th, 2025. James stared at two offers for his Toronto manufacturing business: $8.2 million closing December 30th, or $8.5 million closin...";
+const quickAnswer = "Business valuation typically uses three methods: asset-based (book value), income-based (3-5x EBITDA), and market-based (comparable sales). For Q4 sales, start valuation now as the process takes 60-90 days. Most GTA small businesses sell for 2.5-4x adjusted EBITDA depending on industry and growth potential.";
 
 const BlogContent = () => (
   <>

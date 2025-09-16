@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "What is the best approach to severance planning in Toronto?",
-    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+    "question": "What makes Life Money different from other financial advisors?",
+    "answer": "We specialize in complex life transitions with dedicated expertise in divorce, inheritance, business sales, and career changes. Our GTA-focused approach means we understand local markets and regulations."
   },
   {
-    "question": "How much does severance planning cost?",
-    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+    "question": "How much do financial planning services cost?",
+    "answer": "Fees vary based on complexity and services needed. Initial consultations help determine scope and provide transparent pricing. Many clients save more in taxes and optimization than our fees cost."
   },
   {
-    "question": "When should I start severance planning?",
-    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+    "question": "How do I get started with financial planning?",
+    "answer": "Book a consultation to discuss your situation and goals. We'll review your finances, identify opportunities and risks, and create a customized action plan for your success."
   }
 ];
 
@@ -47,8 +47,8 @@ const keyTakeaways = [
   "• Base Severance: Industry standard 1-2 months per year (negotiable to 2-3)",
   "• Bonus Continuation: Pro-rated current year plus 1-2 years forward",
   "• Deferred Compensation: Accelerated vesting often negotiable",
-  "Early planning leads to better financial outcomes",
-  "Taking action now prevents costly mistakes later"
+  "Expert guidance ensures optimal outcomes",
+  "Professional advice maximizes your financial success"
 ];
 
 const relatedQuestions = [
@@ -59,7 +59,7 @@ const relatedQuestions = [
   "What are common severance planning mistakes to avoid?"
 ];
 
-const quickAnswer = "When Rachel, a senior portfolio manager at one of Canada's Big Six banks, received her termination notice after 14 years of service, the initial s...";
+const quickAnswer = "In Ontario, you're entitled to minimum severance under the Employment Standards Act plus potentially 24+ months of common law reasonable notice. Key negotiation points include extending benefits, pension contributions, bonus pro-rating, and outplacement services. Never sign immediately - always get legal review first.";
 
 const BlogContent = () => (
   <>

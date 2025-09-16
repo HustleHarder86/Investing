@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "What is the best approach to retirement planning in Toronto?",
-    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+    "question": "What makes Life Money different from other financial advisors?",
+    "answer": "We specialize in complex life transitions with dedicated expertise in divorce, inheritance, business sales, and career changes. Our GTA-focused approach means we understand local markets and regulations."
   },
   {
-    "question": "How much does retirement planning cost?",
-    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+    "question": "How much do financial planning services cost?",
+    "answer": "Fees vary based on complexity and services needed. Initial consultations help determine scope and provide transparent pricing. Many clients save more in taxes and optimization than our fees cost."
   },
   {
-    "question": "When should I start retirement planning?",
-    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+    "question": "How do I get started with financial planning?",
+    "answer": "Book a consultation to discuss your situation and goals. We'll review your finances, identify opportunities and risks, and create a customized action plan for your success."
   }
 ];
 
@@ -47,8 +47,8 @@ const keyTakeaways = [
   "• March 3, 2025: Final day for 2024 tax year contributions",
   "• $31,560: Maximum 2024 contribution (18% of $175,333 income)",
   "• $32,490: New 2025 contribution limit (18% of $180,500)",
-  "Early planning leads to better financial outcomes",
-  "Taking action now prevents costly mistakes later"
+  "Expert guidance ensures optimal outcomes",
+  "Professional advice maximizes your financial success"
 ];
 
 const relatedQuestions = [
@@ -59,7 +59,7 @@ const relatedQuestions = [
   "Are there free retirement planning resources in Toronto?"
 ];
 
-const quickAnswer = "When John Martinelli, a 48-year-old software architect from Mississauga, finally logged into his CRA My Account last month, he nearly fell off his...";
+const quickAnswer = "Your RRSP contribution room for 2025 is 18% of your 2024 earned income (max $32,490) plus any unused room from previous years. Check your Notice of Assessment or CRA My Account for exact amounts. Contributing before March 1, 2026 reduces your 2025 taxes, potentially saving $10,000+ for high earners.";
 
 const BlogContent = () => (
   <>

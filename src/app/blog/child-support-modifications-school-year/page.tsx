@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "What is the best approach to divorce planning in Toronto?",
-    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+    "question": "When can child support be modified in Ontario?",
+    "answer": "Child support can be modified when there's a material change in circumstances, typically an income change of 15% or more, or changes in custody arrangements."
   },
   {
-    "question": "How much does divorce planning cost?",
-    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+    "question": "How is child support calculated for university students?",
+    "answer": "Post-secondary support is determined case-by-case, considering the child's academic performance, program costs, and both parents' financial abilities. It often includes tuition plus a reduced monthly amount."
   },
   {
-    "question": "When should I start divorce planning?",
-    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+    "question": "Do I need a lawyer to modify child support?",
+    "answer": "While not required, legal assistance is recommended for contested modifications. Simple agreed changes can be filed using Form 15 at the Ontario Court of Justice."
   }
 ];
 
@@ -47,8 +47,8 @@ const keyTakeaways = [
   "• Childcare: Work or education-related daycare",
   "• Medical/Dental: Uninsured health expenses over $100/year",
   "• Health insurance: Premiums for extended coverage",
-  "Early planning leads to better financial outcomes",
-  "Taking action now prevents costly mistakes later"
+  "Expert guidance ensures optimal outcomes",
+  "Professional advice maximizes your financial success"
 ];
 
 const relatedQuestions = [
@@ -59,7 +59,7 @@ const relatedQuestions = [
   "Are there free divorce planning resources in Toronto?"
 ];
 
-const quickAnswer = "September hit differently for Marcus this year. As his three children excitedly prepared for their return to school—his eldest starting Grade 9 at...";
+const quickAnswer = "Child support can be modified when there's a material change in circumstances such as income changes of 15%+, children starting/ending post-secondary education, or custody arrangement changes. In Ontario, use the online child support calculator and file Form 15 with the court to request modifications.";
 
 const BlogContent = () => (
   <>

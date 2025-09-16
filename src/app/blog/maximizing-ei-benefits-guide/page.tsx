@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "What is the best approach to severance planning in Toronto?",
-    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+    "question": "How much EI can I receive in 2025?",
+    "answer": "The maximum EI benefit is $668 per week in 2025, which is 55% of your average insurable earnings up to the maximum of $66,300 per year."
   },
   {
-    "question": "How much does severance planning cost?",
-    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+    "question": "How long does it take to get EI benefits?",
+    "answer": "EI benefits typically begin within 28 days of filing your claim, assuming all documentation is complete. There's a one-week waiting period before benefits start."
   },
   {
-    "question": "When should I start severance planning?",
-    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+    "question": "Can I work while receiving EI?",
+    "answer": "Yes, you can work part-time and earn up to 50% of your weekly benefits before deductions apply. Earnings above this threshold reduce benefits by 50 cents per dollar."
   }
 ];
 
@@ -47,8 +47,8 @@ const keyTakeaways = [
   "• Maximum insurable earnings: $63,200 (up from $61,500)",
   "• Maximum weekly benefit: $668 (55% of average earnings)",
   "• Minimum hours needed: 420-700 (depends on regional unemployment)",
-  "Early planning leads to better financial outcomes",
-  "Taking action now prevents costly mistakes later"
+  "Expert guidance ensures optimal outcomes",
+  "Professional advice maximizes your financial success"
 ];
 
 const relatedQuestions = [
@@ -59,7 +59,7 @@ const relatedQuestions = [
   "Are there free severance planning resources in Toronto?"
 ];
 
-const quickAnswer = "When Marcus received his Record of Employment after 12 years with a Bay Street firm, he thought applying for EI would be straightforward. \"I paid ...";
+const quickAnswer = "To maximize EI benefits in 2025, apply immediately after job loss, ensure your ROE shows maximum insurable earnings ($66,300), and avoid any actions that could delay your claim. You can receive up to $668 per week for 14-45 weeks depending on your region's unemployment rate and hours worked.";
 
 const BlogContent = () => (
   <>

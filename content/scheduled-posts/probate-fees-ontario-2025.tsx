@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "What is the best approach to inheritance planning in Toronto?",
-    "answer": "The best approach involves working with a qualified financial advisor who understands the Greater Toronto Area market and can provide personalized strategies based on your unique situation."
+    "question": "How much are probate fees in Ontario?",
+    "answer": "Ontario charges $5 per $1,000 for the first $50,000 and $15 per $1,000 thereafter. A $1 million estate pays $14,500 in probate fees."
   },
   {
-    "question": "How much does inheritance planning cost?",
-    "answer": "Costs vary based on complexity and scope, but most financial planning services in the GTA range from consultation fees to percentage-based asset management. Contact us for a personalized quote."
+    "question": "Can I avoid probate fees in Ontario?",
+    "answer": "Yes, through strategies like joint ownership, designated beneficiaries on registered accounts, multiple wills, and certain trust structures. Primary residences can often bypass probate."
   },
   {
-    "question": "When should I start inheritance planning?",
-    "answer": "The best time to start is now. Early planning provides more options and better outcomes. Our Toronto-based advisors can help you begin your financial planning journey today."
+    "question": "How long does probate take in Ontario?",
+    "answer": "Simple estates typically receive probate approval in 2-4 weeks. Complex estates or those with issues can take 2-6 months. Toronto courts average 3-4 weeks for straightforward applications."
   }
 ];
 
@@ -47,8 +47,8 @@ const keyTakeaways = [
   "• First $50,000: $5 per $1,000 (or $250 total)",
   "• Over $50,000: $15 per $1,000 (no upper limit)",
   "• Calculation: Based on total estate value at date of death",
-  "Early planning leads to better financial outcomes",
-  "Taking action now prevents costly mistakes later"
+  "Expert guidance ensures optimal outcomes",
+  "Professional advice maximizes your financial success"
 ];
 
 const relatedQuestions = [
@@ -59,7 +59,7 @@ const relatedQuestions = [
   "Are there free inheritance planning resources in Toronto?"
 ];
 
-const quickAnswer = "When Margaret inherited her mother's Yorkville condo valued at $2.3 million, she was shocked to discover the probate fees alone would exceed $34,0...";
+const quickAnswer = "Ontario probate fees (Estate Administration Tax) are $15 per $1,000 for estates over $50,000, with no upper limit. For a $2M estate, fees are $29,500. Avoid probate through joint ownership, designated beneficiaries, and multiple wills strategy. Primary residence can often bypass probate with proper planning.";
 
 const BlogContent = () => (
   <>
