@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'probate-fees-ontario-2025',
+    title: 'Probate Fees in Ontario: 2025 Updates',
+    excerpt: 'Expert insights on inheritance planning to help you navigate your financial transition.',
+    author: 'Sarah Mitchell',
+    authorTitle: 'CFP®, Estate Planning Specialist',
+    date: '2025-09-17',
+    readTime: '8 min',
+    category: 'Inheritance Planning',
+    categorySlug: 'inheritance-planning',
+    featured: false
+  },
+  {
     slug: 'rrif-conversion-strategy-timing',
     title: 'RRIF Conversion Strategy: Timing Your RRSP Rollover',
     excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
