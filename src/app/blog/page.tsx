@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'gray-divorce-retirement-accounts',
+    title: 'Gray Divorce: Retirement Account Division Strategies',
+    excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
+    author: 'Michael Chen',
+    authorTitle: 'CFP®, Divorce Specialist',
+    date: '2025-09-19',
+    readTime: '10 min',
+    category: 'Divorce Planning',
+    categorySlug: 'divorce-planning',
+    featured: false
+  },
+  {
     slug: 'retirement-income-splitting-strategies',
     title: 'Retirement Income Splitting: Save Thousands in Tax',
     excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
