@@ -52,11 +52,26 @@ const keyTakeaways = [
 ];
 
 const relatedQuestions = [
-  "How is property divided in Ontario divorces?",
-  "What factors affect spousal support duration and amount?",
-  "Can I keep the house after divorce?",
-  "How are pensions split during divorce?",
-  "What's the difference between separation and divorce?"
+  {
+    question: "How is property divided in Ontario divorces?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "What factors affect spousal support duration and amount?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "Can I keep the house after divorce?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "How are pensions split during divorce?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "What's the difference between separation and divorce?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  }
 ];
 
 const quickAnswer = "Professional financial planning helps you navigate complex financial decisions with confidence. Working with a qualified advisor ensures you're maximizing opportunities, minimizing taxes, and avoiding costly mistakes. The right strategy depends on your unique situation, goals, and timeline.";

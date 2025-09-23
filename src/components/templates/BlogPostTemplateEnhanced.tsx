@@ -3,7 +3,7 @@ import { Calendar, Clock, User, ArrowLeft, Share2, BookOpen } from 'lucide-react
 import QuickAnswer from '@/components/seo/QuickAnswer';
 import FAQSection, { FAQItem } from '@/components/seo/FAQSection';
 import KeyTakeaways from '@/components/seo/KeyTakeaways';
-import RelatedQuestions from '@/components/seo/RelatedQuestions';
+import RelatedQuestions, { RelatedQuestion } from '@/components/seo/RelatedQuestions';
 import StructuredData from '@/components/seo/StructuredData';
 
 interface BlogPostTemplateProps {
@@ -20,7 +20,7 @@ interface BlogPostTemplateProps {
   quickAnswer?: string;
   keyTakeaways?: string[];
   faqs?: FAQItem[];
-  relatedQuestions?: string[];
+  relatedQuestions?: string[] | RelatedQuestion[];
   content?: React.ReactNode;
   children?: React.ReactNode;
   relatedPosts?: {
@@ -56,17 +56,17 @@ export default function BlogPostTemplateEnhanced({
   image = '/images/blog-default.jpg',
   url
 }: BlogPostTemplateProps) {
-  
+
   // Use provided FAQs or empty array - no auto-generation of generic content
   const defaultFAQs: FAQItem[] = faqs;
 
   // Generate default related questions if none provided
   const defaultRelatedQuestions = relatedQuestions.length === 0 ? [
-    `How much does ${category.toLowerCase()} cost in Toronto?`,
-    `What are the best ${category.toLowerCase()} strategies for 2025?`,
-    `How do I find a ${category.toLowerCase()} advisor near me?`,
-    `What documents do I need for ${category.toLowerCase()}?`,
-    `Is ${category.toLowerCase()} tax deductible in Ontario?`
+    { question: `How much does ${category.toLowerCase()} cost in Toronto?`, answer: '' },
+    { question: `What are the best ${category.toLowerCase()} strategies for 2025?`, answer: '' },
+    { question: `How do I find a ${category.toLowerCase()} advisor near me?`, answer: '' },
+    { question: `What documents do I need for ${category.toLowerCase()}?`, answer: '' },
+    { question: `Is ${category.toLowerCase()} tax deductible in Ontario?`, answer: '' }
   ] : relatedQuestions;
 
   // Generate default key takeaways if none provided

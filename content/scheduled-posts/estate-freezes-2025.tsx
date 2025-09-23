@@ -52,11 +52,26 @@ const keyTakeaways = [
 ];
 
 const relatedQuestions = [
-  "How much are probate fees in Ontario?",
-  "Do I need a will if everything is joint?",
-  "What assets bypass probate?",
-  "How are RRSPs taxed at death?",
-  "Can I avoid probate with a trust?"
+  {
+    question: "How much are probate fees in Ontario?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "Do I need a will if everything is joint?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "What assets bypass probate?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "How are RRSPs taxed at death?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "Can I avoid probate with a trust?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  }
 ];
 
 const quickAnswer = "Professional financial planning helps you navigate complex financial decisions with confidence. Working with a qualified advisor ensures you're maximizing opportunities, minimizing taxes, and avoiding costly mistakes. The right strategy depends on your unique situation, goals, and timeline.";

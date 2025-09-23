@@ -52,11 +52,26 @@ const keyTakeaways = [
 ];
 
 const relatedQuestions = [
-  "What's the minimum severance in Ontario?",
-  "Can I negotiate my severance package?",
-  "How is severance taxed in Canada?",
-  "Should I take lump sum or salary continuance?",
-  "What happens to my benefits during severance?"
+  {
+    question: "What's the minimum severance in Ontario?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "Can I negotiate my severance package?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "How is severance taxed in Canada?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "Should I take lump sum or salary continuance?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "What happens to my benefits during severance?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  }
 ];
 
 const quickAnswer = "After job loss, immediately apply for EI, review your severance package with a lawyer, reduce non-essential expenses, and avoid touching retirement savings for 6 months. Create a 3-6-12 month budget plan and consider contract work while job searching. Fall hiring typically picks up after Labour Day through November.";

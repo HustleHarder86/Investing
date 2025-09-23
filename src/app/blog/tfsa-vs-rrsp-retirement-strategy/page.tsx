@@ -52,11 +52,26 @@ const keyTakeaways = [
 ];
 
 const relatedQuestions = [
-  "How much do I need to retire in Toronto?",
-  "When should I start taking CPP and OAS?",
-  "What's the best withdrawal order for retirement accounts?",
-  "How do I avoid OAS clawback in retirement?",
-  "Should I convert RRSP to RRIF early?"
+  {
+    question: "How much do I need to retire in Toronto?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "When should I start taking CPP and OAS?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "What's the best withdrawal order for retirement accounts?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "How do I avoid OAS clawback in retirement?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "Should I convert RRSP to RRIF early?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  }
 ];
 
 const quickAnswer = "Choose TFSAs for retirement if you expect to be in a lower tax bracket now than in retirement, or if you want to avoid OAS clawback. Choose RRSPs if you're in a high tax bracket now (over $100,000 income) and expect lower income in retirement. Most GTA professionals benefit from maximizing both.";
@@ -443,7 +458,7 @@ const BlogContent = () => (
         future tax scenarios, and show you exactly how to allocate your savings for maximum wealth building.
       </p>
       <p className="text-gray-700">
-        <strong>Call 1-800-PROSPER</strong> for your complimentary TFSA vs RRSP optimization session and 
+         for your complimentary TFSA vs RRSP optimization session and 
         discover how the right strategy could add $100,000+ to your retirement wealth.
       </p>
     </div>

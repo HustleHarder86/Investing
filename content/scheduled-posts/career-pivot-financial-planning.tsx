@@ -31,11 +31,26 @@ const keyTakeaways = [
 ];
 
 const relatedQuestions = [
-  "How do I budget for career change training and certification costs?",
-  "Can I collect EI benefits during a voluntary career change?",
-  "What tax implications exist for career change expenses?",
-  "How do I evaluate the financial feasibility of starting a business?",
-  "What insurance do I need when leaving corporate employment?"
+  {
+    question: "How do I budget for career change training and certification costs?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "Can I collect EI benefits during a voluntary career change?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "What tax implications exist for career change expenses?",
+    answer: "Tax implications vary based on your specific situation and income level. In Ontario, factors like your marginal tax rate, the type of transaction, and timing can significantly impact your tax liability. It's essential to consult with a qualified financial advisor or tax professional who can analyze your unique circumstances and help you optimize your tax strategy. They can identify available deductions, credits, and planning opportunities specific to GTA residents."
+  },
+  {
+    question: "How do I evaluate the financial feasibility of starting a business?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "What insurance do I need when leaving corporate employment?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  }
 ];
 
 

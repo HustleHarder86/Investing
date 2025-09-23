@@ -31,11 +31,26 @@ const keyTakeaways = [
 ];
 
 const relatedQuestions = [
-  "What are the tax implications of early retirement withdrawals?",
-  "How do I calculate early retirement healthcare costs?",
-  "Can I work part-time and still be considered retired?",
-  "What bridge income strategies work best for early retirement?",
-  "How much should I have in TFSA vs RRSP for early retirement?"
+  {
+    question: "What are the tax implications of early retirement withdrawals?",
+    answer: "Tax implications vary based on your specific situation and income level. In Ontario, factors like your marginal tax rate, the type of transaction, and timing can significantly impact your tax liability. It's essential to consult with a qualified financial advisor or tax professional who can analyze your unique circumstances and help you optimize your tax strategy. They can identify available deductions, credits, and planning opportunities specific to GTA residents."
+  },
+  {
+    question: "How do I calculate early retirement healthcare costs?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "Can I work part-time and still be considered retired?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "What bridge income strategies work best for early retirement?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "How much should I have in TFSA vs RRSP for early retirement?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  }
 ];
 
 

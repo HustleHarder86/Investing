@@ -52,11 +52,26 @@ const keyTakeaways = [
 ];
 
 const relatedQuestions = [
-  "How is my business valued for sale?",
-  "What's the capital gains exemption for business sale?",
-  "Should I do asset sale or share sale?",
-  "How long does business sale process take?",
-  "What due diligence should I prepare for?"
+  {
+    question: "How is my business valued for sale?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "What's the capital gains exemption for business sale?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "Should I do asset sale or share sale?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "How long does business sale process take?",
+    answer: "The timeline varies depending on complexity, the professionals involved, and specific circumstances. Simple cases might resolve in 3-6 months, while complex situations involving multiple parties, valuations, or negotiations can take 12-18 months or longer. Working with experienced financial advisors familiar with GTA regulations can help streamline the process and avoid unnecessary delays. Early planning and proper documentation are key to expediting matters."
+  },
+  {
+    question: "What due diligence should I prepare for?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  }
 ];
 
 const quickAnswer = "Business valuation typically uses three methods: asset-based (book value), income-based (3-5x EBITDA), and market-based (comparable sales). For Q4 sales, start valuation now as the process takes 60-90 days. Most GTA small businesses sell for 2.5-4x adjusted EBITDA depending on industry and growth potential.";

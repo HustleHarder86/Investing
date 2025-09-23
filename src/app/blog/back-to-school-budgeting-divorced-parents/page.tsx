@@ -52,11 +52,26 @@ const keyTakeaways = [
 ];
 
 const relatedQuestions = [
-  "How is property divided in Ontario divorces?",
-  "What factors affect spousal support duration and amount?",
-  "Can I keep the house after divorce?",
-  "How are pensions split during divorce?",
-  "What's the difference between separation and divorce?"
+  {
+    question: "How is property divided in Ontario divorces?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "What factors affect spousal support duration and amount?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "Can I keep the house after divorce?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "How are pensions split during divorce?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  },
+  {
+    question: "What's the difference between separation and divorce?",
+    answer: "This depends on your specific circumstances and financial goals. Factors such as your income level, assets, family situation, and long-term objectives all play important roles. Professional financial advisors in the Greater Toronto Area can provide personalized guidance based on current regulations and market conditions. They'll help you understand your options, optimize your strategy, and avoid common pitfalls while ensuring compliance with Ontario and federal requirements."
+  }
 ];
 
 const quickAnswer = "Divorced parents in Ontario share back-to-school expenses as Section 7 extraordinary costs, divided proportionally by income. Basic supplies are covered by child support, while extraordinary items like technology, uniforms, and activities are shared. Planning in July, documenting expenses, and clear communication prevent September conflicts and ensure children have everything they need for school success.";
@@ -560,7 +575,7 @@ const BlogContent = () => (
         financial strategies that work for both households while prioritizing your children's education.
       </p>
       <p className="text-gray-700">
-        <strong>Call 1-800-PROSPER</strong> to schedule your back-to-school budget consultation and 
+         to schedule your back-to-school budget consultation and 
         get your family finances on track for the school year ahead.
       </p>
     </div>

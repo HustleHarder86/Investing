@@ -52,11 +52,26 @@ const keyTakeaways = [
 ];
 
 const relatedQuestions = [
-  "What are the tax implications of ?",
-  "How long does the  process take?",
-  "What professionals should I consult for ?",
-  "What are common mistakes in ?",
-  "How much does professional  advice cost?"
+  {
+    question: "What are the tax implications of EI benefits?",
+    answer: "Tax implications of EI benefits vary based on your specific situation and income level. In Ontario, factors like your marginal tax rate, the type of transaction, and timing can significantly impact your tax liability. It's essential to consult with a qualified financial advisor or tax professional who can analyze your unique circumstances and help you optimize your tax strategy. They can identify available deductions, credits, and planning opportunities specific to GTA residents."
+  },
+  {
+    question: "How long does the EI benefits process take?",
+    answer: "The EI benefits timeline varies depending on complexity, the professionals involved, and specific circumstances. Simple cases might resolve in 3-6 months, while complex situations involving multiple parties, valuations, or negotiations can take 12-18 months or longer. Working with experienced financial advisors familiar with GTA regulations can help streamline the process and avoid unnecessary delays. Early planning and proper documentation are key to expediting matters."
+  },
+  {
+    question: "What professionals should I consult for EI benefits?",
+    answer: "For EI benefits, you'll likely need a team of professionals including a Certified Financial Planner (CFP®), tax accountant, and legal counsel specializing in your specific needs. Depending on your situation, you might also benefit from business valuators, real estate appraisers, or pension specialists. Choose professionals with experience in the Greater Toronto Area who understand local regulations and market conditions. Look for credentials, client testimonials, and specific expertise in your area of need."
+  },
+  {
+    question: "What are common mistakes in EI benefits?",
+    answer: "Common mistakes in EI benefits include acting without professional advice, making emotional rather than strategic decisions, overlooking tax implications, failing to document agreements properly, and not considering long-term consequences. Many people also underestimate costs, miss important deadlines, or fail to update their financial plans after major life changes. Working with experienced GTA financial advisors helps avoid these costly errors and ensures you're making informed decisions based on current regulations and best practices."
+  },
+  {
+    question: "How much does professional EI benefits advice cost?",
+    answer: "Professional EI benefits advice costs vary based on complexity, services required, and the advisor's experience. Financial planners may charge hourly rates ($200-500), flat fees for specific services ($2,500-10,000), or ongoing asset management fees (1-2% annually). While costs may seem significant, professional guidance often saves money through tax optimization, avoiding costly mistakes, and identifying opportunities you might miss. Many GTA advisors offer initial consultations to discuss your needs and provide transparent fee structures."
+  }
 ];
 
 const quickAnswer = "To maximize EI benefits in 2025, apply immediately after job loss, ensure your ROE shows maximum insurable earnings ($66,300), and avoid any actions that could delay your claim. You can receive up to $668 per week for 14-45 weeks depending on your region's unemployment rate and hours worked.";
