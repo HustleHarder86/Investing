@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'retirement-planning-age-40',
+    title: 'Retirement Planning at 40: Critical Steps to Take Now',
+    excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
+    author: 'Jennifer Park',
+    authorTitle: 'CPA, Tax Planning Expert',
+    date: '2025-09-23',
+    readTime: '8 min',
+    category: 'Retirement Planning',
+    categorySlug: 'general',
+    featured: false
+  },
+  {
     slug: 'q4-business-exit-planning',
     title: 'Q4 Business Exit Planning Checklist',
     excerpt: 'Expert insights on business sale to help you navigate your financial transition.',
