@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "What makes Life Money different from other financial advisors?",
-    "answer": "We specialize in complex life transitions with dedicated expertise in divorce, inheritance, business sales, and career changes. Our GTA-focused approach means we understand local markets and regulations."
+    question: "What tax strategies optimize a year-end business sale?",
+    answer: "Year-end business sales benefit from several tax strategies in 2025: utilize the $971,190 lifetime capital gains exemption for qualified small business shares, structure as a share sale for capital gains treatment (50% taxable) versus asset sale (100% taxable on inventory/equipment), defer income to January for a full tax year delay, maximize current year RRSP contributions using sale proceeds, and trigger capital losses to offset gains. Consider an estate freeze before sale to multiply the exemption among family members. Earnouts and vendor take-backs can spread tax over multiple years."
   },
   {
-    "question": "How much do financial planning services cost?",
-    "answer": "Fees vary based on complexity and services needed. Initial consultations help determine scope and provide transparent pricing. Many clients save more in taxes and optimization than our fees cost."
+    question: "Should I do an asset sale or share sale for my business?",
+    answer: "Share sales are typically better for sellers, providing capital gains treatment (50% taxable) and access to the $971,190 lifetime capital gains exemption in 2025. Asset sales result in fully taxable income for inventory and recaptured depreciation but allow buyers to step up the cost base. Buyers prefer asset sales to avoid inheriting liabilities and to claim higher depreciation. Hybrid structures can optimize for both parties - sell shares but with extensive warranties and indemnities, or use a butterfly transaction. The optimal structure depends on business type, buyer requirements, and your tax situation."
   },
   {
-    "question": "How do I get started with financial planning?",
-    "answer": "Book a consultation to discuss your situation and goals. We'll review your finances, identify opportunities and risks, and create a customized action plan for your success."
+    question: "How do I value my GTA business for sale?",
+    answer: "GTA businesses typically sell for 2-6x adjusted EBITDA depending on industry, growth rate, customer concentration, and competitive advantages in 2025. Service businesses average 2-3x, manufacturing 3-4x, technology 4-6x, with strategic buyers paying 20-30% premiums. Valuation methods include asset-based (net book value plus goodwill), income-based (discounted cash flow), and market-based (comparable sales). Professional valuations cost $5,000-25,000 but often identify value drivers worth hundreds of thousands more. Year-end sales benefit from showing full-year results and having clean, audited financials."
   }
 ];
 
@@ -52,11 +52,11 @@ const keyTakeaways = [
 ];
 
 const relatedQuestions = [
-  "Where can I find business sale services in Toronto?",
-  "What documents do I need for business sale in Ontario?",
-  "How much does business sale cost in the GTA?",
-  "Are there free business sale resources in Toronto?",
-  "What are common business sale mistakes to avoid?"
+  "How is my business valued for sale?",
+  "What's the capital gains exemption for business sale?",
+  "Should I do asset sale or share sale?",
+  "How long does business sale process take?",
+  "What due diligence should I prepare for?"
 ];
 
 const quickAnswer = "Professional financial planning helps you navigate complex financial decisions with confidence. Working with a qualified advisor ensures you're maximizing opportunities, minimizing taxes, and avoiding costly mistakes. The right strategy depends on your unique situation, goals, and timeline.";

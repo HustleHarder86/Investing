@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "What makes Life Money different from other financial advisors?",
-    "answer": "We specialize in complex life transitions with dedicated expertise in divorce, inheritance, business sales, and career changes. Our GTA-focused approach means we understand local markets and regulations."
+    question: "What severance am I entitled to in Ontario?",
+    answer: "Ontario employment law provides two types of severance: minimum statutory (1 week per year up to 8 weeks under ESA) and common law reasonable notice (often 1 month per year of service, up to 24 months) in 2025. Factors affecting common law severance include age, position, length of service, and job market conditions. Senior executives over 50 with 10+ years often receive 18-24 months. Always have an employment lawyer review packages - initial offers average only 30-50% of potential entitlements."
   },
   {
-    "question": "How much do financial planning services cost?",
-    "answer": "Fees vary based on complexity and services needed. Initial consultations help determine scope and provide transparent pricing. Many clients save more in taxes and optimization than our fees cost."
+    question: "How do I maximize Employment Insurance (EI) benefits?",
+    answer: "EI provides 55% of average insurable earnings up to $68,500 (2025 maximum $650/week) for 14-45 weeks depending on regional unemployment and hours worked. Apply immediately upon job loss - delays can cost benefits. You can earn up to 50% of benefits through part-time work without reduction. Training programs may extend benefits. Severance payments don't affect eligibility but may delay start date. Report job search activities accurately - false reporting leads to penalties and repayment."
   },
   {
-    "question": "How do I get started with financial planning?",
-    "answer": "Book a consultation to discuss your situation and goals. We'll review your finances, identify opportunities and risks, and create a customized action plan for your success."
+    question: "Should I take a lump sum or salary continuance severance?",
+    answer: "Lump sum provides immediate access to funds and certainty, allowing investment and avoiding employer bankruptcy risk in 2025. However, it triggers immediate tax withholding (often 30-40%) and may push you into a higher tax bracket. Salary continuance maintains benefits, spreads tax burden, and preserves potential for additional severance if you find work, but ties you to employer policies and restricts legal claims. Most financial advisors recommend lump sum for packages over 12 months, salary continuance for shorter periods."
   }
 ];
 
@@ -52,11 +52,11 @@ const keyTakeaways = [
 ];
 
 const relatedQuestions = [
-  "Where can I find severance planning services in Toronto?",
-  "What documents do I need for severance planning in Ontario?",
-  "How much does severance planning cost in the GTA?",
-  "Are there free severance planning resources in Toronto?",
-  "What are common severance planning mistakes to avoid?"
+  "What are the tax implications of ?",
+  "How long does the  process take?",
+  "What professionals should I consult for ?",
+  "What are common mistakes in ?",
+  "How much does professional  advice cost?"
 ];
 
 const quickAnswer = "Professional financial planning helps you navigate complex financial decisions with confidence. Working with a qualified advisor ensures you're maximizing opportunities, minimizing taxes, and avoiding costly mistakes. The right strategy depends on your unique situation, goals, and timeline.";

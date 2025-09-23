@@ -1,0 +1,3078 @@
+{
+  "timestamp": "2025-09-23T14:45:09.734Z",
+  "summary": {
+    "postsChecked": 79,
+    "totalErrors": 0,
+    "totalWarnings": 464,
+    "averageScore": 86.07594936708861
+  },
+  "results": [
+    {
+      "file": "/home/amy/investing/src/app/blog/back-to-school-budgeting-divorced-parents/page.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 32,
+          "message": "FAQ #1 answer is too brief (125 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 answer is too brief (51 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "MISSING_TOPIC_FAQ",
+          "severity": "warning",
+          "message": "Blog about divorce should have FAQs about asset division, support, or custody"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (69 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "SEO_DESC_LENGTH",
+          "severity": "warning",
+          "message": "Description too long (169 chars, recommended: 150-160)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (31 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 83
+    },
+    {
+      "file": "/home/amy/investing/src/app/blog/business-valuation-methods-q4/page.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (72 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (84 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (1 instance)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 90
+    },
+    {
+      "file": "/home/amy/investing/src/app/blog/child-support-modifications-school-year/page.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 32,
+          "message": "FAQ #1 answer is too brief (40 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_NOT_SUBSTANTIVE",
+          "severity": "warning",
+          "line": 32,
+          "message": "FAQ #1 answer lacks substantive, actionable information"
+        },
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 308,
+          "message": "Heading hierarchy skip: H3 → H5"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (85 chars, recommended: 50-60)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (73 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 85
+    },
+    {
+      "file": "/home/amy/investing/src/app/blog/cottage-inheritance-labor-day/page.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (73 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (47 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 92
+    },
+    {
+      "file": "/home/amy/investing/src/app/blog/cpp-timing-60-65-70-decision/page.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 answer is too brief (94 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 32,
+          "message": "FAQ #1 may not be relevant to the blog topic about \"cpp at 60 vs 65 vs 70: the $200,000 decision | life money\""
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 may not be relevant to the blog topic about \"cpp at 60 vs 65 vs 70: the $200,000 decision | life money\""
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 may not be relevant to the blog topic about \"cpp at 60 vs 65 vs 70: the $200,000 decision | life money\""
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (73 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 77
+    },
+    {
+      "file": "/home/amy/investing/src/app/blog/divorce-financial-planning-after-covid/page.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 answer is too brief (112 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_NOT_SUBSTANTIVE",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 answer lacks substantive, actionable information"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (72 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (20 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (1 instance)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 83
+    },
+    {
+      "file": "/home/amy/investing/src/app/blog/estate-planning-blended-families/page.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_TOPIC_FAQ",
+          "severity": "warning",
+          "message": "Blog about inheritance/estate should have FAQs about probate, taxes, or beneficiaries"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (70 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "SEO_DESC_LENGTH",
+          "severity": "warning",
+          "message": "Description too long (161 chars, recommended: 150-160)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (26 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 87
+    },
+    {
+      "file": "/home/amy/investing/src/app/blog/fall-financial-reset-after-job-loss/page.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 32,
+          "message": "FAQ #1 may not be relevant to the blog topic about \"fall financial reset after job loss: your complete recovery guide | life money\""
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (78 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (26 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 87
+    },
+    {
+      "file": "/home/amy/investing/src/app/blog/maximizing-ei-benefits-guide/page.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (76 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_DESC_LENGTH",
+          "severity": "warning",
+          "message": "Description too long (161 chars, recommended: 150-160)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (31 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 92
+    },
+    {
+      "file": "/home/amy/investing/src/app/blog/negotiating-severance-financial-services/page.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (76 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (18 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (1 instance)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 90
+    },
+    {
+      "file": "/home/amy/investing/src/app/blog/ontario-inheritance-tax-changes-2025/page.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 answer is too brief (53 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 may not be relevant to the blog topic about \"2025 ontario inheritance tax changes: complete guide | life money\""
+        },
+        {
+          "type": "FAQ_NOT_SUBSTANTIVE",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 answer lacks substantive, actionable information"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (65 chars, recommended: 50-60)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (35 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 82
+    },
+    {
+      "file": "/home/amy/investing/src/app/blog/retirement-planning-checklist-gta/page.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (74 chars, recommended: 50-60)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (44 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 94
+    },
+    {
+      "file": "/home/amy/investing/src/app/blog/rrif-conversion-strategy-timing/page.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 27,
+          "message": "FAQ #1 may not be relevant to the blog topic about \"rrif conversion strategy: timing your rrsp rollover | life money\""
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (64 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (62 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 87
+    },
+    {
+      "file": "/home/amy/investing/src/app/blog/rrsp-contribution-room-maximize-2025/page.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (67 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Space before punctuation (5 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (75 instances)"
+        },
+        {
+          "type": "DATE_CONSISTENCY",
+          "severity": "warning",
+          "message": "Multiple years referenced: 2026, 2025, 2024. Verify dates are current."
+        }
+      ],
+      "hasErrors": false,
+      "score": 88
+    },
+    {
+      "file": "/home/amy/investing/src/app/blog/rrsp-vs-tfsa-during-divorce/page.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 answer is too brief (112 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_NOT_SUBSTANTIVE",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 answer lacks substantive, actionable information"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (72 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (35 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (1 instance)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 83
+    },
+    {
+      "file": "/home/amy/investing/src/app/blog/selling-gta-business-before-year-end/page.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (75 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_DESC_LENGTH",
+          "severity": "warning",
+          "message": "Description too long (173 chars, recommended: 150-160)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (27 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 92
+    },
+    {
+      "file": "/home/amy/investing/src/app/blog/september-severance-trends-tech/page.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (80 chars, recommended: 50-60)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (26 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (1 instance)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 92
+    },
+    {
+      "file": "/home/amy/investing/src/app/blog/tech-layoffs-severance-guide-2025/page.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (64 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (21 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 92
+    },
+    {
+      "file": "/home/amy/investing/src/app/blog/tfsa-vs-rrsp-retirement-strategy/page.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (71 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (75 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 92
+    },
+    {
+      "file": "/home/amy/investing/src/app/blog/toronto-real-estate-division-september/page.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 answer is too brief (112 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_NOT_SUBSTANTIVE",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 answer lacks substantive, actionable information"
+        },
+        {
+          "type": "MISSING_TOPIC_FAQ",
+          "severity": "warning",
+          "message": "Blog about inheritance/estate should have FAQs about probate, taxes, or beneficiaries"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (82 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_DESC_LENGTH",
+          "severity": "warning",
+          "message": "Description too long (164 chars, recommended: 150-160)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (67 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (1 instance)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 80
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/black-friday-retirement-spending-budget.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (69 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "SEO_DESC_LENGTH",
+          "severity": "warning",
+          "message": "Description too long (164 chars, recommended: 150-160)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (38 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 90
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/career-pivot-financial-planning.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 333,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 346,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 364,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (93 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (38 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 86
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/career-transition-financial-planning.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 32,
+          "message": "FAQ #1 may not be relevant to the blog topic about \"career transition: financial planning for industry changes | life money\""
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 may not be relevant to the blog topic about \"career transition: financial planning for industry changes | life money\""
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (71 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (41 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 82
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/charitable-giving-tax-planning.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 13,
+          "message": "FAQ #2 answer is too brief (145 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 476,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 490,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 508,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (82 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Space before punctuation (1 instance)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (53 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 82
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/common-law-separation-asset-division.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 answer is too brief (112 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 may not be relevant to the blog topic about \"common-law separation: asset division rights in ontario 2025 | life money\""
+        },
+        {
+          "type": "FAQ_NOT_SUBSTANTIVE",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 answer lacks substantive, actionable information"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (73 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_DESC_LENGTH",
+          "severity": "warning",
+          "message": "Description too long (164 chars, recommended: 150-160)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (27 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (1 instance)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 78
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/constructive-dismissal-financial-rights.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 395,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (89 chars, recommended: 50-60)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Space before punctuation (1 instance)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (12 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 90
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/cross-border-estate-planning-snowbirds.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 answer is too brief (53 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 may not be relevant to the blog topic about \"cross-border estate planning for snowbirds: 2025 guide | life money\""
+        },
+        {
+          "type": "FAQ_NOT_SUBSTANTIVE",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 answer lacks substantive, actionable information"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (67 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (91 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (1 instance)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 78
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/custody-arrangements-financial-impact.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 31,
+          "message": "FAQ #2 answer is too brief (112 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 31,
+          "message": "FAQ #2 may not be relevant to the blog topic about \"custody arrangements: financial impact assessment 2025 | life money\""
+        },
+        {
+          "type": "FAQ_NOT_SUBSTANTIVE",
+          "severity": "warning",
+          "line": 31,
+          "message": "FAQ #2 answer lacks substantive, actionable information"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (67 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "SEO_DESC_LENGTH",
+          "severity": "warning",
+          "message": "Description too long (161 chars, recommended: 150-160)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (77 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (1 instance)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 76
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/defined-benefit-pension-maximization.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (36 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (2 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 94
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/defined-benefit-pension-options.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 answer is too brief (102 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (72 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "SEO_DESC_LENGTH",
+          "severity": "warning",
+          "message": "Description too long (165 chars, recommended: 150-160)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (88 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 88
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/digital-asset-division-divorce.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 answer is too brief (112 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_NOT_SUBSTANTIVE",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 answer lacks substantive, actionable information"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (74 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "SEO_DESC_LENGTH",
+          "severity": "warning",
+          "message": "Description too long (184 chars, recommended: 150-160)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (32 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (2 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 81
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/divorce-mediation-vs-litigation.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 answer is too brief (112 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_NOT_SUBSTANTIVE",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 answer lacks substantive, actionable information"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (81 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (68 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (1 instance)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 83
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/early-retirement-50s-complete-roadmap.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (74 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "SEO_DESC_LENGTH",
+          "severity": "warning",
+          "message": "Description too long (171 chars, recommended: 150-160)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (55 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 90
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/early-retirement-50s-financial-independence.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 13,
+          "message": "FAQ #2 answer is too brief (94 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 9,
+          "message": "FAQ #1 may not be relevant to the blog topic about \"\""
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 13,
+          "message": "FAQ #2 may not be relevant to the blog topic about \"\""
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 17,
+          "message": "FAQ #3 may not be relevant to the blog topic about \"\""
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (74 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 79
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/ei-benefits-maximization-strategies.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 346,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (77 chars, recommended: 50-60)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Space before punctuation (1 instance)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (13 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 90
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/emotional-financial-wellness-job-loss.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_TOPIC_FAQ",
+          "severity": "warning",
+          "message": "Blog about job loss should have FAQs about severance, EI, or negotiation"
+        },
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 286,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 363,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 390,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 408,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (88 chars, recommended: 50-60)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Use proper ellipsis character (…) (2 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Space before punctuation (1 instance)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (25 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 79
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/estate-freezes-2025.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 answer is too brief (53 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 may not be relevant to the blog topic about \"estate freezes: lock in 2025 values before tax changes | life money\""
+        },
+        {
+          "type": "FAQ_NOT_SUBSTANTIVE",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 answer lacks substantive, actionable information"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (67 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (18 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 80
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/family-business-succession-planning.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 32,
+          "message": "FAQ #1 may not be relevant to the blog topic about \"family business succession: next generation transition | life money\""
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 may not be relevant to the blog topic about \"family business succession: next generation transition | life money\""
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 may not be relevant to the blog topic about \"family business succession: next generation transition | life money\""
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (67 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (30 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 77
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/family-cottage-inheritance-disputes.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 9,
+          "message": "FAQ #1 answer is too brief (50 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 13,
+          "message": "FAQ #2 answer is too brief (60 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_NOT_SUBSTANTIVE",
+          "severity": "warning",
+          "line": 9,
+          "message": "FAQ #1 answer lacks substantive, actionable information"
+        },
+        {
+          "type": "FAQ_NOT_SUBSTANTIVE",
+          "severity": "warning",
+          "line": 13,
+          "message": "FAQ #2 answer lacks substantive, actionable information"
+        },
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 371,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 389,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (66 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Space before punctuation (1 instance)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (39 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 72
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/government-benefits-oas-gis-cpp.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 35,
+          "message": "FAQ #3 answer is too brief (94 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 31,
+          "message": "FAQ #2 may not be relevant to the blog topic about \"government benefits guide: oas, gis, and cpp explained | life money\""
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (67 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (75 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (1 instance)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 83
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/gray-divorce-retirement-accounts.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 answer is too brief (112 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_NOT_SUBSTANTIVE",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 answer lacks substantive, actionable information"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (70 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (32 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (1 instance)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 83
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/halloween-shared-custody.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 answer is too brief (112 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_NOT_SUBSTANTIVE",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 answer lacks substantive, actionable information"
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 may not be relevant to the blog topic about \"halloween: managing shared custody during holidays | life money\""
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (63 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (24 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (2 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 78
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/healthcare-benefits-after-job-loss.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (76 chars, recommended: 50-60)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (26 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 94
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/high-conflict-divorce-financial-protection.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 answer is too brief (112 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_NOT_SUBSTANTIVE",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 answer lacks substantive, actionable information"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (72 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "SEO_DESC_LENGTH",
+          "severity": "warning",
+          "message": "Description too long (168 chars, recommended: 150-160)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (46 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (1 instance)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 81
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/inheritance-tax-planning-ontario.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 383,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 420,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Space before punctuation (1 instance)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (39 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (1 instance)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 88
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/inherited-debt-obligations-canada.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 350,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 368,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Space before punctuation (1 instance)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (12 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 88
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/inherited-investment-accounts-tax.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 311,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 335,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 352,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 368,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (91 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Space before punctuation (1 instance)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (21 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 82
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/job-search-expense-tax-deductions.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 389,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (87 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Space before punctuation (1 instance)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (39 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 88
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/manufacturing-severance-trends.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (81 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_DESC_LENGTH",
+          "severity": "warning",
+          "message": "Description too long (161 chars, recommended: 150-160)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (25 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (1 instance)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 90
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/navigating-holidays-after-divorce.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 answer is too brief (112 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_NOT_SUBSTANTIVE",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 answer lacks substantive, actionable information"
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 may not be relevant to the blog topic about \"navigating first holidays after divorce: financial & emotional guide | life money\""
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (81 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "SEO_DESC_LENGTH",
+          "severity": "warning",
+          "message": "Description too long (169 chars, recommended: 150-160)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (21 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (1 instance)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 76
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/november-severance-negotiation-strategies.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (73 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (15 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 92
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/october-tax-planning-inheritances.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 answer is too brief (53 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 may not be relevant to the blog topic about \"october tax planning for recent inheritances: 2025 strategies | life money\""
+        },
+        {
+          "type": "FAQ_NOT_SUBSTANTIVE",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 answer lacks substantive, actionable information"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (74 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (26 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 80
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/partnership-buyouts-structuring.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 32,
+          "message": "FAQ #1 may not be relevant to the blog topic about \"business partnership buyouts: structuring the deal | life money\""
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 may not be relevant to the blog topic about \"business partnership buyouts: structuring the deal | life money\""
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 may not be relevant to the blog topic about \"business partnership buyouts: structuring the deal | life money\""
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (63 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (30 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (1 instance)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 75
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/pension-commutation-lump-sum-analysis.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 answer is too brief (94 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 32,
+          "message": "FAQ #1 may not be relevant to the blog topic about \"pension commutation: lump sum vs monthly payments | life money\""
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 may not be relevant to the blog topic about \"pension commutation: lump sum vs monthly payments | life money\""
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (62 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (34 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 80
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/power-of-attorney-financial-decisions.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 314,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 419,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 434,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 452,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (78 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Space before punctuation (1 instance)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (10 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 82
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/prenup-financial-protection-strategies.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (72 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (41 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 92
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/probate-fees-ontario-2025.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 answer is too brief (53 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 may not be relevant to the blog topic about \"probate fees in ontario: 2025 updates and strategies | life money\""
+        },
+        {
+          "type": "FAQ_NOT_SUBSTANTIVE",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 answer lacks substantive, actionable information"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (65 chars, recommended: 50-60)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (47 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (1 instance)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 80
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/professional-practice-sales.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 32,
+          "message": "FAQ #1 may not be relevant to the blog topic about \"professional practice sales: lawyers, doctors, dentists | life money\""
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 may not be relevant to the blog topic about \"professional practice sales: lawyers, doctors, dentists | life money\""
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (68 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (37 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 82
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/q4-business-exit-planning.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (69 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (20 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 92
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/q4-layoff-patterns.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (13 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (1 instance)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 92
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/remarriage-estate-planning-considerations.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 answer is too brief (53 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 may not be relevant to the blog topic about \"remarriage: estate planning considerations 2025 | life money\""
+        },
+        {
+          "type": "FAQ_NOT_SUBSTANTIVE",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 answer lacks substantive, actionable information"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "SEO_DESC_LENGTH",
+          "severity": "warning",
+          "message": "Description too long (167 chars, recommended: 150-160)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (24 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 80
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/remembrance-day-veteran-benefits.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (70 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (65 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 92
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/resp-to-rrsp-education-retirement.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (67 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "SEO_DESC_LENGTH",
+          "severity": "warning",
+          "message": "Description too short (48 chars, recommended: 120-160)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (81 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 90
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/retirement-healthcare-cost-planning.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (68 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "SEO_DESC_LENGTH",
+          "severity": "warning",
+          "message": "Description too long (166 chars, recommended: 150-160)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (117 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 90
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/retirement-housing-downsizing-gta.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (66 chars, recommended: 50-60)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (73 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 94
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/retirement-income-splitting-strategies.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (63 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (76 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 92
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/retirement-part-time-work-strategies.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (70 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (54 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 92
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/retirement-planning-age-40.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 36,
+          "message": "FAQ #2 may not be relevant to the blog topic about \"retirement planning at 40: critical steps to take now | life money\""
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (66 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (70 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (1 instance)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 85
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/retirement-travel-budget-planning.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (72 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "SEO_DESC_LENGTH",
+          "severity": "warning",
+          "message": "Description too long (176 chars, recommended: 150-160)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (82 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 90
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/retirement-withdrawal-sequence-optimization.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (75 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "SEO_DESC_LENGTH",
+          "severity": "warning",
+          "message": "Description too long (169 chars, recommended: 150-160)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (52 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 90
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/self-employed-retirement-ipp-rrsp.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (71 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 94
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/severance-package-negotiation-tactics.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "HEADING_HIERARCHY",
+          "severity": "warning",
+          "line": 276,
+          "message": "Heading hierarchy skip: H2 → H4"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Space before punctuation (1 instance)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (12 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 92
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/spousal-support-duration-case-law.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (67 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (24 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (2 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 90
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/stock-options-severance-packages.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (77 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "SEO_DESC_LENGTH",
+          "severity": "warning",
+          "message": "Description too long (170 chars, recommended: 150-160)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (43 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 90
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/tax-free-retirement-income-strategies.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (49 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 96
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/thanksgiving-blended-family-finances.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (64 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "SEO_DESC_LENGTH",
+          "severity": "warning",
+          "message": "Description too long (162 chars, recommended: 150-160)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (28 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 90
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/thanksgiving-estate-planning-conversations.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 answer is too brief (53 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 may not be relevant to the blog topic about \"thanksgiving family meetings: estate planning conversations guide | life money\""
+        },
+        {
+          "type": "FAQ_NOT_SUBSTANTIVE",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 answer lacks substantive, actionable information"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (78 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (18 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 80
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/trust-structures-high-net-worth.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "SHORT_ANSWER",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 answer is too brief (53 chars). Minimum 150 chars recommended for substantive answers."
+        },
+        {
+          "type": "FAQ_RELEVANCE",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 may not be relevant to the blog topic about \"trust structures for high net worth estates: 2025 strategies | life money\""
+        },
+        {
+          "type": "FAQ_NOT_SUBSTANTIVE",
+          "severity": "warning",
+          "line": 40,
+          "message": "FAQ #3 answer lacks substantive, actionable information"
+        },
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (73 chars, recommended: 50-60)"
+        },
+        {
+          "type": "SEO_LOCAL_KEYWORDS",
+          "severity": "warning",
+          "message": "Title missing local keywords (Toronto/GTA/Ontario)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (22 instances)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Possible its/it's confusion (2 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 78
+    },
+    {
+      "file": "/home/amy/investing/content/scheduled-posts/year-end-business-sale-tax.tsx",
+      "issues": [],
+      "warnings": [
+        {
+          "type": "MISSING_CTA",
+          "severity": "warning",
+          "message": "No clear call-to-action found in the content"
+        },
+        {
+          "type": "SEO_TITLE_LENGTH",
+          "severity": "warning",
+          "message": "Title too long (77 chars, recommended: 50-60)"
+        },
+        {
+          "type": "GRAMMAR",
+          "severity": "warning",
+          "message": "Missing space after punctuation (98 instances)"
+        }
+      ],
+      "hasErrors": false,
+      "score": 94
+    }
+  ]
+}

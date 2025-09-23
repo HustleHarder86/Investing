@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "What makes Life Money different from other financial advisors?",
-    "answer": "We specialize in complex life transitions with dedicated expertise in divorce, inheritance, business sales, and career changes. Our GTA-focused approach means we understand local markets and regulations."
+    question: "How are assets divided in an Ontario divorce?",
+    answer: "Ontario follows equalization of net family property, meaning spouses share equally in the increase of their net worth during marriage. Each spouse calculates their net worth on the marriage date and separation date. The spouse with the higher increase pays half the difference to the other. The matrimonial home is treated specially - its full value is included regardless of who owned it before marriage. Excluded assets include inheritances, gifts from third parties, and personal injury settlements."
   },
   {
-    "question": "How much do financial planning services cost?",
-    "answer": "Fees vary based on complexity and services needed. Initial consultations help determine scope and provide transparent pricing. Many clients save more in taxes and optimization than our fees cost."
+    question: "What happens to RRSPs and pensions during divorce?",
+    answer: "RRSPs accumulated during marriage are divided equally, typically through a tax-free rollover to the other spouse's RRSP. Defined benefit pensions require actuarial valuation to determine present value, which forms part of equalization. You can transfer up to 50% of pension credits to your spouse tax-free. CPP credits earned during marriage are automatically split equally upon divorce. TFSAs are treated as regular property for equalization purposes."
   },
   {
-    "question": "How do I get started with financial planning?",
-    "answer": "Book a consultation to discuss your situation and goals. We'll review your finances, identify opportunities and risks, and create a customized action plan for your success."
+    question: "How is spousal support calculated in Ontario?",
+    answer: "Spousal support uses the Spousal Support Advisory Guidelines, which consider income difference, marriage length, ages, and children. For marriages over 20 years or age 65+, support is often indefinite. The formula typically ranges from 1.5-2% of income difference per year of marriage (without children) to more complex calculations with children. High-income earners ($350,000+) may see different applications. Tax implications are significant - support is deductible for the payor and taxable for the recipient."
   }
 ];
 
@@ -52,11 +52,11 @@ const keyTakeaways = [
 ];
 
 const relatedQuestions = [
-  "Where can I find divorce planning services in Toronto?",
-  "What documents do I need for divorce planning in Ontario?",
-  "How much does divorce planning cost in the GTA?",
-  "Are there free divorce planning resources in Toronto?",
-  "What are common divorce planning mistakes to avoid?"
+  "What are the tax implications of ?",
+  "How long does the  process take?",
+  "What professionals should I consult for ?",
+  "What are common mistakes in ?",
+  "How much does professional  advice cost?"
 ];
 
 const quickAnswer = "Professional financial planning helps you navigate complex financial decisions with confidence. Working with a qualified advisor ensures you're maximizing opportunities, minimizing taxes, and avoiding costly mistakes. The right strategy depends on your unique situation, goals, and timeline.";

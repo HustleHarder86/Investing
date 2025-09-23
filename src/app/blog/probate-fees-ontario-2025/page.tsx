@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "How much are probate fees in Ontario?",
-    "answer": "Ontario charges $5 per $1,000 for the first $50,000 and $15 per $1,000 thereafter. A $1 million estate pays $14,500 in probate fees."
+    question: "What taxes apply to inheritances in Canada?",
+    answer: "Canada has no inheritance tax, but estates face deemed disposition tax on capital gains in 2025. All assets (except those passing to a spouse) are deemed sold at fair market value upon death, triggering capital gains tax in the final return. RRSPs/RRIFs are fully taxable as income unless transferred to a spouse or dependent child. Primary residences remain tax-exempt. Probate fees in Ontario are 1.5% on estates over $50,000. Proper planning using trusts, insurance, and spousal rollovers can save hundreds of thousands in taxes."
   },
   {
-    "question": "Can I avoid probate fees in Ontario?",
-    "answer": "Yes, through strategies like joint ownership, designated beneficiaries on registered accounts, multiple wills, and certain trust structures. Primary residences can often bypass probate."
+    question: "How long does probate take in Ontario?",
+    answer: "Ontario probate typically takes 3-6 months for simple estates, or 8-18 months for complex situations in 2025. The process includes: application preparation (2-4 weeks), court review and approval (6-8 weeks), asset collection and debt payment (3-6 months), and final distribution (1-2 months). Estates with foreign assets, business interests, or litigation can take 2-3 years. Probate can be avoided for assets with named beneficiaries (RRSPs, TFSAs, insurance) or jointly-held property."
   },
   {
-    "question": "How long does probate take in Ontario?",
-    "answer": "Simple estates typically receive probate approval in 2-4 weeks. Complex estates or those with issues can take 2-6 months. Toronto courts average 3-4 weeks for straightforward applications."
+    question: "What are an executor's responsibilities and liabilities?",
+    answer: "Executors have fiduciary duty to act in beneficiaries' best interests, facing personal liability for mistakes in 2025. Key responsibilities include: securing assets, paying debts and taxes, filing final tax returns, obtaining probate if required, managing investments prudently, and distributing according to the will. Executors can be personally liable for unpaid taxes, premature distributions, investment losses from poor decisions, and breach of fiduciary duty. Professional executor insurance and legal guidance are strongly recommended for estates over $500,000."
   }
 ];
 
@@ -52,11 +52,11 @@ const keyTakeaways = [
 ];
 
 const relatedQuestions = [
-  "What changed in inheritance planning regulations this year?",
-  "Where can I find inheritance planning services in Toronto?",
-  "What documents do I need for inheritance planning in Ontario?",
-  "How much does inheritance planning cost in the GTA?",
-  "Are there free inheritance planning resources in Toronto?"
+  "What are the tax implications of ?",
+  "How long does the  process take?",
+  "What professionals should I consult for ?",
+  "What are common mistakes in ?",
+  "How much does professional  advice cost?"
 ];
 
 const quickAnswer = "Ontario probate fees (Estate Administration Tax) are $15 per $1,000 for estates over $50,000, with no upper limit. For a $2M estate, fees are $29,500. Avoid probate through joint ownership, designated beneficiaries, and multiple wills strategy. Primary residence can often bypass probate with proper planning.";

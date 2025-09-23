@@ -30,33 +30,33 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "What makes Life Money different from other financial advisors?",
-    "answer": "We specialize in complex life transitions with dedicated expertise in divorce, inheritance, business sales, and career changes. Our GTA-focused approach means we understand local markets and regulations."
+    question: "How do blended families protect children from previous marriages?",
+    answer: "Blended families protect children from previous marriages through spousal trusts, life interest trusts, and specific bequests in wills updated in 2025. A spousal trust provides income to the surviving spouse while preserving capital for children from the first marriage. Life insurance policies with children as beneficiaries ensure direct inheritance. Mutual wills or marriage contracts can prevent disinheritance. Consider separate property ownership for assets intended for specific children. Update beneficiary designations on RRSPs, TFSAs, and insurance to bypass the estate and go directly to intended beneficiaries."
   },
   {
-    "question": "How much do financial planning services cost?",
-    "answer": "Fees vary based on complexity and services needed. Initial consultations help determine scope and provide transparent pricing. Many clients save more in taxes and optimization than our fees cost."
+    question: "What's the difference between joint tenancy and tenants in common for blended families?",
+    answer: "Joint tenancy with right of survivorship means the surviving owner automatically inherits, potentially disinheriting children from a first marriage in 2025. Tenants in common allows each owner to will their share to chosen beneficiaries, protecting children's inheritance. For the matrimonial home, joint tenancy may suit if both spouses contribute equally and have mutual obligations. For investment properties or cottages, tenants in common preserves each family's interests. Consider a trust to hold property, providing use to the surviving spouse while preserving ownership for respective children."
   },
   {
-    "question": "How do I get started with financial planning?",
-    "answer": "Book a consultation to discuss your situation and goals. We'll review your finances, identify opportunities and risks, and create a customized action plan for your success."
+    question: "How do marriage contracts protect blended family estates?",
+    answer: "Marriage contracts (prenups or postnups) in blended families clarify property division, spousal support, and inheritance rights, preventing the Family Law Act from overriding estate plans in Ontario 2025. They can exclude specific assets from equalization, preserve family heirlooms or businesses for children, and waive spousal elect rights that could claim up to 50% of the estate. Contracts should address death benefits, life insurance obligations, and support for minor children. Both parties need independent legal advice for enforceability. Review contracts every 3-5 years or after major life changes."
   }
 ];
 
 const keyTakeaways = [
-  "Probate fees in Ontario are 1.5% on estates over $50,000",
-  "Primary residence exemption can save hundreds of thousands in taxes",
-  "Multiple wills strategy can reduce probate costs significantly",
-  "New tax rules and contribution limits apply for 2025",
-  "Review strategies annually as regulations change"
+  "Spousal trusts balance current spouse needs with children's inheritance",
+  "Marriage contracts prevent Family Law Act from overriding wills",
+  "Tenants in common protects children from previous marriages",
+  "Life insurance creates separate inheritance pools",
+  "Regular updates essential as blended families evolve"
 ];
 
 const relatedQuestions = [
-  "How long does inheritance planning take in Ontario?",
-  "What changed in inheritance planning regulations this year?",
-  "Where can I find inheritance planning services in Toronto?",
-  "What documents do I need for inheritance planning in Ontario?",
-  "How much does inheritance planning cost in the GTA?"
+  "How much are probate fees in Ontario?",
+  "Do I need a will if everything is joint?",
+  "What assets bypass probate?",
+  "How are RRSPs taxed at death?",
+  "Can I avoid probate with a trust?"
 ];
 
 const quickAnswer = "Blended families require careful estate planning to balance children from previous relationships with current spouse needs. Key strategies include mutual wills, trusts for minor children, specific bequests for biological children, and life insurance to equalize inheritances. Update beneficiaries on all accounts immediately.";

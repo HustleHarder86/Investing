@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "When can child support be modified in Ontario?",
-    "answer": "Child support can be modified when there's a material change in circumstances, typically an income change of 15% or more, or changes in custody arrangements."
+    question: "When can child support be modified in Ontario?",
+    answer: "Child support can be modified when there's a material change in circumstances, typically a 15% or greater change in either parent's income, changes in custody arrangements, or significant changes in the child's needs in 2025. Annual disclosure of income is required, and adjustments should follow Federal Child Support Guidelines. Courts consider changes lasting at least 6 months as material. Common triggers include job loss, promotion, new employment, disability, or children starting/finishing post-secondary education. Retroactive adjustments may apply if disclosure was delayed."
   },
   {
-    "question": "How is child support calculated for university students?",
-    "answer": "Post-secondary support is determined case-by-case, considering the child's academic performance, program costs, and both parents' financial abilities. It often includes tuition plus a reduced monthly amount."
+    question: "What are Section 7 extraordinary expenses for children?",
+    answer: "Section 7 expenses are costs beyond basic child support including childcare, medical/dental insurance premiums, health-related expenses over $100/year not covered by insurance, extraordinary extracurricular activities, post-secondary education, and extraordinary school costs in 2025. These are shared proportionally based on parents' incomes after deducting subsidies, benefits, and tax deductions. Back-to-school expenses like tutoring, school trips, technology needs, and specialized programs often qualify. Documentation and receipts are essential for claiming these shared expenses."
   },
   {
-    "question": "Do I need a lawyer to modify child support?",
-    "answer": "While not required, legal assistance is recommended for contested modifications. Simple agreed changes can be filed using Form 15 at the Ontario Court of Justice."
+    question: "How does post-secondary education affect child support?",
+    answer: "Child support typically continues for children attending post-secondary education full-time in Ontario, often until age 23-25 or first degree completion in 2025. The base table amount may be reduced if the child lives away from home, with parents sharing residence and education costs as Section 7 expenses. Students must provide proof of enrollment, grades, and financial information including summer earnings, scholarships, and student loans. Parents can agree to RESP contributions, residence costs, and tuition payment arrangements in separation agreements to avoid future disputes."
   }
 ];
 
@@ -52,11 +52,11 @@ const keyTakeaways = [
 ];
 
 const relatedQuestions = [
-  "How long does divorce planning take in Ontario?",
-  "Where can I find divorce planning services in Toronto?",
-  "What documents do I need for divorce planning in Ontario?",
-  "How much does divorce planning cost in the GTA?",
-  "Are there free divorce planning resources in Toronto?"
+  "What are the tax implications of ?",
+  "How long does the  process take?",
+  "What professionals should I consult for ?",
+  "What are common mistakes in ?",
+  "How much does professional  advice cost?"
 ];
 
 const quickAnswer = "Child support can be modified when there's a material change in circumstances such as income changes of 15%+, children starting/ending post-secondary education, or custody arrangement changes. In Ontario, use the online child support calculator and file Form 15 with the court to request modifications.";

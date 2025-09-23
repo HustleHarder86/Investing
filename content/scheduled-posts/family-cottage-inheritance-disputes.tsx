@@ -5,6 +5,39 @@ import FAQSection from '@/components/seo/FAQSection';
 import KeyTakeaways from '@/components/seo/KeyTakeaways';
 import RelatedQuestions from '@/components/seo/RelatedQuestions';
 
+const blogFAQs = [
+  {
+    question: "How can I prevent family disputes over cottage inheritance in Ontario?",
+    answer: "Create a comprehensive cottage agreement while you're alive that establishes clear rules for usage, financial contributions, maintenance responsibilities, and buyout provisions. Include decision-making processes, dispute resolution mechanisms, and succession planning for the next generation. Consider ownership structures like family trusts or corporations. Most importantly, have honest family discussions about cottage expectations and financial capacity while emotions are calm and you can mediate discussions."
+  },
+  {
+    question: "What are the tax implications of inheriting a cottage in Ontario?",
+    answer: "Cottages face full capital gains tax at death since they don't qualify for the principal residence exemption if you already use it for your main home. On a cottage bought for $50,000 in 1975 and worth $850,000 today, the capital gains tax could exceed $200,000 at Ontario's top rate of 53.53%. This tax is due even if the cottage isn't sold. You can designate the cottage as your principal residence instead of your main home, but this requires careful analysis of which property has the larger tax saving."
+  },
+  {
+    question: "What ownership structure works best for family cottages?",
+    answer: "The best structure depends on family size, cottage value, and complexity of relationships. Simple joint ownership works for small families with aligned interests. For complex situations, consider: family trusts (professional management, spans generations), family corporations (easy share transfers, clear governance), or tenants-in-common (flexible individual shares). Each structure has different tax implications, costs ($10,000-25,000 setup for trusts), and governance requirements. The key is matching the structure to your family's specific needs and dynamics."
+  }
+];
+
+const quickAnswer = "Prevent cottage inheritance disputes by creating a detailed family cottage agreement while parents are alive, addressing usage rights, financial contributions, maintenance duties, and buyout mechanisms. Consider ownership structures like family trusts or corporations, plan for capital gains taxes (often $200,000+), and establish life insurance to cover tax obligations without forcing sale.";
+
+const keyTakeaways = [
+  "75% of cottage owners have no succession plan, leading to family conflicts and forced sales",
+  "Capital gains tax on cottages can exceed $200,000 without principal residence exemption",
+  "Family cottage agreements prevent disputes by establishing clear usage and financial rules",
+  "Life insurance can fund tax obligations to avoid forced cottage sales",
+  "Consider family trusts or corporations for complex multi-generational planning"
+];
+
+const relatedQuestions = [
+  "How much does cottage succession planning cost in Ontario?",
+  "Can I designate my cottage as principal residence to avoid capital gains?",
+  "What documents do I need for family cottage planning?",
+  "How do cottage trusts work in Canada?",
+  "What are cottage maintenance costs for inheritance planning?"
+];
+
 
 const blogPost = {
   title: "Family Cottage Inheritance: Preventing the War Over the Lake House",

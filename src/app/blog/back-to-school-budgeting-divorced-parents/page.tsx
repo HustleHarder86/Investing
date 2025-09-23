@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "What makes Life Money different from other financial advisors?",
-    "answer": "We specialize in complex life transitions with dedicated expertise in divorce, inheritance, business sales, and career changes. Our GTA-focused approach means we understand local markets and regulations."
+    question: "How do divorced parents split back-to-school expenses in Ontario?",
+    answer: "Back-to-school expenses are typically shared as Section 7 extraordinary expenses, divided proportionally based on each parent's income after considering tax benefits and subsidies in 2025. Basic school supplies under $200 usually fall under regular child support, while extraordinary items like laptops, uniforms for private schools, musical instruments, and specialized equipment are shared. Parents should create a detailed list by July, exchange receipts, and document all purchases. Many separation agreements specify a dollar threshold (often $100-200) above which expenses must be shared and pre-approved by both parents."
   },
   {
-    "question": "How much do financial planning services cost?",
-    "answer": "Fees vary based on complexity and services needed. Initial consultations help determine scope and provide transparent pricing. Many clients save more in taxes and optimization than our fees cost."
+    question: "What back-to-school costs qualify as Section 7 expenses?",
+    answer: "Section 7 back-to-school expenses include private school tuition, tutoring, technology beyond basic needs (tablets, laptops, specialized software), extracurricular registration fees, musical instruments, sports equipment over $200, school trips, uniformed clothing for private schools, and specialized learning materials for children with disabilities in 2025. Basic supplies like pencils, notebooks, and standard clothing are covered by base child support. The test is whether expenses are necessary for the child's best interests and reasonable given parents' means. Documentation and advance discussion prevent September conflicts."
   },
   {
-    "question": "How do I get started with financial planning?",
-    "answer": "Book a consultation to discuss your situation and goals. We'll review your finances, identify opportunities and risks, and create a customized action plan for your success."
+    question: "How can divorced parents budget effectively for school expenses?",
+    answer: "Effective budgeting starts with reviewing last year's expenses and your separation agreement's Section 7 provisions by June each year. Create a shared spreadsheet listing anticipated costs, deadlines, and payment responsibilities. Take advantage of July/August sales, bulk buying opportunities, and tax-free weekends. Consider opening a joint account specifically for children's expenses with both parents contributing monthly based on income proportions. Use apps like Splitwise or 2Houses to track shared expenses. Plan for unexpected costs with a 20% buffer, and establish protocols for emergency expenses and mid-year activity additions."
   }
 ];
 
@@ -52,14 +52,14 @@ const keyTakeaways = [
 ];
 
 const relatedQuestions = [
-  "Where can I find divorce planning services in Toronto?",
-  "What documents do I need for divorce planning in Ontario?",
-  "How much does divorce planning cost in the GTA?",
-  "Are there free divorce planning resources in Toronto?",
-  "What are common divorce planning mistakes to avoid?"
+  "How is property divided in Ontario divorces?",
+  "What factors affect spousal support duration and amount?",
+  "Can I keep the house after divorce?",
+  "How are pensions split during divorce?",
+  "What's the difference between separation and divorce?"
 ];
 
-const quickAnswer = "Professional financial planning helps you navigate complex financial decisions with confidence. Working with a qualified advisor ensures you're maximizing opportunities, minimizing taxes, and avoiding costly mistakes. The right strategy depends on your unique situation, goals, and timeline.";
+const quickAnswer = "Divorced parents in Ontario share back-to-school expenses as Section 7 extraordinary costs, divided proportionally by income. Basic supplies are covered by child support, while extraordinary items like technology, uniforms, and activities are shared. Planning in July, documenting expenses, and clear communication prevent September conflicts and ensure children have everything they need for school success.";
 
 const BlogContent = () => (
   <>

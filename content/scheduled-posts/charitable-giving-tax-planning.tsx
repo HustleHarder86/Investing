@@ -5,6 +5,39 @@ import FAQSection from '@/components/seo/FAQSection';
 import KeyTakeaways from '@/components/seo/KeyTakeaways';
 import RelatedQuestions from '@/components/seo/RelatedQuestions';
 
+const blogFAQs = [
+  {
+    question: "What are the most tax-efficient charitable giving strategies in Canada for 2025?",
+    answer: "The most efficient strategies include donating appreciated securities (avoid capital gains tax while claiming full donation credit), using donor-advised funds for flexible timing, establishing private foundations for large estates, and timing donations to maximize tax bracket benefits. In Ontario, donation tax credits reach 53.53% for amounts over $200. Consider donating appreciated capital property, timing gifts over multiple years, and using charitable remainder trusts for income plus tax benefits."
+  },
+  {
+    question: "How do donation tax credits work for large charitable gifts in Ontario?",
+    answer: "In Ontario, you receive a 25.75% tax credit on the first $200 donated, then 53.53% on amounts over $200 (2025 rates). For a $10,000 donation, you'd save approximately $5,304 in taxes. You can carry forward unused credits for 5 years, allowing strategic timing. Super credits of up to 75% apply to first-time donors or those returning after a break. For ultra-high net worth individuals, consider charitable remainder trusts or private foundations for additional benefits."
+  },
+  {
+    question: "Can I donate appreciated stocks and avoid capital gains tax?",
+    answer: "Yes, donating publicly traded securities directly to registered charities eliminates capital gains tax while providing full donation tax credit on fair market value. For example, stock purchased for $5,000 now worth $25,000 donated to charity results in $0 capital gains tax and roughly $13,000 in tax credits (at Ontario's top rate). This strategy is particularly powerful for entrepreneurs and investors with significant unrealized gains. Private company shares and other capital property may also qualify under specific conditions."
+  }
+];
+
+const quickAnswer = "Maximize tax benefits through strategic charitable giving by donating appreciated securities (eliminates capital gains, provides full tax credit), timing gifts to optimize tax brackets, using donor-advised funds for flexibility, and considering charitable remainder trusts for income plus tax benefits. Ontario donors save up to 53.53% on donations over $200.";
+
+const keyTakeaways = [
+  "Donating appreciated securities eliminates capital gains tax and provides full donation credit",
+  "Ontario donation tax credits reach 53.53% for amounts over $200 in 2025",
+  "Donation tax credits can be carried forward for 5 years for strategic timing",
+  "Donor-advised funds provide flexibility and investment growth potential",
+  "Consider charitable remainder trusts for income, tax benefits, and philanthropy"
+];
+
+const relatedQuestions = [
+  "How do donor-advised funds work for tax planning?",
+  "What securities qualify for charitable tax benefits?",
+  "Can I establish a private foundation in Canada?",
+  "How do charitable remainder trusts work?",
+  "What are the limits on charitable donation tax credits?"
+];
+
 
 const blogPost = {
   title: "Charitable Giving Tax Strategies: Maximize Impact While Minimizing Taxes in Canada",

@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "What makes Life Money different from other financial advisors?",
-    "answer": "We specialize in complex life transitions with dedicated expertise in divorce, inheritance, business sales, and career changes. Our GTA-focused approach means we understand local markets and regulations."
+    question: "How do I calculate my available RRSP contribution room for 2025?",
+    answer: "Your 2025 RRSP contribution room equals 18% of your 2024 earned income (maximum $32,490) plus any unused room from previous years, minus pension adjustments. Check your Notice of Assessment line 01 or CRA My Account for exact amounts. Earned income includes employment, self-employment, rental income, and spousal support received. The room accumulates annually until age 71 and carries forward indefinitely if unused. Toronto residents earning $100,000+ should especially track this as it represents significant tax savings potential."
   },
   {
-    "question": "How much do financial planning services cost?",
-    "answer": "Fees vary based on complexity and services needed. Initial consultations help determine scope and provide transparent pricing. Many clients save more in taxes and optimization than our fees cost."
+    question: "What's the difference between RRSP contribution limits and deduction limits?",
+    answer: "Your RRSP contribution limit is the maximum you can contribute without penalty (plus $2,000 over-contribution buffer). Your deduction limit is what you can claim on your current tax return. If you contribute more than your deduction limit, the excess becomes a 'contribution without deduction' carried forward to future years when you have room. This strategy helps high-income earners smooth out tax brackets or prepay into RRSPs during low-income years. However, be careful not to exceed the $2,000 buffer or face 1% monthly penalties on the excess."
   },
   {
-    "question": "How do I get started with financial planning?",
-    "answer": "Book a consultation to discuss your situation and goals. We'll review your finances, identify opportunities and risks, and create a customized action plan for your success."
+    question: "Can I catch up on years of unused RRSP contribution room?",
+    answer: "Absolutely! Unused RRSP room carries forward indefinitely until age 71, making catch-up strategies very powerful for Toronto professionals. You can contribute large amounts in high-income years to maximize tax savings. Popular strategies include: using tax refunds to fund future contributions, RRSP loans to capture immediate tax benefits, spreading catch-up over multiple years to optimize tax brackets, and in-kind transfers of non-registered investments. Many GTA residents discover $50,000+ in unused room and save $20,000+ in taxes through strategic catch-up contributions."
   }
 ];
 
@@ -52,11 +52,11 @@ const keyTakeaways = [
 ];
 
 const relatedQuestions = [
-  "What changed in retirement planning regulations this year?",
-  "Where can I find retirement planning services in Toronto?",
-  "What documents do I need for retirement planning in Ontario?",
-  "How much does retirement planning cost in the GTA?",
-  "Are there free retirement planning resources in Toronto?"
+  "What are the tax implications of ?",
+  "How long does the  process take?",
+  "What professionals should I consult for ?",
+  "What are common mistakes in ?",
+  "How much does professional  advice cost?"
 ];
 
 const quickAnswer = "Your RRSP contribution room for 2025 is 18% of your 2024 earned income (max $32,490) plus any unused room from previous years. Check your Notice of Assessment or CRA My Account for exact amounts. Contributing before March 1, 2026 reduces your 2025 taxes, potentially saving $10,000+ for high earners.";

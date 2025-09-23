@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "How much EI can I receive in 2025?",
-    "answer": "The maximum EI benefit is $668 per week in 2025, which is 55% of your average insurable earnings up to the maximum of $66,300 per year."
+    question: "How are EI benefits calculated in 2025?",
+    answer: "EI regular benefits pay 55% of your average insurable earnings up to the 2025 maximum of $68,500 annually, providing maximum weekly benefits of $668. Benefits are calculated using your best 14-22 weeks of earnings (depending on regional unemployment rate) in the last 52 weeks. You need 420-700 insurable hours to qualify, with higher unemployment regions requiring fewer hours. Benefits last 14-45 weeks based on hours worked and regional unemployment. The Toronto region typically requires 665 hours for 19 weeks of benefits. Special benefits (maternity, parental) have different calculations and durations."
   },
   {
-    "question": "How long does it take to get EI benefits?",
-    "answer": "EI benefits typically begin within 28 days of filing your claim, assuming all documentation is complete. There's a one-week waiting period before benefits start."
+    question: "Can I work while receiving EI benefits?",
+    answer: "Yes, you can work while on EI using the Working While on Claim provision, keeping 50 cents of EI benefits for every dollar earned, up to 90% of previous weekly earnings in 2025. Earnings above this threshold are deducted dollar-for-dollar from benefits. You must report all earnings in the week you earn them, not when paid. Self-employment income, including gig work, must be reported. Training and schooling are allowed if approved by Service Canada. Working helps maintain skills, extend benefit duration, and can lead to full-time employment without penalty for ending your claim early."
   },
   {
-    "question": "Can I work while receiving EI?",
-    "answer": "Yes, you can work part-time and earn up to 50% of your weekly benefits before deductions apply. Earnings above this threshold reduce benefits by 50 cents per dollar."
+    question: "What disqualifies you from receiving EI benefits?",
+    answer: "EI disqualification occurs for voluntarily leaving without just cause, misconduct leading to dismissal, refusing suitable employment, not being available for work, or providing false information in 2025. Just cause includes harassment, dangerous conditions, significant pay reduction (20%+), or employer breach of contract. Misconduct means willful actions incompatible with employment, not poor performance. You must be actively seeking work, document job search efforts, and be available for work Monday-Friday. Severance payments may delay but not disqualify benefits. Penalties for false claims include repayment, fines up to $5,000, and prosecution."
   }
 ];
 
@@ -52,11 +52,11 @@ const keyTakeaways = [
 ];
 
 const relatedQuestions = [
-  "How long does severance planning take in Ontario?",
-  "Where can I find severance planning services in Toronto?",
-  "What documents do I need for severance planning in Ontario?",
-  "How much does severance planning cost in the GTA?",
-  "Are there free severance planning resources in Toronto?"
+  "What are the tax implications of ?",
+  "How long does the  process take?",
+  "What professionals should I consult for ?",
+  "What are common mistakes in ?",
+  "How much does professional  advice cost?"
 ];
 
 const quickAnswer = "To maximize EI benefits in 2025, apply immediately after job loss, ensure your ROE shows maximum insurable earnings ($66,300), and avoid any actions that could delay your claim. You can receive up to $668 per week for 14-45 weeks depending on your region's unemployment rate and hours worked.";

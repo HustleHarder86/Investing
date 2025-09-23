@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "What makes Life Money different from other financial advisors?",
-    "answer": "We specialize in complex life transitions with dedicated expertise in divorce, inheritance, business sales, and career changes. Our GTA-focused approach means we understand local markets and regulations."
+    question: "What taxes apply to inheritances in Canada?",
+    answer: "Canada has no inheritance tax, but estates face deemed disposition tax on capital gains in 2025. All assets (except those passing to a spouse) are deemed sold at fair market value upon death, triggering capital gains tax in the final return. RRSPs/RRIFs are fully taxable as income unless transferred to a spouse or dependent child. Primary residences remain tax-exempt. Probate fees in Ontario are 1.5% on estates over $50,000. Proper planning using trusts, insurance, and spousal rollovers can save hundreds of thousands in taxes."
   },
   {
-    "question": "How much do financial planning services cost?",
-    "answer": "Fees vary based on complexity and services needed. Initial consultations help determine scope and provide transparent pricing. Many clients save more in taxes and optimization than our fees cost."
+    question: "How long does probate take in Ontario?",
+    answer: "Ontario probate typically takes 3-6 months for simple estates, or 8-18 months for complex situations in 2025. The process includes: application preparation (2-4 weeks), court review and approval (6-8 weeks), asset collection and debt payment (3-6 months), and final distribution (1-2 months). Estates with foreign assets, business interests, or litigation can take 2-3 years. Probate can be avoided for assets with named beneficiaries (RRSPs, TFSAs, insurance) or jointly-held property."
   },
   {
-    "question": "How do I get started with financial planning?",
-    "answer": "Book a consultation to discuss your situation and goals. We'll review your finances, identify opportunities and risks, and create a customized action plan for your success."
+    question: "What are an executor's responsibilities and liabilities?",
+    answer: "Executors have fiduciary duty to act in beneficiaries' best interests, facing personal liability for mistakes in 2025. Key responsibilities include: securing assets, paying debts and taxes, filing final tax returns, obtaining probate if required, managing investments prudently, and distributing according to the will. Executors can be personally liable for unpaid taxes, premature distributions, investment losses from poor decisions, and breach of fiduciary duty. Professional executor insurance and legal guidance are strongly recommended for estates over $500,000."
   }
 ];
 
@@ -52,11 +52,11 @@ const keyTakeaways = [
 ];
 
 const relatedQuestions = [
-  "Where can I find divorce planning services in Toronto?",
-  "What documents do I need for divorce planning in Ontario?",
-  "How much does divorce planning cost in the GTA?",
-  "Are there free divorce planning resources in Toronto?",
-  "What are common divorce planning mistakes to avoid?"
+  "How much are probate fees in Ontario?",
+  "Do I need a will if everything is joint?",
+  "What assets bypass probate?",
+  "How are RRSPs taxed at death?",
+  "Can I avoid probate with a trust?"
 ];
 
 const quickAnswer = "Professional financial planning helps you navigate complex financial decisions with confidence. Working with a qualified advisor ensures you're maximizing opportunities, minimizing taxes, and avoiding costly mistakes. The right strategy depends on your unique situation, goals, and timeline.";

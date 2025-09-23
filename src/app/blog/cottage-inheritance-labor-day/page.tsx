@@ -30,36 +30,36 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "What makes Life Money different from other financial advisors?",
-    "answer": "We specialize in complex life transitions with dedicated expertise in divorce, inheritance, business sales, and career changes. Our GTA-focused approach means we understand local markets and regulations."
+    question: "How is a cottage taxed when inherited in Ontario?",
+    answer: "When inheriting a cottage in Ontario, the estate pays capital gains tax on the appreciation from purchase price to fair market value at death, with 50% of the gain taxable at the deceased's marginal rate (up to 53.53% in 2025). The cottage cannot be designated as a principal residence unless it was the deceased's only property. Beneficiaries inherit at the stepped-up fair market value, establishing their new cost base. Future sales trigger capital gains from this inherited value. Consider life insurance to cover the tax bill, which can be hundreds of thousands for long-held family cottages."
   },
   {
-    "question": "How much do financial planning services cost?",
-    "answer": "Fees vary based on complexity and services needed. Initial consultations help determine scope and provide transparent pricing. Many clients save more in taxes and optimization than our fees cost."
+    question: "What are the best ownership structures for family cottages?",
+    answer: "Family cottages can be held personally, jointly with right of survivorship, through a trust, or via a cottage corporation in 2025. Joint ownership avoids probate but limits control and exposes all owners to liability. Trusts provide control and succession planning but cost $3,000-10,000 to establish and maintain. Cottage corporations enable share transfers, usage agreements, and limited liability, ideal for multiple family members sharing ownership. Each structure has different tax implications - personal ownership allows principal residence exemption, while corporations face higher tax rates but enable income splitting."
   },
   {
-    "question": "How do I get started with financial planning?",
-    "answer": "Book a consultation to discuss your situation and goals. We'll review your finances, identify opportunities and risks, and create a customized action plan for your success."
+    question: "How do families prevent cottage inheritance disputes?",
+    answer: "Preventing cottage disputes requires proactive planning including family meetings before death, written cottage agreements covering usage schedules, maintenance responsibilities, expense sharing, buyout provisions, and dispute resolution in 2025. Consider creating a cottage fund for ongoing expenses, establishing clear decision-making processes, and documenting improvement contributions. Life insurance can equalize inheritances when some children want the cottage and others prefer cash. Professional mediation during planning prevents future litigation. Address emotional attachment openly - the cottage represents family memories, not just financial value."
   }
 ];
 
 const keyTakeaways = [
-  "Probate fees in Ontario are 1.5% on estates over $50,000",
-  "Primary residence exemption can save hundreds of thousands in taxes",
-  "Multiple wills strategy can reduce probate costs significantly",
-  "Systematic approach ensures nothing is overlooked",
-  "Professional guidance accelerates successful outcomes"
+  "Cottage inheritance triggers capital gains tax on appreciation",
+  "Family meetings and agreements prevent future disputes",
+  "Trust or corporation structures offer succession benefits",
+  "Life insurance can cover tax bills and equalize inheritances",
+  "Written usage and expense agreements are essential"
 ];
 
 const relatedQuestions = [
-  "How long does inheritance planning take in Ontario?",
-  "Where can I find inheritance planning services in Toronto?",
-  "What documents do I need for inheritance planning in Ontario?",
-  "How much does inheritance planning cost in the GTA?",
-  "Are there free inheritance planning resources in Toronto?"
+  "How much are probate fees in Ontario?",
+  "Do I need a will if everything is joint?",
+  "What assets bypass probate?",
+  "How are RRSPs taxed at death?",
+  "Can I avoid probate with a trust?"
 ];
 
-const quickAnswer = "Professional financial planning helps you navigate complex financial decisions with confidence. Working with a qualified advisor ensures you're maximizing opportunities, minimizing taxes, and avoiding costly mistakes. The right strategy depends on your unique situation, goals, and timeline.";
+const quickAnswer = "Inheriting a cottage in Ontario triggers capital gains tax on the estate, often hundreds of thousands for long-held properties. Families should plan ownership structures (joint, trust, or corporation), establish usage agreements, and consider life insurance to cover taxes. Early family meetings and written agreements prevent disputes and preserve both the property and relationships for future generations.";
 
 const BlogContent = () => (
   <>

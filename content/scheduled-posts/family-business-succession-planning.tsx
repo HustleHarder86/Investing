@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "What makes Life Money different from other financial advisors?",
-    "answer": "We specialize in complex life transitions with dedicated expertise in divorce, inheritance, business sales, and career changes. Our GTA-focused approach means we understand local markets and regulations."
+    question: "How much do I need to retire comfortably in the GTA?",
+    answer: "Retirement needs vary, but GTA retirees typically require 60-70% of pre-retirement income. With average Toronto housing costs, a couple needs $75,000-$100,000 annually for comfortable retirement, or $50,000-$65,000 if mortgage-free. Using the 4% withdrawal rule, this requires $1.25-2.5 million in savings. Government benefits (CPP, OAS) provide about $30,000-40,000 per couple, meaning personal savings must generate $35,000-70,000 annually. Healthcare, travel, and inflation significantly impact these figures."
   },
   {
-    "question": "How much do financial planning services cost?",
-    "answer": "Fees vary based on complexity and services needed. Initial consultations help determine scope and provide transparent pricing. Many clients save more in taxes and optimization than our fees cost."
+    question: "When should I convert my RRSP to a RRIF?",
+    answer: "You must convert RRSPs to RRIFs by December 31 of the year you turn 71, but can convert earlier for strategic reasons. Early conversion provides income flexibility and pension income splitting at 65. However, RRIF withdrawals are mandatory (5.28% at 71, increasing annually to 20% at 95), while RRSPs allow withdrawal control. Consider early conversion if you need regular income, want to income split, or have large RRSPs that will trigger OAS clawback. Delay if you have other income sources and want maximum tax deferral."
   },
   {
-    "question": "How do I get started with financial planning?",
-    "answer": "Book a consultation to discuss your situation and goals. We'll review your finances, identify opportunities and risks, and create a customized action plan for your success."
+    question: "How do I minimize taxes in retirement?",
+    answer: "Strategic tax planning can save retirees thousands annually. Key strategies include: TFSA maximization ($7,000/year, tax-free growth), pension income splitting (up to 50% with spouse), timing RRSP/RRIF withdrawals to smooth tax brackets, delaying CPP/OAS if you have other income, using dividend tax credits from non-registered investments, and managing income to avoid OAS clawback (starts at $86,912 in 2025). Consider professional tax planning - the savings often exceed advisory fees by 5-10x."
   }
 ];
 
@@ -52,11 +52,11 @@ const keyTakeaways = [
 ];
 
 const relatedQuestions = [
-  "Where can I find business sale services in Toronto?",
-  "What documents do I need for business sale in Ontario?",
-  "How much does business sale cost in the GTA?",
-  "Are there free business sale resources in Toronto?",
-  "What are common business sale mistakes to avoid?"
+  "How is my business valued for sale?",
+  "What's the capital gains exemption for business sale?",
+  "Should I do asset sale or share sale?",
+  "How long does business sale process take?",
+  "What due diligence should I prepare for?"
 ];
 
 const quickAnswer = "Professional financial planning helps you navigate complex financial decisions with confidence. Working with a qualified advisor ensures you're maximizing opportunities, minimizing taxes, and avoiding costly mistakes. The right strategy depends on your unique situation, goals, and timeline.";

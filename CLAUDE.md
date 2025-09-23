@@ -29,6 +29,12 @@ npm run blog:publish       # Manually publish scheduled posts
 npm run blog:validate      # Validate posts and check missing files
 npm run blog:calendar      # Display calendar dashboard link
 
+# Blog Quality & Proofreading
+node scripts/proofread-blog.js <file>     # Check single blog file quality
+node scripts/proofread-blog.js --all      # Check all blog files
+node scripts/proofread-blog.js <file> --fix  # Auto-fix simple issues
+node scripts/blog-quality-watcher.js      # Real-time quality monitoring
+
 # Deployment
 git push origin main       # Auto-deploys to Vercel
 ```
@@ -60,6 +66,72 @@ git push origin main       # Auto-deploys to Vercel
 - **BlogPostTemplate** (`/src/components/templates/BlogPostTemplate.tsx`): Standard blog post layout
 - **ContactForm** (`/src/components/forms/ContactForm.tsx`): Firebase-integrated contact forms
 
+## Blog Quality & Proofreading System
+
+### Automated Quality Checks
+The blog system includes comprehensive quality assurance with automated proofreading that checks for:
+
+1. **Content Quality Issues**
+   - Missing or empty FAQ answers
+   - Incomplete content markers (TODO, TBD, FIXME)
+   - Placeholder text (Lorem Ipsum)
+   - Duplicate paragraphs
+   - Missing required sections (QuickAnswer, KeyTakeaways, FAQSection, RelatedQuestions)
+
+2. **Grammar & Spelling**
+   - Common spelling mistakes in financial content
+   - Grammar issues (capitalization, punctuation spacing)
+   - Proper use of its/it's, your/you're, their/there
+
+3. **SEO Optimization**
+   - Title length (50-60 characters recommended)
+   - Description length (120-160 characters)
+   - Local keyword presence (Toronto, GTA, Ontario)
+   - Content length (1500+ words recommended)
+
+4. **Structure & Formatting**
+   - Heading hierarchy (no skipping levels)
+   - Broken HTML tags
+   - Missing Call-to-Actions
+   - Date consistency
+
+### Quality Hooks & Automation
+
+1. **Git Pre-Commit Hook** (`/.git/hooks/pre-commit`)
+   - Automatically runs quality checks before every commit
+   - Blocks commits if blog quality score < 70/100
+   - Can be bypassed with `git commit --no-verify` (not recommended)
+
+2. **Real-Time File Watcher** (`scripts/blog-quality-watcher.js`)
+   - Monitors blog directories for changes
+   - Provides instant feedback on quality issues
+   - Alerts on critical problems (score < 70)
+
+3. **Proofreading Script** (`scripts/proofread-blog.js`)
+   - Comprehensive quality checking tool
+   - Auto-fix capability for simple issues
+   - Detailed reporting with specific line numbers
+
+### Quality Scoring System
+- **90-100**: ✅ Excellent - Meets all quality standards
+- **70-89**: ⚠️ Good - Minor improvements recommended
+- **0-69**: ❌ Poor - Critical issues must be fixed
+
+### Usage Examples
+```bash
+# Check a single blog post
+node scripts/proofread-blog.js src/app/blog/my-post/page.tsx
+
+# Check all blog posts
+node scripts/proofread-blog.js --all
+
+# Auto-fix simple issues (spacing, spelling)
+node scripts/proofread-blog.js src/app/blog/my-post/page.tsx --fix
+
+# Start real-time quality monitoring
+node scripts/blog-quality-watcher.js --initial
+```
+
 ## Blog Automation System
 
 ### Architecture
@@ -67,6 +139,7 @@ git push origin main       # Auto-deploys to Vercel
 2. **Scheduling**: Master schedule in `/content/blog-schedule.json`
 3. **Auto-Publishing**: GitHub Actions workflow runs Mon/Wed/Fri at 9 AM EST
 4. **Post-Processing**: Updates blog listing, sitemap, and marks posts as published
+5. **Quality Assurance**: Automatic proofreading on all blog changes
 
 ### Workflow Files
 - **Publisher**: `/scripts/publish-blog.js` - Core publishing logic

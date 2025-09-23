@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "How much do I need to retire in Toronto?",
-    "answer": "Most couples need $65,000-85,000 annually for a comfortable retirement in the GTA, requiring total assets of $1.5-2.5 million including home equity."
+    question: "How much do I need to retire comfortably in the GTA?",
+    answer: "Retirement needs vary, but GTA retirees typically require 60-70% of pre-retirement income in 2025. With average Toronto housing costs, a couple needs $75,000-$100,000 annually for comfortable retirement, or $50,000-$65,000 if mortgage-free. Using the 4% withdrawal rule, this requires $1.25-2.5 million in savings. Government benefits (CPP, OAS) provide about $30,000-40,000 per couple, meaning personal savings must generate $35,000-70,000 annually. Healthcare, travel, and inflation significantly impact these figures."
   },
   {
-    "question": "When should I start retirement planning?",
-    "answer": "Ideally, start serious retirement planning by age 40, though it's never too late. The last 10-15 years before retirement are critical for maximizing savings and optimizing strategies."
+    question: "When should I convert my RRSP to a RRIF?",
+    answer: "You must convert RRSPs to RRIFs by December 31 of the year you turn 71, but can convert earlier for strategic reasons in 2025. Early conversion provides income flexibility and pension income splitting at 65. However, RRIF withdrawals are mandatory (5.28% at 71, increasing annually to 20% at 95), while RRSPs allow withdrawal control. Consider early conversion if you need regular income, want to income split, or have large RRSPs that will trigger OAS clawback. Delay if you have other income sources and want maximum tax deferral."
   },
   {
-    "question": "What documents do I need for retirement planning?",
-    "answer": "Key documents include recent tax returns, investment statements, pension statements, insurance policies, estate planning documents, and a current budget."
+    question: "How do I minimize taxes in retirement?",
+    answer: "Strategic tax planning can save retirees thousands annually. Key strategies include: TFSA maximization ($7,000/year, tax-free growth), pension income splitting (up to 50% with spouse), timing RRSP/RRIF withdrawals to smooth tax brackets, delaying CPP/OAS if you have other income, using dividend tax credits from non-registered investments, and managing income to avoid OAS clawback (starts at $86,912 in 2025). Consider professional tax planning - the savings often exceed advisory fees by 5-10x."
   }
 ];
 
@@ -52,11 +52,11 @@ const keyTakeaways = [
 ];
 
 const relatedQuestions = [
-  "How long does retirement planning take in Ontario?",
-  "Where can I find retirement planning services in Toronto?",
-  "What documents do I need for retirement planning in Ontario?",
-  "How much does retirement planning cost in the GTA?",
-  "Are there free retirement planning resources in Toronto?"
+  "How much do I need to retire in Toronto?",
+  "When should I start taking CPP and OAS?",
+  "What's the best withdrawal order for retirement accounts?",
+  "How do I avoid OAS clawback in retirement?",
+  "Should I convert RRSP to RRIF early?"
 ];
 
 const quickAnswer = "A comprehensive retirement plan for GTA residents should include: RRSP/TFSA optimization, CPP/OAS timing decisions, real estate strategy for your home worth $1.2M+, healthcare cost planning, and estate planning. Start with a retirement needs analysis calculating your required income of $65,000-85,000 annually for couples in Toronto.";

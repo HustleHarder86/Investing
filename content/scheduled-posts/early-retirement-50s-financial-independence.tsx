@@ -5,6 +5,39 @@ import FAQSection from '@/components/seo/FAQSection';
 import KeyTakeaways from '@/components/seo/KeyTakeaways';
 import RelatedQuestions from '@/components/seo/RelatedQuestions';
 
+const blogFAQs = [
+  {
+    question: "How much money do I need to retire early at 55 in Canada?",
+    answer: "Early retirement at 55 typically requires 25-30 times your annual expenses, or roughly $1.5-2.5 million for comfortable retirement in the GTA. This accounts for 10+ years without CPP/OAS, higher healthcare costs, and inflation protection. Using the 4% withdrawal rule, $1.5 million supports $60,000 annual income. However, you'll need bridge strategies for income until 65 when government benefits begin. Factor in healthcare premiums, potential long-term care costs, and lifestyle inflation over 40+ years of retirement."
+  },
+  {
+    question: "Can I collect CPP and OAS if I retire early in my 50s?",
+    answer: "You cannot collect Old Age Security (OAS) until 65, and while CPP can start as early as 60, it's reduced by 36% if taken at 60 versus full benefits at 65. For someone retiring at 55, you'll need bridge income for 5-10 years before any government benefits begin. Consider using RRSP/RRIF, TFSA, or non-registered investments as bridge income, while potentially delaying CPP to 70 for 42% bonus if you have other income sources. Strategic timing of government benefits can significantly impact lifetime retirement income."
+  },
+  {
+    question: "What healthcare coverage options exist for early retirees in Ontario?",
+    answer: "Early retirees lose employer health benefits but have several options: continuing group coverage through COBRA-style extensions (usually 6-24 months), purchasing private health insurance ($2,000-5,000+ annually for comprehensive coverage), or managing with OHIP plus private coverage for prescriptions/dental/vision. Some early retirees relocate to provinces with better retiree benefits or negotiate part-time work to maintain group coverage. Factor $3,000-8,000 annually for health insurance in early retirement budgets, with costs increasing significantly as you age before 65."
+  }
+];
+
+const quickAnswer = "Early retirement at 55 requires 25-30x annual expenses (typically $1.5-2.5 million), bridge income strategies until government benefits begin at 60-65, comprehensive healthcare planning costing $3,000-8,000 annually, and tax-efficient withdrawal strategies from multiple account types to support 40+ years of retirement.";
+
+const keyTakeaways = [
+  "Need 25-30x annual expenses saved for early retirement at 55",
+  "Bridge income required for 5-10 years before CPP/OAS eligibility",
+  "Healthcare costs $3,000-8,000 annually without employer coverage",
+  "Tax-efficient withdrawal strategies crucial for 40+ year retirement",
+  "Consider part-time work or consulting to ease transition"
+];
+
+const relatedQuestions = [
+  "What are the tax implications of early retirement withdrawals?",
+  "How do I calculate early retirement healthcare costs?",
+  "Can I work part-time and still be considered retired?",
+  "What bridge income strategies work best for early retirement?",
+  "How much should I have in TFSA vs RRSP for early retirement?"
+];
+
 
 export default function EarlyRetirement50sPost() {
   return (

@@ -5,6 +5,39 @@ import FAQSection from '@/components/seo/FAQSection';
 import KeyTakeaways from '@/components/seo/KeyTakeaways';
 import RelatedQuestions from '@/components/seo/RelatedQuestions';
 
+const blogFAQs = [
+  {
+    question: "How much emergency savings do I need for a career pivot in Toronto?",
+    answer: "Career pivots typically require 6-12 months of living expenses saved, or $30,000-60,000 for most GTA professionals. Factor in potential income reduction during transition, training costs ($5,000-25,000), networking expenses, and possibly reduced benefits. If moving from high-paying corporate roles to entrepreneurship or new fields, consider 12-18 months of savings. Include transition costs like professional development, certification fees, equipment, and potential business startup costs. Having adequate savings reduces stress and allows for better decision-making during your pivot."
+  },
+  {
+    question: "How do I maintain retirement savings during a career change?",
+    answer: "Protect retirement savings by avoiding early withdrawals from RRSPs (triggers immediate taxation), maintaining employer matching if possible during transition, and continuing TFSA contributions even with reduced income. If self-employed post-pivot, consider Individual Pension Plans (IPPs) for higher contribution limits. Bridge employment gaps with non-registered savings first. If income drops significantly, you may qualify for low-income tax brackets, making RRSP withdrawals more tax-efficient, but plan carefully with professional advice."
+  },
+  {
+    question: "What financial risks should I consider before leaving a stable career?",
+    answer: "Key risks include: income volatility and potential reduction, loss of employer benefits (health, dental, life insurance), reduced retirement contributions, potential for extended job search periods, industry-specific economic downturns, and age discrimination in some fields. Mitigate by building emergency savings, securing personal insurance, understanding COBRA-style benefit continuations, planning phased transitions, maintaining professional networks, and having contingency plans. Consider consulting work in your old field while building the new career to maintain some income stability."
+  }
+];
+
+const quickAnswer = "Career pivot planning requires 6-12 months emergency savings ($30,000-60,000 in GTA), protecting retirement accounts from early withdrawals, securing personal insurance to replace employer benefits, and creating phased transition strategies to minimize income disruption while pursuing new career goals.";
+
+const keyTakeaways = [
+  "Build 6-12 months emergency savings before career pivot ($30,000-60,000 in GTA)",
+  "Avoid early RRSP withdrawals - use non-registered savings first",
+  "Secure personal insurance before losing employer benefits",
+  "Consider phased transitions or consulting to maintain income flow",
+  "Factor in retraining costs and potential income reduction periods"
+];
+
+const relatedQuestions = [
+  "How do I budget for career change training and certification costs?",
+  "Can I collect EI benefits during a voluntary career change?",
+  "What tax implications exist for career change expenses?",
+  "How do I evaluate the financial feasibility of starting a business?",
+  "What insurance do I need when leaving corporate employment?"
+];
+
 
 const blogPost = {
   title: "Career Pivot Financial Planning: Navigating Your Transition from Bay Street to New Beginnings",

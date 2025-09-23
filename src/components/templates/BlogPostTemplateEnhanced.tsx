@@ -57,21 +57,8 @@ export default function BlogPostTemplateEnhanced({
   url
 }: BlogPostTemplateProps) {
   
-  // Generate default FAQs if none provided
-  const defaultFAQs: FAQItem[] = faqs.length === 0 ? [
-    {
-      question: `What is ${title.toLowerCase()}?`,
-      answer: excerpt
-    },
-    {
-      question: `Who should read about ${category.toLowerCase()}?`,
-      answer: `Anyone in the Greater Toronto Area looking for professional ${category.toLowerCase()} advice and strategies.`
-    },
-    {
-      question: `How long does it take to implement these ${category.toLowerCase()} strategies?`,
-      answer: `Implementation timelines vary based on individual circumstances, but most clients see results within 3-6 months of starting their financial planning journey.`
-    }
-  ] : faqs;
+  // Use provided FAQs or empty array - no auto-generation of generic content
+  const defaultFAQs: FAQItem[] = faqs;
 
   // Generate default related questions if none provided
   const defaultRelatedQuestions = relatedQuestions.length === 0 ? [

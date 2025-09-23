@@ -5,6 +5,39 @@ import FAQSection from '@/components/seo/FAQSection';
 import KeyTakeaways from '@/components/seo/KeyTakeaways';
 import RelatedQuestions from '@/components/seo/RelatedQuestions';
 
+const blogFAQs = [
+  {
+    question: "How do I protect my finances during the emotional stress of job loss?",
+    answer: "Create an immediate financial triage plan: calculate exact monthly expenses, inventory all income sources (severance, EI, savings), prioritize essential expenses, and temporarily reduce discretionary spending. Avoid making major financial decisions (like early RRSP withdrawals) while emotionally distressed. Set up automatic bill payments to prevent missed payments during the emotional adjustment period. Consider speaking with a financial advisor who understands job loss dynamics to maintain perspective and avoid costly emotional decisions that could impact long-term financial security."
+  },
+  {
+    question: "What mental health resources are available for Toronto job loss situations?",
+    answer: "Toronto offers several resources: Employee and Family Assistance Programs (EFAP) often continue 30-90 days post-termination, OHIP covers basic mental health services, many employers provide career transition counseling, community health centers offer sliding-scale therapy, and organizations like the Centre for Addiction and Mental Health (CAMH) provide support. Many GTA libraries also offer free career transition workshops and job search support. Don't overlook the emotional impact - professional counseling can prevent financial mistakes and accelerate career recovery."
+  },
+  {
+    question: "How do I maintain financial discipline while dealing with job loss anxiety?",
+    answer: "Establish structured financial routines: weekly budget reviews, automated savings transfers, and regular check-ins with accountability partners or advisors. Create separate 'emotional spending' allowance ($50-100/week) for minor comfort purchases while protecting larger financial goals. Focus on what you can control: networking activities, skill development, interview preparation. Avoid retail therapy, expensive coping mechanisms, or impulse financial decisions. Consider free/low-cost stress relief like library resources, community programs, or exercise to manage anxiety without financial impact."
+  }
+];
+
+const quickAnswer = "Protect finances during job loss emotional stress by creating immediate triage plan (expenses, income sources, priorities), avoiding major financial decisions while distressed, utilizing Toronto mental health resources (EFAP, OHIP, community centers), and maintaining financial discipline through structured routines and controlled emotional spending allowances.";
+
+const keyTakeaways = [
+  "Create immediate financial triage plan during job loss emotional stress",
+  "Avoid major financial decisions while emotionally distressed",
+  "Utilize Toronto mental health resources including EFAP and community programs",
+  "Establish structured financial routines and accountability systems",
+  "Allow small emotional spending budget while protecting larger financial goals"
+];
+
+const relatedQuestions = [
+  "What Toronto resources help with job loss financial planning?",
+  "How long do employee benefits continue after termination?",
+  "Can therapy costs be claimed for tax deductions?",
+  "What's the best way to budget during unemployment?",
+  "How do I prevent financial mistakes during emotional distress?"
+];
+
 
 const blogPost = {
   title: "The Emotional Side of Job Loss: Protecting Your Financial and Mental Wellness in Toronto",

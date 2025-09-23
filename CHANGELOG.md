@@ -7,6 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased] - Local Development
 
+### Added
+- Comprehensive blog quality assurance system with automated validation
+  - Enhanced proofreading script (scripts/proofread-blog.js) with FAQ relevance checking
+  - Topic-specific FAQ generation system (scripts/generate-blog-faqs.js)
+  - Strengthened git pre-commit hook with content completeness validation
+  - Real-time file watcher for instant quality feedback during editing
+  - Weighted scoring system (0-100) with error severity classification
+
+### Enhanced
+- Blog content quality validation now includes:
+  - Generic FAQ detection with heavy penalties (20 points per generic FAQ)
+  - FAQ topic relevance scoring using keyword matching
+  - Missing content detection (empty sections and FAQ answers)
+  - Substantive content requirements (150+ chars for FAQ answers)
+  - Semantic coherence checking for FAQ-to-blog topic alignment
+  - TODO/FIXME marker detection to prevent incomplete content
+
+### Updated
+- Generated topic-specific FAQs for 64 out of 79 blog posts
+- BlogPostTemplateEnhanced to prevent auto-generation of generic FAQs
+- Pre-commit hook now blocks commits for quality scores below 70/100
+
 ### Fixed
 - Fixed import typo in two blog posts (BlogPostTemplateEnhancedEnhanced -> BlogPostTemplateEnhanced)
   - Affected files: retirement-planning-checklist-gta and rrif-conversion-strategy-timing
@@ -22,6 +44,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Confirmed post appeared on live site
   - Cleaned up test post after successful verification
   - Total test duration: ~5 minutes from creation to live verification
+- Validated enhanced pre-commit hook blocks low-quality content (Dec 13, 2024)
+  - Test file with generic FAQs correctly blocked with score 0/100
+  - Hook provides actionable feedback for fixing quality issues
 
 ## [1.1.1] - 2025-09-13
 ### Fixed

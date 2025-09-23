@@ -30,16 +30,16 @@ const relatedPosts = [
 
 const blogFAQs = [
   {
-    "question": "What makes Life Money different from other financial advisors?",
-    "answer": "We specialize in complex life transitions with dedicated expertise in divorce, inheritance, business sales, and career changes. Our GTA-focused approach means we understand local markets and regulations."
+    question: "How do I determine the value of my business for sale?",
+    answer: "Business valuation typically uses three methods: asset-based (book value of assets minus liabilities), income-based (3-5x EBITDA for most small businesses), and market-based (comparable sales in your industry) in 2025. Most GTA small businesses sell for 2.5-4x adjusted EBITDA, though tech companies can command 5-8x. Professional valuations cost $5,000-$25,000 but can increase sale price by identifying value drivers often worth hundreds of thousands more."
   },
   {
-    "question": "How much do financial planning services cost?",
-    "answer": "Fees vary based on complexity and services needed. Initial consultations help determine scope and provide transparent pricing. Many clients save more in taxes and optimization than our fees cost."
+    question: "What's the typical timeline for selling a business?",
+    answer: "The business sale process typically takes 6-12 months from preparation to closing in 2025. This includes 2-3 months for preparation and valuation, 2-3 months for marketing and finding buyers, 1-2 months for due diligence, and 1-2 months for final negotiations and closing. Starting in Q4 positions you well for a Q1-Q2 close the following year, often the most active period for acquisitions."
   },
   {
-    "question": "How do I get started with financial planning?",
-    "answer": "Book a consultation to discuss your situation and goals. We'll review your finances, identify opportunities and risks, and create a customized action plan for your success."
+    question: "Should I use a business broker or sell privately?",
+    answer: "Business brokers typically charge 8-12% commission but bring buyer networks, marketing expertise, and negotiation skills that often result in 15-30% higher sale prices in 2025. For businesses under $1 million, brokers are usually worthwhile. For larger businesses, M&A advisors charging 3-5% may be more appropriate. Private sales work best when you have identified strategic buyers or competitors already interested in acquisition."
   }
 ];
 
@@ -52,11 +52,11 @@ const keyTakeaways = [
 ];
 
 const relatedQuestions = [
-  "How long does business sale take in Ontario?",
-  "What changed in business sale regulations this year?",
-  "Where can I find business sale services in Toronto?",
-  "What documents do I need for business sale in Ontario?",
-  "How much does business sale cost in the GTA?"
+  "How is my business valued for sale?",
+  "What's the capital gains exemption for business sale?",
+  "Should I do asset sale or share sale?",
+  "How long does business sale process take?",
+  "What due diligence should I prepare for?"
 ];
 
 const quickAnswer = "Professional financial planning helps you navigate complex financial decisions with confidence. Working with a qualified advisor ensures you're maximizing opportunities, minimizing taxes, and avoiding costly mistakes. The right strategy depends on your unique situation, goals, and timeline.";

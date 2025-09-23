@@ -18,28 +18,23 @@ const relatedPosts = [
     slug: 'cpp-timing-60-65-70-decision',
     excerpt: 'Master the timing of your CPP for maximum benefits.',
     readTime: '15 min'
-  },
-  {
-    title: 'Retirement Income Splitting: Save Thousands in Tax',
-    slug: 'retirement-income-splitting-strategies',
-    excerpt: 'Strategic income splitting for government benefits optimization.',
-    readTime: '11 min'
   }
+  
 ];
 
 
 const blogFAQs = [
   {
-    "question": "What makes Life Money different from other financial advisors?",
-    "answer": "We specialize in complex life transitions with dedicated expertise in divorce, inheritance, business sales, and career changes. Our GTA-focused approach means we understand local markets and regulations."
+    question: "When should I start taking CPP - at 60, 65, or 70?",
+    answer: "The optimal CPP start age depends on your health, life expectancy, and financial needs. Starting at 60 reduces benefits by 36% but provides immediate income. Waiting until 70 increases benefits by 42%. Most healthy individuals benefit from waiting until at least 65, while those with health concerns or immediate income needs should consider starting earlier. A break-even analysis typically shows age 74 for 60 vs 65, and age 82 for 65 vs 70."
   },
   {
-    "question": "How much do financial planning services cost?",
-    "answer": "Fees vary based on complexity and services needed. Initial consultations help determine scope and provide transparent pricing. Many clients save more in taxes and optimization than our fees cost."
+    question: "How is CPP calculated and what's the maximum I can receive?",
+    answer: "CPP is calculated based on your average pensionable earnings over your working life, excluding your lowest-earning years (up to 8 years can be dropped). For 2025, the maximum monthly payment at age 65 is $1,364.60, but the average Canadian receives about $758. Starting early at 60 reduces this by 36% (0.6% per month), while delaying to 70 increases it by 42% (0.7% per month after 65)."
   },
   {
-    "question": "How do I get started with financial planning?",
-    "answer": "Book a consultation to discuss your situation and goals. We'll review your finances, identify opportunities and risks, and create a customized action plan for your success."
+    question: "Can I work while collecting CPP?",
+    answer: "Yes, you can work while collecting CPP with no earnings limit or reduction in benefits. If you're under 65 and working, you must continue contributing to CPP, which creates Post-Retirement Benefits (PRB) that increase your pension. After 65, contributions are optional until age 70. Each year of PRB adds approximately $400 annually to your pension."
   }
 ];
 
@@ -52,11 +47,11 @@ const keyTakeaways = [
 ];
 
 const relatedQuestions = [
-  "Where can I find retirement planning services in Toronto?",
-  "What documents do I need for retirement planning in Ontario?",
-  "How much does retirement planning cost in the GTA?",
-  "Are there free retirement planning resources in Toronto?",
-  "What are common retirement planning mistakes to avoid?"
+  "What are the tax implications of ?",
+  "How long does the  process take?",
+  "What professionals should I consult for ?",
+  "What are common mistakes in ?",
+  "How much does professional  advice cost?"
 ];
 
 const quickAnswer = "Professional financial planning helps you navigate complex financial decisions with confidence. Working with a qualified advisor ensures you're maximizing opportunities, minimizing taxes, and avoiding costly mistakes. The right strategy depends on your unique situation, goals, and timeline.";
