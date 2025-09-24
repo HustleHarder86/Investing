@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'stock-options-severance-packages',
+    title: 'Stock Options in Severance Packages',
+    excerpt: 'Expert insights on severance planning to help you navigate your financial transition.',
+    author: 'David Kumar',
+    authorTitle: 'CFP®, Career Transition Advisor',
+    date: '2025-09-24',
+    readTime: '9 min',
+    category: 'Severance Planning',
+    categorySlug: 'severance-planning',
+    featured: false
+  },
+  {
     slug: 'retirement-planning-age-40',
     title: 'Retirement Planning at 40: Critical Steps to Take Now',
     excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
