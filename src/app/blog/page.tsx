@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'spousal-support-duration-case-law',
+    title: 'Spousal Support Duration: Recent Case Law',
+    excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
+    author: 'Michael Chen',
+    authorTitle: 'CFP®, Divorce Specialist',
+    date: '2025-09-26',
+    readTime: '10 min',
+    category: 'Divorce Planning',
+    categorySlug: 'divorce-planning',
+    featured: false
+  },
+  {
     slug: 'resp-to-rrsp-education-retirement',
     title: 'RESP to RRSP: Education Savings in Retirement Planning',
     excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
