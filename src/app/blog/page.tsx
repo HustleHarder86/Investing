@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'pension-commutation-lump-sum-analysis',
+    title: 'Pension Commutation: Lump Sum vs Monthly Payments',
+    excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
+    author: 'Jennifer Park',
+    authorTitle: 'CPA, Tax Planning Expert',
+    date: '2025-09-27',
+    readTime: '8 min',
+    category: 'Retirement Planning',
+    categorySlug: 'general',
+    featured: false
+  },
+  {
     slug: 'spousal-support-duration-case-law',
     title: 'Spousal Support Duration: Recent Case Law',
     excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
