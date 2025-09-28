@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'tax-free-retirement-income-strategies',
+    title: 'Tax-Free Retirement Income: Legal Strategies for 2025',
+    excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
+    author: 'Jennifer Park',
+    authorTitle: 'CPA, Tax Planning Expert',
+    date: '2025-09-28',
+    readTime: '8 min',
+    category: 'Retirement Planning',
+    categorySlug: 'general',
+    featured: false
+  },
+  {
     slug: 'pension-commutation-lump-sum-analysis',
     title: 'Pension Commutation: Lump Sum vs Monthly Payments',
     excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
