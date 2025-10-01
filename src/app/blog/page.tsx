@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'october-tax-planning-inheritances',
+    title: 'October Tax Planning for Recent Inheritances',
+    excerpt: 'Expert insights on inheritance planning to help you navigate your financial transition.',
+    author: 'Jennifer Park',
+    authorTitle: 'CPA, Tax Planning Expert',
+    date: '2025-10-01',
+    readTime: '8 min',
+    category: 'Inheritance Planning',
+    categorySlug: 'inheritance-planning',
+    featured: false
+  },
+  {
     slug: 'early-retirement-50s-complete-roadmap',
     title: 'Early Retirement in Your 50s: Complete Financial Roadmap',
     excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
