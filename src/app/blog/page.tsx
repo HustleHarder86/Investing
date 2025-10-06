@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'divorce-mediation-vs-litigation',
+    title: 'Divorce Mediation vs Litigation: Cost Analysis',
+    excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
+    author: 'Michael Chen',
+    authorTitle: 'CFP®, Divorce Specialist',
+    date: '2025-10-06',
+    readTime: '10 min',
+    category: 'Divorce Planning',
+    categorySlug: 'divorce-planning',
+    featured: false
+  },
+  {
     slug: 'thanksgiving-estate-planning-conversations',
     title: 'Thanksgiving Family Meetings: Estate Planning Conversations',
     excerpt: 'Expert insights on inheritance planning to help you navigate your financial transition.',
