@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'manufacturing-severance-trends',
+    title: 'Manufacturing Sector Severance Trends',
+    excerpt: 'Expert insights on severance planning to help you navigate your financial transition.',
+    author: 'David Kumar',
+    authorTitle: 'CFP®, Career Transition Advisor',
+    date: '2025-10-08',
+    readTime: '9 min',
+    category: 'Severance Planning',
+    categorySlug: 'severance-planning',
+    featured: false
+  },
+  {
     slug: 'divorce-mediation-vs-litigation',
     title: 'Divorce Mediation vs Litigation: Cost Analysis',
     excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
