@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'partnership-buyouts-structuring',
+    title: 'Business Partnership Buyouts: Structuring the Deal',
+    excerpt: 'Expert insights on business sale to help you navigate your financial transition.',
+    author: 'Jennifer Park',
+    authorTitle: 'CPA, Tax Planning Expert',
+    date: '2025-10-10',
+    readTime: '12 min',
+    category: 'Business Sale',
+    categorySlug: 'business-sale',
+    featured: false
+  },
+  {
     slug: 'manufacturing-severance-trends',
     title: 'Manufacturing Sector Severance Trends',
     excerpt: 'Expert insights on severance planning to help you navigate your financial transition.',
