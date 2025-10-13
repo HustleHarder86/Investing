@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'navigating-holidays-after-divorce',
+    title: 'Thanksgiving: Navigating First Holidays After Divorce',
+    excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
+    author: 'Sarah Mitchell',
+    authorTitle: 'CFP®, Estate Planning Specialist',
+    date: '2025-10-13',
+    readTime: '10 min',
+    category: 'Divorce Planning',
+    categorySlug: 'divorce-planning',
+    featured: false
+  },
+  {
     slug: 'partnership-buyouts-structuring',
     title: 'Business Partnership Buyouts: Structuring the Deal',
     excerpt: 'Expert insights on business sale to help you navigate your financial transition.',
