@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'year-end-business-sale-tax',
+    title: 'Year-End Business Sale Tax Planning',
+    excerpt: 'Expert insights on business sale to help you navigate your financial transition.',
+    author: 'Jennifer Park',
+    authorTitle: 'CPA, Tax Planning Expert',
+    date: '2025-10-15',
+    readTime: '12 min',
+    category: 'Business Sale',
+    categorySlug: 'business-sale',
+    featured: false
+  },
+  {
     slug: 'navigating-holidays-after-divorce',
     title: 'Thanksgiving: Navigating First Holidays After Divorce',
     excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
