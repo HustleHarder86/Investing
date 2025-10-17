@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'healthcare-benefits-after-job-loss',
+    title: 'Healthcare Benefits After Job Loss',
+    excerpt: 'Expert insights on severance planning to help you navigate your financial transition.',
+    author: 'David Kumar',
+    authorTitle: 'CFP®, Career Transition Advisor',
+    date: '2025-10-17',
+    readTime: '9 min',
+    category: 'Severance Planning',
+    categorySlug: 'severance-planning',
+    featured: false
+  },
+  {
     slug: 'year-end-business-sale-tax',
     title: 'Year-End Business Sale Tax Planning',
     excerpt: 'Expert insights on business sale to help you navigate your financial transition.',
