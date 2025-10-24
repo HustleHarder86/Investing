@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'professional-practice-sales',
+    title: 'Professional Practice Sales: Lawyers, Doctors, Dentists',
+    excerpt: 'Expert insights on business sale to help you navigate your financial transition.',
+    author: 'Jennifer Park',
+    authorTitle: 'CPA, Tax Planning Expert',
+    date: '2025-10-24',
+    readTime: '12 min',
+    category: 'Business Sale',
+    categorySlug: 'business-sale',
+    featured: false
+  },
+  {
     slug: 'trust-structures-high-net-worth',
     title: 'Trust Structures for High Net Worth Estates',
     excerpt: 'Expert insights on inheritance planning to help you navigate your financial transition.',
