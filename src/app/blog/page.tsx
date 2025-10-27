@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'halloween-shared-custody',
+    title: 'Halloween: Managing Shared Custody During Holidays',
+    excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
+    author: 'Sarah Mitchell',
+    authorTitle: 'CFP®, Estate Planning Specialist',
+    date: '2025-10-27',
+    readTime: '10 min',
+    category: 'Divorce Planning',
+    categorySlug: 'divorce-planning',
+    featured: false
+  },
+  {
     slug: 'professional-practice-sales',
     title: 'Professional Practice Sales: Lawyers, Doctors, Dentists',
     excerpt: 'Expert insights on business sale to help you navigate your financial transition.',
