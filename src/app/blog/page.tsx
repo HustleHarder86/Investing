@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'estate-freezes-2025',
+    title: 'Estate Freezes: Lock in 2025 Values',
+    excerpt: 'Expert insights on inheritance planning to help you navigate your financial transition.',
+    author: 'Jennifer Park',
+    authorTitle: 'CPA, Tax Planning Expert',
+    date: '2025-10-31',
+    readTime: '8 min',
+    category: 'Inheritance Planning',
+    categorySlug: 'inheritance-planning',
+    featured: false
+  },
+  {
     slug: 'q4-layoff-patterns',
     title: 'Q4 Layoff Patterns: What to Expect',
     excerpt: 'Expert insights on severance planning to help you navigate your financial transition.',
