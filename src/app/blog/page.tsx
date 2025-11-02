@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'retirement-housing-downsizing-gta',
+    title: 'Retirement Housing: Downsizing in the GTA Market',
+    excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
+    author: 'Jennifer Park',
+    authorTitle: 'CPA, Tax Planning Expert',
+    date: '2025-11-02',
+    readTime: '8 min',
+    category: 'Retirement Planning',
+    categorySlug: 'general',
+    featured: false
+  },
+  {
     slug: 'november-severance-negotiation-strategies',
     title: 'November Severance Negotiation: Year-End Leverage Strategies',
     excerpt: 'Expert insights on severance planning to help you navigate your financial transition.',
