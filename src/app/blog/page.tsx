@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'family-business-succession-planning',
+    title: 'Family Business Succession: Next Generation Transition',
+    excerpt: 'Expert insights on business sale to help you navigate your financial transition.',
+    author: 'Jennifer Park',
+    authorTitle: 'CPA, Tax Planning Expert',
+    date: '2025-11-04',
+    readTime: '12 min',
+    category: 'Business Sale',
+    categorySlug: 'business-sale',
+    featured: false
+  },
+  {
     slug: 'common-law-separation-asset-division',
     title: 'Common-Law Separation: Asset Division Rights in Ontario',
     excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
