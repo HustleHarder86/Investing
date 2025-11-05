@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'inherited-investment-accounts-tax',
+    title: 'Inherited Investment Accounts: Tax Implications Guide',
+    excerpt: 'Expert insights on inheritance planning to help you navigate your financial transition.',
+    author: 'Sarah Mitchell',
+    authorTitle: 'CFP®, Estate Planning Specialist',
+    date: '2025-11-05',
+    readTime: '8 min',
+    category: 'Inheritance Planning',
+    categorySlug: 'inheritance-planning',
+    featured: false
+  },
+  {
     slug: 'family-business-succession-planning',
     title: 'Family Business Succession: Next Generation Transition',
     excerpt: 'Expert insights on business sale to help you navigate your financial transition.',
