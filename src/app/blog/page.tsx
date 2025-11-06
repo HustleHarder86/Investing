@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'career-transition-financial-planning',
+    title: 'Career Transition: Financial Planning for Industry Changes',
+    excerpt: 'Expert insights on severance planning to help you navigate your financial transition.',
+    author: 'David Kumar',
+    authorTitle: 'CFP®, Career Transition Advisor',
+    date: '2025-11-06',
+    readTime: '9 min',
+    category: 'Severance Planning',
+    categorySlug: 'severance-planning',
+    featured: false
+  },
+  {
     slug: 'inherited-investment-accounts-tax',
     title: 'Inherited Investment Accounts: Tax Implications Guide',
     excerpt: 'Expert insights on inheritance planning to help you navigate your financial transition.',
