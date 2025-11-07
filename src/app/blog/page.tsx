@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'retirement-withdrawal-sequence-optimization',
+    title: 'Retirement Withdrawal Sequence: Optimizing Tax Efficiency',
+    excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
+    author: 'Jennifer Park',
+    authorTitle: 'CPA, Tax Planning Expert',
+    date: '2025-11-07',
+    readTime: '8 min',
+    category: 'Retirement Planning',
+    categorySlug: 'general',
+    featured: false
+  },
+  {
     slug: 'career-transition-financial-planning',
     title: 'Career Transition: Financial Planning for Industry Changes',
     excerpt: 'Expert insights on severance planning to help you navigate your financial transition.',
