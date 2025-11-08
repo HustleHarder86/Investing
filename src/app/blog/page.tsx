@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'prenup-financial-protection-strategies',
+    title: 'Prenuptial Agreements: Financial Protection Strategies',
+    excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
+    author: 'Michael Chen',
+    authorTitle: 'CFP®, Divorce Specialist',
+    date: '2025-11-08',
+    readTime: '10 min',
+    category: 'Divorce Planning',
+    categorySlug: 'divorce-planning',
+    featured: false
+  },
+  {
     slug: 'retirement-withdrawal-sequence-optimization',
     title: 'Retirement Withdrawal Sequence: Optimizing Tax Efficiency',
     excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
