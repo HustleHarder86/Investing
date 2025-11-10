@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'remembrance-day-veteran-benefits',
+    title: 'Remembrance Day: Veteran Financial Benefits Overview',
+    excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
+    author: 'Jennifer Park',
+    authorTitle: 'CPA, Tax Planning Expert',
+    date: '2025-11-10',
+    readTime: '8 min',
+    category: 'Retirement Planning',
+    categorySlug: 'general',
+    featured: false
+  },
+  {
     slug: 'prenup-financial-protection-strategies',
     title: 'Prenuptial Agreements: Financial Protection Strategies',
     excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
