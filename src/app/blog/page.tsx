@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'custody-arrangements-financial-impact',
+    title: 'Custody Arrangements: Financial Impact Assessment',
+    excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
+    author: 'Michael Chen',
+    authorTitle: 'CFP®, Divorce Specialist',
+    date: '2025-11-13',
+    readTime: '10 min',
+    category: 'Divorce Planning',
+    categorySlug: 'divorce-planning',
+    featured: false
+  },
+  {
     slug: 'power-of-attorney-financial-decisions',
     title: 'Power of Attorney: Managing Financial Decisions',
     excerpt: 'Expert insights on inheritance planning to help you navigate your financial transition.',
