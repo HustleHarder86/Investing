@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'retirement-healthcare-cost-planning',
+    title: 'Retirement Healthcare: Cost Planning and Insurance',
+    excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
+    author: 'Jennifer Park',
+    authorTitle: 'CPA, Tax Planning Expert',
+    date: '2025-11-14',
+    readTime: '8 min',
+    category: 'Retirement Planning',
+    categorySlug: 'general',
+    featured: false
+  },
+  {
     slug: 'custody-arrangements-financial-impact',
     title: 'Custody Arrangements: Financial Impact Assessment',
     excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
