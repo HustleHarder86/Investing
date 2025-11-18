@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'remarriage-estate-planning-considerations',
+    title: 'Remarriage: Estate Planning Considerations',
+    excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
+    author: 'Sarah Mitchell',
+    authorTitle: 'CFP®, Estate Planning Specialist',
+    date: '2025-11-18',
+    readTime: '10 min',
+    category: 'Divorce Planning',
+    categorySlug: 'divorce-planning',
+    featured: false
+  },
+  {
     slug: 'charitable-giving-tax-planning',
     title: 'Charitable Giving: Tax-Efficient Donation Strategies',
     excerpt: 'Expert insights on inheritance planning to help you navigate your financial transition.',
