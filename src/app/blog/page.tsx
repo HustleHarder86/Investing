@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'retirement-part-time-work-strategies',
+    title: 'Retirement Part-Time Work: Income and Tax Strategies',
+    excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
+    author: 'Jennifer Park',
+    authorTitle: 'CPA, Tax Planning Expert',
+    date: '2025-11-19',
+    readTime: '8 min',
+    category: 'Retirement Planning',
+    categorySlug: 'general',
+    featured: false
+  },
+  {
     slug: 'remarriage-estate-planning-considerations',
     title: 'Remarriage: Estate Planning Considerations',
     excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
