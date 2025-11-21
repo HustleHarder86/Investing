@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'inherited-debt-obligations-canada',
+    title: 'Inherited Debt: Understanding Your Obligations in Canada',
+    excerpt: 'Expert insights on inheritance planning to help you navigate your financial transition.',
+    author: 'Sarah Mitchell',
+    authorTitle: 'CFP®, Estate Planning Specialist',
+    date: '2025-11-21',
+    readTime: '8 min',
+    category: 'Inheritance Planning',
+    categorySlug: 'inheritance-planning',
+    featured: false
+  },
+  {
     slug: 'retirement-part-time-work-strategies',
     title: 'Retirement Part-Time Work: Income and Tax Strategies',
     excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
