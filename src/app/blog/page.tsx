@@ -11,6 +11,18 @@ export const metadata: Metadata = {
 // Blog posts data - in production, this would come from a CMS or database
 const blogPosts = [
   {
+    slug: 'black-friday-retirement-spending-budget',
+    title: 'Black Friday: Retirement Spending Budget Guidelines',
+    excerpt: 'Expert insights on retirement planning to help you navigate your financial transition.',
+    author: 'Jennifer Park',
+    authorTitle: 'CPA, Tax Planning Expert',
+    date: '2025-11-24',
+    readTime: '8 min',
+    category: 'Retirement Planning',
+    categorySlug: 'general',
+    featured: false
+  },
+  {
     slug: 'high-conflict-divorce-financial-protection',
     title: 'High-Conflict Divorce: Financial Protection Strategies',
     excerpt: 'Expert insights on divorce planning to help you navigate your financial transition.',
